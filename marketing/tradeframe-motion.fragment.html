@@ -1,0 +1,467 @@
+<title>Tradeframe Motion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout : une scène verticale 9:16 (1080×1920) pilotée par une timeline unique, contrôles en dessous */
+:root{
+  --bg:#0d0f14; --bg2:#13161e; --bg3:#1a1e28; --bg4:#222736;
+  --line:rgba(255,255,255,.07); --line2:rgba(255,255,255,.13);
+  --text:#e8eaf0; --text2:#8b90a0; --text3:#555a6e;
+  --green:#00d48a; --red:#ff4d6d; --amber:#f0a830; --blue:#4d8ef0;
+  --display:"Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  color-scheme:dark;
+}
+html,body{background:var(--bg);color:var(--text)}
+body{font-family:var(--display);padding-inline:16px;padding-block:20px 28px}
+.page{max-width:560px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:16px}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--text2);align-self:flex-start}
+.eyebrow b{color:var(--green);font-weight:700}
+
+.viewport{position:relative;width:100%;max-width:min(100%, calc(78vh * 9 / 16));aspect-ratio:9/16;border-radius:22px;overflow:hidden;border:1px solid var(--line2);background:var(--bg)}
+.stage{position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:0 0;overflow:hidden;background:var(--bg)}
+
+/* fond : grille de graphique */
+.grid{position:absolute;inset:-120px;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:120px 120px}
+.glow{position:absolute;width:1400px;height:1400px;border-radius:50%;left:-160px;top:260px;background:radial-gradient(closest-side,rgba(0,212,138,.10),transparent 70%)}
+
+.scene{position:absolute;inset:0;padding:120px 100px;display:flex;flex-direction:column;justify-content:center;visibility:hidden}
+.w,.ch{display:inline-block;will-change:transform,opacity,filter}
+
+/* S1 hook */
+.hook{font:800 118px/1.02 var(--display);letter-spacing:-.035em;text-wrap:balance}
+.hook .l2{color:var(--text2)}
+.hook .red{color:var(--red)}
+.hook-tag{margin-top:56px;font:500 30px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--text3)}
+
+/* S2 logo */
+.s2{align-items:center;text-align:center}
+.frame{position:relative;padding:90px 70px}
+.corner{position:absolute;width:90px;height:90px;border-color:var(--green);border-style:solid;border-width:0}
+.c-tl{left:0;top:0;border-left-width:8px;border-top-width:8px}
+.c-tr{right:0;top:0;border-right-width:8px;border-top-width:8px}
+.c-bl{left:0;bottom:0;border-left-width:8px;border-bottom-width:8px}
+.c-br{right:0;bottom:0;border-right-width:8px;border-bottom-width:8px}
+.logo{font:800 138px/1 var(--display);letter-spacing:-.04em;display:flex;overflow:hidden;padding-bottom:10px}
+.logo .ch.g{color:var(--green)}
+.tagline{margin-top:70px;font:500 46px/1.25 var(--display);color:var(--text2);max-width:780px;text-wrap:balance}
+
+/* S3 carte trade */
+.kicker{font:700 30px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:28px}
+.h2{font:800 92px/1.02 var(--display);letter-spacing:-.035em;margin-bottom:64px;text-wrap:balance}
+.card{background:var(--bg2);border:2px solid var(--line2);border-radius:36px;padding:56px 56px 60px;box-shadow:0 40px 120px rgba(0,0,0,.45)}
+.card-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:36px}
+.card-title{font:700 40px/1 var(--display)}
+.card-id{font:500 28px/1 var(--mono);color:var(--text3)}
+.row{display:flex;justify-content:space-between;align-items:center;padding:26px 0;border-top:2px solid var(--line)}
+.row .k{font:500 32px/1 var(--display);color:var(--text2)}
+.row .v{font:700 38px/1 var(--mono);color:var(--text);min-height:38px}
+.pill{display:inline-block;padding:12px 22px;border-radius:999px;font:700 28px/1 var(--mono);letter-spacing:.06em}
+.pill.long{background:rgba(0,212,138,.14);color:var(--green)}
+.result{margin-top:40px;display:flex;align-items:center;justify-content:space-between;background:rgba(0,212,138,.10);border:2px solid rgba(0,212,138,.35);border-radius:26px;padding:34px 40px}
+.result .lab{font:500 32px/1 var(--display);color:var(--text2)}
+.result .num{font:700 58px/1 var(--mono);color:var(--green);letter-spacing:-.02em}
+
+/* S4 equity */
+.big{font:700 176px/1 var(--mono);letter-spacing:-.05em;color:var(--green);font-variant-numeric:tabular-nums}
+.big-lab{font:500 36px/1 var(--display);color:var(--text2);margin-top:22px}
+.chart{margin-top:70px;width:880px;height:460px;display:block;overflow:visible}
+.stats{margin-top:70px;display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.stat{background:var(--bg2);border:2px solid var(--line);border-radius:26px;padding:34px 30px}
+.stat .k{font:500 26px/1 var(--display);color:var(--text2)}
+.stat .v{font:700 54px/1 var(--mono);margin-top:18px;font-variant-numeric:tabular-nums}
+
+/* S5 calendrier */
+.cal-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:28px}
+.cal-month{font:700 44px/1 var(--display)}
+.cal-total{font:700 40px/1 var(--mono);color:var(--green)}
+.dow,.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:14px}
+.dow{margin-bottom:14px}
+.dow span{font:500 24px/1 var(--mono);color:var(--text3);text-align:center}
+.cell{aspect-ratio:1/1.08;border-radius:18px;background:var(--bg2);border:2px solid var(--line);padding:12px;display:flex;flex-direction:column;justify-content:space-between}
+.cell .d{font:500 22px/1 var(--mono);color:var(--text3)}
+.cell .p{font:700 23px/1 var(--mono);text-align:right}
+.cell.empty{background:transparent;border-color:transparent}
+.cell.off{background:transparent}
+.legend{margin-top:40px;display:flex;gap:40px;font:500 28px/1 var(--display);color:var(--text2)}
+.legend i{display:inline-block;width:26px;height:26px;border-radius:8px;vertical-align:-4px;margin-right:12px}
+
+/* S6 coach IA */
+.chat{display:flex;flex-direction:column;gap:34px}
+.bubble{max-width:820px;border-radius:38px;padding:40px 46px;font:500 44px/1.32 var(--display)}
+.me{align-self:flex-end;background:var(--blue);color:#fff;border-bottom-right-radius:12px}
+.ai{align-self:flex-start;background:var(--bg3);border:2px solid var(--line2);border-bottom-left-radius:12px}
+.ai-name{font:700 26px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:22px;display:flex;align-items:center;gap:14px}
+.ai-name::before{content:"";width:18px;height:18px;border-radius:50%;background:var(--green)}
+.ai .hl{color:var(--amber)}
+.dots{display:flex;gap:14px;padding:12px 0}
+.dots i{width:20px;height:20px;border-radius:50%;background:var(--text2)}
+.chip{align-self:flex-start;display:flex;align-items:center;gap:20px;background:rgba(0,212,138,.12);border:2px solid rgba(0,212,138,.4);color:var(--green);border-radius:999px;padding:24px 36px;font:700 32px/1 var(--display)}
+.chip svg{width:38px;height:38px}
+
+/* S7 outro */
+.s7{align-items:center;text-align:center}
+.outro{font:800 150px/.98 var(--display);letter-spacing:-.045em}
+.outro .g{color:var(--green)}
+.url{margin-top:90px;display:inline-flex;align-items:center;gap:22px;border:2px solid var(--line2);background:var(--bg2);border-radius:999px;padding:30px 50px;font:700 44px/1 var(--mono)}
+.url .dot{width:22px;height:22px;border-radius:50%;background:var(--green)}
+.outro-sub{margin-top:40px;font:500 34px/1.3 var(--display);color:var(--text2)}
+
+/* barre de progression interne au film */
+.bar{position:absolute;left:100px;right:100px;bottom:80px;height:6px;border-radius:6px;background:var(--line)}
+.bar i{display:block;height:100%;width:100%;border-radius:6px;background:var(--green);transform-origin:0 50%}
+
+/* contrôles */
+.controls{width:100%;max-width:min(100%, calc(78vh * 9 / 16));display:flex;align-items:center;gap:10px}
+.btn{appearance:none;border:1px solid var(--line2);background:var(--bg2);color:var(--text);border-radius:999px;padding:10px 16px;font:600 14px/1 var(--display);cursor:pointer;transition:transform .16s cubic-bezier(.23,1,.32,1),background-color .16s}
+.btn:hover{background:var(--bg3)}
+.btn:active{transform:scale(.97)}
+.btn:focus-visible,#scrub:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+#scrub{flex:1;min-width:0;accent-color:var(--green)}
+.time{font:500 12px/1 var(--mono);color:var(--text2);font-variant-numeric:tabular-nums;min-width:62px;text-align:right}
+.note{font-size:13px;line-height:1.5;color:var(--text2);max-width:62ch;align-self:flex-start}
+
+body.export{padding:0}
+body.export .page{max-width:none;display:block}
+body.export .eyebrow,body.export .controls,body.export .note{display:none}
+body.export .viewport{width:1080px;height:1920px;max-width:none;border:0;border-radius:0;aspect-ratio:auto}
+</style>
+
+<div class="page">
+  <div class="eyebrow"><b>Tradeframe</b> · démo motion design · 9:16</div>
+
+  <div class="viewport" id="viewport">
+    <div class="stage" id="stage" aria-label="Film promotionnel Tradeframe">
+      <div class="grid" id="grid"></div>
+      <div class="glow" id="glow"></div>
+
+      <section class="scene" id="s1">
+        <div class="hook">
+          <div class="l1 split">Tu perds de l’argent.</div>
+          <div class="l2 split">Tu ne sais pas <span class="red">pourquoi.</span></div>
+        </div>
+        <div class="hook-tag" id="s1tag">— 80 % des traders</div>
+      </section>
+
+      <section class="scene s2" id="s2">
+        <div class="frame">
+          <span class="corner c-tl"></span><span class="corner c-tr"></span>
+          <span class="corner c-bl"></span><span class="corner c-br"></span>
+          <div class="logo" id="logo"></div>
+        </div>
+        <div class="tagline" id="tagline">Le journal de trading qui te dit la vérité sur tes trades.</div>
+      </section>
+
+      <section class="scene" id="s3">
+        <div class="kicker" id="s3k">01 · Note</div>
+        <div class="h2" id="s3h">Chaque trade, en 20 secondes.</div>
+        <div class="card" id="card">
+          <div class="card-head"><span class="card-title">Nouveau trade</span><span class="card-id">#0147</span></div>
+          <div class="row"><span class="k">Actif</span><span class="v type" data-full="NQ · Nasdaq fut."></span></div>
+          <div class="row"><span class="k">Direction</span><span class="v"><span class="pill long" id="pill">LONG</span></span></div>
+          <div class="row"><span class="k">Entrée</span><span class="v type" data-full="18 245,25"></span></div>
+          <div class="row"><span class="k">Sortie</span><span class="v type" data-full="18 289,75"></span></div>
+          <div class="row"><span class="k">Setup</span><span class="v type" data-full="Break &amp; retest"></span></div>
+          <div class="row"><span class="k">Émotion</span><span class="v type" data-full="Calme"></span></div>
+          <div class="result" id="result"><span class="lab">Résultat</span><span class="num">+2,4 R · +445 €</span></div>
+        </div>
+      </section>
+
+      <section class="scene" id="s4">
+        <div class="kicker" id="s4k">02 · Mesure</div>
+        <div class="big" id="big">+0 €</div>
+        <div class="big-lab" id="biglab">P&amp;L d’octobre · 47 trades</div>
+        <svg class="chart" id="chart" viewBox="0 0 880 460" aria-hidden="true">
+          <defs>
+            <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#00d48a" stop-opacity=".28"/>
+              <stop offset="1" stop-color="#00d48a" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <g id="gridlines" stroke="rgba(255,255,255,.07)" stroke-width="2"></g>
+          <path id="areaPath" fill="url(#area)"/>
+          <path id="linePath" fill="none" stroke="#00d48a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle id="endDot" r="15" fill="#00d48a"/>
+          <circle id="endRing" r="15" fill="none" stroke="#00d48a" stroke-width="4"/>
+        </svg>
+        <div class="stats">
+          <div class="stat"><div class="k">Winrate</div><div class="v">64 %</div></div>
+          <div class="stat"><div class="k">Profit factor</div><div class="v">2,1</div></div>
+          <div class="stat"><div class="k">R moyen</div><div class="v" style="color:var(--green)">+1,3</div></div>
+        </div>
+      </section>
+
+      <section class="scene" id="s5">
+        <div class="kicker" id="s5k">03 · Visualise</div>
+        <div class="h2" id="s5h">Tes bons et tes mauvais jours. D’un coup d’œil.</div>
+        <div id="calwrap">
+          <div class="cal-head"><span class="cal-month">Octobre 2026</span><span class="cal-total">+3 842 €</span></div>
+          <div class="dow"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
+          <div class="cal" id="cal"></div>
+          <div class="legend"><span><i style="background:var(--green)"></i>Jour gagnant</span><span><i style="background:var(--red)"></i>Jour perdant</span></div>
+        </div>
+      </section>
+
+      <section class="scene" id="s6">
+        <div class="kicker" id="s6k">04 · Comprends</div>
+        <div class="chat">
+          <div class="bubble me" id="q">Pourquoi je perds le vendredi&nbsp;?</div>
+          <div class="bubble ai" id="a">
+            <div class="ai-name">Coach IA</div>
+            <div class="dots" id="dots"><i></i><i></i><i></i></div>
+            <div id="answer" class="split"><span class="hl">73 %</span> de tes pertes arrivent après 15 h, quand tu dépasses 3 trades. Ta règle : stop à 3.</div>
+          </div>
+          <div class="chip" id="chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path id="check" d="M4 12.5l5 5L20 6.5"/></svg>
+            Règle ajoutée à ta checklist
+          </div>
+        </div>
+      </section>
+
+      <section class="scene s7" id="s7">
+        <div class="outro">
+          <div class="split">Ton journal.</div>
+          <div class="split"><span class="g">Ton edge.</span></div>
+        </div>
+        <div class="url" id="url"><span class="dot"></span>tradeframe.web.app</div>
+        <div class="outro-sub" id="osub">Gratuit. Dans ton navigateur.</div>
+      </section>
+
+      <div class="bar" id="bar"><i id="barfill"></i></div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button class="btn" id="play" type="button">Pause</button>
+    <button class="btn" id="replay" type="button">Rejouer</button>
+    <input id="scrub" type="range" min="0" max="20" step="0.01" value="0" aria-label="Position dans le film">
+    <span class="time" id="time">0,0 / 20 s</span>
+  </div>
+  <p class="note">Film de 20 secondes au format Reel/TikTok. Toute l’animation est calculée à partir d’une seule horloge : on peut la mettre en pause, la parcourir image par image et l’exporter en MP4. Avec « réduire les animations » activé sur l’appareil, les mouvements sont remplacés par de simples fondus.</p>
+</div>
+
+<script>
+(() => {
+const DUR = 20;
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const $ = s => document.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+
+const clamp = x => Math.min(1, Math.max(0, x));
+const prog = (t, s, d) => clamp((t - s) / d);
+const E = {
+  out: p => 1 - Math.pow(1 - p, 3),
+  quint: p => 1 - Math.pow(1 - p, 5),
+  expo: p => p >= 1 ? 1 : 1 - Math.pow(2, -10 * p),
+  inOut: p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2,
+  spring: p => p >= 1 ? 1 : 1 - Math.exp(-6 * p) * Math.cos(9 * p),
+};
+const mv = p => RM ? (p > 0 ? 1 : 0) : p;
+
+/* découpe en mots / lettres */
+$$('.split').forEach(el => {
+  const walk = node => {
+    [...node.childNodes].forEach(n => {
+      if (n.nodeType === 3) {
+        const frag = document.createDocumentFragment();
+        n.textContent.split(/(\s+)/).forEach(part => {
+          if (!part) return;
+          if (/^\s+$/.test(part)) { frag.append(document.createTextNode(part)); return; }
+          const s = document.createElement('span'); s.className = 'w'; s.textContent = part; frag.append(s);
+        });
+        n.replaceWith(frag);
+      } else if (n.nodeType === 1 && !n.classList.contains('w')) {
+        if (n.children.length === 0 && !/\s/.test(n.textContent.trim())) n.classList.add('w');
+        else walk(n);
+      }
+    });
+  };
+  walk(el);
+});
+const logo = $('#logo');
+'TRADEFRAME'.split('').forEach((c, i) => {
+  const s = document.createElement('span'); s.className = 'ch' + (i >= 5 ? ' g' : ''); s.textContent = c; logo.append(s);
+});
+
+/* courbe d'équité déterministe */
+let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+const pts = []; let v = 0;
+for (let i = 0; i < 32; i++) { v += (rnd() - 0.36) * 34; pts.push(v); }
+const mn = Math.min(...pts), mx = Math.max(...pts);
+const xy = pts.map((p, i) => [i / (pts.length - 1) * 880, 420 - (p - mn) / (mx - mn) * 380]);
+const d = xy.map((q, i) => (i ? 'L' : 'M') + q[0].toFixed(1) + ' ' + q[1].toFixed(1)).join(' ');
+$('#linePath').setAttribute('d', d);
+$('#areaPath').setAttribute('d', d + ' L880 460 L0 460 Z');
+$('#gridlines').innerHTML = [0, 1, 2, 3].map(i => `<line x1="0" x2="880" y1="${40 + i * 126}" y2="${40 + i * 126}"/>`).join('');
+const line = $('#linePath'); const LEN = line.getTotalLength();
+line.style.strokeDasharray = LEN;
+
+/* calendrier d'octobre 2026 (1er = jeudi) */
+const pnl = [320, -140, 0, 0, 510, 180, -260, 640, 90, 0, 0, 410, -120, 280, 730, -310, 0, 0, 150, 220, -90, 380, 460, 0, 0, 120, -200, 340, 260, 190, 0];
+const cal = $('#cal'); const cells = [];
+for (let i = 0; i < 35; i++) {
+  const day = i - 2; const el = document.createElement('div');
+  if (day < 1 || day > 31) { el.className = 'cell empty'; }
+  else {
+    const p = pnl[day - 1]; const wk = (i % 7) >= 5;
+    el.className = 'cell' + (wk ? ' off' : '');
+    let txt = '';
+    if (!wk && p !== 0) {
+      const a = Math.min(1, Math.abs(p) / 700);
+      const c = p > 0 ? '0,212,138' : '255,77,109';
+      el.style.background = `rgba(${c},${(.12 + a * .5).toFixed(2)})`;
+      el.style.borderColor = `rgba(${c},${(.25 + a * .5).toFixed(2)})`;
+      txt = (p > 0 ? '+' : '−') + Math.abs(p);
+    }
+    el.innerHTML = `<span class="d">${day}</span><span class="p" style="color:${p > 0 ? '#eafff6' : '#ffe9ee'}">${txt}</span>`;
+  }
+  cal.append(el); cells.push({ el, r: Math.floor(i / 7), c: i % 7 });
+}
+
+/* helpers d'animation */
+function enter(el, t, s, dur, o = {}) {
+  const { y = 40, blur = 10, scale = 1, ease = E.quint, x = 0 } = o;
+  const p = ease(prog(t, s, dur)); const m = mv(p);
+  return { op: clamp(p), y: (1 - m) * y, x: (1 - m) * x, blur: RM ? 0 : (1 - m) * blur, sc: scale + (1 - scale) * m };
+}
+function exitMix(st, t, s, dur = .4, dy = -28) {
+  const q = E.out(prog(t, s, dur)); const m = mv(q);
+  st.op *= (1 - q); st.y += m * dy; st.blur += RM ? 0 : m * 6; return st;
+}
+function apply(el, st) {
+  el.style.opacity = st.op.toFixed(3);
+  el.style.transform = `translate(${st.x.toFixed(1)}px,${st.y.toFixed(1)}px) scale(${st.sc.toFixed(4)})`;
+  el.style.filter = st.blur > .05 ? `blur(${st.blur.toFixed(2)}px)` : 'none';
+}
+function seq(els, t, s, stagger, dur, o, exitAt) {
+  els.forEach((el, i) => { const st = enter(el, t, s + i * stagger, dur, o); if (exitAt != null) exitMix(st, t, exitAt); apply(el, st); });
+}
+function block(el, t, s, dur, o, exitAt) { const st = enter(el, t, s, dur, o); if (exitAt != null) exitMix(st, t, exitAt); apply(el, st); }
+
+const S = {
+  s1: [0, 2.9], s2: [2.7, 5.2], s3: [5.0, 8.6], s4: [8.4, 11.9],
+  s5: [11.7, 14.6], s6: [14.4, 17.4], s7: [17.2, 20],
+};
+const fmt = n => Math.round(n).toLocaleString('fr-FR').replace(/ | /g, ' ');
+
+const hookW = $$('#s1 .w'), logoC = $$('#logo .ch'), corners = $$('#s2 .corner');
+const typeEls = $$('#s3 .type'), stats = $$('#s4 .stat'), ansW = $$('#answer .w'), outroW = $$('#s7 .w');
+const dots = $$('#dots i');
+
+function render(t) {
+  for (const [id, [a, b]] of Object.entries(S)) $('#' + id).style.visibility = (t >= a - .01 && t <= b + .01) ? 'visible' : 'hidden';
+
+  /* fond ambiant lié au temps */
+  const drift = RM ? 0 : t * 14;
+  $('#grid').style.transform = `translate(${(-drift) % 120}px,${(-drift * .5) % 120}px)`;
+  $('#glow').style.transform = `translate(${RM ? 0 : Math.sin(t * .4) * 120}px,${RM ? 0 : Math.cos(t * .3) * 160}px)`;
+  $('#barfill').style.transform = `scaleX(${(t / DUR).toFixed(4)})`;
+
+  /* S1 — accroche */
+  seq(hookW, t, .15, .085, .7, { y: 60, blur: 14 }, 2.45);
+  block($('#s1tag'), t, 1.35, .6, { y: 20, blur: 6 }, 2.45);
+
+  /* S2 — logo */
+  const cp = E.quint(prog(t, 2.75, .9)); const cm = mv(cp);
+  corners.forEach((c, i) => {
+    const sx = i % 2 ? 1 : -1, sy = i < 2 ? -1 : 1;
+    const st = { op: cp, x: (1 - cm) * sx * 140, y: (1 - cm) * sy * 140, blur: 0, sc: 1 };
+    exitMix(st, t, 4.85, .35, 0); apply(c, st);
+  });
+  logoC.forEach((c, i) => {
+    const st = enter(c, t, 3.0 + i * .045, .65, { y: 150, blur: 0, ease: E.quint });
+    exitMix(st, t, 4.85, .35, -20); apply(c, st);
+  });
+  block($('#tagline'), t, 3.75, .7, { y: 30, blur: 8 }, 4.85);
+
+  /* S3 — saisie d'un trade */
+  block($('#s3k'), t, 5.05, .5, { y: 20, blur: 4 }, 8.25);
+  block($('#s3h'), t, 5.12, .6, { y: 36, blur: 10 }, 8.25);
+  block($('#card'), t, 5.3, .75, { y: 140, blur: 12, scale: .96 }, 8.25);
+  const starts = [5.9, 6.55, 6.95, 7.3, 7.6];
+  typeEls.forEach((el, i) => {
+    const full = el.dataset.full; const p = prog(t, starts[i] - (i > 0 ? 0 : 0), i === 0 ? .45 : .3);
+    el.textContent = full.slice(0, Math.round(p * full.length));
+  });
+  const pill = $('#pill'); const pp = prog(t, 6.3, .35);
+  apply(pill, { op: pp, x: 0, y: 0, blur: 0, sc: .9 + .1 * mv(E.spring(pp)) });
+  const rp = prog(t, 7.85, .55);
+  const rst = { op: clamp(rp * 2), x: 0, y: (1 - mv(E.quint(rp))) * 30, blur: 0, sc: .9 + .1 * mv(E.spring(rp)) };
+  apply($('#result'), rst);
+
+  /* S4 — P&L et courbe */
+  block($('#s4k'), t, 8.45, .5, { y: 20, blur: 4 }, 11.55);
+  block($('#big'), t, 8.5, .6, { y: 50, blur: 12 }, 11.55);
+  block($('#biglab'), t, 8.7, .5, { y: 20, blur: 6 }, 11.55);
+  const cpv = E.expo(prog(t, 8.6, 1.9));
+  $('#big').textContent = '+' + fmt(3842 * (RM ? (t >= 8.6 ? 1 : 0) : cpv)) + ' €';
+  const lp = E.inOut(prog(t, 8.75, 1.7)); const lpm = RM ? (t >= 8.75 ? 1 : 0) : lp;
+  line.style.strokeDashoffset = (LEN * (1 - lpm)).toFixed(1);
+  $('#areaPath').style.opacity = (E.out(prog(t, 10.1, .6))).toFixed(3);
+  const end = xy[xy.length - 1];
+  const dp = prog(t, 10.4, .5);
+  const dot = $('#endDot'); dot.setAttribute('cx', end[0]); dot.setAttribute('cy', end[1]);
+  dot.style.opacity = dp; dot.style.transformOrigin = `${end[0]}px ${end[1]}px`; dot.style.transform = `scale(${.6 + .4 * mv(E.spring(dp))})`;
+  const ring = $('#endRing'); ring.setAttribute('cx', end[0]); ring.setAttribute('cy', end[1]);
+  const rg = prog(t, 10.5, .9); ring.style.transformOrigin = `${end[0]}px ${end[1]}px`;
+  ring.style.transform = `scale(${1 + 1.6 * E.out(rg)})`; ring.style.opacity = RM ? 0 : (rg > 0 ? (1 - rg) * .8 : 0);
+  $('#chart').style.opacity = 1 - E.out(prog(t, 11.55, .4));
+  seq(stats, t, 10.35, .1, .55, { y: 40, blur: 8 }, 11.55);
+
+  /* S5 — calendrier */
+  block($('#s5k'), t, 11.75, .5, { y: 20, blur: 4 }, 14.25);
+  block($('#s5h'), t, 11.82, .6, { y: 36, blur: 10 }, 14.25);
+  block($('.cal-head'), t, 12.05, .5, { y: 20, blur: 4 }, 14.25);
+  block($('.dow'), t, 12.1, .5, { y: 14, blur: 0 }, 14.25);
+  cells.forEach(({ el, r, c }) => {
+    const s = 12.2 + (r + c) * .055; const p = prog(t, s, .5);
+    const st = { op: E.out(p), x: 0, y: (1 - mv(E.quint(p))) * 24, blur: 0, sc: .9 + .1 * mv(E.spring(p)) };
+    exitMix(st, t, 14.25, .35, -16); apply(el, st);
+  });
+  block($('.legend'), t, 13.0, .5, { y: 16, blur: 4 }, 14.25);
+
+  /* S6 — coach IA */
+  block($('#s6k'), t, 14.45, .5, { y: 20, blur: 4 }, 17.05);
+  block($('#q'), t, 14.55, .55, { y: 50, x: 60, blur: 8, scale: .97 }, 17.05);
+  block($('#a'), t, 15.0, .55, { y: 50, x: -60, blur: 8, scale: .97 }, 17.05);
+  const typing = t >= 15.0 && t < 15.75;
+  $('#dots').style.display = typing ? 'flex' : 'none';
+  $('#answer').style.display = typing || t < 15.0 ? 'none' : 'block';
+  dots.forEach((dd, i) => { dd.style.opacity = RM ? .6 : (.3 + .7 * Math.max(0, Math.sin((t - 15) * 9 - i * .9))).toFixed(2); });
+  seq(ansW, t, 15.75, .045, .45, { y: 16, blur: 8 }, 17.05);
+  block($('#chip'), t, 16.5, .55, { y: 30, blur: 6, scale: .92, ease: E.spring }, 17.05);
+  const chk = $('#check'); const cl = chk.getTotalLength ? chk.getTotalLength() : 30;
+  chk.style.strokeDasharray = cl; chk.style.strokeDashoffset = (cl * (1 - (RM ? (t >= 16.6 ? 1 : 0) : E.out(prog(t, 16.65, .35))))).toFixed(2);
+
+  /* S7 — outro */
+  seq(outroW, t, 17.3, .12, .75, { y: 80, blur: 16 });
+  block($('#url'), t, 18.05, .6, { y: 30, blur: 6, scale: .94, ease: E.spring });
+  block($('#osub'), t, 18.4, .5, { y: 16, blur: 4 });
+}
+
+/* horloge */
+const stage = $('#stage'), vp = $('#viewport');
+const fit = () => { stage.style.transform = `scale(${vp.clientWidth / 1080})`; };
+new ResizeObserver(fit).observe(vp); fit();
+
+let t = 0, playing = !document.body.classList.contains('export'), last = performance.now(), hold = 0;
+const playBtn = $('#play'), scrub = $('#scrub'), time = $('#time');
+const ui = () => { scrub.value = t; time.textContent = t.toFixed(1).replace('.', ',') + ' / 20 s'; playBtn.textContent = playing ? 'Pause' : 'Lecture'; };
+function tick(now) {
+  const dt = Math.min(.05, (now - last) / 1000); last = now;
+  if (playing) {
+    if (t >= DUR) { hold += dt; if (hold > 1.4) { t = 0; hold = 0; } }
+    else t = Math.min(DUR, t + dt);
+    render(t); ui();
+  }
+  requestAnimationFrame(tick);
+}
+playBtn.addEventListener('click', () => { if (t >= DUR) t = 0; playing = !playing; ui(); });
+$('#replay').addEventListener('click', () => { t = 0; hold = 0; playing = true; render(t); ui(); });
+scrub.addEventListener('input', () => { playing = false; t = +scrub.value; render(t); ui(); });
+
+window.renderAt = x => { t = x; render(x); };
+render(0); ui(); requestAnimationFrame(tick);
+})();
+</script>
