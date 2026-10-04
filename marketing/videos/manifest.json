@@ -1848,7 +1848,7 @@
       "cover": "111-risk-of-ruin/cover.jpg",
       "caption_file": "111-risk-of-ruin/caption.txt",
       "caption": "Even a solid edge hits 10 losers in a row eventually. At 1% risk that's a bad week. At 10% risk it's over. Size for the streak you haven't had yet. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #riskofruin #forex #futures #crypto #positionsizing #tradingmath #tradingdiscipline #traderlife #tradingtips #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "111-risk-of-ruin/captions.json"
     },
     {
@@ -1865,7 +1865,7 @@
       "cover": "112-study-your-worst-trade/cover.jpg",
       "caption_file": "112-study-your-worst-trade/caption.txt",
       "caption": "Your worst trade of the week is your best teacher. Tradeframe finds it, shows what you felt and which rule you broke, and turns it into a checklist item so it never happens again. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #weeklyreview #sundayroutine #tradingroutine #tradingplan #forextrader #futurestrading #tradereview #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "112-study-your-worst-trade/captions.json"
     },
     {
@@ -1882,7 +1882,7 @@
       "cover": "113-plan-next-week/cover.jpg",
       "caption_file": "113-plan-next-week/caption.txt",
       "caption": "The weekend is when you have time to think clearly. Look at last week, pick the setup to focus on, decide which day to sit out, and pre-plan your risk. Monday you just execute. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingplan #weekendprep #tradingroutine #forex #futures #stocks #riskmanagement #traderlife #tradingtips #tradingdiscipline #weeklyplanning #preparation",
-      "exists": false,
+      "exists": true,
       "captions_json": "113-plan-next-week/captions.json"
     },
     {
@@ -1899,7 +1899,7 @@
       "cover": "114-breakeven-exits/cover.jpg",
       "caption_file": "114-breakeven-exits/caption.txt",
       "caption": "Moving your stop to break-even too early feels safe, but it can quietly kill your winners. Tradeframe counts the 0R scratches that later hit target and adds a rule for when BE is allowed. Free, in your browser. Link in bio.\n\n#breakeven #tradeexits #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "114-breakeven-exits/captions.json"
     },
     {
@@ -1916,7 +1916,7 @@
       "cover": "115-challenge-day-one/cover.jpg",
       "caption_file": "115-challenge-day-one/caption.txt",
       "caption": "Day one of a challenge is where most people try to pass in one session. Then one red trade puts them halfway to the drawdown limit. Trade it like day twenty instead. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #propfirmchallenge #fundedtrader #ftmo #topstep #forex #futures #tradingpsychology #tradingdiscipline #traderlife #tradingtips",
-      "exists": false,
+      "exists": true,
       "captions_json": "115-challenge-day-one/captions.json"
     },
     {
@@ -1932,7 +1932,7 @@
       "cover": "116-screen-time-myth/cover.jpg",
       "caption_file": "116-screen-time-myth/caption.txt",
       "caption": "Grinding 10 hours in front of charts feels like work ethic. Your data might call it overtrading. Check how your trades do after hour 4, 6, 8. The answer is usually obvious. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #screentime #grindculture #overtrading #burnout #forextrader #futurestrading #tradingmyths #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "116-screen-time-myth/captions.json"
     },
     {
@@ -1949,7 +1949,7 @@
       "cover": "117-scalper-fast-log/cover.jpg",
       "caption_file": "117-scalper-fast-log/caption.txt",
       "caption": "Scalping means a lot of trades and zero time to type them. Export your fills, drop the CSV, and Tradeframe logs the whole session at once. Then AI shows where extra trades start costing you. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #scalping #scalper #overtrading #forex #futures #crypto #tradingdata #traderlife #tradingtips #tradingdiscipline #nq #es",
-      "exists": false,
+      "exists": true,
       "captions_json": "117-scalper-fast-log/captions.json"
     },
     {
@@ -1965,7 +1965,7 @@
       "cover": "118-check-in-first/cover.jpg",
       "caption_file": "118-check-in-first/caption.txt",
       "caption": "Your worst trading days often start before the open: bad sleep, a fight, a long week. Tradeframe’s pre-trade check catches the state you’re in, and your calendar proves why it matters. Free, in your browser. Link in bio.\n\n#mindfulness #morningroutine #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "118-check-in-first/captions.json"
     },
     {
@@ -1982,7 +1982,7 @@
       "cover": "119-no-stop-no-trade/cover.jpg",
       "caption_file": "119-no-stop-no-trade/caption.txt",
       "caption": "Without a stop there is no R, no size, no plan, just hope. Make the stop the first field you fill in and the first box you tick. Your biggest losses will tell you why. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #stoploss #forex #futures #crypto #tradingrules #tradingdiscipline #daytrader #traderlife #tradingtips #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "119-no-stop-no-trade/captions.json"
     },
     {
