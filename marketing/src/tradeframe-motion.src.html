@@ -1,7 +1,7 @@
 <title>Tradeframe Motion</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Roboto+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Manrope:wght@500;600;700;800&family=Roboto+Mono:wght@500;700&display=swap">
 <style>
 @font-face{font-family:"Sora";font-weight:700;font-display:block;src:url(data:font/woff2;base64,%%SORA700%%) format("woff2")}
 @font-face{font-family:"Sora";font-weight:800;font-display:block;src:url(data:font/woff2;base64,%%SORA800%%) format("woff2")}
@@ -45,14 +45,26 @@ body{font-family:var(--ui);padding-inline:16px;padding-block:20px 28px}
 .g{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .fit{display:inline-block;white-space:nowrap}
 
-/* intro */
-#hk{position:absolute;left:96px;top:520px;font:800 200px/.96 var(--display);letter-spacing:-.05em}
-#hk .ln{display:block;width:max-content;transform-origin:0 60%}
-#hk2{position:absolute;left:96px;top:700px;transform-origin:444px 260px}
-#hk2a{display:block;width:max-content;font:700 96px/1.05 var(--display);letter-spacing:-.04em;color:var(--text2)}
+/* slam cards (full-screen kinetic words, hard cuts) */
 .mask{overflow:hidden;padding-bottom:.08em}
-#hk2b{display:block;width:max-content;font:800 172px/1 var(--display);letter-spacing:-.05em;transform-origin:0 60%}
 #orb{position:absolute;left:470px;top:890px;width:140px;height:140px;border-radius:50%;background:var(--grad2);box-shadow:0 0 120px rgba(94,234,212,.55)}
+.slam{position:absolute;inset:0;overflow:hidden;visibility:hidden}
+.slam.th-d{background:radial-gradient(1100px 800px at 85% 0%,rgba(94,234,212,.16),transparent 70%),radial-gradient(1200px 900px at 0% 100%,rgba(167,139,250,.18),transparent 70%),var(--bg);color:var(--text)}
+.slam.th-l{background:radial-gradient(rgba(15,20,32,.08) 1.7px,transparent 1.9px) 0 0/40px 40px,radial-gradient(1100px 800px at 90% 5%,rgba(13,148,136,.14),transparent 70%),#edf0f4;color:#0f1420}
+.slam .sw{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ss{font:500 34px/1 var(--mono);letter-spacing:.18em;text-transform:uppercase;margin-bottom:26px}
+.th-d .ss{color:var(--mint)}.th-l .ss{color:#0d9488}
+.sbw{position:relative}
+.sb{position:relative;display:block;width:max-content;white-space:nowrap;font:800 300px/.92 var(--display);letter-spacing:-.055em;text-transform:uppercase}
+.sb.num{font-size:620px;letter-spacing:-.04em}
+.sb .lt{display:inline-block;transform-origin:50% 80%}
+.th-l .g{background:linear-gradient(90deg,#0d9488,#7c3aed);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sb.negc{color:var(--neg)}
+.ghost{position:absolute;left:0;top:0}
+.gd{position:absolute;background:currentColor}
+.gq{position:absolute;width:16px;height:16px;margin:-8px 0 0 -8px;border:3px solid currentColor;background:inherit}
+.th-d .guides{color:var(--neg)}.th-l .guides{color:#7c3aed}
+.th-d .gq{background:var(--bg)}.th-l .gq{background:#edf0f4}
 
 /* logo */
 .mark{position:absolute;left:420px;top:640px;width:240px;height:240px;border-radius:26%;background:var(--grad2);display:grid;place-items:center;box-shadow:0 30px 140px rgba(94,234,212,.35)}
@@ -176,6 +188,7 @@ body{font-family:var(--ui);padding-inline:16px;padding-block:20px 28px}
 .cell.wt{background:rgba(255,255,255,.045);border-color:var(--border2)}
 .cell.wt .d{color:var(--text3)}
 .bring{position:absolute;inset:-6px;border-radius:16px;border:2px solid var(--mint);box-shadow:0 0 34px rgba(94,234,212,.45)}
+.bring.neg{border-color:var(--neg);box-shadow:0 0 34px rgba(251,113,133,.45)}
 .tip{position:absolute;left:50%;bottom:calc(100% + 14px);width:250px;margin-left:-125px;background:var(--tip);border:1px solid var(--border2);border-radius:12px;padding:12px 14px;font:600 13px/1.35 var(--ui);color:var(--text2);box-shadow:0 20px 50px rgba(0,0,0,.55);z-index:4;transform-origin:50% 100%}
 .tip b{display:block;font:800 22px/1.1 var(--display);color:var(--pos);margin-top:4px}
 
@@ -224,17 +237,22 @@ body{font-family:var(--ui);padding-inline:16px;padding-block:20px 28px}
 .cur{position:absolute;left:0;top:0;width:30px;height:30px;z-index:20;transform-origin:4px 3px}
 .rip{position:absolute;left:-30px;top:-30px;width:60px;height:60px;border-radius:50%;border:3px solid var(--mint);z-index:19}
 
-/* captions + overlays */
-.scrim-t{position:absolute;left:0;right:0;top:0;height:760px;background:linear-gradient(var(--bg) 34%,rgba(13,15,21,0))}
+/* overlays on the app: scrims, kinetic subtitles, hand annotations, progress */
+.scrim-t{position:absolute;left:0;right:0;top:0;height:700px;background:linear-gradient(var(--bg) 40%,rgba(13,15,21,0))}
 .scrim-b{position:absolute;left:0;right:0;bottom:0;height:320px;background:linear-gradient(rgba(13,15,21,0),var(--bg) 82%)}
-.caps{position:absolute;left:96px;right:96px;top:150px}
-.cap{position:absolute;left:0;right:0;top:0}
-.ceb{display:flex;align-items:center;gap:14px;font:500 26px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--mint)}
-.ceb::before{content:"";width:12px;height:12px;border-radius:50%;background:var(--grad)}
-.cap .mask{margin-top:4px}
-.cap .mask:first-of-type{margin-top:28px}
-.cl{display:inline-block;white-space:nowrap;font:800 124px/1.02 var(--display);letter-spacing:-.045em}
+.subs{position:absolute;left:96px;right:96px;top:190px}
+.sub2{position:absolute;left:0;right:0;top:0;font:800 92px/1.04 var(--display);letter-spacing:-.045em;text-wrap:balance;visibility:hidden}
+.sub2 .mw{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.1em;margin-bottom:-.1em}
+.sub2 .wi{display:inline-block}
+.alab{position:absolute;left:0;top:0;white-space:nowrap;font:700 74px/1 "Caveat","Comic Sans MS",cursive;color:var(--mint);visibility:hidden}
+.alab{text-shadow:0 0 14px rgba(13,15,21,.95),0 0 4px rgba(13,15,21,.9)}
+.alab.neg{color:var(--neg)}
+#annS path{fill:none;stroke-linecap:round;stroke-linejoin:round}
 .foot{position:absolute;left:0;right:0;bottom:92px;text-align:center;font:500 26px/1 var(--mono);letter-spacing:.12em;color:var(--text3)}
+#prog{position:absolute;left:96px;right:96px;top:84px;display:flex;gap:12px}
+#prog .seg{position:relative;flex:1;height:8px;border-radius:4px;background:rgba(255,255,255,.18);overflow:hidden}
+#prog.onlight .seg{background:rgba(15,20,32,.14)}
+#prog .seg i{position:absolute;inset:0;background:var(--grad);transform-origin:0 50%;transform:scaleX(0)}
 
 /* outro */
 #ot{position:absolute;left:0;right:0;top:620px;text-align:center;transform-origin:50% 50%}
@@ -260,40 +278,33 @@ body.export .viewport{width:1080px;height:1920px;max-width:none;border:0;border-
 <div class="page">
   <div class="eyebrow"><b>Tradeframe</b> · motion demo · 9:16 · 133 BPM</div>
   <div class="viewport" id="viewport">
-    <div class="stage" id="stage" role="img" aria-label="Tradeframe promo film: hook, logo reveal, then a tour of the app (Dashboard, New Position, Calendar, AI Analysis, Pre-Trade Checklist) and a call to action for tradeframe.web.app">
+    <div class="stage" id="stage" role="img" aria-label="Tradeframe promo film: rapid kinetic hook, logo drop, then five features shown in the app (log a trade, dashboard, calendar, AI analysis, pre-trade checklist) and a call to action for tradeframe.web.app">
       <svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="mb" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB"><feGaussianBlur id="mbg" stdDeviation="0 0"/></filter></svg>
       <div class="L" id="bgl"><div class="amb a" id="amba"></div><div class="amb b" id="ambb"></div><div class="dots" id="dots"></div></div>
-
-      <div class="L" id="intro">
-        <div id="hk"><span class="ln">Your</span><span class="ln">trades</span><span class="ln">are</span><span class="ln g">talking.</span></div>
-        <div id="hk2"><div class="mask"><span id="hk2a">Are you</span></div><span id="hk2b" class="g">listening?</span></div>
-        <div id="orb"></div>
-      </div>
-
+      <div class="L" id="intro"><div id="orb"></div></div>
       <div class="L" id="logo">
         <div class="ringx" id="rg1"></div><div class="ringx" id="rg2"></div>
         <div class="mark" id="mark"><span id="markT">T</span></div>
         <div id="wm"><div class="mask"><span class="word" id="wmw"></span></div></div>
         <div id="tagl">The trading journal that tells you <b>the truth.</b></div>
       </div>
-
-      <div class="rig" id="rig"><div class="win" id="win"></div></div>
-
+      <div class="L" id="punch"><div class="rig" id="rig"><div class="win" id="win"></div></div></div>
       <div class="L" id="ovl">
         <div class="scrim-t" id="scrt"></div><div class="scrim-b" id="scrb"></div>
-        <div class="caps" id="caps"></div>
+        <div class="subs" id="subs"></div>
+        <svg class="L" id="annS" viewBox="0 0 1080 1920" width="1080" height="1920" aria-hidden="true"></svg>
+        <div class="L" id="annL"></div>
         <div class="foot" id="foot">@tradeframe.trading</div>
       </div>
-
       <div class="L" id="outro">
         <div id="ot"><span class="ol l1"><span class="ow">Your</span> <span class="ow">journal.</span></span><span class="ol l2"><span class="ow">Your</span> <span class="ow g">edge.</span></span></div>
         <div id="urlp"><span class="m">T</span>tradeframe.web.app<i class="shine" id="shine"></i></div>
         <div id="osub">100% free · Runs in your browser</div>
         <div id="oh">@tradeframe.trading</div>
       </div>
-
+      <div class="L" id="slamL"></div>
+      <div id="prog"></div>
       <canvas class="L" id="fx" width="1080" height="1920"></canvas>
-      <div class="wipe" id="wipe"></div>
       <div class="flash" id="flash"></div>
     </div>
   </div>
@@ -303,18 +314,18 @@ body.export .viewport{width:1080px;height:1920px;max-width:none;border:0;border-
     <button class="btn" id="replay" type="button">Restart</button>
     <button class="btn" id="sound" type="button" aria-pressed="false">Sound off</button>
     <div class="scrubrow">
-      <input id="scrub" type="range" min="0" max="32" step="0.001" value="0" aria-label="Position in the film">
-      <span class="time" id="time">0.0 / 31.6 s</span>
+      <input id="scrub" type="range" min="0" max="33" step="0.001" value="0" aria-label="Position in the film">
+      <span class="time" id="time">0.0 / 32.5 s</span>
     </div>
   </div>
-  <p class="note">31-second Reel / TikTok cut, beat-locked to the track at 133 BPM. One clock drives every frame, so you can pause, scrub frame by frame and export it to MP4. Turn the sound on to watch the cuts land on the beat. With “Reduce motion” enabled on your device, camera moves become cuts and only fades remain. All figures are demo data.</p>
+  <p class="note">32-second Reel / TikTok cut built for retention: something new lands on almost every beat of the 133 BPM track (hard cuts, kinetic words, hand-drawn callouts, punch-ins, a 5-step progress bar). One clock drives every frame, so you can pause, scrub frame by frame and export it to MP4. Turn the sound on to watch the cuts hit the beat. With “Reduce motion” enabled, camera moves become cuts and only fades remain. All figures are demo data.</p>
   <audio id="aud" preload="auto" src="data:audio/mpeg;base64,%%AUDIO%%"></audio>
 </div>
 
 <script>
 (() => {
 const BEAT = 0.452, b = n => n * BEAT;
-const DUR = +(b(68) + 0.9).toFixed(3);
+const DUR = +(b(70) + 0.9).toFixed(3);
 const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const clamp = (x, a = 0, z = 1) => Math.min(z, Math.max(a, x));
@@ -405,7 +416,7 @@ const side = `<div class="side" id="side"><div class="hl" id="hl"></div><div cla
 const KPI = [
   { id: 'kpi-pnl', lab: 'Total P&amp;L', to: TOTAL, f: v => usd(v), cls: 'pos', d: `+${TOTAL_R.toFixed(1)}R · September` },
   { lab: 'Total trades', to: TRADES, f: v => String(Math.round(v)), d: '2 still open' },
-  { lab: 'Win rate', to: 64, f: v => Math.round(v) + '%', d: `${WINS} W · ${LOSSES} L · 2 BE` },
+  { id: 'kpi-wr', lab: 'Win rate', to: 64, f: v => Math.round(v) + '%', d: `${WINS} W · ${LOSSES} L · 2 BE` },
   { lab: 'Avg win', to: 1.3, f: v => '+' + v.toFixed(1) + 'R', d: 'per winning trade' },
   { lab: 'Max drawdown', to: mdd, f: v => (v < 0 ? '−' : '') + Math.abs(v).toFixed(1) + 'R', cls: 'neg', d: 'peak to trough' },
 ];
@@ -464,8 +475,8 @@ const cells = []; let calHtml = '';
       if (c >= 5) { calHtml += `<div class="cell wk"><span class="d">${day}</span></div>`; cells.push({ r, c }); continue; }
       const v = SEPT[di], n = SEPT_N[di]; di++; wk[r] += v;
       const a = (.12 + .4 * Math.abs(v) / 730).toFixed(2), col = v > 0 ? '45,212,163' : '251,113,133';
-      const best = v === 730;
-      calHtml += `<div class="cell" ${best ? 'id="cell-best"' : ''} style="background:rgba(${col},${a});border-color:rgba(${col},${(+a + .15).toFixed(2)})"><span class="d">${day}</span><b>${usd(v)}</b><s>${n} trade${n > 1 ? 's' : ''}</s>${best ? `<i class="bring" id="bring"></i><div class="tip" id="tip">Best day · Tue, Sep 15<b>+$730</b>3 trades · plan followed</div>` : ''}</div>`;
+      const best = v === 730, worst = v === -310;
+      calHtml += `<div class="cell" ${best ? 'id="cell-best"' : worst ? 'id="cell-worst"' : ''} style="background:rgba(${col},${a});border-color:rgba(${col},${(+a + .15).toFixed(2)})"><span class="d">${day}</span><b>${usd(v)}</b><s>${n} trade${n > 1 ? 's' : ''}</s>${best ? '<i class="bring" id="bring"></i>' : worst ? '<i class="bring neg" id="wring"></i>' : ''}</div>`;
       cells.push({ r, c });
     }
     calHtml += `<div class="cell wt"><span class="d">Week ${r + 1}</span><b class="${wk[r] >= 0 ? 'pos' : 'neg'}">${usd(wk[r])}</b><s>&nbsp;</s></div>`; cells.push({ r, c: 7 });
@@ -481,7 +492,7 @@ const pgAi = `<div class="pg" id="pg-ai">
   <div class="aig" id="ai-wrap"><div class="pn pi" id="ai-insight"><div class="aihd"><span class="av">${ico('spark')}</span><div>Tradeframe AI<small>Pattern found</small></div></div>
       <div class="aitxt">${AIT.map(([w, c]) => c === 'b' ? `<b class="w">${w}</b>` : c === 'g' ? `<b class="w g">${w}</b>` : `<span class="w">${w}</span>`).join(' ')}</div></div>
     <div class="pn pi" id="ai-chart"><div class="lab">Win rate by trade # of the day</div>
-      <div class="wr">${WRATE.map(([l, v], i) => `<div class="bar"><i class="wbar" style="height:${v / 75 * 100}%;background:${i < 3 ? 'linear-gradient(180deg,#5eead4,rgba(94,234,212,.2))' : 'linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,.08))'}"></i><em class="wv" style="bottom:calc(${v / 75 * 100}% + 8px);color:${i < 3 ? '#5eead4' : '#9199ac'}">0%</em></div>`).join('')}<div class="avgl" id="avgl" style="bottom:${64 / 75 * 100}%"><span>avg 64%</span></div></div>
+      <div class="wr">${WRATE.map(([l, v], i) => `<div class="bar" ${i === 3 ? 'id="wb3"' : ''}><i class="wbar" style="height:${v / 75 * 100}%;background:${i < 3 ? 'linear-gradient(180deg,#5eead4,rgba(94,234,212,.2))' : 'linear-gradient(180deg,rgba(255,255,255,.32),rgba(255,255,255,.08))'}"></i><em class="wv" style="bottom:calc(${v / 75 * 100}% + 8px);color:${i < 3 ? '#5eead4' : '#9199ac'}">0%</em></div>`).join('')}<div class="avgl" id="avgl" style="bottom:${64 / 75 * 100}%"><span>avg 64%</span></div></div>
       <div class="wrl">${WRATE.map(w => `<span>${w[0]}</span>`).join('')}</div></div></div>
   <div class="pn pi" id="ai-rule"><div><div class="lab">Suggested rule</div><div class="rt">Max 3 trades per day</div><div class="rs">Trades 4 and later cost you <span class="neg">−$1,420</span> in September.</div></div><span class="addb" id="btn-rule">${ico('plus')}<span id="btn-rule-t">Add to checklist</span></span></div>
 </div>`;
@@ -500,99 +511,167 @@ win.innerHTML = `<div class="chrome"><i></i><i></i><i></i><div class="url">${ico
 <div class="app">${side}<div class="main"><div class="top"><div class="capx">CAPITAL&nbsp;&nbsp;$24,180.00</div><div class="tb"><span class="b2">${ico('dl')}Export CSV</span><span class="b2 bp" id="btn-new">+ New Position</span></div></div>
 <div class="pages">${pgDash}${pgAdd}${pgCal}${pgAi}${pgCk}</div></div></div>${CURSOR}`;
 
-/* captions */
-const CAPS = [
-  { eb: 'Dashboard', l1: 'See your', l2: 'real edge.', i: 17, o: 25.1 },
-  { eb: 'New position', l1: 'Log a trade', l2: 'in 30 seconds.', i: 26.5, o: 38.6 },
-  { eb: 'Calendar', l1: 'Spot your', l2: 'best days.', i: 40.5, o: 46.5 },
-  { eb: 'AI analysis', l1: 'Know why', l2: 'you lose.', i: 48.5, o: 52.75 },
-  { eb: 'Pre-trade checklist', l1: 'Fix it', l2: 'for good.', i: 53.25, o: 56.25 },
+/* ---------------- timeline content ---------------- */
+const SLAMS = [
+  { b: 0, e: 1, th: 'd', big: 'YOU', fx: 'stretch' },
+  { b: 1, e: 2, th: 'l', big: 'LOSE', fx: 'shake' },
+  { b: 2, e: 3, th: 'd', big: 'MONEY.', fx: 'snap', cls: 'negc' },
+  { b: 3, e: 4, th: 'l', small: 'and you', big: 'DON’T', fx: 'echo' },
+  { b: 4, e: 5, th: 'd', big: 'KNOW', fx: 'stretch' },
+  { b: 5, e: 6, th: 'l', big: '<span class="g">WHY.</span>', fx: 'glitch' },
+  { b: 6, e: 6.5, th: 'd', big: '3', fx: 'pop', num: 1 },
+  { b: 6.5, e: 7, th: 'l', big: '2', fx: 'pop', num: 1 },
+  { b: 7, e: 7.5, th: 'd', big: '<span class="g">1</span>', fx: 'pop', num: 1 },
+  { b: 13, e: 14.5, th: 'l', small: '01 / 05', big: 'LOG IT.', fx: 'snap' },
+  { b: 14.5, e: 15.5, th: 'd', small: 'in under', big: '00:30', fx: 'count' },
+  { b: 26, e: 27.5, th: 'd', small: '02 / 05 · see your', big: '<span class="g">EDGE.</span>', fx: 'stretch' },
+  { b: 35.5, e: 36.5, th: 'l', small: '03 / 05 · spot your', big: 'BEST DAYS', fx: 'echo' },
+  { b: 43, e: 44.5, th: 'd', small: '04 / 05 · know', big: '<span class="g">WHY?</span>', fx: 'glitch' },
+  { b: 51, e: 52, th: 'l', small: '05 / 05', big: 'FIX IT.', fx: 'snap' },
 ];
-$('#caps').innerHTML = CAPS.map(c => `<div class="cap"><div class="ceb">${c.eb}</div><div class="mask"><span class="cl">${c.l1}</span></div><div class="mask"><span class="cl g">${c.l2}</span></div></div>`).join('');
+const SUBS = [
+  [16, 18, 'Pick your <g>asset.</g>'], [18, 19.5, '<g>Long</g> or short?'], [19.5, 22, 'Entry. Exit. <g>Stop.</g>'],
+  [22, 23.5, 'R and P&amp;L: <g>automatic.</g>'], [23.5, 24.75, 'How did you <g>feel?</g>'], [24.75, 26, '<g>Saved.</g> 20 seconds.'],
+  [27.5, 29, 'Every number <g>that matters.</g>'], [29, 30.5, 'Your <g>real</g> P&amp;L.'], [30.5, 31.5, 'Your <g>real</g> win rate.'],
+  [31.5, 33, 'Your equity, <g>live.</g>'], [33, 35.5, 'Your <g>discipline.</g>'],
+  [36.5, 38.4, 'Every day, <g>colored.</g>'], [38.4, 40, 'Green? <g>Repeat it.</g>'], [40, 43, 'Red? <g>Find out why.</g>'],
+  [44.5, 47.25, 'AI reads <g>every trade.</g>'], [47.25, 49, 'And finds <g>the leak.</g>'], [49, 51, 'One click <g>to fix it.</g>'],
+  [52, 55, 'Before every trade: <g>tick.</g>'], [55, 57.4, 'Discipline <g>goes up.</g>'],
+];
+const AN = [
+  { b: 17.7, e: 19.3, sel: '#f-cat .in', text: 'auto-filled', kind: 'arrow', dx: 120, dy: -230 },
+  { b: 22.2, e: 23.9, sel: '#f-r .in', text: 'done for you', kind: 'circle', dy: -1 },
+  { b: 29.15, e: 30.45, sel: '#kpi-pnl', text: 'this month', kind: 'circle', dy: 1 },
+  { b: 30.6, e: 31.45, sel: '#kpi-wr', text: '2 of 3 trades win', kind: 'arrow', dx: -160, dy: 260 },
+  { b: 32.2, e: 32.95, sel: '#eqDot', text: 'new high', kind: 'arrow', dx: -260, dy: -180 },
+  { b: 33.2, e: 34.7, sel: '#discv', text: 'rules followed', kind: 'circle', dy: 1 },
+  { b: 38.6, e: 39.95, sel: '#cell-best', text: 'repeat this', kind: 'circle', dy: -1 },
+  { b: 40.15, e: 42.2, sel: '#cell-worst', text: 'why?', kind: 'circle', dy: -1, neg: 1 },
+  { b: 47.6, e: 48.95, sel: '#wb3 i', text: 'the leak', kind: 'arrow', dx: -300, dy: -200, neg: 1 },
+  { b: 49.1, e: 50.9, sel: '#btn-rule', text: '1 click', kind: 'arrow', dx: -240, dy: 230 },
+  { b: 55.3, e: 57.2, sel: '#srv', text: '+7 points', kind: 'circle', dy: 1 },
+];
+const FEAT = [[13, 26], [26, 35.5], [35.5, 43], [43, 51], [51, 57.5]];
+const PUNCH = [16.75, 18.75, 19.75, 20.5, 21.25, 22, 23.75, 25, 29, 30.5, 31.5, 33, 38.4, 40, 47.25, 49.75, 52.5, 53.5, 54.5, 55];
+const FLASH = [[8, .4], [13, .3], [26, .22], [35.5, .3], [43, .22], [51, .3], [29, .1], [30.5, .1], [31.5, .1], [33, .1], [40, .12], [47.25, .1], [55, .12]];
+
+/* ---------------- build overlays ---------------- */
 $('#wmw').innerHTML = 'Tradeframe'.split('').map((ch, i) => `<span class="ch${i >= 5 ? ' g' : ''}">${ch}</span>`).join('');
+const letters = html => { const d = document.createElement('div'); d.innerHTML = html; const out = [];
+  const walk = (n, wrapG) => [...n.childNodes].forEach(c => { if (c.nodeType === 3) [...c.textContent].forEach(ch => out.push(`<span class="lt${wrapG ? ' g' : ''}">${ch === ' ' ? '&nbsp;' : ch}</span>`)); else walk(c, wrapG || c.classList.contains('g')); });
+  walk(d, false); return out.join(''); };
+$('#slamL').innerHTML = SLAMS.map(s => `<div class="slam th-${s.th}"><div class="sw">${s.small ? `<div class="mask"><div class="ss">${s.small}</div></div>` : ''}<div class="sbw">${s.fx === 'echo' ? [3, 2, 1].map(k => `<span class="sb ghost ${s.num ? 'num' : ''}" style="opacity:${[0, .32, .18, .09][k]}">${letters(s.big)}</span>`).join('') : ''}${s.fx === 'glitch' ? `<span class="sb ghost gA" style="color:${s.th === 'd' ? '#5eead4' : '#0d9488'};mix-blend-mode:${s.th === 'd' ? 'screen' : 'multiply'}">${s.big.replace(/<[^>]+>/g, '')}</span><span class="sb ghost gB" style="color:${s.th === 'd' ? '#fb7185' : '#7c3aed'};mix-blend-mode:${s.th === 'd' ? 'screen' : 'multiply'}">${s.big.replace(/<[^>]+>/g, '')}</span>` : ''}<span class="sb main ${s.num ? 'num' : ''} ${s.cls || ''}">${s.fx === 'count' ? s.big : letters(s.big)}</span></div><div class="guides"></div></div></div>`).join('');
+const slamEls = $$('#slamL .slam').map((el, i) => ({ el, s: SLAMS[i], sb: $('.sb.main', el), lts: $$('.sb.main .lt', el), ghosts: $$('.sb.ghost', el).map(g => ({ g, lts: $$('.lt', g) })), ss: $('.ss', el), sbw: $('.sbw', el), gd: $('.guides', el) }));
+const gw = s => s.replace(/<g>/g, '<span class="g">').replace(/<\/g>/g, '</span>');
+$('#subs').innerHTML = SUBS.map(([a, z, h]) => { const d = document.createElement('div'); d.innerHTML = gw(h); const ws = [];
+  [...d.childNodes].forEach(n => { const g = n.nodeType === 1; (n.textContent).split(/\s+/).filter(Boolean).forEach(w => ws.push(`<span class="mw"><span class="wi${g ? ' g' : ''}">${w}</span></span>`)); });
+  return `<div class="sub2">${ws.join(' ')}</div>`; }).join('');
+const subEls = $$('#subs .sub2').map(el => ({ el, ws: $$('.wi', el) }));
+$('#annS').innerHTML = AN.map(a => `<path class="ap" stroke="${a.neg ? '#fb7185' : '#5eead4'}" stroke-width="7" pathLength="1"/><path class="ah" stroke="${a.neg ? '#fb7185' : '#5eead4'}" stroke-width="7"/>`).join('');
+$('#annL').innerHTML = AN.map(a => `<div class="alab${a.neg ? ' neg' : ''}">${a.text}</div>`).join('');
+const annP = $$('#annS .ap'), annH = $$('#annS .ah'), annLb = $$('#annL .alab');
+$('#prog').innerHTML = FEAT.map(() => '<div class="seg"><i></i></div>').join('');
+const progEl = $('#prog'), progF = $$('#prog .seg i');
 
 /* ---------------- element cache ---------------- */
-const stage = $('#stage'), vp = $('#viewport'), rig = $('#rig'), mbg = $('#mbg');
-const hkL = $$('#hk .ln'), hk2 = $('#hk2'), hk2a = $('#hk2a'), hk2b = $('#hk2b'), orb = $('#orb');
+const stage = $('#stage'), vp = $('#viewport'), rig = $('#rig'), mbg = $('#mbg'), punchEl = $('#punch'), orb = $('#orb');
 const mark = $('#mark'), markT = $('#markT'), rg = [$('#rg1'), $('#rg2')], wmC = $$('#wm .ch'), tagl = $('#tagl');
-const capEls = $$('#caps .cap').map(el => ({ el, eb: $('.ceb', el), ls: $$('.cl', el) }));
 const otW = $$('#ot .ow'), ot = $('#ot'), urlp = $('#urlp'), shine = $('#shine'), osub = $('#osub'), oh = $('#oh');
-const PG = [['dash', 16, 26, 'dashboard'], ['add', 26, 40, 'add'], ['cal', 40, 47.5, 'calendar'], ['ai', 47.5, 53, 'ai'], ['ck', 53, 99, 'checklist']]
-  .map(([k, s, e, h]) => ({ k, s, e, h, el: $('#pg-' + k), items: $$('#pg-' + k + ' .pi') }));
+const PG = [['add', 13, 26, 15.5, 'add'], ['dash', 26, 35.5, 27.5, 'dashboard'], ['cal', 35.5, 43, 36.5, 'calendar'], ['ai', 43, 51, 44.5, 'ai'], ['ck', 51, 99, 52, 'checklist']]
+  .map(([k, s, e, v, h]) => ({ k, s, e, v, h, el: $('#pg-' + k), items: $$('#pg-' + k + ' .pi') }));
 const navEl = {}; $$('.nav[data-k]').forEach(n => navEl[n.dataset.k] = n);
 const hl = $('#hl'), urlh = $('#urlh');
 const kpiEls = $$('#pg-dash .kv'), eqLine = $('#eqLine'), eqArea = $('#eqArea'), eqDot = $('#eqDot'), eqGlow = $('#eqGlow');
 const dsegs = $$('.dseg'), dnum = $('#dnum'), abars = $$('.abar'), aems = $$('.abc em'), discv = $('#discv'), disct = $('#disct');
-const cellEls = $$('#pg-cal .cell'), calTot = $('#cal-total'), bring = $('#bring'), tip = $('#tip');
+const cellEls = $$('#pg-cal .cell'), calTot = $('#cal-total'), bring = $('#bring'), wring = $('#wring');
 const aiW = $$('#pg-ai .aitxt .w'), wbars = $$('.wbar'), wvals = $$('.wv'), avgl = $('#avgl'), btnRule = $('#btn-rule'), btnRuleT = $('#btn-rule-t');
 const ckRows = $$('#pg-ck .ck'), srArc = $('#srArc'), srv = $('#srv'), ready = $('#ready');
 const cur = $('#cur'), rip = $('#rip'), toast = $('#toast'), segLong = $('#seg-long'), chipCalm = $('#chip-calm');
-const tgl = $('#tgl'), tgk = $('#tgk'), tgt = $('#tgt'), btnSave = $('#btn-save'), btnNew = $('#btn-new');
+const tgl = $('#tgl'), tgk = $('#tgk'), tgt = $('#tgt'), btnSave = $('#btn-save');
 const fx = $('#fx'), ctx = fx.getContext('2d');
 const eqLen = eqLine.getTotalLength(); eqLine.style.strokeDasharray = eqLen;
-ckRows.forEach(r => { const p = $('.tp', r); r._tp = p; r._bg = $('.bgf', r); r._len = 26; p.style.strokeDasharray = 26; });
+ckRows.forEach(r => { const p = $('.tp', r); r._tp = p; r._bg = $('.bgf', r); r._bx = $('.bx', r); p.style.strokeDasharray = 26; });
 
-/* typing fields: [selector, text, start, end, focusFrom] (beats) */
-const TYPE = [['#f-asset', 'XAU/USD', 28.35, 29.1, 28.25], ['#f-cat', 'Metals', 29.3, 29.55, 29.3], ['#f-qty', '20', 30.0, 30.3, 30.0],
-  ['#f-entry', '2,614.20', 30.85, 31.5, 30.75], ['#f-exit', '2,637.90', 31.85, 32.5, 31.75], ['#f-stop', '2,604.30', 32.85, 33.4, 32.75],
-  ['#f-note', 'Waited for the retest. No FOMO.', 35.5, 36.3, 35.4]].map(([s, full, a, z, f]) => {
+const TYPE = [['#f-asset', 'XAU/USD', 16.85, 17.5, 16.75], ['#f-cat', 'Metals', 17.7, 17.9, 17.7], ['#f-qty', '20', 19.0, 19.3, 19.0],
+  ['#f-entry', '2,614.20', 19.85, 20.35, 19.75], ['#f-exit', '2,637.90', 20.6, 21.05, 20.5], ['#f-stop', '2,604.30', 21.35, 21.8, 21.25],
+  ['#f-note', 'Waited for the retest. No FOMO.', 24.1, 24.7, 24.0]].map(([s, full, a, z, f]) => {
   const el = $(s); return { box: $('.in', el), v: $('.v', el), ph: $('.ph', el), ca: $('.caret', el), full, a, z, f, phText: $('.ph', el).textContent };
 });
 const fR = $('#f-r .in'), fRv = $('#f-r .v'), fRph = $('#f-r .ph'), fP = $('#f-pnl .in'), fPv = $('#f-pnl .v'), fPph = $('#f-pnl .ph');
 
-/* ---------------- layout-dependent setup ---------------- */
+/* ---------------- camera, cursor ---------------- */
 function posIn(el) { let x = 0, y = 0, n = el; while (n && n !== win) { x += n.offsetLeft; y += n.offsetTop; n = n.offsetParent; } return [x + el.offsetWidth / 2, y + el.offsetHeight / 2]; }
 const CAMK = [
-  { b: 16, f: 'C', s: .46, rx: 60, ry: -24, rz: 8, e: 'expo' },
-  { b: 17.75, f: 'C', s: .70, rx: 16, ry: -12, e: 'lin' },
-  { b: 19.5, f: 'C', s: .73, rx: 13, ry: -8, e: 'io5' },
-  { b: 20.5, f: '#kpi-pnl', s: 1.32, rx: 6, ry: -4, e: 'lin' },
-  { b: 22, f: '#kpi-pnl', s: 1.38, rx: 5, ry: -2, e: 'io5' },
-  { b: 23, f: '#pn-equity', s: 1.2, rx: 8, ry: 6, e: 'lin' },
-  { b: 24.5, f: '#pn-equity', s: 1.24, rx: 7, ry: 7, e: 'io5' },
-  { b: 25.4, f: '#btn-new', s: 1.05, rx: 4, ry: 3, e: 'lin' },
-  { b: 26.2, f: '#btn-new', s: 1.08, rx: 4, ry: 3, e: 'io5' },
-  { b: 27.25, f: '#form', s: .95, rx: 10, ry: -8, e: 'io5' },
-  { b: 28.1, f: 'cursor', s: 1.32, rx: 5, ry: -4, e: 'lin' },
-  { b: 36.9, f: 'cursor', s: 1.36, rx: 4, ry: -2, e: 'io5' },
-  { b: 38.25, f: 'C', s: .8, rx: 12, ry: 10, e: 'lin' },
-  { b: 39.25, f: 'C', s: .8, rx: 12, ry: 10, e: 'lin' },
-  { b: 40, f: '#cal-grid', s: .8, rx: 24, ry: -6, rz: -2, e: 'lin' },
-  { b: 40.4, f: '#cal-grid', s: .8, rx: 24, ry: -6, rz: -2, e: 'io5' },
-  { b: 42.5, f: '#cal-grid', s: .84, rx: 18, ry: 4, e: 'io5' },
-  { b: 44, f: '#cell-best', s: 1.6, rx: 6, ry: 0, e: 'lin' },
-  { b: 46.4, f: '#cell-best', s: 1.72, rx: 5, e: 'i3' },
-  { b: 47.5, f: '#cell-best', s: 3.6, rx: 0, e: 'lin' },
-  { b: 47.5, f: '#ai-wrap', s: 1.6, rx: 0, ry: 0, e: 'expo' },
-  { b: 48.75, f: 'C', s: .82, rx: 10, ry: -8, e: 'io5' },
-  { b: 50, f: '#ai-chart', s: 1.15, rx: 6, ry: 4, e: 'io5' },
-  { b: 51.5, f: '#ai-rule', s: .98, rx: 4, ry: 2, e: 'lin' },
-  { b: 52.75, f: '#ai-rule', s: 1.0, rx: 4, ry: 2, e: 'io5' },
-  { b: 53.75, f: '#ck-list', s: 1.02, rx: 8, ry: -6, e: 'io5' },
-  { b: 55.25, f: '#ck-score', s: 1.18, rx: 6, ry: 4, e: 'lin' },
-  { b: 56, f: '#ck-score', s: 1.2, rx: 6, ry: 4, e: 'i3' },
+  { b: 15.5, f: '#form', s: .5, rx: 55, ry: -20, rz: 6, e: 'expo' },
+  { b: 16.5, f: 'cursor', s: 1.3, rx: 5, ry: -4, e: 'lin' },
+  { b: 25.25, f: 'cursor', s: 1.34, rx: 4, ry: -2, e: 'io5' },
+  { b: 26, f: 'C', s: .8, rx: 10, ry: 8, e: 'lin' },
+  { b: 27.5, f: 'C', s: .6, rx: 24, ry: -16, rz: 4, e: 'expo' },
+  { b: 29, f: 'C', s: .74, rx: 12, ry: -8, e: 'lin' },
+  { b: 29, f: '#kpi-pnl', s: 1.55, rx: 4, ry: -3, e: 'lin' },
+  { b: 30.5, f: '#kpi-pnl', s: 1.68, rx: 3, ry: -1, e: 'lin' },
+  { b: 30.5, f: '#kpi-wr', s: 1.55, rx: 4, ry: 3, e: 'lin' },
+  { b: 31.5, f: '#kpi-wr', s: 1.64, rx: 3, ry: 2, e: 'lin' },
+  { b: 31.5, f: '#pn-equity', s: 1.12, rx: 8, ry: -6, e: 'lin' },
+  { b: 33, f: '#pn-equity', s: 1.24, rx: 6, ry: 4, e: 'lin' },
+  { b: 33, f: '#pn-disc', s: 1.38, rx: 6, ry: 4, e: 'lin' },
+  { b: 34.75, f: '#pn-disc', s: 1.46, rx: 5, ry: 3, e: 'lin' },
+  { b: 35.5, f: '#pn-disc', s: 1.46, e: 'lin' },
+  { b: 35.5, f: '#cal-grid', s: .7, rx: 28, ry: -8, rz: -3, e: 'lin' },
+  { b: 36.5, f: '#cal-grid', s: .7, rx: 28, ry: -8, rz: -3, e: 'expo' },
+  { b: 38.3, f: '#cal-grid', s: .82, rx: 16, ry: 4, e: 'lin' },
+  { b: 38.4, f: '#cell-best', s: 1.5, rx: 6, ry: 0, e: 'lin' },
+  { b: 40, f: '#cell-best', s: 1.62, rx: 5, e: 'lin' },
+  { b: 40, f: '#cell-worst', s: 1.5, rx: 6, ry: -4, e: 'lin' },
+  { b: 42.2, f: '#cell-worst', s: 1.7, rx: 5, ry: -3, e: 'i3' },
+  { b: 43, f: '#cell-worst', s: 3.6, e: 'lin' },
+  { b: 43, f: 'C', s: .6, rx: 20, ry: 12, e: 'lin' },
+  { b: 44.5, f: 'C', s: .6, rx: 20, ry: 12, e: 'expo' },
+  { b: 45.5, f: '#ai-insight', s: 1.3, rx: 5, ry: -4, e: 'lin' },
+  { b: 47.25, f: '#ai-insight', s: 1.36, rx: 4, ry: -3, e: 'lin' },
+  { b: 47.25, f: '#ai-chart', s: 1.3, rx: 5, ry: 4, e: 'lin' },
+  { b: 48.9, f: '#ai-chart', s: 1.38, rx: 4, ry: 3, e: 'io5' },
+  { b: 49.5, f: '#ai-rule', s: 1.0, rx: 4, ry: 2, e: 'lin' },
+  { b: 51, f: '#ai-rule', s: 1.04, e: 'lin' },
+  { b: 51, f: '#ck-list', s: .75, rx: 18, ry: -10, e: 'lin' },
+  { b: 52, f: '#ck-list', s: .75, rx: 18, ry: -10, e: 'expo' },
+  { b: 53, f: '#ck-list', s: 1.08, rx: 6, ry: -4, e: 'lin' },
+  { b: 55, f: '#ck-list', s: 1.14, rx: 5, ry: -3, e: 'lin' },
+  { b: 55, f: '#ck-score', s: 1.35, rx: 4, ry: 4, e: 'lin' },
+  { b: 56.6, f: '#ck-score', s: 1.46, rx: 3, ry: 3, e: 'i3' },
   { b: 57.5, f: 'C', s: .3, rx: 40, ry: 0, rz: -10, ty: -260, e: 'lin' },
 ];
-const CLICKS = [[25.75, '#btn-new'], [28.25, '#f-asset .in'], [29.75, '#seg-long'], [30.75, '#f-entry .in'], [31.75, '#f-exit .in'], [32.75, '#f-stop .in'],
-  [34.75, '#chip-calm'], [35.4, '#f-note .in'], [36.75, '#btn-save'], [52.5, '#btn-rule']];
-const CUR_VIS = [[23.75, 39], [42.75, 46.5], [49.5, 53.25]];
+const CLICKS = [[16.75, '#f-asset .in'], [18.75, '#seg-long'], [19.75, '#f-entry .in'], [20.5, '#f-exit .in'], [21.25, '#f-stop .in'], [23.75, '#chip-calm'], [25, '#btn-save'], [49.75, '#btn-rule']];
+const CUR_VIS = [[15.75, 26], [48.5, 51]];
 let CURK = [];
-const BURSTS = [{ b: 8, x: 540, y: 760, n: 96, sp: 1750, life: 1.35, sd: 3 }, { b: 36.75, sel: '#btn-save', n: 50, sp: 950, life: .95, sd: 9 }, { b: 61.5, sel: '#urlp', n: 44, sp: 900, life: 1.05, sd: 5 }];
+const BURSTS = [{ b: 8, x: 540, y: 760, n: 96, sp: 1750, life: 1.35, sd: 3 }, { b: 25, sel: '#btn-save', n: 50, sp: 950, life: .95, sd: 9 }, { b: 62, sel: '#urlp', n: 44, sp: 900, life: 1.05, sd: 5 }];
 
-function fitEl(el, max) { let fs = parseFloat(getComputedStyle(el).fontSize), g = 0; while (el.offsetWidth > max && g++ < 60) { fs *= .97; el.style.fontSize = fs + 'px'; } }
+function fitEl(el, max) { let fs = parseFloat(getComputedStyle(el).fontSize), g = 0; while (el.offsetWidth > max && g++ < 80) { fs *= .97; el.style.fontSize = fs + 'px'; } return fs; }
 function layout() {
-  hkL.forEach(el => fitEl(el, 888)); fitEl(hk2a, 888); fitEl(hk2b, 888); fitEl($('#wmw'), 900);
-  $$('#caps .cl').forEach(el => fitEl(el, 888)); $$('#ot .ol').forEach(el => fitEl(el, 940));
+  fitEl($('#wmw'), 900); $$('#ot .ol').forEach(el => fitEl(el, 940));
+  slamEls.forEach(S => {
+    S.el.style.visibility = 'inherit';
+    const fs = fitEl(S.sb, S.s.num ? 900 : 950);
+    S.ghosts.forEach(G => G.g.style.fontSize = fs + 'px');
+    if (S.s.fx === 'snap') {
+      const x = S.sbw.offsetLeft + S.sb.offsetLeft, y = S.sbw.offsetTop + S.sb.offsetTop + S.sb.offsetHeight * .08, w = S.sb.offsetWidth, h = S.sb.offsetHeight * .84;
+      const L = [[0, y, 1080, 3, 'x'], [0, y + h, 1080, 3, 'x'], [x, 0, 3, 1920, 'y'], [x + w, 0, 3, 1920, 'y']];
+      const Q = [[x, y], [x + w / 2, y], [x + w, y], [x, y + h / 2], [x + w, y + h / 2], [x, y + h], [x + w / 2, y + h], [x + w, y + h]];
+      S.gd.innerHTML = L.map(([l, tp, ww, hh, ax]) => `<i class="gd" data-ax="${ax}" style="left:${l}px;top:${tp}px;width:${ww}px;height:${hh}px;transform-origin:${ax === 'x' ? (x + w / 2 - l) + 'px 0' : '0 ' + (y + h / 2) + 'px'}"></i>`).join('') + Q.map(([qx, qy]) => `<i class="gq" style="left:${qx}px;top:${qy}px"></i>`).join('');
+      S.gl = $$('.gd', S.gd); S.gq = $$('.gq', S.gd);
+    }
+    S.el.style.visibility = 'hidden';
+  });
   const C = [720, 520];
   CAMK.forEach(k => { k.xy = k.f === 'C' ? C : k.f === 'cursor' ? null : posIn($(k.f)); });
   const at = s => { const [x, y] = posIn($(s)); return [x + 8, y + 6]; };
-  CURK = [{ b: 23.75, xy: [1000, 640] }];
-  CLICKS.forEach(([bc, s]) => { if (bc === 52.5) { CURK.push({ b: 49.5, xy: [1240, 330] }); } CURK.push({ b: bc - .3, xy: at(s) }, { b: bc + .2, xy: at(s) });
-    if (bc === 36.75) { CURK.push({ b: 42.75, xy: [1320, 860] }, { b: 44, xy: at('#cell-best') }, { b: 46.5, xy: at('#cell-best') }); } });
+  CURK = [{ b: 15.5, xy: [1120, 300] }];
+  CLICKS.forEach(([bc, s]) => { if (bc === 49.75) CURK.push({ b: 48.5, xy: [1240, 330] }); CURK.push({ b: bc - .3, xy: at(s) }, { b: bc + .2, xy: at(s) }); });
   CURK.sort((a, z) => a.b - z.b);
 }
 function curAt(t) {
   const tb = t / BEAT;
+  if (!CURK.length) return [0, 0];
   if (tb <= CURK[0].b) return CURK[0].xy;
   for (let i = 0; i < CURK.length - 1; i++) {
     const a = CURK[i], z = CURK[i + 1];
@@ -610,19 +689,14 @@ function camAt(t) {
   const val = (k, prop, d) => k[prop] ?? d;
   const res = k => k.f === 'cursor' ? (() => { const c = curAt(Math.max(0, t - .22)); return [clamp(c[0], 520, 1020), clamp(c[1], 300, 760)]; })() : k.xy;
   let a = K[0], z = K[0], p = 0;
-  if (tb <= K[0].b) { a = z = K[0]; }
-  else if (tb >= K[K.length - 1].b) { a = z = K[K.length - 1]; }
-  else for (let i = 0; i < K.length - 1; i++) { if (K[i + 1].b <= K[i].b) continue; if (tb >= K[i].b && tb < K[i + 1].b) { a = K[i]; z = K[i + 1]; p = (tb - a.b) / (z.b - a.b); break; } }
+  if (tb >= K[K.length - 1].b) { a = z = K[K.length - 1]; }
+  else if (tb > K[0].b) for (let i = 0; i < K.length - 1; i++) { if (K[i + 1].b <= K[i].b) continue; if (tb >= K[i].b && tb < K[i + 1].b) { a = K[i]; z = K[i + 1]; p = (tb - a.b) / (z.b - a.b); break; } }
   const e = RM ? (p >= 1 ? 1 : 0) : E[a.e || 'io5'](p);
   const fa = res(a), fz = res(z);
   return { fx: lerp(fa[0], fz[0], e), fy: lerp(fa[1], fz[1], e), s: lerp(a.s, z.s, e), rx: lerp(val(a, 'rx', 0), val(z, 'rx', 0), e), ry: lerp(val(a, 'ry', 0), val(z, 'ry', 0), e), rz: lerp(val(a, 'rz', 0), val(z, 'rz', 0), e), ty: lerp(val(a, 'ty', 0), val(z, 'ty', 0), e) };
 }
-function whipX(t) {
-  if (RM) return 0;
-  if (t >= b(39.25) && t < b(40)) return -1500 * E.i3(P(t, b(39.25), b(40) - b(39.25)));
-  if (t >= b(40) && t < b(40) + .55) return 1500 * (1 - E.o5(P(t, b(40), .55)));
-  return 0;
-}
+function whipX(t) { if (RM) return 0; if (t >= b(34.75) && t < b(35.5)) return -1500 * E.i3(P(t, b(34.75), b(35.5) - b(34.75))); return 0; }
+const hash = n => { const x = Math.sin(n * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
 
 /* ---------------- particles ---------------- */
 function drawFx(t) {
@@ -645,177 +719,233 @@ function drawFx(t) {
   ctx.globalAlpha = 1;
 }
 
+/* ---------------- slam cards ---------------- */
+function renderSlams(t) {
+  const tb = t / BEAT; let light = false, any = false;
+  slamEls.forEach(S => {
+    const s = S.s, on = tb >= s.b && tb < s.e; show(S.el, on); if (!on) return;
+    any = true; light = s.th === 'l';
+    const p = t - b(s.b), dur = b(s.e) - b(s.b);
+    const amp = RM ? 0 : (['shake', 'glitch', 'snap'].includes(s.fx) ? 18 : 8) * Math.exp(-p * 13);
+    S.sbw.style.transform = `translate(${(Math.sin(p * 95) * amp).toFixed(1)}px,${(Math.cos(p * 80) * amp * .6).toFixed(1)}px)`;
+    if (S.ss) put(S.ss, anim(t, { at: b(s.b), dur: .3, y: 46 }));
+    const lt = S.lts;
+    if (s.fx === 'stretch') {
+      const q = M(E.spring(P(p, 0, .55)));
+      S.sb.style.transform = `scale(${(2.1 - 1.1 * q).toFixed(4)},${(.45 + .55 * q).toFixed(4)})`; S.sb.style.opacity = clamp(p / .06);
+    } else if (s.fx === 'shake') {
+      const q = M(E.expo(P(p, 0, .28)));
+      S.sb.style.transform = `scale(${(1.35 - .35 * q).toFixed(4)}) rotate(${(RM ? 0 : Math.sin(p * 55) * 7 * Math.exp(-p * 7)).toFixed(2)}deg)`; S.sb.style.opacity = clamp(p / .05);
+    } else if (s.fx === 'snap') {
+      lt.forEach((el, i) => put(el, anim(t, { at: b(s.b) + i * .028, dur: .3, ease: E.expo, s: 1.45, blur: 10 })));
+      (S.gl || []).forEach((g, i) => { const q = M(E.o5(P(p, .04 + i * .03, .26))); g.style.transform = g.dataset.ax === 'x' ? `scaleX(${q.toFixed(4)})` : `scaleY(${q.toFixed(4)})`; });
+      (S.gq || []).forEach((g, i) => put(g, { op: clamp((p - .2 - i * .015) / .08), s: .6 + .4 * M(E.back(P(p, .2 + i * .015, .25))) }));
+    } else if (s.fx === 'echo') {
+      const f = (el, i, pp) => { const q = P(pp, i * .04, .55); put(el, { op: clamp(q * 4), y: (1 - M(E.spring(q))) * -520 }); };
+      lt.forEach((el, i) => f(el, i, p));
+      S.ghosts.forEach((G, k) => G.lts.forEach((el, i) => f(el, i, p - (3 - k) * .035)));
+    } else if (s.fx === 'glitch') {
+      const fr = Math.floor(t * 24), dec = Math.exp(-p * 3.5);
+      S.sb.style.transform = `skewX(${RM ? 0 : ((hash(fr) - .5) * 18 * dec).toFixed(2)}deg) scale(${(1.25 - .25 * M(E.expo(P(p, 0, .3)))).toFixed(4)})`; S.sb.style.opacity = clamp(p / .05);
+      lt.forEach((el, i) => el.style.transform = `translateY(${RM ? 0 : ((hash(fr * 7 + i) - .5) * 70 * dec).toFixed(1)}px)`);
+      S.ghosts.forEach((G, k) => { const o = RM ? 0 : (k ? -1 : 1) * (8 + 34 * dec * hash(fr * 3 + k)); G.g.style.transform = `translate(${o.toFixed(1)}px,${((hash(fr + k * 9) - .5) * 20 * dec).toFixed(1)}px)`; G.g.style.opacity = RM ? 0 : (.25 + .6 * dec).toFixed(3); });
+    } else if (s.fx === 'pop') {
+      const q = M(E.spring(P(p, 0, .4)));
+      S.sb.style.transform = `scale(${(1.7 - .7 * q).toFixed(4)})`; S.sb.style.opacity = clamp(p / .05);
+    } else if (s.fx === 'count') {
+      const v = Math.round(30 * E.o3(P(p, .05, dur - .12)));
+      txt(S.sb, '00:' + String(v).padStart(2, '0'));
+      S.sb.style.transform = `scale(${(1 + .06 * Math.exp(-((p * 30) % 1) * 4) * (v < 30 ? 1 : 0)).toFixed(4)})`;
+    }
+  });
+  progEl.classList.toggle('onlight', light);
+  return any;
+}
+
+/* ---------------- annotations ---------------- */
+function rectOf(el) { const sr = stage.getBoundingClientRect(), kk = sr.width / 1080, r = el.getBoundingClientRect(); return { x: (r.left - sr.left) / kk, y: (r.top - sr.top) / kk, w: r.width / kk, h: r.height / kk }; }
+function renderAnn(t) {
+  const tb = t / BEAT;
+  AN.forEach((a, i) => {
+    const on = tb >= a.b && tb < a.e, P1 = annP[i], H = annH[i], Lb = annLb[i];
+    if (!on) { P1.style.opacity = 0; H.style.opacity = 0; show(Lb, false); return; }
+    const r = rectOf($(a.sel)), cx = r.x + r.w / 2, cy = r.y + r.h / 2;
+    const p = M(E.o3(P(t, b(a.b), .38))), fade = 1 - clamp((t - b(a.e) + .1) / .1);
+    let d, lx, ly, head = '';
+    show(Lb, true); const lw = Lb.offsetWidth;
+    if (a.kind === 'circle') {
+      const rx = r.w / 2 + 26, ry = r.h / 2 + 22, n = 40; let pts = [];
+      for (let k = 0; k <= n; k++) { const th = -Math.PI * .6 + k / n * Math.PI * 2.15, wob = 1 + (hash(i * 50 + k) - .5) * .06 + k / n * .05; pts.push([cx + Math.cos(th) * rx * wob, cy + Math.sin(th) * ry * wob]); }
+      d = 'M' + pts.map(q => q[0].toFixed(1) + ' ' + q[1].toFixed(1)).join(' L');
+      lx = cx - lw / 2; ly = a.dy < 0 ? cy - ry - 78 : cy + ry + 18;
+    } else {
+      lx = cx + a.dx - lw / 2; ly = cy + a.dy - 30;
+      const sx = clamp(lx, 50, 1030 - lw) + lw / 2, sy = ly + (a.dy < 0 ? 78 : -14);
+      const ang = Math.atan2(cy - sy, cx - sx), ex = cx - Math.cos(ang) * 34, ey = cy - Math.sin(ang) * 34;
+      const mx = (sx + ex) / 2 - Math.sin(ang) * 60, my = (sy + ey) / 2 + Math.cos(ang) * 60;
+      d = `M${sx.toFixed(1)} ${sy.toFixed(1)} Q${mx.toFixed(1)} ${my.toFixed(1)} ${ex.toFixed(1)} ${ey.toFixed(1)}`;
+      const ta = Math.atan2(ey - my, ex - mx), hl2 = 30;
+      head = `M${(ex - Math.cos(ta - .5) * hl2).toFixed(1)} ${(ey - Math.sin(ta - .5) * hl2).toFixed(1)} L${ex.toFixed(1)} ${ey.toFixed(1)} L${(ex - Math.cos(ta + .5) * hl2).toFixed(1)} ${(ey - Math.sin(ta + .5) * hl2).toFixed(1)}`;
+    }
+    lx = clamp(lx, 50, 1030 - lw); ly = clamp(ly, 640, 1760);
+    P1.setAttribute('d', d); P1.style.strokeDasharray = `${p.toFixed(3)} 2`; P1.style.opacity = fade;
+    H.setAttribute('d', head); H.style.opacity = (head && p > .9 ? fade : 0);
+    const q = M(E.o3(P(t, b(a.b) + .12, .35)));
+    Lb.style.transform = `translate(${lx.toFixed(1)}px,${ly.toFixed(1)}px) rotate(-4deg)`; Lb.style.opacity = fade;
+    Lb.style.clipPath = `inset(-20% ${((1 - q) * 100).toFixed(1)}% -20% -5%)`;
+  });
+}
+
 /* ---------------- render(t) ---------------- */
 function render(t) {
-  /* background */
   const drop = t >= b(8) ? Math.exp(-(t - b(8)) * 3) : 0;
-  const tension = E.i3(P(t, b(6.3), b(1.7))) * (t < b(8) ? 1 : 0);
   $('#amba').style.transform = `translate(${RM ? 0 : Math.sin(t * .35) * 130}px,${RM ? 0 : Math.cos(t * .27) * 90}px) scale(${1 + .25 * drop})`;
   $('#ambb').style.transform = `translate(${RM ? 0 : Math.cos(t * .3) * 140}px,${RM ? 0 : Math.sin(t * .23) * 110}px) scale(${1 + .25 * drop})`;
-  const dz = RM ? 1 : 1 + .18 * tension + .12 * drop;
-  $('#dots').style.transform = `translate(${RM ? 0 : (-t * 12) % 40}px,${RM ? 0 : (-t * 7) % 40}px) scale(${dz.toFixed(4)})`;
+  $('#dots').style.transform = `translate(${RM ? 0 : (-t * 12) % 40}px,${RM ? 0 : (-t * 7) % 40}px) scale(${(RM ? 1 : 1 + .12 * drop).toFixed(4)})`;
 
-  /* intro */
-  const introOn = t < b(8.1); show($('#intro'), introOn);
-  if (introOn) {
-    hkL.forEach((el, i) => put(el, anim(t, { at: b(i), dur: .34, ease: E.expo, s: 1.4, blur: 18, outAt: b(4) + i * .035, outDur: .3, oy: -110, oblur: 10 })));
-    put(hk2a, anim(t, { at: b(4.35), dur: .45, ease: E.o5, y: 120 }));
-    put(hk2b, anim(t, { at: b(5), dur: .34, ease: E.expo, s: 1.35, blur: 16 }));
-    const cp = E.i3(P(t, b(6.4), b(1.45))), cm = M(cp);
-    hk2.style.transform = `scale(${(1 - .9 * cm).toFixed(4)})`; hk2.style.opacity = (1 - cp).toFixed(3);
-    hk2.style.filter = !RM && cp > .02 ? `blur(${(cp * 14).toFixed(1)}px)` : 'none';
-    const op = t >= b(6.3) && t < b(8) ? clamp((t - b(6.3)) / .2) : 0;
-    put(orb, { op, s: .25 + .75 * M(E.i3(P(t, b(6.3), b(1.7)))) });
-  }
+  const slamOn = renderSlams(t);
+
+  /* orb anticipation */
+  const introOn = t >= b(7.4) && t < b(8.05); show($('#intro'), introOn);
+  if (introOn) put(orb, { op: clamp((t - b(7.4)) / .08), s: .3 + 1.1 * M(E.i3(P(t, b(7.4), b(.6)))) });
 
   /* logo */
-  const logoOn = t >= b(7.9) && t < b(16.05); show($('#logo'), logoOn);
+  const logoOn = t >= b(7.9) && t < b(13.02); show($('#logo'), logoOn);
   if (logoOn) {
     const mo = anim(t, { at: b(8), dur: .75, ease: E.spring, s: 1.9, r: -24 });
-    mo.op = t >= b(8) ? 1 : 0; mo.s *= 1 + .05 * pulse(t, 9, 14);
-    const z = E.i3(P(t, b(15), BEAT)); if (t >= b(15)) mo.s *= 1 + 15 * M(z);
+    mo.op = t >= b(8) ? 1 : 0; mo.s *= 1 + .06 * pulse(t, 9, 11);
+    const z = E.i3(P(t, b(12), BEAT)); if (t >= b(12)) mo.s *= 1 + 15 * M(z);
     put(mark, mo); markT.style.opacity = (1 - clamp(z * 2.5)).toFixed(3);
     rg.forEach((el, i) => { const p = P(t, b(8) + i * .12, .9); put(el, { op: RM || p <= 0 || p >= 1 ? 0 : (1 - p) * .9, s: 1 + 5.5 * E.o3(p) }); });
-    wmC.forEach((el, i) => put(el, anim(t, { at: b(9) + i * .035, dur: .55, ease: E.o5, y: 180, outAt: b(14) + i * .018, outDur: .3, oy: -50 })));
-    put(tagl, anim(t, { at: b(11), dur: .55, y: 40, blur: 10, outAt: b(14.25), outDur: .3 }));
+    wmC.forEach((el, i) => put(el, anim(t, { at: b(8.75) + i * .03, dur: .5, ease: E.o5, y: 180, outAt: b(11.5) + i * .015, outDur: .25, oy: -50 })));
+    put(tagl, anim(t, { at: b(9.75), dur: .5, y: 40, blur: 10, outAt: b(11.6), outDur: .25 }));
   }
-  const wp = P(t, b(16), .45); $('#wipe').style.opacity = t >= b(16) && wp < 1 ? (1 - E.o3(wp)).toFixed(3) : '0';
-  const f1 = t >= b(8) ? .38 * (1 - P(t, b(8), .3)) : 0, f2 = t >= b(47.5) ? .22 * (1 - P(t, b(47.5), .3)) : 0;
-  $('#flash').style.opacity = RM ? 0 : Math.max(f1, f2).toFixed(3);
+  let fl = 0; FLASH.forEach(([fb, a]) => { if (t >= b(fb)) fl = Math.max(fl, a * (1 - P(t, b(fb), .22))); });
+  $('#flash').style.opacity = RM ? 0 : fl.toFixed(3);
 
   /* app */
-  const appOn = t >= b(16) && t < b(57.6); show(rig, appOn);
-  const appOp = clamp((t - b(16)) / .35) * (1 - E.o3(P(t, b(56.6), b(57.5) - b(56.6))));
+  const appOn = t >= b(13) && t < b(57.6); show(punchEl, appOn);
+  const appOp = clamp((t - b(15.5)) / .25) * (1 - E.o3(P(t, b(56.6), b(57.5) - b(56.6))));
   if (appOn) {
     const c = camAt(t), w = whipX(t);
     const tx = -(c.fx - 720) * c.s + w, ty = -(c.fy - 500) * c.s + c.ty;
     win.style.transform = `translate3d(${tx.toFixed(1)}px,${ty.toFixed(1)}px,0) rotateX(${c.rx.toFixed(2)}deg) rotateY(${c.ry.toFixed(2)}deg) rotateZ(${c.rz.toFixed(2)}deg) scale(${c.s.toFixed(4)})`;
     win.style.opacity = appOp.toFixed(3);
+    let pu = 0; PUNCH.forEach(pb => { if (t >= b(pb) && t < b(pb) + .5) pu = Math.max(pu, Math.exp(-(t - b(pb)) * 11)); });
+    punchEl.style.transformOrigin = '540px 1150px';
+    punchEl.style.transform = `scale(${(1 + (RM ? 0 : .06) * pu).toFixed(4)})`;
     let bx = 0, by = 0;
     if (!RM) {
       const v = (whipX(t + 1 / 240) - whipX(t - 1 / 240)) * 120; bx = Math.min(80, Math.abs(v) / 55);
-      if (t < b(47.5)) { const zp = P(t, b(46.6), b(47.5) - b(46.6)); bx = Math.max(bx, 22 * zp * zp); by = Math.max(by, 22 * zp * zp); }
-      else { const za = P(t, b(47.5), .35); if (za < 1) { const v2 = 16 * (1 - E.o3(za)); bx = Math.max(bx, v2); by = Math.max(by, v2); } }
+      const zp = P(t, b(42.25), b(43) - b(42.25)); if (t < b(43)) { bx = Math.max(bx, 22 * zp * zp); by = Math.max(by, 22 * zp * zp); }
       const pa = P(t, b(56), b(57.5) - b(56)); if (pa > 0 && pa < 1) by = Math.max(by, 26 * pa * pa);
     }
     if (bx > .3 || by > .3) { mbg.setAttribute('stdDeviation', `${bx.toFixed(1)} ${by.toFixed(1)}`); rig.style.filter = 'url(#mb)'; } else rig.style.filter = 'none';
     renderApp(t);
   }
 
-  /* captions + overlay */
-  const ovOn = t >= b(16) && t < b(57.6); show($('#ovl'), ovOn);
+  /* overlay: subtitles, annotations, progress */
+  const ovOn = appOn && t >= b(15.5); show($('#ovl'), ovOn);
   if (ovOn) {
-    $('#scrt').style.opacity = $('#scrb').style.opacity = appOp.toFixed(3);
-    $('#foot').style.opacity = appOp.toFixed(3);
-    CAPS.forEach((c, i) => {
-      const ce = capEls[i], on = t >= b(c.i) - .05 && t < b(c.o) + .35; show(ce.el, on); if (!on) return;
-      put(ce.eb, anim(t, { at: b(c.i), dur: .4, y: 20, blur: 4, outAt: b(c.o), outDur: .25, oy: -16 }));
-      ce.ls.forEach((el, j) => put(el, anim(t, { at: b(c.i) + .07 * (j + 1), dur: .5, ease: E.o5, y: 150, outAt: b(c.o) + j * .03, outDur: .28, oy: -40, oblur: 8 })));
-    });
+    $('#scrt').style.opacity = $('#scrb').style.opacity = $('#foot').style.opacity = appOp.toFixed(3);
+    const tb = t / BEAT;
+    SUBS.forEach(([a, z], i) => { const S = subEls[i], on = tb >= a && tb < z; show(S.el, on); if (!on) return;
+      S.ws.forEach((w, j) => put(w, anim(t, { at: b(a) + j * .045, dur: .36, ease: E.o5, y: 110 }))); });
+    renderAnn(t);
   }
+  const progOn = t >= b(13) && t < b(57.6); show(progEl, progOn);
+  if (progOn) { progEl.style.opacity = (1 - P(t, b(56.8), .3)).toFixed(3);
+    FEAT.forEach(([a, z], i) => progF[i].style.transform = `scaleX(${P(t, b(a), b(z) - b(a)).toFixed(4)})`); }
 
   /* outro */
-  const outOn = t >= b(56.75); show($('#outro'), outOn);
+  const outOn = t >= b(57.4); show($('#outro'), outOn);
   if (outOn) {
-    const wt = [57, 57.5, 58.5, 59];
+    const wt = [58, 58.5, 59.5, 60];
     otW.forEach((el, i) => put(el, anim(t, { at: b(wt[i]), dur: .34, ease: E.expo, s: 1.4, blur: 18 })));
-    const up = M(E.io5(P(t, b(61), .6)));
-    const ps = 1 + .035 * pulse(t, 57, 60);
+    const up = M(E.io5(P(t, b(61.5), .6)));
+    const ps = 1 + .035 * pulse(t, 58, 61);
     ot.style.transform = `translateY(${(-170 * up).toFixed(1)}px) scale(${((1 - .08 * up) * ps).toFixed(4)})`;
-    put(urlp, anim(t, { at: b(61.5), dur: .7, ease: E.spring, s: .82, y: 50 }));
-    shine.style.transform = `translateX(${(-260 + 1300 * E.io3(P(t, b(62), 1.1))).toFixed(1)}px) skewX(-12deg)`;
-    put(osub, anim(t, { at: b(63), dur: .5, y: 30, blur: 8 }));
-    put(oh, anim(t, { at: b(64), dur: .5, y: 20, blur: 6 }));
+    put(urlp, anim(t, { at: b(62), dur: .7, ease: E.spring, s: .82, y: 50 }));
+    shine.style.transform = `translateX(${(-260 + 1300 * E.io3(P(t, b(62.5), 1.1))).toFixed(1)}px) skewX(-12deg)`;
+    put(osub, anim(t, { at: b(63.5), dur: .5, y: 30, blur: 8 }));
+    put(oh, anim(t, { at: b(64.5), dur: .5, y: 20, blur: 6 }));
   }
   drawFx(t);
 }
 
 function renderApp(t) {
-  /* pages + nav */
   let ci = 0; PG.forEach((pg, i) => { if (t >= b(pg.s)) ci = i; });
   PG.forEach((pg, i) => {
     show(pg.el, i === ci); if (i !== ci) return;
-    const base = b(pg.s) + (i === 0 ? .3 : .06);
-    pg.items.forEach((el, j) => put(el, anim(t, { at: base + j * .055, dur: .5, y: 26, blur: 8 })));
+    pg.items.forEach((el, j) => put(el, anim(t, { at: b(pg.v) + .05 + j * .05, dur: .45, y: 26, blur: 8 })));
   });
   const pg = PG[ci], prev = PG[Math.max(0, ci - 1)];
-  const np = ci === 0 ? 1 : M(E.back(P(t, b(pg.s), .42)));
+  const np = ci === 0 ? 1 : M(E.back(P(t, b(pg.v) - .1, .42)));
   hl.style.transform = `translateY(${lerp(navEl[prev.k].offsetTop, navEl[pg.k].offsetTop, np).toFixed(1)}px)`;
-  Object.entries(navEl).forEach(([k, el]) => el.classList.toggle('on', k === pg.k));
+  Object.entries(navEl).forEach(([k, el]) => el.classList.toggle('on', k === (np > .5 ? pg.k : prev.k)));
   txt(urlh, '/#' + pg.h);
 
-  /* dashboard */
-  if (pg.k === 'dash') {
-    KPI.forEach((k, i) => { const p = E.expo(P(t, b(17 + i * .5), .95)); txt(kpiEls[i], k.f(k.to * (RM ? (p > 0 ? 1 : 0) : p))); });
-    const ep = M(E.io3(P(t, b(18), b(3))));
-    eqLine.style.strokeDashoffset = (eqLen * (1 - ep)).toFixed(1);
-    eqArea.style.opacity = E.o3(P(t, b(20), .6)).toFixed(3);
-    const pt = eqLine.getPointAtLength(eqLen * ep);
-    [eqDot, eqGlow].forEach(c => { c.setAttribute('cx', pt.x.toFixed(1)); c.setAttribute('cy', pt.y.toFixed(1)); c.style.opacity = ep > 0 ? 1 : 0; });
-    eqGlow.setAttribute('r', (16 + 6 * pulse(t, 18, 24)).toFixed(1));
-    const dp = M(E.o5(P(t, b(19), 1.1))) * DC; let acc = 0;
-    dsegs.forEach((s, i) => { const len = DSEG[i][0] * DC, vis = clamp(dp - acc, 0, len); s.setAttribute('stroke-dasharray', `${vis.toFixed(2)} ${DC}`); s.setAttribute('stroke-dashoffset', (-acc).toFixed(2)); acc += len; });
-    txt(dnum, Math.round(64 * M(E.o5(P(t, b(19), 1.1)))) + '%');
-    abars.forEach((el, i) => { const p = P(t, b(20) + i * .07, .6); el.style.transform = `scaleY(${M(E.spring(p)).toFixed(4)})`; aems[i].style.opacity = clamp((p - .4) * 3).toFixed(3); });
-    const dd = M(E.o5(P(t, b(21), 1)));
-    txt(discv, Math.round(84 * dd) + '%'); disct.style.transform = `scaleX(${(.84 * dd).toFixed(4)})`;
-    btnNew.style.transform = `scale(${(1 - .06 * clickBump(t, 25.75)).toFixed(4)})`;
-  }
-
-  /* new position */
   if (pg.k === 'add') {
     TYPE.forEach(f => {
-      const n = Math.round(P(t, b(f.a), b(f.z) - b(f.a)) * f.full.length), s = f.full.slice(0, n);
-      txt(f.v, s); txt(f.ph, n ? '' : f.phText);
-      const foc = t >= b(f.f) && t < b(f.z) + .35; f.box.classList.toggle('focus', foc); f.ca.hidden = !foc;
+      const n = Math.round(P(t, b(f.a), b(f.z) - b(f.a)) * f.full.length);
+      txt(f.v, f.full.slice(0, n)); txt(f.ph, n ? '' : f.phText);
+      const foc = t >= b(f.f) && t < b(f.z) + .3; f.box.classList.toggle('focus', foc); f.ca.hidden = !foc;
     });
-    const on = t >= b(29.75); segLong.classList.toggle('on', on);
-    segLong.style.transform = `scale(${on ? (.92 + .08 * M(E.spring(P(t, b(29.75), .5)))).toFixed(4) : 1})`;
-    const rp = P(t, b(33.6), .6), re = M(E.o3(rp));
+    const on = t >= b(18.75); segLong.classList.toggle('on', on);
+    segLong.style.transform = `scale(${on ? (.9 + .1 * M(E.spring(P(t, b(18.75), .5)))).toFixed(4) : 1})`;
+    const rp = P(t, b(22), .6), re = M(E.o3(rp));
     if (rp > 0) { txt(fRv, '+' + (2.4 * re).toFixed(1) + 'R'); txt(fRph, ''); txt(fPv, usd(474 * re, 2)); txt(fPph, ''); }
     else { txt(fRv, ''); txt(fRph, '—'); txt(fPv, ''); txt(fPph, '—'); }
-    [fR, fP].forEach(el => { el.classList.toggle('done', rp >= 1); el.style.transform = `scale(${rp > 0 ? (.94 + .06 * M(E.spring(rp))).toFixed(4) : 1})`; });
-    const cc = t >= b(34.75); chipCalm.classList.toggle('on', cc);
-    chipCalm.style.transform = `scale(${cc ? (.9 + .1 * M(E.spring(P(t, b(34.75), .5)))).toFixed(4) : 1})`;
-    const tp = M(E.spring(P(t, b(35.1), .5)));
-    tgl.classList.toggle('on', t >= b(35.1)); tgk.style.transform = `translateX(${(22 * tp).toFixed(1)}px)`; txt(tgt, t >= b(35.1) ? 'Yes' : 'No');
-    btnSave.style.transform = `scale(${(1 - .07 * clickBump(t, 36.75)).toFixed(4)})`;
-    put(toast, anim(t, { at: b(37), dur: .6, ease: E.spring, y: -40, s: .92, outAt: b(38.75), outDur: .3, oy: -20 }));
+    [fR, fP].forEach(el => { el.classList.toggle('done', rp >= 1); el.style.transform = `scale(${rp > 0 ? (.9 + .1 * M(E.spring(rp))).toFixed(4) : 1})`; });
+    const cc = t >= b(23.75); chipCalm.classList.toggle('on', cc);
+    chipCalm.style.transform = `scale(${cc ? (.88 + .12 * M(E.spring(P(t, b(23.75), .5)))).toFixed(4) : 1})`;
+    const tp = M(E.spring(P(t, b(24), .5)));
+    tgl.classList.toggle('on', t >= b(24)); tgk.style.transform = `translateX(${(22 * tp).toFixed(1)}px)`; txt(tgt, t >= b(24) ? 'Yes' : 'No');
+    btnSave.style.transform = `scale(${(1 - .08 * clickBump(t, 25)).toFixed(4)})`;
+    put(toast, anim(t, { at: b(25.2), dur: .5, ease: E.spring, y: -40, s: .9 }));
   }
-
-  /* calendar */
+  if (pg.k === 'dash') {
+    KPI.forEach((k, i) => { const p = E.expo(P(t, b(27.75 + i * .5), .95)); txt(kpiEls[i], k.f(k.to * (RM ? (p > 0 ? 1 : 0) : p))); });
+    const ep = M(E.io3(P(t, b(31.5), b(1.5))));
+    eqLine.style.strokeDashoffset = (eqLen * (1 - ep)).toFixed(1);
+    eqArea.style.opacity = E.o3(P(t, b(32.6), .5)).toFixed(3);
+    const pt = eqLine.getPointAtLength(eqLen * Math.max(ep, .001));
+    [eqDot, eqGlow].forEach(c => { c.setAttribute('cx', pt.x.toFixed(1)); c.setAttribute('cy', pt.y.toFixed(1)); c.style.opacity = ep > 0 ? 1 : 0; });
+    eqGlow.setAttribute('r', (16 + 8 * pulse(t, 31, 35)).toFixed(1));
+    const dp = M(E.o5(P(t, b(28.5), 1.1))) * DC; let acc = 0;
+    dsegs.forEach((s, i) => { const len = DSEG[i][0] * DC, vis = clamp(dp - acc, 0, len); s.setAttribute('stroke-dasharray', `${vis.toFixed(2)} ${DC}`); s.setAttribute('stroke-dashoffset', (-acc).toFixed(2)); acc += len; });
+    txt(dnum, Math.round(64 * M(E.o5(P(t, b(28.5), 1.1)))) + '%');
+    abars.forEach((el, i) => { const p = P(t, b(28) + i * .07, .6); el.style.transform = `scaleY(${M(E.spring(p)).toFixed(4)})`; aems[i].style.opacity = clamp((p - .4) * 3).toFixed(3); });
+    const dd = M(E.o5(P(t, b(33), 1)));
+    txt(discv, Math.round(84 * dd) + '%'); disct.style.transform = `scaleX(${(.84 * dd).toFixed(4)})`;
+  }
   if (pg.k === 'cal') {
-    cellEls.forEach((el, i) => { const { r, c } = cells[i]; const p = P(t, b(40.25) + (r + c) * .045, .55);
+    cellEls.forEach((el, i) => { const { r, c } = cells[i]; const p = P(t, b(36.6) + (r + c) * .04, .5);
       put(el, { op: E.o3(p), y: (1 - M(E.o5(p))) * 30, s: .84 + .16 * M(E.back(p)) }); });
-    txt(calTot, usd(TOTAL * M(E.expo(P(t, b(40.6), 1.3)))));
-    put(bring, anim(t, { at: b(44.1), dur: .6, ease: E.spring, s: 1.3 }));
-    put(tip, anim(t, { at: b(44.4), dur: .55, ease: E.spring, y: 16, s: .9 }));
+    txt(calTot, usd(TOTAL * M(E.expo(P(t, b(36.8), 1.2)))));
+    put(bring, anim(t, { at: b(38.5), dur: .55, ease: E.spring, s: 1.3 }));
+    put(wring, anim(t, { at: b(40.1), dur: .55, ease: E.spring, s: 1.3 }));
   }
-
-  /* AI analysis */
   if (pg.k === 'ai') {
-    aiW.forEach((el, i) => put(el, anim(t, { at: b(48.6) + i * .052, dur: .32, ease: E.o3, y: 10, blur: 6 })));
-    wbars.forEach((el, i) => { const p = P(t, b(49.6) + i * .08, .65); el.style.transform = `scaleY(${M(E.spring(p)).toFixed(4)})`;
+    aiW.forEach((el, i) => put(el, anim(t, { at: b(44.8) + i * .05, dur: .3, ease: E.o3, y: 10, blur: 6 })));
+    wbars.forEach((el, i) => { const p = P(t, b(47.3) + i * .08, .6); el.style.transform = `scaleY(${M(E.spring(p)).toFixed(4)})`;
       wvals[i].style.opacity = clamp((p - .3) * 3).toFixed(3); txt(wvals[i], Math.round(WRATE[i][1] * M(E.o3(p))) + '%'); });
-    avgl.style.opacity = E.o3(P(t, b(50.6), .4)).toFixed(3);
-    const done = t >= b(52.5); btnRule.classList.toggle('done', done); txt(btnRuleT, done ? 'Added to checklist' : 'Add to checklist');
-    btnRule.style.transform = `scale(${done ? (.93 + .07 * M(E.spring(P(t, b(52.5), .5)))).toFixed(4) : (1 - .06 * clickBump(t, 52.5)).toFixed(4)})`;
+    avgl.style.opacity = E.o3(P(t, b(48), .4)).toFixed(3);
+    const done = t >= b(49.75); btnRule.classList.toggle('done', done); txt(btnRuleT, done ? 'Added to checklist' : 'Add to checklist');
+    btnRule.style.transform = `scale(${done ? (.9 + .1 * M(E.spring(P(t, b(49.75), .5)))).toFixed(4) : (1 - .06 * clickBump(t, 49.75)).toFixed(4)})`;
   }
-
-  /* checklist */
   if (pg.k === 'ck') {
-    const T = [53.5, 53.75, 54, 54.25, 54.5, 54.75];
-    ckRows.forEach((row, i) => { const p = P(t, b(T[i]), .25), on = p > 0; row.classList.toggle('on', on);
+    ckRows.forEach((row, i) => { const tk = 52.5 + i * .5, p = P(t, b(tk), .22), on = p > 0; row.classList.toggle('on', on);
       row._tp.style.strokeDashoffset = (26 * (1 - M(E.o3(p)))).toFixed(2);
-      row._bg.style.opacity = on ? (1 - .6 * P(t, b(T[i]) + .15, .5)).toFixed(3) : 0;
-      $('.bx', row).style.transform = `scale(${on ? (.8 + .2 * M(E.spring(P(t, b(T[i]), .45)))).toFixed(4) : 1})`; });
-    const v = 84 + 7 * M(E.o3(P(t, b(54.75), .8)));
+      row._bg.style.opacity = on ? (1 - .6 * P(t, b(tk) + .15, .5)).toFixed(3) : 0;
+      row._bx.style.transform = `scale(${on ? (.75 + .25 * M(E.spring(P(t, b(tk), .45)))).toFixed(4) : 1})`; });
+    const v = 84 + 7 * M(E.o3(P(t, b(55), .8)));
     srArc.style.strokeDashoffset = (SRC * (1 - v / 100)).toFixed(2); txt(srv, Math.round(v) + '%');
-    put(ready, anim(t, { at: b(55.25), dur: .55, ease: E.spring, s: .85, y: 12 }));
+    srv.style.transform = `scale(${(1 + .12 * Math.exp(-Math.max(0, t - b(55.9)) * 8) * (t >= b(55.9) ? 1 : 0)).toFixed(4)})`;
+    put(ready, anim(t, { at: b(55.5), dur: .55, ease: E.spring, s: .85, y: 12 }));
   }
 
-  /* cursor */
-  let cv = 0; CUR_VIS.forEach(([a, z]) => { cv = Math.max(cv, clamp((t - b(a)) / .15) * (1 - clamp((t - b(z)) / .15))); });
+  let cv = 0; CUR_VIS.forEach(([a, z]) => { cv = Math.max(cv, clamp((t - b(a)) / .15) * (1 - clamp((t - b(z)) / .12))); });
   if (cv > 0) {
     const [x, y] = curAt(t); let bump = 0, rc = null;
     CLICKS.forEach(([bc]) => { bump = Math.max(bump, clickBump(t, bc)); if (t >= b(bc) && t < b(bc) + .5) rc = bc; });
@@ -824,7 +954,6 @@ function renderApp(t) {
   } else { cur.style.opacity = 0; rip.style.opacity = 0; }
 }
 function clickBump(t, bc) { const d = t - b(bc); return d > -.06 && d < .16 ? Math.sin(clamp((d + .06) / .22) * Math.PI) : 0; }
-
 /* ---------------- clock, audio, controls ---------------- */
 const aud = $('#aud'), playBtn = $('#play'), scrub = $('#scrub'), time = $('#time'), soundBtn = $('#sound');
 scrub.max = DUR;
