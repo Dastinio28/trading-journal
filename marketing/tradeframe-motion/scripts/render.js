@@ -30,7 +30,8 @@ const { dur } = build(V, OUT);
   await p.evaluate(t => window.renderAt(t), coverT); await st.screenshot({ path: path.join(dir, 'cover.jpg'), type: 'jpeg', quality: 92 });
   await br.close();
   ff('-framerate', String(FPS), '-i', `${frames}/f%05d.jpg`, '-i', path.join(dir, 'track.mp3'), '-map', '0:v', '-map', '1:a', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', '-preset', 'medium', '-profile:v', 'high',
-    '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-shortest', '-movflags', '+faststart', path.join(dir, `${id}.mp4`));
+    '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-shortest', '-movflags', '+faststart', '-f', 'mp4', path.join(dir, `${id}.mp4.part`));
+  fs.renameSync(path.join(dir, `${id}.mp4.part`), path.join(dir, `${id}.mp4`));
   fs.rmSync(frames, { recursive: true, force: true });
   console.log('done', id, dur.toFixed(1) + 's');
 })().catch(e => { console.error(id, e); process.exit(1); });
