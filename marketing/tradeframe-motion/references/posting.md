@@ -6,7 +6,7 @@ The batch lives in `marketing/videos/` of the `trading-journal` repo (branch `cl
 
 ```
 Pull the trading-journal repo (branch claude/youthful-fermi-2ogjqi). Read marketing/videos/manifest.json.
-Post the next unposted Reel to @tradeframe.trading (order ascending), using the tradeframe-instagram skill's
+Post the next unposted Reel (skip items with "exists": false) to @tradeframe.trading (order ascending), using the tradeframe-instagram skill's
 publisher: C:\igbot\Scripts\python.exe <skill>\scripts\ig_publish.py --session C:/igbot/session.json
 --what reel --reel <video> --thumb <cover> --captions <captions_json>  (each video folder has a captions.json {"reelCaption": ...}).
 Then append {id, posted_at, media_url} to marketing/videos/posted.json so it is never posted twice.
