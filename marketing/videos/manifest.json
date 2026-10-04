@@ -921,7 +921,7 @@
       "cover": "057-rules-from-data/cover.jpg",
       "caption_file": "057-rules-from-data/caption.txt",
       "caption": "Rules copied from someone else's strategy rarely stick. Rules pulled from your own trades do. Tradeframe shows the evidence, AI turns it into a rule, and your checklist enforces it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingrules #tradingplan #forex #futures #stocks #tradingdata #tradingdiscipline #traderlife #tradingtips #stoploss #datadriven #tradingsystem",
-      "exists": false,
+      "exists": true,
       "captions_json": "057-rules-from-data/captions.json"
     },
     {
@@ -938,7 +938,7 @@
       "cover": "058-news-gambling/cover.jpg",
       "caption_file": "058-news-gambling/caption.txt",
       "caption": "Trading the release candle is a coin flip with extra spread. Tradeframe shows what your news-day trades really do, then helps you add a stay-flat rule. Demo data shown. Free, in your browser. Link in bio.\n\n#nfp #forexnews #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "058-news-gambling/captions.json"
     },
     {
@@ -954,7 +954,7 @@
       "cover": "059-stop-placement/cover.jpg",
       "caption_file": "059-stop-placement/caption.txt",
       "caption": "Stops that are too tight get hunted by noise. Too wide and your size shrinks to nothing. Place it where the idea is wrong, then size the position around it. Your journal shows which one you do. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #stoploss #forex #futures #priceaction #daytrader #tradingdiscipline #tradingtips #traderlife #smartmoney #technicalanalysis",
-      "exists": false,
+      "exists": true,
       "captions_json": "059-stop-placement/captions.json"
     },
     {
@@ -970,7 +970,7 @@
       "cover": "060-trade-less/cover.jpg",
       "caption_file": "060-trade-less/caption.txt",
       "caption": "More trades feels productive. Usually it just means more spread, more fees and more emotional decisions. Filter every entry through a checklist and watch what changes on your dashboard. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #overtrading #tradeless #qualityovernumbers #forextrader #futurestrading #patience #tradingplan #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "060-trade-less/captions.json"
     },
     {
@@ -987,7 +987,7 @@
       "cover": "061-think-in-r/cover.jpg",
       "caption_file": "061-think-in-r/caption.txt",
       "caption": "Dollars change with your account size. R doesn't. Set your stop, and Tradeframe measures every trade in R-multiples, so you can compare a $50 win and a $500 win honestly. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #rmultiple #riskreward #riskmanagement #forex #futures #stocks #tradingmath #traderlife #tradingtips #tradingdiscipline #expectancy #propfirm",
-      "exists": false,
+      "exists": true,
       "captions_json": "061-think-in-r/captions.json"
     },
     {
@@ -1005,7 +1005,7 @@
       "cover": "062-one-more-trade/cover.jpg",
       "caption_file": "062-one-more-trade/caption.txt",
       "caption": "Green by 10am, red by noon, all because of “one more trade”. Tradeframe shows where your day peaked and what the extra trades cost. Then it caps them. Free, in your browser. Link in bio.\n\n#overtrading #walkaway #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "062-one-more-trade/captions.json"
     },
     {
@@ -1022,7 +1022,7 @@
       "cover": "063-stop-moving-your-stop/cover.jpg",
       "caption_file": "063-stop-moving-your-stop/caption.txt",
       "caption": "Every moved stop starts as just a little more room. Then a 1R loss turns into 3R. Tradeframe compares your planned stop to the real exit and shows what the drag costs. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #stoploss #forex #futures #tradingpsychology #tradingdiscipline #tradingmistakes #fundedtrader #traderlife #tradingtips #mindset",
-      "exists": false,
+      "exists": true,
       "captions_json": "063-stop-moving-your-stop/captions.json"
     },
     {
@@ -1039,7 +1039,7 @@
       "cover": "064-one-percent-better/cover.jpg",
       "caption_file": "064-one-percent-better/caption.txt",
       "caption": "You don’t need a new strategy. You need one fewer mistake per week. Tradeframe’s AI picks your biggest leak, turns it into a checklist rule, and tracks your discipline score as it climbs. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #compounding #onepercentbetter #selfimprovement #tradinghabits #forextrader #futurestrading #growthmindset #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "064-one-percent-better/captions.json"
     },
     {
@@ -1056,7 +1056,7 @@
       "cover": "065-no-install-mobile/cover.jpg",
       "caption_file": "065-no-install-mobile/caption.txt",
       "caption": "No app store, no download, no update nagging. Tradeframe runs in any browser, on your phone or your desktop, with the same journal everywhere. Log a trade from wherever you closed it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #mobiletrading #tradingapp #tradingtools #forex #futures #crypto #stocks #traderlife #tradingtips #webapp #noinstall #tradeonthego",
-      "exists": false,
+      "exists": true,
       "captions_json": "065-no-install-mobile/captions.json"
     },
     {
