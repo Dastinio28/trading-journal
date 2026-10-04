@@ -12,6 +12,10 @@ Makes Instagram/TikTok Reels for **@tradeframe.trading** in the style Dastan val
 ```bash
 # all videos listed in videos.json (3 in parallel), then the posting manifest
 bash scripts/render-all.sh <outDir> 3
+# resumable batch: renders only missing MP4s, commits + pushes every 9 (safe to rerun after a crash)
+bash scripts/render-queue.sh <outDir> 3 --push
+# re-capture covers (frame where scene 1's 2nd subtitle is fully visible)
+node scripts/covers.js <outDir> [id...]
 # one video
 node scripts/render.js <id> <outDir>          # NODE_PATH must reach playwright
 # fast visual check (16 frames, no audio)
@@ -51,6 +55,8 @@ Each scene defines in relative beats: `cam` (focus selector, scale, rotations, e
 ### videos.json fields
 
 `id`, `title`, `seed` (drives month, all demo numbers, asset traded, AI insight default, notes), `bpm` (126-142; whole film is timed in beats), `insight` (`count` trades-per-day, `friday`, `revenge`, `stops`), `hook` (`[html, fx, smallLabel, cssClass, beats]`, fx: `stretch|shake|snap|echo|glitch`, `negc` = red), `countdown`, `scenes`, `over` (per-scene `subs`/`ann`/`slam` overrides), `tagline`, `outro` [line1, line2], `music` {`key` semitones, `riff` 0-7, `lead` cowbell|bell|pluck, `drums` half|drift, `dark` 0-1}, `caption`, `hashtags` (15, no #).
+
+Durations: overhead (hook + drop + outro) ≈ 9.5 s, each scene adds ≈ 4-5 s. Target 20-45 s: use 3-6 scenes; `stretch` (1-1.6) slows scenes when a video is short. videos.json holds 120 videos (01-20 = batch 1, 021-120 = batch 2, avg 25 s, 21-35 s).
 
 To add a video: append an entry with a new seed, a new hook, a new riff/key/lead combination (never reuse the same music+seed pair), then `node scripts/render.js <id> <out>` and `node scripts/manifest.js <out>`.
 

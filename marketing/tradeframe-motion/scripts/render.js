@@ -26,7 +26,7 @@ const { dur } = build(V, OUT);
   await p.waitForTimeout(300);
   const st = await p.$('#stage'), N = Math.ceil(dur * FPS);
   for (let i = 0; i < N; i++) { await p.evaluate(t => window.renderAt(t), i / FPS); await st.screenshot({ path: `${frames}/f${String(i).padStart(5, '0')}.jpg`, type: 'jpeg', quality: 90 }); }
-  const coverT = await p.evaluate(() => { const s = window.__CFG.tl.scenes[0]; return (s.v + 2) * 60 / window.__CFG.bpm; });
+  const coverT = await p.evaluate(() => { const s = window.__CFG.tl.scenes[0], u = s.subs[1] || s.subs[0]; return (u[0] + (u[1] - u[0]) * .7) * 60 / window.__CFG.bpm; });
   await p.evaluate(t => window.renderAt(t), coverT); await st.screenshot({ path: path.join(dir, 'cover.jpg'), type: 'jpeg', quality: 92 });
   await br.close();
   ff('-framerate', String(FPS), '-i', `${frames}/f%05d.jpg`, '-i', path.join(dir, 'track.mp3'), '-map', '0:v', '-map', '1:a', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', '-preset', 'medium', '-profile:v', 'high',
