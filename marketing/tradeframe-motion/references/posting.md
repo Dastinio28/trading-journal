@@ -1,11 +1,11 @@
 # Posting the Reels from a local Claude Code session
 
-The batch lives in `marketing/videos/` of the `trading-journal` repo (branch `claude/youthful-fermi-2ogjqi`). `manifest.json` is the queue: `order`, `id`, `video` (MP4 path), `cover`, `caption` (caption + hashtags, ready to paste), `captions_json` (the file ig_publish.py reads), `features`.
+The batch lives in `marketing/videos/` of the `trading-journal` repo (branch `main`). `manifest.json` is the queue: `order`, `id`, `video` (MP4 path), `cover`, `caption` (caption + hashtags, ready to paste), `captions_json` (the file ig_publish.py reads), `features`.
 
 ## Prompt to give the local session
 
 ```
-Pull the trading-journal repo (branch claude/youthful-fermi-2ogjqi). Read marketing/videos/manifest.json.
+Pull the trading-journal repo (branch main). Read marketing/videos/manifest.json.
 Post the next unposted Reel (skip items with "exists": false) to @tradeframe.trading (order ascending), using the tradeframe-instagram skill's
 publisher: C:\igbot\Scripts\python.exe <skill>\scripts\ig_publish.py --session C:/igbot/session.json
 --what reel --reel <video> --thumb <cover> --captions <captions_json>  (each video folder has a captions.json {"reelCaption": ...}).
