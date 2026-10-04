@@ -1229,7 +1229,7 @@
       "cover": "075-how-accounts-blow-up/cover.jpg",
       "caption_file": "075-how-accounts-blow-up/caption.txt",
       "caption": "Accounts rarely die on one trade. It's a loss, then a bigger one to win it back, then a bigger one. See the chain on your calendar and set the rule that breaks it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #blownaccount #forex #futures #crypto #revengetrading #tradingpsychology #tradingdiscipline #traderlife #tradingtips #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "075-how-accounts-blow-up/captions.json"
     },
     {
@@ -1248,7 +1248,7 @@
       "cover": "076-day-in-the-life/cover.jpg",
       "caption_file": "076-day-in-the-life/caption.txt",
       "caption": "No 12 screens, no 40 trades. A disciplined day looks boring: checklist, risk set, one or two planned trades, everything logged, laptop closed. Here’s that day inside Tradeframe. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #dayinthelife #traderroutine #tradingroutine #morningroutine #forextrader #futurestrading #tradinglifestyle #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "076-day-in-the-life/captions.json"
     },
     {
@@ -1265,7 +1265,7 @@
       "cover": "077-first-week/cover.jpg",
       "caption_file": "077-first-week/caption.txt",
       "caption": "You don't need months of data to learn something. Log every trade for one week and Tradeframe already shows your best day, your worst day, and the first rule worth adding. Start today. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #beginnertrader #tradinghabits #newtrader #forex #futures #crypto #stocks #traderlife #tradingtips #overtrading #learntotrade #journaling",
-      "exists": false,
+      "exists": true,
       "captions_json": "077-first-week/captions.json"
     },
     {
@@ -1282,7 +1282,7 @@
       "cover": "078-confirmation-bias/cover.jpg",
       "caption_file": "078-confirmation-bias/caption.txt",
       "caption": "Once you’re convinced, every candle looks like confirmation. Tradeframe shows the trades where you ignored your own invalidation, and a checklist that forces the bear case. Free, in your browser. Link in bio.\n\n#confirmationbias #cognitivebias #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "078-confirmation-bias/captions.json"
     },
     {
@@ -1298,7 +1298,7 @@
       "cover": "079-rules-you-never-break/cover.jpg",
       "caption_file": "079-rules-you-never-break/caption.txt",
       "caption": "No stop, no trade. Max 2 losses a day. Never size up after a loss. Pick your non-negotiables, put them in a checklist and let your discipline score keep you honest. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #tradingrules #forex #futures #tradingdiscipline #tradingplan #tradingpsychology #fundedtrader #traderlife #tradingtips #mindset",
-      "exists": false,
+      "exists": true,
       "captions_json": "079-rules-you-never-break/captions.json"
     },
     {
@@ -1316,7 +1316,7 @@
       "cover": "080-30-days-journaling/cover.jpg",
       "caption_file": "080-30-days-journaling/caption.txt",
       "caption": "Challenge: log every single trade for 30 days. Asset, levels, emotion, 30 seconds each. On day 30, open the calendar and AI page and see what your month was hiding. Comment “day 1” if you’re in. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #30daychallenge #journalingchallenge #tradinghabits #forextrader #futurestrading #tradingroutine #consistency #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "080-30-days-journaling/captions.json"
     },
     {
@@ -1333,7 +1333,7 @@
       "cover": "081-search-your-trades/cover.jpg",
       "caption_file": "081-search-your-trades/caption.txt",
       "caption": "Your journal is useless if you can't find anything in it. Filter losses in one click, search a word like FOMO or revenge, and every matching trade lights up. Then turn it into a rule. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #revengetrading #fomo #forex #futures #crypto #tradingdata #traderlife #tradingtips #tradingmistakes #tradingdiscipline #tilt",
-      "exists": false,
+      "exists": true,
       "captions_json": "081-search-your-trades/captions.json"
     },
     {
@@ -1350,7 +1350,7 @@
       "cover": "082-stop-comparing/cover.jpg",
       "caption_file": "082-stop-comparing/caption.txt",
       "caption": "Social feeds show the best day of the luckiest trader. Your dashboard shows your real process. Tradeframe keeps your eyes on your own numbers, not someone else’s screenshot. Free, in your browser. Link in bio.\n\n#comparison #socialmedia #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "082-stop-comparing/captions.json"
     },
     {
@@ -1369,7 +1369,7 @@
       "cover": "083-no-plan-gambling/cover.jpg",
       "caption_file": "083-no-plan-gambling/caption.txt",
       "caption": "A trading plan answers what, when, how much and when you're wrong, before you click. Tradeframe ties the plan to every trade so you can see what happens when you go off script. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #tradingplan #forex #futures #crypto #tradingdiscipline #tradingpsychology #daytrader #traderlife #tradingtips #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "083-no-plan-gambling/captions.json"
     },
     {
