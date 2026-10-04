@@ -1,0 +1,64 @@
+{
+ "bpm": 135,
+ "music": {
+  "key": -1,
+  "riff": 1,
+  "lead": "cowbell",
+  "drums": "drift",
+  "dark": 0.6
+ },
+ "seed": 9,
+ "tl": {
+  "hook": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "countdown": [
+   5,
+   5.5,
+   6
+  ],
+  "sceneSlams": [
+   [
+    12,
+    1.5,
+    "glitch"
+   ]
+  ],
+  "grooves": [
+   [
+    7,
+    12
+   ],
+   [
+    13.5,
+    24.7
+   ],
+   [
+    24.7,
+    30.2
+   ]
+  ],
+  "fx": [
+   [
+    15.9,
+    "counter"
+   ],
+   [
+    21.5,
+    "chaching"
+   ],
+   [
+    28.7,
+    "chaching"
+   ]
+  ],
+  "drop": 7,
+  "outro": 24.7,
+  "end": 33.2
+ },
+ "dur": 15.656
+}

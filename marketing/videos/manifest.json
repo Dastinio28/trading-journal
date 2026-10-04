@@ -1,0 +1,302 @@
+{
+  "account": "@tradeframe.trading",
+  "format": "Instagram Reel 1080x1920 60fps",
+  "cadence": "one per day, in order",
+  "items": [
+    {
+      "order": 1,
+      "id": "01-log-a-trade",
+      "title": "Log a trade in 30 seconds",
+      "features": [
+        "add"
+      ],
+      "video": "01-log-a-trade/01-log-a-trade.mp4",
+      "cover": "01-log-a-trade/cover.jpg",
+      "caption_file": "01-log-a-trade/caption.txt",
+      "caption": "Logging a trade should take 20 seconds, not 20 minutes. Asset, direction, entry, exit, stop: Tradeframe calculates your R and P&L for you, and asks how you felt. Free, in your browser.\n\n#tradingjournal #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction #traderlife #propfirm #swingtrading #tradeframe #tradingview #tradingstrategy",
+      "exists": true,
+      "captions_json": "01-log-a-trade/captions.json"
+    },
+    {
+      "order": 2,
+      "id": "02-dashboard",
+      "title": "Your edge on one screen",
+      "features": [
+        "dash"
+      ],
+      "video": "02-dashboard/02-dashboard.mp4",
+      "cover": "02-dashboard/cover.jpg",
+      "caption_file": "02-dashboard/caption.txt",
+      "caption": "Your P&L tells you what happened. Your dashboard tells you why. Win rate, average win in R, max drawdown, discipline score: every number that matters, live. Free at tradeframe.web.app\n\n#tradingjournal #tradingstats #daytrader #forex #futures #tradingdiscipline #riskreward #tradingpsychology #traderlife #propfirmtrader #tradingtips #priceaction #tradeframe #equitycurve #tradingmindset",
+      "exists": true,
+      "captions_json": "02-dashboard/captions.json"
+    },
+    {
+      "order": 3,
+      "id": "03-calendar",
+      "title": "Spot your best days",
+      "features": [
+        "cal"
+      ],
+      "video": "03-calendar/03-calendar.mp4",
+      "cover": "03-calendar/cover.jpg",
+      "caption_file": "03-calendar/caption.txt",
+      "caption": "Your best trading days have something in common. So do your worst. The Tradeframe calendar colors every day by P&L so you can repeat what works and cut what doesn't.\n\n#tradingjournal #tradingcalendar #daytrading #forextrading #futurestrading #tradingpsychology #consistency #traderlife #tradingdiscipline #propfirm #tradingtips #scalping #tradeframe #pnl #tradingroutine",
+      "exists": true,
+      "captions_json": "03-calendar/captions.json"
+    },
+    {
+      "order": 4,
+      "id": "04-ai-analysis",
+      "title": "Let AI find your leak",
+      "features": [
+        "ai"
+      ],
+      "video": "04-ai-analysis/04-ai-analysis.mp4",
+      "cover": "04-ai-analysis/cover.jpg",
+      "caption_file": "04-ai-analysis/caption.txt",
+      "caption": "You can't fix a leak you can't see. Tradeframe AI reads every trade you log and shows you the pattern that's costing you money, then turns it into a rule in one click.\n\n#tradingjournal #aitrading #tradingpsychology #daytrading #forex #futures #overtrading #tradingdiscipline #traderlife #propfirm #tradingtips #riskmanagement #tradeframe #tradingmindset #tradingai",
+      "exists": true,
+      "captions_json": "04-ai-analysis/captions.json"
+    },
+    {
+      "order": 5,
+      "id": "05-checklist",
+      "title": "Never take a bad trade again",
+      "features": [
+        "ck"
+      ],
+      "video": "05-checklist/05-checklist.mp4",
+      "cover": "05-checklist/cover.jpg",
+      "caption_file": "05-checklist/caption.txt",
+      "caption": "Pilots use checklists. Surgeons use checklists. Your trading should too. Tick every rule before you enter, and watch your discipline score climb.\n\n#tradingjournal #tradingchecklist #tradingdiscipline #tradingplan #daytrading #forextrader #futurestrading #tradingpsychology #traderlife #propfirm #tradingrules #tradingtips #tradeframe #riskmanagement #tradingmindset",
+      "exists": true,
+      "captions_json": "05-checklist/captions.json"
+    },
+    {
+      "order": 6,
+      "id": "06-statistics",
+      "title": "Find your best setup",
+      "features": [
+        "stats"
+      ],
+      "video": "06-statistics/06-statistics.mp4",
+      "cover": "06-statistics/cover.jpg",
+      "caption_file": "06-statistics/caption.txt",
+      "caption": "Most traders run 5 setups. Usually only 1 or 2 make money. Tradeframe breaks down your P&L by setup, by weekday and by R so you know exactly what to keep trading.\n\n#tradingjournal #tradingstats #tradingsetup #daytrading #forex #futures #priceaction #tradingstrategy #backtesting #traderlife #propfirm #tradingtips #tradeframe #edge #tradingdata",
+      "exists": true,
+      "captions_json": "06-statistics/captions.json"
+    },
+    {
+      "order": 7,
+      "id": "07-risk-management",
+      "title": "Size every position right",
+      "features": [
+        "risk"
+      ],
+      "video": "07-risk-management/07-risk-management.mp4",
+      "cover": "07-risk-management/cover.jpg",
+      "caption_file": "07-risk-management/caption.txt",
+      "caption": "Risk 1% per trade and let the math do the rest. Tradeframe sizes your position from your entry and stop, and keeps an eye on your daily loss limit so one bad day stays one bad day.\n\n#riskmanagement #positionsizing #tradingjournal #daytrading #forextrader #futurestrading #propfirm #fundedtrader #tradingdiscipline #tradingpsychology #traderlife #tradingtips #tradeframe #stoploss #tradingrules",
+      "exists": true,
+      "captions_json": "07-risk-management/captions.json"
+    },
+    {
+      "order": 8,
+      "id": "08-trade-journal",
+      "title": "Review every trade",
+      "features": [
+        "journal"
+      ],
+      "video": "08-trade-journal/08-trade-journal.mp4",
+      "cover": "08-trade-journal/cover.jpg",
+      "caption_file": "08-trade-journal/caption.txt",
+      "caption": "If you keep making the same mistake, you're not reviewing your trades. Filter your journal by losses, search by emotion, and the pattern jumps out.\n\n#tradingjournal #tradereview #daytrading #forex #futures #fomo #tradingpsychology #tradingdiscipline #traderlife #propfirm #tradingtips #priceaction #tradeframe #tradingmistakes #tradingmindset",
+      "exists": true,
+      "captions_json": "08-trade-journal/captions.json"
+    },
+    {
+      "order": 9,
+      "id": "09-import-trades",
+      "title": "Import your history in seconds",
+      "features": [
+        "import"
+      ],
+      "video": "09-import-trades/09-import-trades.mp4",
+      "cover": "09-import-trades/cover.jpg",
+      "caption_file": "09-import-trades/caption.txt",
+      "caption": "Your trading history is a gold mine. Drop one CSV export into Tradeframe and every trade lands in your journal, your stats, your calendar and your AI review.\n\n#tradingjournal #tradinghistory #daytrading #forextrading #futurestrading #tradingdata #traderlife #propfirm #tradingtips #tradingstats #tradingpsychology #tradeframe #csv #tradingtools #tradingmindset",
+      "exists": true,
+      "captions_json": "09-import-trades/captions.json"
+    },
+    {
+      "order": 10,
+      "id": "10-revenge-trading",
+      "title": "Stop revenge trading",
+      "features": [
+        "ai",
+        "ck"
+      ],
+      "video": "10-revenge-trading/10-revenge-trading.mp4",
+      "cover": "10-revenge-trading/cover.jpg",
+      "caption_file": "10-revenge-trading/caption.txt",
+      "caption": "Revenge trading isn't a strategy. It's a spiral. Tradeframe shows you exactly when it starts, and turns the fix into a checklist rule you tick before every trade.\n\n#revengetrading #tradingpsychology #tradingjournal #daytrading #forex #futures #tilt #tradingdiscipline #traderlife #propfirm #tradingtips #riskmanagement #tradeframe #tradingmindset #losingstreak",
+      "exists": true,
+      "captions_json": "10-revenge-trading/captions.json"
+    },
+    {
+      "order": 11,
+      "id": "11-overtrading",
+      "title": "Too many trades?",
+      "features": [
+        "stats",
+        "ai"
+      ],
+      "video": "11-overtrading/11-overtrading.mp4",
+      "cover": "11-overtrading/cover.jpg",
+      "caption_file": "11-overtrading/caption.txt",
+      "caption": "Your 4th and 5th trades of the day are probably your worst. Tradeframe proves it with your own numbers, then helps you set a daily cap.\n\n#overtrading #tradingjournal #daytrading #scalping #forex #futures #tradingpsychology #tradingdiscipline #traderlife #propfirm #tradingtips #tradingstats #tradeframe #tradingmindset #lessismore",
+      "exists": true,
+      "captions_json": "11-overtrading/captions.json"
+    },
+    {
+      "order": 12,
+      "id": "12-friday-losses",
+      "title": "Why you lose on Fridays",
+      "features": [
+        "cal",
+        "ai"
+      ],
+      "video": "12-friday-losses/12-friday-losses.mp4",
+      "cover": "12-friday-losses/cover.jpg",
+      "caption_file": "12-friday-losses/caption.txt",
+      "caption": "Tired on Friday afternoon? Your P&L knows. Tradeframe's calendar and AI review show which days and hours cost you, so you can stop trading them.\n\n#tradingjournal #daytrading #forextrader #futurestrading #tradingpsychology #tradingcalendar #tradingdiscipline #traderlife #propfirm #tradingtips #tradingstats #tradeframe #fridayfeeling #tradingroutine #tradingmindset",
+      "exists": true,
+      "captions_json": "12-friday-losses/captions.json"
+    },
+    {
+      "order": 13,
+      "id": "13-consistency",
+      "title": "Consistency beats one big win",
+      "features": [
+        "dash",
+        "cal"
+      ],
+      "video": "13-consistency/13-consistency.mp4",
+      "cover": "13-consistency/cover.jpg",
+      "caption_file": "13-consistency/caption.txt",
+      "caption": "A green month can hide a coin-flip process. Track every trade, every day, and see if your edge is real or just one lucky outlier.\n\n#consistency #tradingjournal #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife #propfirm #fundedtrader #tradingtips #equitycurve #tradeframe #tradingmindset #processoverprofit",
+      "exists": true,
+      "captions_json": "13-consistency/captions.json"
+    },
+    {
+      "order": 14,
+      "id": "14-risk-one-percent",
+      "title": "Risk 1%. Always.",
+      "features": [
+        "risk",
+        "ck"
+      ],
+      "video": "14-risk-one-percent/14-risk-one-percent.mp4",
+      "cover": "14-risk-one-percent/cover.jpg",
+      "caption_file": "14-risk-one-percent/caption.txt",
+      "caption": "The 1% rule only works if you follow it every single time. Tradeframe sizes your position for you and makes risk a checklist item, not a feeling.\n\n#riskmanagement #onepercentrule #tradingjournal #positionsizing #daytrading #forex #futures #propfirm #fundedtrader #tradingdiscipline #tradingpsychology #traderlife #tradeframe #tradingrules #stoploss",
+      "exists": true,
+      "captions_json": "14-risk-one-percent/captions.json"
+    },
+    {
+      "order": 15,
+      "id": "15-best-setup",
+      "title": "What actually works?",
+      "features": [
+        "stats",
+        "journal"
+      ],
+      "video": "15-best-setup/15-best-setup.mp4",
+      "cover": "15-best-setup/cover.jpg",
+      "caption_file": "15-best-setup/caption.txt",
+      "caption": "Your best setup is hiding in your data. Tradeframe ranks every setup by P&L and win rate, then lets you filter the journal to see every trade behind the numbers.\n\n#tradingsetup #tradingjournal #tradingstrategy #daytrading #forex #futures #priceaction #tradingstats #traderlife #propfirm #tradingtips #backtesting #tradeframe #edge #smartmoneyconcepts",
+      "exists": true,
+      "captions_json": "15-best-setup/captions.json"
+    },
+    {
+      "order": 16,
+      "id": "16-memory-lies",
+      "title": "Memory lies. Data doesn't.",
+      "features": [
+        "journal",
+        "add"
+      ],
+      "video": "16-memory-lies/16-memory-lies.mp4",
+      "cover": "16-memory-lies/cover.jpg",
+      "caption_file": "16-memory-lies/caption.txt",
+      "caption": "\"I followed my plan.\" Did you, really? Your memory rewrites every trade. Your journal doesn't. Log it in 20 seconds and review it honestly.\n\n#tradingjournal #tradingpsychology #daytrading #forextrader #futurestrading #tradingdiscipline #traderlife #propfirm #tradingtips #tradereview #tradingmindset #priceaction #tradeframe #journaling #selfimprovement",
+      "exists": true,
+      "captions_json": "16-memory-lies/captions.json"
+    },
+    {
+      "order": 17,
+      "id": "17-prop-firm",
+      "title": "Protect your drawdown",
+      "features": [
+        "risk",
+        "dash"
+      ],
+      "video": "17-prop-firm/17-prop-firm.mp4",
+      "cover": "17-prop-firm/cover.jpg",
+      "caption_file": "17-prop-firm/caption.txt",
+      "caption": "Prop firm rules are strict: daily loss limit, max drawdown, risk per trade. Tradeframe tracks all of it so you never break a rule by accident.\n\n#propfirm #fundedtrader #propfirmchallenge #tradingjournal #riskmanagement #daytrading #forex #futures #drawdown #tradingdiscipline #tradingpsychology #traderlife #tradeframe #ftmo #tradingrules",
+      "exists": true,
+      "captions_json": "17-prop-firm/captions.json"
+    },
+    {
+      "order": 18,
+      "id": "18-why-journal",
+      "title": "90% never review a trade",
+      "features": [
+        "add",
+        "dash",
+        "cal"
+      ],
+      "video": "18-why-journal/18-why-journal.mp4",
+      "cover": "18-why-journal/cover.jpg",
+      "caption_file": "18-why-journal/caption.txt",
+      "caption": "Most traders never review a single trade. Be the one who does: log it, see your real numbers, spot your best days. It takes 20 seconds a trade.\n\n#tradingjournal #daytrading #forextrading #futurestrading #tradingpsychology #tradingdiscipline #traderlife #propfirm #tradingtips #beginnertrader #learntotrade #priceaction #tradeframe #tradingmindset #tradingeducation",
+      "exists": true,
+      "captions_json": "18-why-journal/captions.json"
+    },
+    {
+      "order": 19,
+      "id": "19-full-tour",
+      "title": "Tradeframe in 30 seconds",
+      "features": [
+        "add",
+        "dash",
+        "cal",
+        "ai",
+        "ck"
+      ],
+      "video": "19-full-tour/19-full-tour.mp4",
+      "cover": "19-full-tour/cover.jpg",
+      "caption_file": "19-full-tour/caption.txt",
+      "caption": "Log every trade. See your real numbers. Spot your best and worst days. Let AI find your leak. Fix it with a checklist. That's Tradeframe, free in your browser.\n\n#tradingjournal #daytrading #forex #futures #tradingpsychology #tradingdiscipline #riskmanagement #traderlife #propfirm #tradingtips #aitrading #priceaction #tradeframe #tradingtools #tradingmindset",
+      "exists": true,
+      "captions_json": "19-full-tour/captions.json"
+    },
+    {
+      "order": 20,
+      "id": "20-discipline-score",
+      "title": "Discipline is a number",
+      "features": [
+        "ck",
+        "dash"
+      ],
+      "video": "20-discipline-score/20-discipline-score.mp4",
+      "cover": "20-discipline-score/cover.jpg",
+      "caption_file": "20-discipline-score/caption.txt",
+      "caption": "You can't improve what you don't measure. Tradeframe turns discipline into a score: tick your checklist before each trade and watch it climb.\n\n#tradingdiscipline #tradingjournal #tradingpsychology #daytrading #forex #futures #tradingchecklist #traderlife #propfirm #tradingtips #tradingrules #mindset #tradeframe #consistency #tradingmindset",
+      "exists": true,
+      "captions_json": "20-discipline-score/captions.json"
+    }
+  ]
+}
