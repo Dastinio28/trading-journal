@@ -462,7 +462,7 @@
       "cover": "030-trigger-fear/cover.jpg",
       "caption_file": "030-trigger-fear/caption.txt",
       "caption": "Freezing on a valid setup usually means you don’t trust the numbers. Tradeframe shows your setup’s real history and your exact worst case, so the click feels like a plan, not a gamble. Free, in your browser. Link in bio.\n\n#fearoftrading #tradinghesitation #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "030-trigger-fear/captions.json"
     },
     {
@@ -479,7 +479,7 @@
       "cover": "031-loss-recovery-math/cover.jpg",
       "caption_file": "031-loss-recovery-math/caption.txt",
       "caption": "Lose 10%, you need +11%. Lose 50%, you need +100%. The deeper the hole, the harder the climb. Keep losses small enough that recovery is just a normal week. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #drawdown #trading #forex #futures #crypto #tradingpsychology #tradingdiscipline #tradingmath #traderlife #tradingtips",
-      "exists": false,
+      "exists": true,
       "captions_json": "031-loss-recovery-math/captions.json"
     },
     {
@@ -495,7 +495,7 @@
       "cover": "032-ill-remember/cover.jpg",
       "caption_file": "032-ill-remember/caption.txt",
       "caption": "You won’t remember how you felt on that 3rd loss of the day. Nobody does. Log it in 30 seconds with the emotion attached, and let the AI connect the dots weeks later. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradinghabits #tradingmyths #tradinglog #forextrader #futurestrading #tradingemotions #tradingroutine #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "032-ill-remember/captions.json"
     },
     {
@@ -512,7 +512,7 @@
       "cover": "033-ditch-excel/cover.jpg",
       "caption_file": "033-ditch-excel/caption.txt",
       "caption": "Your trading spreadsheet started clean. Now it has 14 tabs and a broken formula. Export it as CSV, drop it into Tradeframe, and get stats you'd never build by hand. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #excel #spreadsheet #tradingtools #forex #futures #stocks #tradingdata #traderlife #tradingtips #tradinganalytics #tradestats #productivity",
-      "exists": false,
+      "exists": true,
       "captions_json": "033-ditch-excel/captions.json"
     },
     {
@@ -529,7 +529,7 @@
       "cover": "034-cut-winners/cover.jpg",
       "caption_file": "034-cut-winners/caption.txt",
       "caption": "Taking +0.5R because you’re scared to give it back? Tradeframe shows how many R your early exits left on the table and adds a rule to hold to target. Demo data, real lesson. Free, in your browser. Link in bio.\n\n#letwinnersrun #tradeexits #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "034-cut-winners/captions.json"
     },
     {
@@ -545,7 +545,7 @@
       "cover": "035-lot-size-mistake/cover.jpg",
       "caption_file": "035-lot-size-mistake/caption.txt",
       "caption": "0.10 vs 1.00 lots. One fat-finger zero and a normal loss becomes a 10x loss. Let the calculator size it from your stop and your risk, then double check before you send. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #forex #lotsize #positionsizing #forextrader #fundedtrader #tradingmistakes #tradingdiscipline #traderlife #tradingtips #fx",
-      "exists": false,
+      "exists": true,
       "captions_json": "035-lot-size-mistake/captions.json"
     },
     {
@@ -562,7 +562,7 @@
       "cover": "036-london-open/cover.jpg",
       "caption_file": "036-london-open/caption.txt",
       "caption": "London open is where a lot of forex traders make or lose their day. Do you actually trade it well, or just trade it a lot? Tag your trades and Tradeframe shows the answer in numbers. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #londonsession #forextrader #forex #sessiontrading #gbpusd #eurusd #tradingsessions #daytrading #futures #tradingpsychology #tradingdiscipline #traderlife #propfirm",
-      "exists": false,
+      "exists": true,
       "captions_json": "036-london-open/captions.json"
     },
     {
@@ -580,7 +580,7 @@
       "cover": "037-notion-to-tradeframe/cover.jpg",
       "caption_file": "037-notion-to-tradeframe/caption.txt",
       "caption": "A Notion journal looks great and tells you nothing. Bring your trades over and Tradeframe colors your month, then AI points at the habit costing you most. Keep the aesthetic, add the answers. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #notion #notiontemplate #tradingtools #forex #futures #crypto #tradingpsychology #traderlife #tradingtips #revengetrading #journaling #productivity",
-      "exists": false,
+      "exists": true,
       "captions_json": "037-notion-to-tradeframe/captions.json"
     },
     {
@@ -598,7 +598,7 @@
       "cover": "038-hope-not-stop/cover.jpg",
       "caption_file": "038-hope-not-stop/caption.txt",
       "caption": "Holding a loser and hoping it comes back is how one trade erases a week. Tradeframe finds every trade you held past your stop and shows what it cost in R. Free, in your browser. Link in bio.\n\n#stoploss #holdinglosers #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "038-hope-not-stop/captions.json"
     },
     {
