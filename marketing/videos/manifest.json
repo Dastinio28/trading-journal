@@ -767,7 +767,7 @@
       "cover": "048-best-hour/cover.jpg",
       "caption_file": "048-best-hour/caption.txt",
       "caption": "Most traders have one window where they’re actually sharp, and hours where they just give it back. Import your history and Tradeframe breaks down P&L by time, so you know when to show up. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradinghours #tradingroutine #forextrader #futurestrading #daytrader #tradingdata #timemanagement #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "048-best-hour/captions.json"
     },
     {
@@ -784,7 +784,7 @@
       "cover": "049-trade-only-a-plus/cover.jpg",
       "caption_file": "049-trade-only-a-plus/caption.txt",
       "caption": "Most traders have one great setup buried under ten average ones. Find your A+ in your own stats, turn its criteria into a checklist, size it right, and skip everything else. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #aplussetup #tradingstrategy #forex #futures #stocks #tradingdiscipline #riskmanagement #traderlife #tradingtips #qualityovertquantity #tradingedge #patience",
-      "exists": false,
+      "exists": true,
       "captions_json": "049-trade-only-a-plus/captions.json"
     },
     {
@@ -800,7 +800,7 @@
       "cover": "050-ego-trades/cover.jpg",
       "caption_file": "050-ego-trades/caption.txt",
       "caption": "Needing to be right is a terrible trading strategy. Tradeframe has no ego: it shows which trades you held to prove a point and what that cost you. Free, in your browser. Link in bio.\n\n#ego #tradinghabits #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "050-ego-trades/captions.json"
     },
     {
@@ -817,7 +817,7 @@
       "cover": "051-risk-reward/cover.jpg",
       "caption_file": "051-risk-reward/caption.txt",
       "caption": "At 1:3 you can be wrong more often than right and still be green. Plan the R before you enter, log it, and see if you actually let winners reach target. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #riskreward #forex #futures #daytrader #tradingstats #tradingdiscipline #tradingplan #traderlife #tradingtips #priceaction",
-      "exists": false,
+      "exists": true,
       "captions_json": "051-risk-reward/captions.json"
     },
     {
@@ -834,7 +834,7 @@
       "cover": "052-drop-the-pair/cover.jpg",
       "caption_file": "052-drop-the-pair/caption.txt",
       "caption": "You probably have one asset that eats everything the others make. It’s not personal, it’s data. Tradeframe ranks your P&L by asset so you can drop the pair that keeps costing you. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #forexpairs #gbpjpy #eurusd #forextrader #assetselection #cryptotrading #tradingdata #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "052-drop-the-pair/captions.json"
     },
     {
@@ -851,7 +851,7 @@
       "cover": "053-monthly-recap/cover.jpg",
       "caption_file": "053-monthly-recap/caption.txt",
       "caption": "End of month: four screens, five minutes. Calendar, totals, stats, and one thing to fix. Your monthly recap writes itself when every trade is already logged. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #monthlyreview #monthlyrecap #forex #futures #crypto #tradingroutine #tradingdata #traderlife #tradingtips #tradingdiscipline #pnl #tradingprogress",
-      "exists": false,
+      "exists": true,
       "captions_json": "053-monthly-recap/captions.json"
     },
     {
@@ -868,7 +868,7 @@
       "cover": "054-impatience-tax/cover.jpg",
       "caption_file": "054-impatience-tax/caption.txt",
       "caption": "Jumping in before the candle closes feels fast. Your stats say it’s just expensive. Tradeframe compares rushed vs confirmed entries so you can see the patience premium. Free, in your browser. Link in bio.\n\n#patience #priceaction #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "054-impatience-tax/captions.json"
     },
     {
@@ -886,7 +886,7 @@
       "cover": "055-know-your-expectancy/cover.jpg",
       "caption_file": "055-know-your-expectancy/caption.txt",
       "caption": "Expectancy = what one average trade is worth to you. Win rate times average win, minus loss rate times average loss. Import your history and get the number in seconds. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #expectancy #tradingedge #forex #futures #tradingstats #quanttrading #tradingdiscipline #traderlife #tradingtips #backtesting",
-      "exists": false,
+      "exists": true,
       "captions_json": "055-know-your-expectancy/captions.json"
     },
     {
@@ -903,7 +903,7 @@
       "cover": "056-backtest-vs-live/cover.jpg",
       "caption_file": "056-backtest-vs-live/caption.txt",
       "caption": "Your backtest never panics, never moves a stop, never takes a revenge trade. You do. Import your live trades and see exactly where execution breaks away from the plan. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #backtesting #algotrading #tradingstrategy #tradingexecution #futurestrading #forextrader #tradingdata #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "056-backtest-vs-live/captions.json"
     },
     {
