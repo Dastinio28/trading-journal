@@ -615,7 +615,7 @@
       "cover": "039-how-many-contracts/cover.jpg",
       "caption_file": "039-how-many-contracts/caption.txt",
       "caption": "MNQ or NQ, 1 contract or 5? Your stop distance decides, not your mood. Tradeframe turns ticks into R so every futures trade risks the same amount. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #futures #futurestrading #nq #es #topstep #fundedtrader #positionsizing #scalping #traderlife #tradingtips",
-      "exists": false,
+      "exists": true,
       "captions_json": "039-how-many-contracts/captions.json"
     },
     {
@@ -631,7 +631,7 @@
       "cover": "040-ny-open-fomo/cover.jpg",
       "caption_file": "040-ny-open-fomo/caption.txt",
       "caption": "The opening bell is loud. Most FOMO entries happen in the first minutes of New York. Filter your journal by time and see if the open is your edge or your leak. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #nyopen #stocktrading #futurestrading #nasdaq #es #fomo #openingbell #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "040-ny-open-fomo/captions.json"
     },
     {
@@ -648,7 +648,7 @@
       "cover": "041-journal-emotions/cover.jpg",
       "caption_file": "041-journal-emotions/caption.txt",
       "caption": "Most losses start as a feeling, not a setup. Tag your emotion on every trade, then filter your losses and watch the same word show up again and again. That's where your rules come from. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingemotions #fomo #forex #futures #crypto #mindset #traderlife #tradingtips #tilt #emotionaltrading #selfawareness",
-      "exists": false,
+      "exists": true,
       "captions_json": "041-journal-emotions/captions.json"
     },
     {
@@ -665,7 +665,7 @@
       "cover": "042-boredom-trades/cover.jpg",
       "caption_file": "042-boredom-trades/caption.txt",
       "caption": "Slow market, itchy finger, random entry. Boredom trades look harmless until you filter them. Tradeframe shows when they happen and helps you set a daily trade cap. Free, in your browser. Link in bio.\n\n#boredomtrading #overtrading #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "042-boredom-trades/captions.json"
     },
     {
@@ -682,7 +682,7 @@
       "cover": "043-leverage-trap/cover.jpg",
       "caption_file": "043-leverage-trap/caption.txt",
       "caption": "Leverage doesn't change your edge, it changes how fast you find out you don't have one. Size from your stop, keep the risk per trade fixed, and the leverage number stops mattering. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #crypto #leverage #bitcoin #cryptotrading #futures #liquidation #tradingpsychology #tradingdiscipline #traderlife #tradingtips",
-      "exists": false,
+      "exists": true,
       "captions_json": "043-leverage-trap/captions.json"
     },
     {
@@ -698,7 +698,7 @@
       "cover": "044-asian-session/cover.jpg",
       "caption_file": "044-asian-session/caption.txt",
       "caption": "Trading a quiet market at 3am because you can’t sleep? Low range, high boredom, extra trades. Your journal shows whether the Asian session pays you or just keeps you busy. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #asiansession #forextrader #usdjpy #sessiontrading #overtrading #cryptotrading #tradingsessions #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "044-asian-session/captions.json"
     },
     {
@@ -716,7 +716,7 @@
       "cover": "045-tag-your-setups/cover.jpg",
       "caption_file": "045-tag-your-setups/caption.txt",
       "caption": "If you don't label your setups, you can't know which one pays. Tag each trade as you log it, and after a few dozen trades Tradeframe ranks them for you. Keep the winners, drop the rest. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingsetups #tradingstrategy #forex #futures #stocks #priceaction #tradingdata #traderlife #tradingtips #breakouttrading #tradestats #edge",
-      "exists": false,
+      "exists": true,
       "captions_json": "045-tag-your-setups/captions.json"
     },
     {
@@ -733,7 +733,7 @@
       "cover": "046-win-streak-blowup/cover.jpg",
       "caption_file": "046-win-streak-blowup/caption.txt",
       "caption": "Five wins in a row and suddenly you’re doubling size. Overconfidence is the most expensive feeling in trading. Tradeframe shows it in your data and keeps your size boring. Free, in your browser. Link in bio.\n\n#overconfidence #winstreak #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "046-win-streak-blowup/captions.json"
     },
     {
@@ -750,7 +750,7 @@
       "cover": "047-small-wins-big-losses/cover.jpg",
       "caption_file": "047-small-wins-big-losses/caption.txt",
       "caption": "Winning most trades means nothing if one loss eats three wins. Tradeframe puts your average win and average loss side by side, finds the trades that bleed, and turns the fix into a rule. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #winrate #forex #futures #tradingstats #riskreward #tradingpsychology #tradingdiscipline #traderlife #tradingtips #tradingmyths",
-      "exists": false,
+      "exists": true,
       "captions_json": "047-small-wins-big-losses/captions.json"
     },
     {
