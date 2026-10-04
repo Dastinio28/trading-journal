@@ -1538,7 +1538,7 @@
       "cover": "093-back-from-a-break/cover.jpg",
       "caption_file": "093-back-from-a-break/caption.txt",
       "caption": "Coming back after weeks off? Don't trade from memory. Reread your own stats and calendar, let AI remind you of your old leaks, and restart with smaller size. Your past self left notes. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingbreak #comeback #tradingpsychology #forex #futures #crypto #riskmanagement #traderlife #tradingtips #tradingdiscipline #restart #tradingplan",
-      "exists": false,
+      "exists": true,
       "captions_json": "093-back-from-a-break/captions.json"
     },
     {
@@ -1557,7 +1557,7 @@
       "cover": "094-breaking-rules/cover.jpg",
       "caption_file": "094-breaking-rules/caption.txt",
       "caption": "Everyone has trading rules. Few can say how often they break them. Tradeframe scores every trade against your checklist and shows which broken rule costs you the most. Free, in your browser. Link in bio.\n\n#tradingrules #tradingplan #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "094-breaking-rules/captions.json"
     },
     {
@@ -1574,7 +1574,7 @@
       "cover": "095-pips-arent-dollars/cover.jpg",
       "caption_file": "095-pips-arent-dollars/caption.txt",
       "caption": "20 pips on EURUSD and 20 pips on gold are not the same money. Measure every trade in R and size every pair from your stop so a loss always costs what you planned. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #forex #pips #xauusd #gold #forextrader #positionsizing #fundedtrader #traderlife #tradingtips #fx",
-      "exists": false,
+      "exists": true,
       "captions_json": "095-pips-arent-dollars/captions.json"
     },
     {
@@ -1590,7 +1590,7 @@
       "cover": "096-wider-stop-myth/cover.jpg",
       "caption_file": "096-wider-stop-myth/caption.txt",
       "caption": "Giving the trade “more room” by dragging your stop isn’t safety, it’s a bigger loss in disguise. Real safety is a planned stop with the size adjusted to it. Tradeframe’s risk calculator does that math. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #tradingmyths #positionsizing #riskmanagement #forextrader #futurestrading #tradingrules #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "096-wider-stop-myth/captions.json"
     },
     {
@@ -1607,7 +1607,7 @@
       "cover": "097-stop-loss-audit/cover.jpg",
       "caption_file": "097-stop-loss-audit/caption.txt",
       "caption": "Moving your stop feels like saving a trade. Your data usually says otherwise. Pull your losses, search for moved stops, and see what that habit really costs, then lock in a rule. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #stoploss #riskmanagement #tradingdiscipline #forex #futures #stocks #tradingmistakes #traderlife #tradingtips #tradingpsychology #propfirm #tradingrules",
-      "exists": false,
+      "exists": true,
       "captions_json": "097-stop-loss-audit/captions.json"
     },
     {
@@ -1624,7 +1624,7 @@
       "cover": "098-moving-stops/cover.jpg",
       "caption_file": "098-moving-stops/caption.txt",
       "caption": "“Just a little wider” is how a 1R loss turns into 3R. Tradeframe flags every stop you moved and shows what those trades did to your month. Demo data shown. Free, in your browser. Link in bio.\n\n#stoploss #riskmanagement #tradingjournal #tradeframe #tradingpsychology #daytrading #tradingmindset #forex #futures #propfirm #tradingdiscipline #traderlife #tradingtips #crypto #fundedtrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "098-moving-stops/captions.json"
     },
     {
@@ -1641,7 +1641,7 @@
       "cover": "099-half-size-after-red/cover.jpg",
       "caption_file": "099-half-size-after-red/caption.txt",
       "caption": "After a red day the urge is to win it back with size. Do the opposite: cut risk, trade your best setup, earn the full size back. Your calendar shows which version of you shows up. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #propfirm #riskmanagement #revengetrading #forex #futures #positionsizing #tradingpsychology #tradingdiscipline #fundedtrader #traderlife #tradingtips #mindset",
-      "exists": false,
+      "exists": true,
       "captions_json": "099-half-size-after-red/captions.json"
     },
     {
@@ -1658,7 +1658,7 @@
       "cover": "100-no-journal-gambling/cover.jpg",
       "caption_file": "100-no-journal-gambling/caption.txt",
       "caption": "Hot take: if you don’t track your trades, you can’t know if you have an edge. You just have hope. A journal turns clicks into data. Tradeframe makes logging take 30 seconds. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #hottake #tradingvsgambling #tradinglog #forextrader #futurestrading #cryptotrading #tradingedge #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
-      "exists": false,
+      "exists": true,
       "captions_json": "100-no-journal-gambling/captions.json"
     },
     {
@@ -1675,7 +1675,7 @@
       "cover": "101-long-vs-short/cover.jpg",
       "caption_file": "101-long-vs-short/caption.txt",
       "caption": "Some traders print on longs and bleed on shorts, and never notice. Log the direction on every trade and Tradeframe splits your results so you see which side actually pays you. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #longshort #tradingbias #forex #futures #stocks #crypto #tradingdata #traderlife #tradingtips #tradestats #marketbias #tradinganalytics",
-      "exists": false,
+      "exists": true,
       "captions_json": "101-long-vs-short/captions.json"
     },
     {
