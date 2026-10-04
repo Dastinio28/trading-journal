@@ -36,7 +36,7 @@ function bass808(t, f, len, g = 1, glideTo = null) {
 function bass(t, f, len, g = 1, glideTo = null) {
   let ph = 0; add(t, len + .15, x => { const ff = glideTo ? f + (glideTo - f) * Math.min(1, Math.max(0, (x - len * .5) / (len * .4))) : f; ph += 2 * Math.PI * ff / SR;
     const env = Math.min(1, x / .003) * (x < len ? .55 + .45 * Math.exp(-x * 2.2) : (.55 + .45 * Math.exp(-len * 2.2)) * Math.exp(-(x - len) * 30));
-    return g * sat(Math.sin(ph) * env, 3.5) * .5; }, 0, 0, false);
+    return g * (sat(Math.sin(ph) * env, 8) * .42 + Math.sin(ph * .5) * env * .18); }, 0, 0, false);
 }
 function clap(t, g = 1) {
   const f = bp(1500, .9), f2 = bp(220, 2);
@@ -46,9 +46,9 @@ function hat(t, g = 1, open = false, pan = .25) {
   const h = hp(); add(t, open ? .3 : .06, x => g * h(rnd(), .97) * Math.exp(-x * (open ? 12 : 70)) * .22, pan, .05);
 }
 function cowbell(t, semi, g = 1, len = .32, pan = 0) {
-  const f = 659.26 * Math.pow(2, semi / 12), f1 = bp(f * 1.2, 1.4); let p1 = 0, p2 = 0;
+  const f = 329.63 * Math.pow(2, semi / 12), f1 = bp(f * 1.2, 1.4); let p1 = 0, p2 = 0;
   add(t, len, x => { p1 += f / SR; p2 += f * 1.482 / SR; const sq = ((p1 % 1) < .5 ? 1 : -1) * .6 + ((p2 % 1) < .5 ? 1 : -1) * .4;
-    const env = Math.min(1, x / .002) * (Math.exp(-x * 9) * .8 + Math.exp(-x * 40) * .2); return g * sat(f1(sq) * env * 1.6, 2.5) * .52; }, pan, .3);
+    const env = Math.min(1, x / .002) * (Math.exp(-x * 9) * .8 + Math.exp(-x * 40) * .2); return g * sat(f1(sq) * env * 2.4, 5) * .5; }, pan, .3);
 }
 function pad(t, len, semis, g = 1) {
   const l1 = lp(); const fr = semis.flatMap(s => [hz(s) * .997, hz(s) * 1.004]); const ph = fr.map(() => Math.random());
@@ -80,9 +80,9 @@ const inFull = bb => FULL.some(([a, z]) => bb >= a && bb < z);
 function groove(a, z, variant = 0) {
   for (let bb = a; bb < z; bb += .25) {
     const st = Math.round(((bb - 8) % 8 + 8) % 8 * 4); const s16 = st % 16; const t = b(bb);
-    if ([0, 6, 10].includes(s16) || (variant && s16 === 14 && st >= 16)) kick(t, s16 === 0 ? 1 : .85);
-    if (s16 === 4 || s16 === 12) clap(t, 1);
-    if (s16 % 2 === 0) hat(t, s16 % 4 === 2 ? .9 : .6);
+    if ([0, 10].includes(s16) || (s16 === 3 && st >= 16) || (variant && s16 === 14 && st >= 16)) kick(t, s16 === 0 ? 1.15 : .95);
+    if (s16 === 8) clap(t, 1.15);
+    if (s16 % 2 === 0) hat(t, s16 % 4 === 2 ? .7 : .45);
     if (st % 16 === 14 && Math.floor(st / 16) === 1) { for (let k = 1; k < 4; k++) hat(t + k * BEAT / 12, .5, false, -.2); }
     if (s16 === 7 && variant) hat(t, .7, true, -.3);
     const m = MEL[st]; if (m != null) cowbell(t, m + (variant === 2 ? 12 : 0), st % 2 ? .8 : 1, .3, st % 4 === 2 ? .35 : -.15);
@@ -90,7 +90,7 @@ function groove(a, z, variant = 0) {
   for (let base = a - ((a - 8) % 8 + 8) % 8; base < z; base += 8) ROOTS.forEach(([o, f, len, gl]) => { const bb = base + o; if (bb >= a && bb < z) bass(b(bb), f, Math.min(len * BEAT, b(z) - b(bb)), 1, gl ? gl : null); });
 }
 // intro: slams hit on each beat, dark pad + filtered cowbell + ticker
-pad(0, b(7.5), [-17, -14, -10], .9);
+pad(0, b(7.5), [-29, -26, -22], 1.1);
 [0, 1, 2, 3, 4, 5].forEach(bb => { kick(b(bb), .95); bass(b(bb), [E.E1, E.E1, E.G1, E.E1, E.C2, E.D2][bb], .38, .8); });
 [3.5].forEach(bb => clap(b(bb), .5));
 for (let bb = 0; bb < 7.5; bb += .25) { const m = MEL[Math.round(bb * 4) % 32]; if (m != null) cowbell(b(bb), m, .28, .25, 0); }
@@ -118,21 +118,21 @@ for (let i = 0; i < 6; i++) coin(b(52.5 + i * .5), .9, 3600 + i * 300);
 chaching(b(55), .8);
 groove(57.5, 64, 1);
 impact(b(58), .7); chaching(b(62), 1);
-pad(b(62), b(8) + 1, [-17, -14, -10, -5], .8);
+pad(b(62), b(8) + 1, [-29, -26, -22, -17], 1);
 for (let bb = 64; bb < 70; bb += .5) { const m = MEL[Math.round((bb - 8) * 4) % 32]; if (m != null) cowbell(b(bb), m, .35 * (1 - (bb - 64) / 6), .3, 0); }
 bass(b(64), E.E1, b(4), .9);
 
 /* ---------- reverb send (Schroeder) + master ---------- */
 const combs = [1557, 1617, 1491, 1422].map(d => ({ d, buf: new Float32Array(d), i: 0 })), aps = [225, 556].map(d => ({ d, buf: new Float32Array(d), i: 0 }));
 for (let n = 0; n < N; n++) {
-  let x = SEND[n] * .25, y = 0;
-  for (const c of combs) { const o = c.buf[c.i]; c.buf[c.i] = x + o * .8; c.i = (c.i + 1) % c.d; y += o; }
+  let x = SEND[n] * .42, y = 0;
+  for (const c of combs) { const o = c.buf[c.i]; c.buf[c.i] = x + o * .86; c.i = (c.i + 1) % c.d; y += o; }
   for (const a of aps) { const o = a.buf[a.i]; const v = y + o * -.5; a.buf[a.i] = v; y = o + v * .5; a.i = (a.i + 1) % a.d; }
   L[n] += y * .5; R[n] += y * .48;
 }
 // ping-pong delay on the right for width (3/16 note)
 const dl = S(BEAT * .75); for (let n = dl; n < N; n++) { R[n] += L[n - dl] * .08; }
-let peak = 0; for (let n = 0; n < N; n++) { L[n] = sat(L[n], 1.15); R[n] = sat(R[n], 1.15); peak = Math.max(peak, Math.abs(L[n]), Math.abs(R[n])); }
+let peak = 0; for (let n = 0; n < N; n++) { L[n] = sat(L[n], 1.6); R[n] = sat(R[n], 1.6); peak = Math.max(peak, Math.abs(L[n]), Math.abs(R[n])); }
 const fade = S(1.6); for (let n = N - fade; n < N; n++) { const g = (N - n) / fade; L[n] *= g; R[n] *= g; }
 const buf = Buffer.alloc(44 + N * 4); const w = (o, s) => buf.write(s, o);
 w(0, 'RIFF'); buf.writeUInt32LE(36 + N * 4, 4); w(8, 'WAVE'); w(12, 'fmt '); buf.writeUInt32LE(16, 16); buf.writeUInt16LE(1, 20); buf.writeUInt16LE(2, 22);
