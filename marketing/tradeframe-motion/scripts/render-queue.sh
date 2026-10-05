@@ -4,6 +4,7 @@
 # bash scripts/render-queue.sh [outDir] [parallel] [--push]
 HERE="$(cd "$(dirname "$0")/.." && pwd)"; OUT="${1:-$HERE/../videos}"; PAR="${2:-3}"; PUSH="$3"; BATCH=9
 export NODE_PATH="${NODE_PATH:-$(npm root -g)}"
+[ -f "$OUT/render.log" ] && mv "$OUT/render.log" "$OUT/render.prev.log"  # fresh log so watchers do not see an old QUEUE_DONE
 REPO="$(git -C "$HERE" rev-parse --show-toplevel)"; BR="$(git -C "$REPO" branch --show-current)"
 commit() {
   node "$HERE/scripts/manifest.js" "$OUT" >/dev/null
