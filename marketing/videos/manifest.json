@@ -2630,7 +2630,7 @@
       "cover": "157-summer-chop/cover.jpg",
       "caption_file": "157-summer-chop/caption.txt",
       "caption": "Summer markets: tight ranges, fake breakouts, and twice as many trades for half the result. Check your calendar and stats for July and August and decide if you trade less, size down or take a real break. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #summertrading #rangetrading #chop #forextrader #futurestrading #overtrading #priceaction #tradingtips #traderlife #propfirm",
-      "exists": false,
+      "exists": true,
       "captions_json": "157-summer-chop/captions.json"
     },
     {
@@ -2647,7 +2647,7 @@
       "cover": "158-worst-hour-lunch/cover.jpg",
       "caption_file": "158-worst-hour-lunch/caption.txt",
       "caption": "Not every hour is equal. For a lot of day traders the midday chop quietly eats the morning’s gains. Find your worst hour in your own data, then make a rule to be flat for it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #nyopen #overtrading #stocks #futures #forex #scalping #traderlife #tradingrules",
-      "exists": false,
+      "exists": true,
       "captions_json": "158-worst-hour-lunch/captions.json"
     },
     {
@@ -2664,7 +2664,7 @@
       "cover": "159-a-stop-is-a-promise/cover.jpg",
       "caption_file": "159-a-stop-is-a-promise/caption.txt",
       "caption": "When you set a stop, you make a promise to your future self. Tradeframe sizes the trade from that stop, then the AI flags every time it got moved and adds a rule so it never widens again. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #riskmanagement #priceaction #fundedtrader #tradingquotes #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy #unpopularopinion #hottake #tradinghabits",
-      "exists": false,
+      "exists": true,
       "captions_json": "159-a-stop-is-a-promise/captions.json"
     },
     {
@@ -2681,7 +2681,7 @@
       "cover": "160-screenshot-free/cover.jpg",
       "caption_file": "160-screenshot-free/caption.txt",
       "caption": "Thousands of chart screenshots, zero answers. A photo can’t tell you your best setup or that you keep moving your stop. Log the numbers instead and let the stats and AI do the looking. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #chartanalysis #priceaction #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement",
-      "exists": false,
+      "exists": true,
       "captions_json": "160-screenshot-free/captions.json"
     },
     {
@@ -2697,7 +2697,7 @@
       "cover": "161-us30-points-arent-small/cover.jpg",
       "caption_file": "161-us30-points-arent-small/caption.txt",
       "caption": "On US30 a 100-point move feels like noise, but with the wrong size it's a real chunk of your account. Size every Dow trade from the stop, and log P&L in R so the big numbers stop fooling you. Free, in your browser. Link in bio.\n\n#us30 #dowjones #indices #indextrading #futurestrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
-      "exists": false,
+      "exists": true,
       "captions_json": "161-us30-points-arent-small/captions.json"
     },
     {
@@ -2714,7 +2714,7 @@
       "cover": "162-swing-trader-2am/cover.jpg",
       "caption_file": "162-swing-trader-2am/caption.txt",
       "caption": "Swing trading was supposed to mean less screen time. Instead it’s 2am chart checks and ‘just a bit more room’ on the stop. The journal shows every big loss started with a moved stop. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #swingtrader #swingtrading #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
-      "exists": false,
+      "exists": true,
       "captions_json": "162-swing-trader-2am/captions.json"
     },
     {
@@ -2733,7 +2733,7 @@
       "cover": "163-what-counts-as-a-setup/cover.jpg",
       "caption_file": "163-what-counts-as-a-setup/caption.txt",
       "caption": "A setup is a set of conditions you can repeat: same market context, same trigger, same stop logic. If you can't describe it in one line, it's not a setup, it's a guess. Tag each one in Tradeframe and see which pays. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingsetup #tradingterms #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
-      "exists": false,
+      "exists": true,
       "captions_json": "163-what-counts-as-a-setup/captions.json"
     },
     {
@@ -2750,7 +2750,7 @@
       "cover": "164-one-rule-one-week/cover.jpg",
       "caption_file": "164-one-rule-one-week/caption.txt",
       "caption": "Forget ten new rules. Pick one for a week: once the stop is in, you never touch it. Log every trade, tick the box, and let the AI show you what moved stops cost you before. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #tradingchallenge #tradingtips #traderlife #tradingmindset #tradingstrategy #daytrading #futurestrading #tradingdiscipline #propfirm #tradinghabits #stocktrading #daytrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "164-one-rule-one-week/captions.json"
     },
     {
@@ -2766,7 +2766,7 @@
       "cover": "165-monday-open-rust/cover.jpg",
       "caption_file": "165-monday-open-rust/caption.txt",
       "caption": "After a weekend off, the first click on Monday is often the worst one of the week. Your journal can show whether Monday opens pay you or just warm you up. Let the numbers tell you when to start. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #mondaymotivation #marketopen #stocktrading #futurestrading #forextrader #indextrading #tradingtips #priceaction #traderlife #propfirm",
-      "exists": false,
+      "exists": true,
       "captions_json": "165-monday-open-rust/captions.json"
     },
     {
