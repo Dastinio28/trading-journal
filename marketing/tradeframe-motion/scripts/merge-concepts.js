@@ -1,9 +1,10 @@
 // Append agent-written concepts (see references/concept-brief.md) to videos.json with unique ids, seeds and music,
-// durations kept between 21 and 44 s.  node scripts/merge-concepts.js <firstNumber> <file.json...> [--write]
+// durations kept between 21 and 44 s.  node scripts/merge-concepts.js <firstNumber> <file.json...> [--max=N] [--write]
 // Files are interleaved (1st of each file, then 2nd...) so the posting queue alternates themes.
 const fs = require('fs'), path = require('path'), R = path.resolve(__dirname, '..');
 const { SCENES } = require(R + '/engine/scenes.js'); const { timeline } = require(R + '/scripts/build.js');
 const args = process.argv.slice(2), write = args.includes('--write'), files = args.filter(a => a.endsWith('.json'));
+const MAX = +((args.find(a => a.startsWith('--max=')) || '--max=100000').slice(6));
 let n = +args[0]; if (!n || !files.length) { console.error('usage: merge-concepts.js <firstNumber> <file.json...> [--write]'); process.exit(1); }
 const V = JSON.parse(fs.readFileSync(R + '/videos.json', 'utf8'));
 const groups = files.map(f => JSON.parse(fs.readFileSync(f, 'utf8')));
@@ -14,7 +15,7 @@ const slugs = new Set(V.map(v => v.id.replace(/^\d+-/, ''))), titles = new Set(V
 const seeds = new Set(V.map(v => v.seed)), out = [], log = [];
 const max = Math.max(...groups.map(g => g.length));
 for (let i = 0; i < max; i++) for (const g of groups) {
-  const c = g[i]; if (!c) continue;
+  const c = g[i]; if (!c || out.length >= MAX) continue;
   if (titles.has(String(c.title).toLowerCase())) { log.push(`skip duplicate title: ${c.title}`); continue; }
   const scenes = [...new Set((c.scenes || []).filter(k => SCENES[k]))]; if (scenes.length < 2) { log.push(`skip ${c.slug}: scenes`); continue; }
   const over = {};
