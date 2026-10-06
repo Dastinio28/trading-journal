@@ -1,0 +1,3 @@
+On crypto perps, the liquidation price isn't a stop, it's the worst case. Log every leveraged trade with a real stop and your journal shows how much the no-stop trades really cost. Free, in your browser. Link in bio.
+
+#cryptofutures #leverage #crypto #bitcoin #cryptotrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy
