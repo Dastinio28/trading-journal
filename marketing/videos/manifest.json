@@ -4153,7 +4153,7 @@
       "cover": "247-signals-dont-build-skill/cover.jpg",
       "caption_file": "247-signals-dont-build-skill/caption.txt",
       "caption": "Following someone else’s calls doesn’t teach you anything about how you trade. Your own logged trades do: your best setup, your weak day, your revenge habit. Tradeframe reads all of it. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingeducation #learntotrade #hottake #tradinghabits #daytrader #daytrading #tradingpsychology #tradingmindset #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement",
-      "exists": false,
+      "exists": true,
       "captions_json": "247-signals-dont-build-skill/captions.json"
     },
     {
@@ -4170,7 +4170,7 @@
       "cover": "248-midday-reset/cover.jpg",
       "caption_file": "248-midday-reset/caption.txt",
       "caption": "Most overtrading happens after lunch. A 60-second midday reset: check the morning on the dashboard, see how much daily risk is left, re-run the checklist. Then decide if the afternoon deserves your clicks. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #overtrading #traderroutine #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader #tradinghabits #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology",
-      "exists": false,
+      "exists": true,
       "captions_json": "248-midday-reset/captions.json"
     },
     {
@@ -4186,7 +4186,7 @@
       "cover": "249-micros-prove-it/cover.jpg",
       "caption_file": "249-micros-prove-it/caption.txt",
       "caption": "Micro futures let you trade the same NQ or ES chart with a fraction of the dollar risk. Journal 50 micro trades in R first, and let the stats decide when you're ready to size up. Free, in your browser. Link in bio.\n\n#microfutures #mnq #mes #futurestrading #futurestrader #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
-      "exists": false,
+      "exists": true,
       "captions_json": "249-micros-prove-it/captions.json"
     },
     {
@@ -4203,7 +4203,7 @@
       "cover": "250-paper-notebook-trader/cover.jpg",
       "caption_file": "250-paper-notebook-trader/caption.txt",
       "caption": "Old-school paper journal, pencil, and a lot of eraser marks next to the stop column. Move it to a table and the pattern jumps out: the worst losses all had a rewritten stop. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #oldschooltrader #stoploss #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
-      "exists": false,
+      "exists": true,
       "captions_json": "250-paper-notebook-trader/captions.json"
     },
     {
@@ -4220,7 +4220,7 @@
       "cover": "251-variance-10-trades-lie/cover.jpg",
       "caption_file": "251-variance-10-trades-lie/caption.txt",
       "caption": "Five losses in a row doesn't mean your strategy is broken. Even a solid edge has streaks. That's variance. Judge a setup over many trades, and only fix what the data repeats. Tradeframe shows you the difference. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #variance #losingstreak #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
-      "exists": false,
+      "exists": true,
       "captions_json": "251-variance-10-trades-lie/captions.json"
     },
     {
@@ -4237,7 +4237,7 @@
       "cover": "252-hundred-trade-sample/cover.jpg",
       "caption_file": "252-hundred-trade-sample/caption.txt",
       "caption": "10 trades is a mood. 100 trades is data. Log (or import) your next 100 before you judge your strategy, then let the stats and AI show what's real. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingstrategy #backtesting #scalping #tradingcommunity #tradingpsychology #tradingtips #traderlife #tradingchallenge #tradingmindset #daytrading #futurestrading #tradingdiscipline #propfirm",
-      "exists": false,
+      "exists": true,
       "captions_json": "252-hundred-trade-sample/captions.json"
     },
     {
@@ -4253,7 +4253,7 @@
       "cover": "253-premarket-trades/cover.jpg",
       "caption_file": "253-premarket-trades/caption.txt",
       "caption": "Pre-market trading feels like a head start, until the spread eats your entry. Import your fills and compare pre-market to regular hours. Your own numbers decide if the early session is worth waking up for. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #premarket #stocktrading #daytrader #gaptrading #smallcaps #momentumtrading #liquidity #tradingtips #traderlife #stockmarket",
-      "exists": false,
+      "exists": true,
       "captions_json": "253-premarket-trades/captions.json"
     },
     {
@@ -4270,7 +4270,7 @@
       "cover": "254-realized-vs-planned-r/cover.jpg",
       "caption_file": "254-realized-vs-planned-r/caption.txt",
       "caption": "You plan 3R, you close at 1.1R. Do that every trade and the math stops working. Compare planned R with realized R and see where you bail. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #riskreward #rmultiple #letwinnersrun #forex #futures #stocks #traderlife #tradingplan",
-      "exists": false,
+      "exists": true,
       "captions_json": "254-realized-vs-planned-r/captions.json"
     },
     {
@@ -4286,7 +4286,7 @@
       "cover": "255-trade-the-chart-not-pnl/cover.jpg",
       "caption_file": "255-trade-the-chart-not-pnl/caption.txt",
       "caption": "Watching floating P&L tick up and down is how stops get moved. Decide your levels on the chart, let Tradeframe compute the size and R, and let the AI flag moved stops. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #priceaction #tradingpsychology #daytrading #tradingmindset #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement #tradingdiscipline #traderlife #tradingtips #stocktrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "255-trade-the-chart-not-pnl/captions.json"
     },
     {
