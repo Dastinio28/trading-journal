@@ -3698,7 +3698,7 @@
       "cover": "220-stop-lock-14/cover.jpg",
       "caption_file": "220-stop-lock-14/caption.txt",
       "caption": "The 14-day stop lock: size from your stop, set it before entry, never touch it. On day 14, search your journal for widened stops and see an empty list. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #tradingchallenge #tradinghabits #stocktrading #daytrader #forextrader #riskmanagement #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingpsychology",
-      "exists": false,
+      "exists": true,
       "captions_json": "220-stop-lock-14/captions.json"
     },
     {
@@ -3714,7 +3714,7 @@
       "cover": "221-london-close/cover.jpg",
       "caption_file": "221-london-close/caption.txt",
       "caption": "Around 11am New York, London desks close and the morning trend can flip. Do your trades survive it? Your session stats show whether holding past the London close pays you or hands back the morning. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #londonclose #londonsession #forextrader #forex #gbpusd #eurusd #priceaction #tradingtips #traderlife #propfirm",
-      "exists": false,
+      "exists": true,
       "captions_json": "221-london-close/captions.json"
     },
     {
@@ -3730,7 +3730,7 @@
       "cover": "222-consistency-score-number/cover.jpg",
       "caption_file": "222-consistency-score-number/caption.txt",
       "caption": "Consistency means similar size days, similar risk, same routine. When the calendar looks like a slot machine, the score drops. Watch it climb as your days get boring. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #consistency #propfirm #forex #futures #stocks #tradingdiscipline #traderlife #routine",
-      "exists": false,
+      "exists": true,
       "captions_json": "222-consistency-score-number/captions.json"
     },
     {
@@ -3747,7 +3747,7 @@
       "cover": "223-discipline-is-freedom/cover.jpg",
       "caption_file": "223-discipline-is-freedom/caption.txt",
       "caption": "Rules don’t trap you, they free you from deciding everything in the heat of the moment. Tradeframe gives you a checklist, a trade cap and a discipline score so you can log off early. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #discipline #tradingquotes #priceaction #fundedtrader #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy #unpopularopinion #hottake #tradinghabits #daytrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "223-discipline-is-freedom/captions.json"
     },
     {
@@ -3763,7 +3763,7 @@
       "cover": "224-risk-checklist-gate/cover.jpg",
       "caption_file": "224-risk-checklist-gate/caption.txt",
       "caption": "Two gates before any trade: size it with the risk calculator and pass the checklist. Only then does the order happen, and the stop stays where the math put it. Simple friction that saves accounts. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #riskmanagement #positionsizing #daytrading #forextrader #tradingpsychology #futurestrading #tradingtips #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy",
-      "exists": false,
+      "exists": true,
       "captions_json": "224-risk-checklist-gate/captions.json"
     },
     {
@@ -3779,7 +3779,7 @@
       "cover": "225-small-cap-halts/cover.jpg",
       "caption_file": "225-small-cap-halts/caption.txt",
       "caption": "Low-float runners halt, reopen and move fast, and chasing the re-open after a loss is an easy habit to fall into. Search your journal for halt trades and see what pattern shows up. Free, in your browser. Link in bio.\n\n#smallcaps #stocks #stockmarket #pennystocks #momentumtrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
-      "exists": false,
+      "exists": true,
       "captions_json": "225-small-cap-halts/captions.json"
     },
     {
@@ -3796,7 +3796,7 @@
       "cover": "226-friday-reward-trade/cover.jpg",
       "caption_file": "226-friday-reward-trade/caption.txt",
       "caption": "Long week, Friday afternoon, one ‘reward’ trade with no plan. The calendar shows how often that treat turns red. Do the checklist first, or close the laptop and enjoy the weekend. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #fridayfeeling #weekendtrader #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
-      "exists": false,
+      "exists": true,
       "captions_json": "226-friday-reward-trade/captions.json"
     },
     {
@@ -3812,7 +3812,7 @@
       "cover": "227-profit-factor-explained/cover.jpg",
       "caption_file": "227-profit-factor-explained/caption.txt",
       "caption": "Profit factor = total money won divided by total money lost. Above 1 you're making more than you lose, below 1 you're leaking. It's a quick health check for any setup. Tradeframe breaks it down per setup and weekday. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #profitfactor #tradingstats #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
-      "exists": false,
+      "exists": true,
       "captions_json": "227-profit-factor-explained/captions.json"
     },
     {
@@ -3829,7 +3829,7 @@
       "cover": "228-one-and-done/cover.jpg",
       "caption_file": "228-one-and-done/caption.txt",
       "caption": "One trade a day, five days. You only get one, so you wait for your A+ setup and tick every box. The worst day is just -1R. Try it, log it, compare. Demo data shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #overtrading #tradingchallenge #fundedtrader #scalping #tradingcommunity #tradingpsychology #tradingtips #traderlife #tradingmindset #tradingstrategy #daytrading #futurestrading #tradingdiscipline",
-      "exists": false,
+      "exists": true,
       "captions_json": "228-one-and-done/captions.json"
     },
     {
