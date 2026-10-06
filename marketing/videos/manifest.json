@@ -2783,7 +2783,7 @@
       "cover": "166-trades-per-day-sweet-spot/cover.jpg",
       "caption_file": "166-trades-per-day-sweet-spot/caption.txt",
       "caption": "Plot trades per day against daily P&L and most traders find a sweet spot, then a cliff. Tradeframe shows where your edge fades and adds a max-trades rule in one click. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #overtrading #daytrader #forex #futures #stocks #tradingrules #traderlife #propfirm",
-      "exists": false,
+      "exists": true,
       "captions_json": "166-trades-per-day-sweet-spot/captions.json"
     },
     {
@@ -2800,7 +2800,7 @@
       "cover": "167-red-days-are-fine/cover.jpg",
       "caption_file": "167-red-days-are-fine/caption.txt",
       "caption": "A red day inside your risk limit is just a normal day. The damage usually comes from the trades you take after it. Tradeframe’s AI finds revenge sequences and the risk calculator keeps red days small. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #unpopularopinion #revengetrading #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy #hottake #tradinghabits #daytrader #daytrading #tradingpsychology #tradingmindset",
-      "exists": false,
+      "exists": true,
       "captions_json": "167-red-days-are-fine/captions.json"
     },
     {
@@ -2817,7 +2817,7 @@
       "cover": "168-sheet-cant-answer/cover.jpg",
       "caption_file": "168-sheet-cant-answer/caption.txt",
       "caption": "A spreadsheet stores trades. It rarely answers questions. Which setup pays? Which day costs you? What’s the actual leak? A journal built for traders answers all three without a single formula. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #spreadsheet #tradingstrategy #traderroutine #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction",
-      "exists": false,
+      "exists": true,
       "captions_json": "168-sheet-cant-answer/captions.json"
     },
     {
@@ -2834,7 +2834,7 @@
       "cover": "169-dax-friday-bleed/cover.jpg",
       "caption_file": "169-dax-friday-bleed/caption.txt",
       "caption": "Is your DAX edge a Monday-to-Thursday thing? Import your GER40 history and the weekday stats show it in seconds. Demo data, real pattern worth checking in your own trades. Free, in your browser. Link in bio.\n\n#dax #ger40 #dax40 #indices #futurestrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
-      "exists": false,
+      "exists": true,
       "captions_json": "169-dax-friday-bleed/captions.json"
     },
     {
@@ -2851,7 +2851,7 @@
       "cover": "170-funded-friday-bleed/cover.jpg",
       "caption_file": "170-funded-friday-bleed/caption.txt",
       "caption": "Getting funded is the easy part. Keeping it is the job. This demo month looks fine Monday to Thursday, then every Friday gives it back. One calendar, one rule. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #fundedtrader #propfirmchallenge #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
-      "exists": false,
+      "exists": true,
       "captions_json": "170-funded-friday-bleed/captions.json"
     },
     {
@@ -2868,7 +2868,7 @@
       "cover": "171-trading-plan-five-lines/cover.jpg",
       "caption_file": "171-trading-plan-five-lines/caption.txt",
       "caption": "A trading plan doesn't need 40 pages. Five lines: what you trade, when, how much you risk, where you exit, and when you review. Turn them into a checklist in Tradeframe and tick it before every trade. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingplan #tradingrules #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
-      "exists": false,
+      "exists": true,
       "captions_json": "171-trading-plan-five-lines/captions.json"
     },
     {
@@ -2885,7 +2885,7 @@
       "cover": "172-weekly-scorecard/cover.jpg",
       "caption_file": "172-weekly-scorecard/caption.txt",
       "caption": "Every Friday, grade your week like a report card: setups, weekday, exits, discipline. One weak grade becomes one rule for next week. No guessing, just your own data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #weeklyreview #tradinghabits #tradingdiscipline #propfirm #stocktrading #daytrader #forextrader #riskmanagement #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity",
-      "exists": false,
+      "exists": true,
       "captions_json": "172-weekly-scorecard/captions.json"
     },
     {
@@ -2901,7 +2901,7 @@
       "cover": "173-month-end-flows/cover.jpg",
       "caption_file": "173-month-end-flows/caption.txt",
       "caption": "Month-end rebalancing can make candles look like a breakout that never was. Tag the last two sessions of each month and let your journal show if you should trade them, size down or watch. Not a forecast, just your own record. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #monthend #rebalancing #futurestrading #stocktrading #forextrader #indextrading #priceaction #tradingtips #traderlife #propfirm",
-      "exists": false,
+      "exists": true,
       "captions_json": "173-month-end-flows/captions.json"
     },
     {
@@ -2918,7 +2918,7 @@
       "cover": "174-hold-time-tells/cover.jpg",
       "caption_file": "174-hold-time-tells/caption.txt",
       "caption": "Compare how long you hold winners versus losers. If losers sit for hours while winners close in minutes, you’re trading hope and fear. Your journal knows. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #holdtime #stoploss #forex #futures #stocks #letwinnersrun #traderlife #swingtrading",
-      "exists": false,
+      "exists": true,
       "captions_json": "174-hold-time-tells/captions.json"
     },
     {
