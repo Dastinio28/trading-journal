@@ -2001,6 +2001,3391 @@
       "caption": "Some traders feast on news. Some just get slipped and stopped. Which one are you? Tag your NFP and CPI trades, then let the data decide if you should be flat that morning. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #nfp #newstrading #economiccalendar #forextrader #futurestrading #cpi #fridayfeeling #daytrading #forex #futures #tradingpsychology #tradingdiscipline #traderlife",
       "exists": true,
       "captions_json": "120-skip-news-days/captions.json"
+    },
+    {
+      "order": 121,
+      "id": "121-eurusd-chop-tax",
+      "title": "EURUSD: the chop tax",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "121-eurusd-chop-tax/121-eurusd-chop-tax.mp4",
+      "cover": "121-eurusd-chop-tax/cover.jpg",
+      "caption_file": "121-eurusd-chop-tax/caption.txt",
+      "caption": "EURUSD spends hours in a 20-pip box, and that's where most demo journals bleed: trade after trade inside the chop. Filter your EURUSD history, find the range losses, and cap your trades per day. Free, in your browser. Link in bio.\n\n#eurusd #forex #forextrader #forextrading #fxtrader #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": true,
+      "captions_json": "121-eurusd-chop-tax/captions.json"
+    },
+    {
+      "order": 122,
+      "id": "122-student-between-lectures",
+      "title": "POV: trading between lectures",
+      "features": [
+        "add",
+        "journal",
+        "cal",
+        "ai",
+        "ck"
+      ],
+      "video": "122-student-between-lectures/122-student-between-lectures.mp4",
+      "cover": "122-student-between-lectures/cover.jpg",
+      "caption_file": "122-student-between-lectures/caption.txt",
+      "caption": "Trading on your phone under the desk between lectures feels productive. Then the semester data says 14 trades a day and a red grade. Tradeframe logs every trade and its AI flags the habit costing you. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #studenttrader #collegelife #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": true,
+      "captions_json": "122-student-between-lectures/captions.json"
+    },
+    {
+      "order": 123,
+      "id": "123-what-is-r",
+      "title": "What is R? 20-second answer",
+      "features": [
+        "add",
+        "risk",
+        "stats",
+        "dash",
+        "ck"
+      ],
+      "video": "123-what-is-r/123-what-is-r.mp4",
+      "cover": "123-what-is-r/cover.jpg",
+      "caption_file": "123-what-is-r/caption.txt",
+      "caption": "R is just the amount you risk on one trade. Lose it: -1R. Make double: +2R. Once every trade is in R, a $50 account and a $50k account speak the same language. Tradeframe computes R for you on every log. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #rmultiple #tradingterms #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": true,
+      "captions_json": "123-what-is-r/captions.json"
+    },
+    {
+      "order": 124,
+      "id": "124-day1-vs-day90",
+      "title": "Day 1 vs Day 90",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "dash"
+      ],
+      "video": "124-day1-vs-day90/124-day1-vs-day90.mp4",
+      "cover": "124-day1-vs-day90/cover.jpg",
+      "caption_file": "124-day1-vs-day90/caption.txt",
+      "caption": "Day 1 of journaling: 14 trades, zero notes, no clue. Day 90: you know your best setup, your worst weekday and the exact impulse that costs you. Same trader, more data. Demo numbers shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingchallenge #tradinghabits #daytrading #futurestrading #tradingdiscipline #propfirm #stocktrading #daytrader #forextrader #riskmanagement #priceaction #cryptotrading #fundedtrader",
+      "exists": true,
+      "captions_json": "124-day1-vs-day90/captions.json"
+    },
+    {
+      "order": 125,
+      "id": "125-cpi-morning",
+      "title": "CPI morning: trade it or watch it?",
+      "features": [
+        "import",
+        "journal",
+        "stats",
+        "ai",
+        "ck",
+        "dash"
+      ],
+      "video": "125-cpi-morning/125-cpi-morning.mp4",
+      "cover": "125-cpi-morning/cover.jpg",
+      "caption_file": "125-cpi-morning/caption.txt",
+      "caption": "CPI drops, candles go vertical, and most of us click in the first 30 seconds. Tag your CPI-day trades and let your own journal show whether that window pays you or bleeds you. No predictions, just your data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #cpi #economicnews #forextrader #futurestrading #indextrading #newstrading #tradingtips #nasdaq #traderlife #propfirm",
+      "exists": true,
+      "captions_json": "125-cpi-morning/captions.json"
+    },
+    {
+      "order": 126,
+      "id": "126-profit-factor-check",
+      "title": "Is your profit factor above 1?",
+      "features": [
+        "dash",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "126-profit-factor-check/126-profit-factor-check.mp4",
+      "cover": "126-profit-factor-check/cover.jpg",
+      "caption_file": "126-profit-factor-check/caption.txt",
+      "caption": "Profit factor = gross wins divided by gross losses. Under 1 and you’re paying the market to trade. Tradeframe shows it on your dashboard and per setup, so you see exactly what drags it down. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #profitfactor #tradingmetrics #forex #futures #propfirm #riskmanagement #traderlife #stocktrading",
+      "exists": true,
+      "captions_json": "126-profit-factor-check/captions.json"
+    },
+    {
+      "order": 127,
+      "id": "127-no-trade-is-a-position",
+      "title": "No trade is still a position",
+      "features": [
+        "ck",
+        "ai",
+        "cal",
+        "dash"
+      ],
+      "video": "127-no-trade-is-a-position/127-no-trade-is-a-position.mp4",
+      "cover": "127-no-trade-is-a-position/cover.jpg",
+      "caption_file": "127-no-trade-is-a-position/caption.txt",
+      "caption": "Sitting out is a decision, not a missed opportunity. In demo data the best days had two trades and the worst had eleven. Tradeframe’s AI spots when extra trades become the leak and caps them with one click. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #patience #tradingmindset #daytrading #tradingpsychology #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement #tradingdiscipline #traderlife #tradingtips #stocktrader",
+      "exists": true,
+      "captions_json": "127-no-trade-is-a-position/captions.json"
+    },
+    {
+      "order": 128,
+      "id": "128-five-minute-debrief",
+      "title": "The 5-minute post-session routine",
+      "features": [
+        "add",
+        "journal",
+        "dash",
+        "ck"
+      ],
+      "video": "128-five-minute-debrief/128-five-minute-debrief.mp4",
+      "cover": "128-five-minute-debrief/cover.jpg",
+      "caption_file": "128-five-minute-debrief/caption.txt",
+      "caption": "The session ends when the journal is done, not when the platform closes. Five minutes: log every trade, tag the feeling, scan the losses, check the dashboard, set tomorrow’s checklist. Small routine, big clarity. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #traderroutine #tradinghabits #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading",
+      "exists": true,
+      "captions_json": "128-five-minute-debrief/captions.json"
+    },
+    {
+      "order": 129,
+      "id": "129-gbpjpy-same-lot",
+      "title": "GBPJPY needs its own size",
+      "features": [
+        "risk",
+        "add",
+        "ai",
+        "journal"
+      ],
+      "video": "129-gbpjpy-same-lot/129-gbpjpy-same-lot.mp4",
+      "cover": "129-gbpjpy-same-lot/cover.jpg",
+      "caption_file": "129-gbpjpy-same-lot/caption.txt",
+      "caption": "GBPJPY moves twice as far as EURUSD, so the same lot size quietly doubles your risk. Let the risk calculator size every GBPJPY trade from your stop, not from habit. Free, in your browser. Link in bio.\n\n#gbpjpy #forex #forextrader #fxtrader #positionsizing #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": true,
+      "captions_json": "129-gbpjpy-same-lot/captions.json"
+    },
+    {
+      "order": 130,
+      "id": "130-lunch-hour-trader",
+      "title": "The 9-to-5 lunch-hour trader",
+      "features": [
+        "risk",
+        "add",
+        "cal",
+        "ai"
+      ],
+      "video": "130-lunch-hour-trader/130-lunch-hour-trader.mp4",
+      "cover": "130-lunch-hour-trader/cover.jpg",
+      "caption_file": "130-lunch-hour-trader/caption.txt",
+      "caption": "9-to-5 job, 45 minutes of lunch, one shot at the market. The calendar shows Tuesday lunches green and Friday ‘long lunches’ red. Know your window before you click. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #ninetofive #parttimetrader #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "130-lunch-hour-trader/captions.json"
+    },
+    {
+      "order": 131,
+      "id": "131-stop-loss-explained",
+      "title": "Stop loss, explained",
+      "features": [
+        "add",
+        "risk",
+        "journal",
+        "ai"
+      ],
+      "video": "131-stop-loss-explained/131-stop-loss-explained.mp4",
+      "cover": "131-stop-loss-explained/cover.jpg",
+      "caption_file": "131-stop-loss-explained/caption.txt",
+      "caption": "A stop loss is the price where you admit the idea was wrong and get out, decided before you enter. It caps the loss at 1R. Tradeframe makes you type it, sizes from it and flags when you move it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #tradingterms #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "131-stop-loss-explained/captions.json"
+    },
+    {
+      "order": 132,
+      "id": "132-seven-day-no-revenge",
+      "title": "7-day no-revenge challenge",
+      "features": [
+        "ai",
+        "ck",
+        "risk",
+        "cal"
+      ],
+      "video": "132-seven-day-no-revenge/132-seven-day-no-revenge.mp4",
+      "cover": "132-seven-day-no-revenge/cover.jpg",
+      "caption_file": "132-seven-day-no-revenge/caption.txt",
+      "caption": "The 7-day no-revenge challenge: two losses in a row and you close the platform. That's it. Let the AI show you what revenge trades cost you, set the rule, and watch the calendar stay calm. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingchallenge #revengetrading #forextrader #riskmanagement #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingpsychology #tradingtips #traderlife #tradingmindset",
+      "exists": false,
+      "captions_json": "132-seven-day-no-revenge/captions.json"
+    },
+    {
+      "order": 133,
+      "id": "133-fomc-afternoon",
+      "title": "FOMC: the 2pm coin flip",
+      "features": [
+        "cal",
+        "journal",
+        "ai"
+      ],
+      "video": "133-fomc-afternoon/133-fomc-afternoon.mp4",
+      "cover": "133-fomc-afternoon/cover.jpg",
+      "caption_file": "133-fomc-afternoon/caption.txt",
+      "caption": "FOMC afternoon: long on the statement, short on the presser, stopped both ways. Your journal knows how your Fed-day trades actually end. Tag them once and look before the next meeting. Not advice, just your numbers. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #fomc #federalreserve #futurestrading #es #nasdaq #newstrading #forextrader #tradingtips #riskmanagement #traderlife",
+      "exists": false,
+      "captions_json": "133-fomc-afternoon/captions.json"
+    },
+    {
+      "order": 134,
+      "id": "134-average-r-truth",
+      "title": "Your average R, honestly",
+      "features": [
+        "add",
+        "stats",
+        "journal",
+        "ai"
+      ],
+      "video": "134-average-r-truth/134-average-r-truth.mp4",
+      "cover": "134-average-r-truth/cover.jpg",
+      "caption_file": "134-average-r-truth/caption.txt",
+      "caption": "Average R is your edge in one number: what each trade earns per unit of risk. Tradeframe computes R on every trade, breaks it down by setup and day, and shows what shrinks it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #riskreward #rmultiple #forex #futures #stocks #tradingrules #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "134-average-r-truth/captions.json"
+    },
+    {
+      "order": 135,
+      "id": "135-journal-is-your-coach",
+      "title": "Your journal is your coach",
+      "features": [
+        "journal",
+        "ai",
+        "stats",
+        "ck"
+      ],
+      "video": "135-journal-is-your-coach/135-journal-is-your-coach.mp4",
+      "cover": "135-journal-is-your-coach/cover.jpg",
+      "caption_file": "135-journal-is-your-coach/caption.txt",
+      "caption": "Athletes watch film. Traders can too. Every logged trade becomes tape: Tradeframe filters your losses, finds the habit behind them and turns it into a rule. Demo data shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingcoach #tradingpsychology #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement #tradingdiscipline #traderlife #tradingtips #stocktrader #priceaction #fundedtrader",
+      "exists": false,
+      "captions_json": "135-journal-is-your-coach/captions.json"
+    },
+    {
+      "order": 136,
+      "id": "136-friday-shutdown",
+      "title": "The Friday shutdown ritual",
+      "features": [
+        "cal",
+        "ai",
+        "ck"
+      ],
+      "video": "136-friday-shutdown/136-friday-shutdown.mp4",
+      "cover": "136-friday-shutdown/cover.jpg",
+      "caption_file": "136-friday-shutdown/caption.txt",
+      "caption": "A Friday shutdown ritual: look at the calendar, find the worst day, let the AI explain it, lock next week’s rules. Then close the laptop and actually enjoy the weekend. Demo data shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #fridayfeeling #traderroutine #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader",
+      "exists": false,
+      "captions_json": "136-friday-shutdown/captions.json"
+    },
+    {
+      "order": 137,
+      "id": "137-gold-wick-hunt",
+      "title": "Gold wicks your stop? Look closer",
+      "features": [
+        "journal",
+        "stats",
+        "risk",
+        "ai",
+        "dash"
+      ],
+      "video": "137-gold-wick-hunt/137-gold-wick-hunt.mp4",
+      "cover": "137-gold-wick-hunt/cover.jpg",
+      "caption_file": "137-gold-wick-hunt/caption.txt",
+      "caption": "Gold loves a quick wick through obvious stops before the real move. Your journal can show whether your XAUUSD losses come from too-tight stops, then size smaller so a wider stop costs the same. Free, in your browser. Link in bio.\n\n#xauusd #gold #goldtrading #forex #forextrader #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "137-gold-wick-hunt/captions.json"
+    },
+    {
+      "order": 138,
+      "id": "138-parent-night-trader",
+      "title": "POV: trading after bedtime stories",
+      "features": [
+        "ck",
+        "journal",
+        "ai",
+        "dash"
+      ],
+      "video": "138-parent-night-trader/138-parent-night-trader.mp4",
+      "cover": "138-parent-night-trader/cover.jpg",
+      "caption_file": "138-parent-night-trader/caption.txt",
+      "caption": "Kids in bed, finally some chart time. Then two losses and suddenly it’s 11pm and you’re trying to win it back. The journal shows exactly when the night turns. One rule fixes it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingparent #nighttrader #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "138-parent-night-trader/captions.json"
+    },
+    {
+      "order": 139,
+      "id": "139-win-rate-formula",
+      "title": "Win rate: the formula",
+      "features": [
+        "journal",
+        "dash",
+        "stats",
+        "ai"
+      ],
+      "video": "139-win-rate-formula/139-win-rate-formula.mp4",
+      "cover": "139-win-rate-formula/cover.jpg",
+      "caption_file": "139-win-rate-formula/caption.txt",
+      "caption": "Win rate = winning trades divided by total trades. Simple. But it says nothing about how big wins and losses are, so always read it next to your average R. Tradeframe shows both on one screen. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #winrate #tradingterms #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "139-win-rate-formula/captions.json"
+    },
+    {
+      "order": 140,
+      "id": "140-three-trades-max",
+      "title": "The 3-trades-max challenge",
+      "features": [
+        "journal",
+        "stats",
+        "dash"
+      ],
+      "video": "140-three-trades-max/140-three-trades-max.mp4",
+      "cover": "140-three-trades-max/cover.jpg",
+      "caption_file": "140-three-trades-max/caption.txt",
+      "caption": "Challenge: three trades max per day for two weeks. Most traders find trades 4 to 11 are where the account bleeds. Journal it, filter it, see it. Demo data shown, not a promise. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #overtrading #tradingchallenge #tradingpsychology #tradingtips #traderlife #tradingmindset #tradingstrategy #daytrading #futurestrading #tradingdiscipline #propfirm #tradinghabits #stocktrading",
+      "exists": false,
+      "captions_json": "140-three-trades-max/captions.json"
+    },
+    {
+      "order": 141,
+      "id": "141-earnings-season",
+      "title": "Earnings season: gap or trap?",
+      "features": [
+        "import",
+        "stats",
+        "journal",
+        "risk",
+        "ai"
+      ],
+      "video": "141-earnings-season/141-earnings-season.mp4",
+      "cover": "141-earnings-season/cover.jpg",
+      "caption_file": "141-earnings-season/caption.txt",
+      "caption": "Earnings season turns every ticker into a gap. Do you trade the gap, chase it, or hold through it and move your stop? Import your trades and see what earnings week really does to your R. No picks, just your history. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #earnings #earningsseason #stocktrading #stockmarket #gaptrading #daytrader #swingtrading #tradingtips #riskmanagement #options",
+      "exists": false,
+      "captions_json": "141-earnings-season/captions.json"
+    },
+    {
+      "order": 142,
+      "id": "142-one-loss-ate-month",
+      "title": "One loss ate half your month",
+      "features": [
+        "cal",
+        "journal",
+        "risk"
+      ],
+      "video": "142-one-loss-ate-month/142-one-loss-ate-month.mp4",
+      "cover": "142-one-loss-ate-month/cover.jpg",
+      "caption_file": "142-one-loss-ate-month/caption.txt",
+      "caption": "What share of your month did your single biggest loss take? If one trade erases weeks of work, that’s a sizing problem, not a strategy problem. Spot it on the calendar, fix it in the risk calculator. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #riskmanagement #positionsizing #stoploss #forex #futures #propfirm #traderlife #cryptotrading",
+      "exists": false,
+      "captions_json": "142-one-loss-ate-month/captions.json"
+    },
+    {
+      "order": 143,
+      "id": "143-losses-are-tuition",
+      "title": "Losses are tuition only if you study",
+      "features": [
+        "journal",
+        "ai",
+        "ck"
+      ],
+      "video": "143-losses-are-tuition/143-losses-are-tuition.mp4",
+      "cover": "143-losses-are-tuition/cover.jpg",
+      "caption_file": "143-losses-are-tuition/caption.txt",
+      "caption": "A loss you never review is money spent with nothing to show for it. Filter your losses, find the repeated habit and turn it into a checklist rule so you only pay for that lesson once. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingmistakes #tradinglessons #propfirm #riskmanagement #tradingdiscipline #traderlife #tradingtips #stocktrader #priceaction #fundedtrader #tradingquotes #mindsetmatters #stoicism",
+      "exists": false,
+      "captions_json": "143-losses-are-tuition/captions.json"
+    },
+    {
+      "order": 144,
+      "id": "144-quarterly-review",
+      "title": "Your 90-day quarterly review",
+      "features": [
+        "dash",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "144-quarterly-review/144-quarterly-review.mp4",
+      "cover": "144-quarterly-review/cover.jpg",
+      "caption_file": "144-quarterly-review/caption.txt",
+      "caption": "Weekly reviews catch mistakes. A quarterly review catches patterns. 90 days of trades on one dashboard, your best and worst setups, and one AI-found leak to fix for the next quarter. Demo numbers. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #quarterlyreview #tradinggoals #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading",
+      "exists": false,
+      "captions_json": "144-quarterly-review/captions.json"
+    },
+    {
+      "order": 145,
+      "id": "145-gold-short-bias",
+      "title": "Your gold shorts are bleeding",
+      "features": [
+        "stats",
+        "journal",
+        "ai",
+        "dash"
+      ],
+      "video": "145-gold-short-bias/145-gold-short-bias.mp4",
+      "cover": "145-gold-short-bias/cover.jpg",
+      "caption_file": "145-gold-short-bias/caption.txt",
+      "caption": "Calling the top on gold feels smart until the journal splits it out. Separate your XAUUSD longs and shorts and see which side is really paying, and which side you re-enter after a loss. Free, in your browser. Link in bio.\n\n#xauusd #gold #goldtrading #forextrader #commodities #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "145-gold-short-bias/captions.json"
+    },
+    {
+      "order": 146,
+      "id": "146-ex-gambler-trader",
+      "title": "From casino brain to journal brain",
+      "features": [
+        "dash",
+        "journal",
+        "ai",
+        "risk",
+        "ck"
+      ],
+      "video": "146-ex-gambler-trader/146-ex-gambler-trader.mp4",
+      "cover": "146-ex-gambler-trader/cover.jpg",
+      "caption_file": "146-ex-gambler-trader/caption.txt",
+      "caption": "Lose, double it, lose again. That’s not trading, that’s a casino habit with a chart on top. Tradeframe’s AI spots the double-down after losses and turns it into a rule you can’t ignore. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #gamblingvstrading #tradingmindset #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "146-ex-gambler-trader/captions.json"
+    },
+    {
+      "order": 147,
+      "id": "147-drawdown-plain-english",
+      "title": "Drawdown in plain English",
+      "features": [
+        "dash",
+        "cal",
+        "risk",
+        "ai"
+      ],
+      "video": "147-drawdown-plain-english/147-drawdown-plain-english.mp4",
+      "cover": "147-drawdown-plain-english/cover.jpg",
+      "caption_file": "147-drawdown-plain-english/caption.txt",
+      "caption": "Drawdown is how far your account drops from its highest point before making a new high. Every trader has them. Small risk keeps them shallow. Tradeframe draws your equity curve so you see every dip clearly. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #drawdown #tradingterms #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "147-drawdown-plain-english/captions.json"
+    },
+    {
+      "order": 148,
+      "id": "148-checklist-21-days",
+      "title": "21 days of the checklist",
+      "features": [
+        "ck",
+        "dash",
+        "cal",
+        "stats"
+      ],
+      "video": "148-checklist-21-days/148-checklist-21-days.mp4",
+      "cover": "148-checklist-21-days/cover.jpg",
+      "caption_file": "148-checklist-21-days/caption.txt",
+      "caption": "21 days of ticking the same pre-trade checklist before every entry. Boring? Yes. That's the point. Watch your discipline score climb and spot the one red day you skipped it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradinghabits #tradingchallenge #futurestrading #tradingdiscipline #propfirm #stocktrading #daytrader #forextrader #riskmanagement #priceaction #cryptotrading #fundedtrader #scalping",
+      "exists": false,
+      "captions_json": "148-checklist-21-days/captions.json"
+    },
+    {
+      "order": 149,
+      "id": "149-holiday-thin",
+      "title": "Holiday trading: thin books",
+      "features": [
+        "cal",
+        "stats",
+        "ai",
+        "dash"
+      ],
+      "video": "149-holiday-thin/149-holiday-thin.mp4",
+      "cover": "149-holiday-thin/cover.jpg",
+      "caption_file": "149-holiday-thin/caption.txt",
+      "caption": "Half-day session, empty order book, and you are still clicking because you are bored. Your journal can tag holiday weeks and show what thin liquidity does to your results. Decide with data, not boredom. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #holidaytrading #liquidity #forextrader #futurestrading #stocktrading #overtrading #tradingtips #priceaction #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "149-holiday-thin/captions.json"
+    },
+    {
+      "order": 150,
+      "id": "150-longest-losing-streak",
+      "title": "Know your longest losing streak",
+      "features": [
+        "journal",
+        "stats",
+        "risk",
+        "ai",
+        "ck"
+      ],
+      "video": "150-longest-losing-streak/150-longest-losing-streak.mp4",
+      "cover": "150-longest-losing-streak/cover.jpg",
+      "caption_file": "150-longest-losing-streak/caption.txt",
+      "caption": "Every strategy has losing streaks. The question is how long yours gets and whether your size survives it. Tradeframe shows the streaks, what starts them, and sizes you so seven reds is just a bad week. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #losingstreak #riskmanagement #forex #futures #propfirm #mindset #traderlife #drawdown",
+      "exists": false,
+      "captions_json": "150-longest-losing-streak/captions.json"
+    },
+    {
+      "order": 151,
+      "id": "151-excitement-is-expensive",
+      "title": "Excitement is expensive",
+      "features": [
+        "add",
+        "dash",
+        "ai",
+        "cal"
+      ],
+      "video": "151-excitement-is-expensive/151-excitement-is-expensive.mp4",
+      "cover": "151-excitement-is-expensive/cover.jpg",
+      "caption_file": "151-excitement-is-expensive/caption.txt",
+      "caption": "If a trade gives you a rush, check the receipt. Tag how you felt on every trade and Tradeframe shows what the excited sessions really cost, then caps your trades per day in one click. Demo numbers. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #dopamine #tradingpsychology #traderlife #tradingtips #stocktrader #priceaction #fundedtrader #tradingquotes #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy",
+      "exists": false,
+      "captions_json": "151-excitement-is-expensive/captions.json"
+    },
+    {
+      "order": 152,
+      "id": "152-phone-browser-journal",
+      "title": "Journal from your phone, mid-commute",
+      "features": [
+        "add",
+        "journal",
+        "cal",
+        "dash"
+      ],
+      "video": "152-phone-browser-journal/152-phone-browser-journal.mp4",
+      "cover": "152-phone-browser-journal/cover.jpg",
+      "caption_file": "152-phone-browser-journal/caption.txt",
+      "caption": "Your trade happened at 9:40. Your commute is at 5:30. Log it on the train from your phone’s browser: asset, side, levels, feeling. Same journal, same stats on desktop later. Nothing to download. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #mobiletrading #traderlife #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading #tradingmindset #daytrading #forextrader",
+      "exists": false,
+      "captions_json": "152-phone-browser-journal/captions.json"
+    },
+    {
+      "order": 153,
+      "id": "153-nas100-lunch-trap",
+      "title": "NAS100 after lunch",
+      "features": [
+        "cal",
+        "stats",
+        "ai",
+        "dash"
+      ],
+      "video": "153-nas100-lunch-trap/153-nas100-lunch-trap.mp4",
+      "cover": "153-nas100-lunch-trap/cover.jpg",
+      "caption_file": "153-nas100-lunch-trap/caption.txt",
+      "caption": "NAS100 often drifts sideways after the NY lunch break, and that's where extra trades pile up. Your calendar and AI breakdown can show whether your edge stops at noon. Free, in your browser. Link in bio.\n\n#nas100 #nasdaq #indices #indextrading #futurestrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "153-nas100-lunch-trap/captions.json"
+    },
+    {
+      "order": 154,
+      "id": "154-scalper-trade-forty",
+      "title": "The scalper vs trade #40",
+      "features": [
+        "import",
+        "stats",
+        "ai",
+        "risk"
+      ],
+      "video": "154-scalper-trade-forty/154-scalper-trade-forty.mp4",
+      "cover": "154-scalper-trade-forty/cover.jpg",
+      "caption_file": "154-scalper-trade-forty/caption.txt",
+      "caption": "Scalpers think the edge is speed. The stats say the first 10 trades carry the day and everything after trade 20 just feeds fees. Import your fills, find your cutoff. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #scalping #scalper #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "154-scalper-trade-forty/captions.json"
+    },
+    {
+      "order": 155,
+      "id": "155-position-size-decoded",
+      "title": "Position size, decoded",
+      "features": [
+        "risk",
+        "add",
+        "ck"
+      ],
+      "video": "155-position-size-decoded/155-position-size-decoded.mp4",
+      "cover": "155-position-size-decoded/cover.jpg",
+      "caption_file": "155-position-size-decoded/caption.txt",
+      "caption": "Position size is how many lots, contracts or shares you take. It should come from two numbers: how much you risk and where your stop is. Not from how confident you feel. Tradeframe does the math. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #positionsizing #lotsize #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "155-position-size-decoded/captions.json"
+    },
+    {
+      "order": 156,
+      "id": "156-emotion-month",
+      "title": "I tracked every emotion",
+      "features": [
+        "add",
+        "journal",
+        "ai",
+        "stats"
+      ],
+      "video": "156-emotion-month/156-emotion-month.mp4",
+      "cover": "156-emotion-month/cover.jpg",
+      "caption_file": "156-emotion-month/caption.txt",
+      "caption": "I tracked every emotion for a month (demo account). Calm, bored, FOMO, angry: one chip per trade. The pattern was obvious by week three. The angry trades came right after two losses. Try it for 30 days. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingpsychology #emotionaltrading #riskmanagement #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingtips #traderlife #tradingchallenge #tradingmindset #tradingstrategy",
+      "exists": false,
+      "captions_json": "156-emotion-month/captions.json"
+    },
+    {
+      "order": 157,
+      "id": "157-summer-chop",
+      "title": "Summer chop eats your edge",
+      "features": [
+        "dash",
+        "cal",
+        "stats",
+        "ck"
+      ],
+      "video": "157-summer-chop/157-summer-chop.mp4",
+      "cover": "157-summer-chop/cover.jpg",
+      "caption_file": "157-summer-chop/caption.txt",
+      "caption": "Summer markets: tight ranges, fake breakouts, and twice as many trades for half the result. Check your calendar and stats for July and August and decide if you trade less, size down or take a real break. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #summertrading #rangetrading #chop #forextrader #futurestrading #overtrading #priceaction #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "157-summer-chop/captions.json"
+    },
+    {
+      "order": 158,
+      "id": "158-worst-hour-lunch",
+      "title": "Your worst hour is lunch",
+      "features": [
+        "cal",
+        "journal",
+        "ai",
+        "ck"
+      ],
+      "video": "158-worst-hour-lunch/158-worst-hour-lunch.mp4",
+      "cover": "158-worst-hour-lunch/cover.jpg",
+      "caption_file": "158-worst-hour-lunch/caption.txt",
+      "caption": "Not every hour is equal. For a lot of day traders the midday chop quietly eats the morning’s gains. Find your worst hour in your own data, then make a rule to be flat for it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #nyopen #overtrading #stocks #futures #forex #scalping #traderlife #tradingrules",
+      "exists": false,
+      "captions_json": "158-worst-hour-lunch/captions.json"
+    },
+    {
+      "order": 159,
+      "id": "159-a-stop-is-a-promise",
+      "title": "A stop loss is a promise",
+      "features": [
+        "risk",
+        "add",
+        "stats",
+        "ai"
+      ],
+      "video": "159-a-stop-is-a-promise/159-a-stop-is-a-promise.mp4",
+      "cover": "159-a-stop-is-a-promise/cover.jpg",
+      "caption_file": "159-a-stop-is-a-promise/caption.txt",
+      "caption": "When you set a stop, you make a promise to your future self. Tradeframe sizes the trade from that stop, then the AI flags every time it got moved and adds a rule so it never widens again. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #riskmanagement #priceaction #fundedtrader #tradingquotes #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy #unpopularopinion #hottake #tradinghabits",
+      "exists": false,
+      "captions_json": "159-a-stop-is-a-promise/captions.json"
+    },
+    {
+      "order": 160,
+      "id": "160-screenshot-free",
+      "title": "Your camera roll isn’t a journal",
+      "features": [
+        "add",
+        "journal",
+        "stats",
+        "ai"
+      ],
+      "video": "160-screenshot-free/160-screenshot-free.mp4",
+      "cover": "160-screenshot-free/cover.jpg",
+      "caption_file": "160-screenshot-free/caption.txt",
+      "caption": "Thousands of chart screenshots, zero answers. A photo can’t tell you your best setup or that you keep moving your stop. Log the numbers instead and let the stats and AI do the looking. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #chartanalysis #priceaction #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement",
+      "exists": false,
+      "captions_json": "160-screenshot-free/captions.json"
+    },
+    {
+      "order": 161,
+      "id": "161-us30-points-arent-small",
+      "title": "US30 points aren’t small",
+      "features": [
+        "risk",
+        "add",
+        "dash"
+      ],
+      "video": "161-us30-points-arent-small/161-us30-points-arent-small.mp4",
+      "cover": "161-us30-points-arent-small/cover.jpg",
+      "caption_file": "161-us30-points-arent-small/caption.txt",
+      "caption": "On US30 a 100-point move feels like noise, but with the wrong size it's a real chunk of your account. Size every Dow trade from the stop, and log P&L in R so the big numbers stop fooling you. Free, in your browser. Link in bio.\n\n#us30 #dowjones #indices #indextrading #futurestrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "161-us30-points-arent-small/captions.json"
+    },
+    {
+      "order": 162,
+      "id": "162-swing-trader-2am",
+      "title": "The swing trader who can’t sleep",
+      "features": [
+        "add",
+        "journal",
+        "ai",
+        "stats"
+      ],
+      "video": "162-swing-trader-2am/162-swing-trader-2am.mp4",
+      "cover": "162-swing-trader-2am/cover.jpg",
+      "caption_file": "162-swing-trader-2am/caption.txt",
+      "caption": "Swing trading was supposed to mean less screen time. Instead it’s 2am chart checks and ‘just a bit more room’ on the stop. The journal shows every big loss started with a moved stop. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #swingtrader #swingtrading #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "162-swing-trader-2am/captions.json"
+    },
+    {
+      "order": 163,
+      "id": "163-what-counts-as-a-setup",
+      "title": "What counts as a setup?",
+      "features": [
+        "add",
+        "journal",
+        "stats",
+        "ai",
+        "ck",
+        "dash"
+      ],
+      "video": "163-what-counts-as-a-setup/163-what-counts-as-a-setup.mp4",
+      "cover": "163-what-counts-as-a-setup/cover.jpg",
+      "caption_file": "163-what-counts-as-a-setup/caption.txt",
+      "caption": "A setup is a set of conditions you can repeat: same market context, same trigger, same stop logic. If you can't describe it in one line, it's not a setup, it's a guess. Tag each one in Tradeframe and see which pays. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingsetup #tradingterms #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "163-what-counts-as-a-setup/captions.json"
+    },
+    {
+      "order": 164,
+      "id": "164-one-rule-one-week",
+      "title": "One rule for one week",
+      "features": [
+        "add",
+        "ck",
+        "ai",
+        "stats"
+      ],
+      "video": "164-one-rule-one-week/164-one-rule-one-week.mp4",
+      "cover": "164-one-rule-one-week/cover.jpg",
+      "caption_file": "164-one-rule-one-week/caption.txt",
+      "caption": "Forget ten new rules. Pick one for a week: once the stop is in, you never touch it. Log every trade, tick the box, and let the AI show you what moved stops cost you before. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #tradingchallenge #tradingtips #traderlife #tradingmindset #tradingstrategy #daytrading #futurestrading #tradingdiscipline #propfirm #tradinghabits #stocktrading #daytrader",
+      "exists": false,
+      "captions_json": "164-one-rule-one-week/captions.json"
+    },
+    {
+      "order": 165,
+      "id": "165-monday-open-rust",
+      "title": "Monday open: rusty hands",
+      "features": [
+        "stats",
+        "cal",
+        "ai"
+      ],
+      "video": "165-monday-open-rust/165-monday-open-rust.mp4",
+      "cover": "165-monday-open-rust/cover.jpg",
+      "caption_file": "165-monday-open-rust/caption.txt",
+      "caption": "After a weekend off, the first click on Monday is often the worst one of the week. Your journal can show whether Monday opens pay you or just warm you up. Let the numbers tell you when to start. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #mondaymotivation #marketopen #stocktrading #futurestrading #forextrader #indextrading #tradingtips #priceaction #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "165-monday-open-rust/captions.json"
+    },
+    {
+      "order": 166,
+      "id": "166-trades-per-day-sweet-spot",
+      "title": "Your trades-per-day sweet spot",
+      "features": [
+        "cal",
+        "dash",
+        "ai",
+        "risk"
+      ],
+      "video": "166-trades-per-day-sweet-spot/166-trades-per-day-sweet-spot.mp4",
+      "cover": "166-trades-per-day-sweet-spot/cover.jpg",
+      "caption_file": "166-trades-per-day-sweet-spot/caption.txt",
+      "caption": "Plot trades per day against daily P&L and most traders find a sweet spot, then a cliff. Tradeframe shows where your edge fades and adds a max-trades rule in one click. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #overtrading #daytrader #forex #futures #stocks #tradingrules #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "166-trades-per-day-sweet-spot/captions.json"
+    },
+    {
+      "order": 167,
+      "id": "167-red-days-are-fine",
+      "title": "Unpopular opinion: red days are fine",
+      "features": [
+        "cal",
+        "dash",
+        "ai",
+        "risk"
+      ],
+      "video": "167-red-days-are-fine/167-red-days-are-fine.mp4",
+      "cover": "167-red-days-are-fine/cover.jpg",
+      "caption_file": "167-red-days-are-fine/caption.txt",
+      "caption": "A red day inside your risk limit is just a normal day. The damage usually comes from the trades you take after it. Tradeframe’s AI finds revenge sequences and the risk calculator keeps red days small. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #unpopularopinion #revengetrading #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy #hottake #tradinghabits #daytrader #daytrading #tradingpsychology #tradingmindset",
+      "exists": false,
+      "captions_json": "167-red-days-are-fine/captions.json"
+    },
+    {
+      "order": 168,
+      "id": "168-sheet-cant-answer",
+      "title": "3 questions your sheet can’t answer",
+      "features": [
+        "import",
+        "stats",
+        "cal",
+        "ai"
+      ],
+      "video": "168-sheet-cant-answer/168-sheet-cant-answer.mp4",
+      "cover": "168-sheet-cant-answer/cover.jpg",
+      "caption_file": "168-sheet-cant-answer/caption.txt",
+      "caption": "A spreadsheet stores trades. It rarely answers questions. Which setup pays? Which day costs you? What’s the actual leak? A journal built for traders answers all three without a single formula. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #spreadsheet #tradingstrategy #traderroutine #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction",
+      "exists": false,
+      "captions_json": "168-sheet-cant-answer/captions.json"
+    },
+    {
+      "order": 169,
+      "id": "169-dax-friday-bleed",
+      "title": "Your DAX Fridays are red",
+      "features": [
+        "import",
+        "stats",
+        "cal",
+        "ai"
+      ],
+      "video": "169-dax-friday-bleed/169-dax-friday-bleed.mp4",
+      "cover": "169-dax-friday-bleed/cover.jpg",
+      "caption_file": "169-dax-friday-bleed/caption.txt",
+      "caption": "Is your DAX edge a Monday-to-Thursday thing? Import your GER40 history and the weekday stats show it in seconds. Demo data, real pattern worth checking in your own trades. Free, in your browser. Link in bio.\n\n#dax #ger40 #dax40 #indices #futurestrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "169-dax-friday-bleed/captions.json"
+    },
+    {
+      "order": 170,
+      "id": "170-funded-friday-bleed",
+      "title": "POV: funded, then Friday hits",
+      "features": [
+        "risk",
+        "cal",
+        "ai",
+        "dash"
+      ],
+      "video": "170-funded-friday-bleed/170-funded-friday-bleed.mp4",
+      "cover": "170-funded-friday-bleed/cover.jpg",
+      "caption_file": "170-funded-friday-bleed/caption.txt",
+      "caption": "Getting funded is the easy part. Keeping it is the job. This demo month looks fine Monday to Thursday, then every Friday gives it back. One calendar, one rule. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #fundedtrader #propfirmchallenge #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "170-funded-friday-bleed/captions.json"
+    },
+    {
+      "order": 171,
+      "id": "171-trading-plan-five-lines",
+      "title": "A trading plan in 5 lines",
+      "features": [
+        "ck",
+        "risk",
+        "add",
+        "dash"
+      ],
+      "video": "171-trading-plan-five-lines/171-trading-plan-five-lines.mp4",
+      "cover": "171-trading-plan-five-lines/cover.jpg",
+      "caption_file": "171-trading-plan-five-lines/caption.txt",
+      "caption": "A trading plan doesn't need 40 pages. Five lines: what you trade, when, how much you risk, where you exit, and when you review. Turn them into a checklist in Tradeframe and tick it before every trade. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingplan #tradingrules #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "171-trading-plan-five-lines/captions.json"
+    },
+    {
+      "order": 172,
+      "id": "172-weekly-scorecard",
+      "title": "Your weekly scorecard",
+      "features": [
+        "dash",
+        "stats",
+        "cal",
+        "ai"
+      ],
+      "video": "172-weekly-scorecard/172-weekly-scorecard.mp4",
+      "cover": "172-weekly-scorecard/cover.jpg",
+      "caption_file": "172-weekly-scorecard/caption.txt",
+      "caption": "Every Friday, grade your week like a report card: setups, weekday, exits, discipline. One weak grade becomes one rule for next week. No guessing, just your own data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #weeklyreview #tradinghabits #tradingdiscipline #propfirm #stocktrading #daytrader #forextrader #riskmanagement #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity",
+      "exists": false,
+      "captions_json": "172-weekly-scorecard/captions.json"
+    },
+    {
+      "order": 173,
+      "id": "173-month-end-flows",
+      "title": "Month-end: weird candles",
+      "features": [
+        "cal",
+        "journal",
+        "stats"
+      ],
+      "video": "173-month-end-flows/173-month-end-flows.mp4",
+      "cover": "173-month-end-flows/cover.jpg",
+      "caption_file": "173-month-end-flows/caption.txt",
+      "caption": "Month-end rebalancing can make candles look like a breakout that never was. Tag the last two sessions of each month and let your journal show if you should trade them, size down or watch. Not a forecast, just your own record. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #monthend #rebalancing #futurestrading #stocktrading #forextrader #indextrading #priceaction #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "173-month-end-flows/captions.json"
+    },
+    {
+      "order": 174,
+      "id": "174-hold-time-tells",
+      "title": "Hold time tells on you",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "risk"
+      ],
+      "video": "174-hold-time-tells/174-hold-time-tells.mp4",
+      "cover": "174-hold-time-tells/cover.jpg",
+      "caption_file": "174-hold-time-tells/caption.txt",
+      "caption": "Compare how long you hold winners versus losers. If losers sit for hours while winners close in minutes, you’re trading hope and fear. Your journal knows. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #holdtime #stoploss #forex #futures #stocks #letwinnersrun #traderlife #swingtrading",
+      "exists": false,
+      "captions_json": "174-hold-time-tells/captions.json"
+    },
+    {
+      "order": 175,
+      "id": "175-risk-manager-who-trades",
+      "title": "You’re a risk manager first",
+      "features": [
+        "risk",
+        "ck",
+        "dash"
+      ],
+      "video": "175-risk-manager-who-trades/175-risk-manager-who-trades.mp4",
+      "cover": "175-risk-manager-who-trades/cover.jpg",
+      "caption_file": "175-risk-manager-who-trades/caption.txt",
+      "caption": "Change the job title in your head: you manage risk, and entries are just part of the job. Tradeframe computes your exact size from the stop, tracks today’s loss budget and scores your discipline. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #traderidentity #riskmanagement #swingtrading #tradingstrategy #unpopularopinion #hottake #tradinghabits #daytrader #daytrading #tradingpsychology #tradingmindset #forextrader #futurestrading",
+      "exists": false,
+      "captions_json": "175-risk-manager-who-trades/captions.json"
+    },
+    {
+      "order": 176,
+      "id": "176-paper-cant-math",
+      "title": "Paper notebook vs trading journal",
+      "features": [
+        "add",
+        "stats",
+        "ai"
+      ],
+      "video": "176-paper-cant-math/176-paper-cant-math.mp4",
+      "cover": "176-paper-cant-math/cover.jpg",
+      "caption_file": "176-paper-cant-math/caption.txt",
+      "caption": "Writing trades down by hand is a great habit. Adding up R by hand is not. Keep the notes and the feelings, and let the journal handle win rate, best setup and the leak you keep repeating. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingnotes #tradinghabits #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading",
+      "exists": false,
+      "captions_json": "176-paper-cant-math/captions.json"
+    },
+    {
+      "order": 177,
+      "id": "177-es-overnight-session",
+      "title": "ES overnight trades cost you",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "177-es-overnight-session/177-es-overnight-session.mp4",
+      "cover": "177-es-overnight-session/cover.jpg",
+      "caption_file": "177-es-overnight-session/caption.txt",
+      "caption": "Overnight ES can be thin and slow, and those late trades add up fast. Search your journal for overnight entries, see what they really cost, and add a session check to your pre-trade list. Free, in your browser. Link in bio.\n\n#esfutures #sp500 #futurestrading #emini #futurestrader #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "177-es-overnight-session/captions.json"
+    },
+    {
+      "order": 178,
+      "id": "178-quit-then-came-back",
+      "title": "I quit trading. Then I read my data.",
+      "features": [
+        "import",
+        "cal",
+        "ai",
+        "ck"
+      ],
+      "video": "178-quit-then-came-back/178-quit-then-came-back.mp4",
+      "cover": "178-quit-then-came-back/cover.jpg",
+      "caption_file": "178-quit-then-came-back/caption.txt",
+      "caption": "Quit for months, came back swearing it would be different. Before the first trade: import the old account and find out why it ended. Spoiler: it wasn’t the strategy, it was what happened after two losses. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingcomeback #tradingjourney #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "178-quit-then-came-back/captions.json"
+    },
+    {
+      "order": 179,
+      "id": "179-demo-vs-live",
+      "title": "Demo vs live: what changes",
+      "features": [
+        "add",
+        "journal",
+        "ai",
+        "stats",
+        "ck"
+      ],
+      "video": "179-demo-vs-live/179-demo-vs-live.mp4",
+      "cover": "179-demo-vs-live/cover.jpg",
+      "caption_file": "179-demo-vs-live/caption.txt",
+      "caption": "On demo the setup works. Live, the same setup suddenly doesn't. The chart didn't change, your emotions did. Log demo and live trades side by side in Tradeframe and see exactly what breaks under pressure. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #demoaccount #papertrading #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "179-demo-vs-live/captions.json"
+    },
+    {
+      "order": 180,
+      "id": "180-month-end-reveal",
+      "title": "Month-end reveal",
+      "features": [
+        "cal",
+        "stats",
+        "ai",
+        "dash"
+      ],
+      "video": "180-month-end-reveal/180-month-end-reveal.mp4",
+      "cover": "180-month-end-reveal/cover.jpg",
+      "caption_file": "180-month-end-reveal/caption.txt",
+      "caption": "The month-end reveal: one calendar, every day colored. Most of the red sat on Fridays (demo data). One rule fixes next month. Do this on the last day of every month. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #monthlyreview #tradingpsychology #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingtips #traderlife #tradingchallenge #tradingmindset #tradingstrategy #daytrading",
+      "exists": false,
+      "captions_json": "180-month-end-reveal/captions.json"
+    },
+    {
+      "order": 181,
+      "id": "181-quad-witching",
+      "title": "Quad witching: sit or size down?",
+      "features": [
+        "stats",
+        "risk",
+        "journal",
+        "ai"
+      ],
+      "video": "181-quad-witching/181-quad-witching.mp4",
+      "cover": "181-quad-witching/cover.jpg",
+      "caption_file": "181-quad-witching/caption.txt",
+      "caption": "Quad witching: four contract types expire, price pins, then snaps. Your journal can isolate every third Friday of the quarter and show if your stops survive it. Then you decide: sit out, half size, or trade normal. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #quadwitching #opex #options #futurestrading #stocktrading #indextrading #riskmanagement #tradingtips #traderlife #spx",
+      "exists": false,
+      "captions_json": "181-quad-witching/captions.json"
+    },
+    {
+      "order": 182,
+      "id": "182-max-drawdown-number",
+      "title": "Do you know your max drawdown?",
+      "features": [
+        "dash",
+        "cal",
+        "risk",
+        "ai"
+      ],
+      "video": "182-max-drawdown-number/182-max-drawdown-number.mp4",
+      "cover": "182-max-drawdown-number/cover.jpg",
+      "caption_file": "182-max-drawdown-number/caption.txt",
+      "caption": "Max drawdown is the deepest drop from a peak in your equity. It decides whether you survive a bad month or a prop challenge. Tradeframe tracks it and helps you size to keep it small. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #drawdown #riskmanagement #propfirm #fundedtrader #forex #futures #traderlife #equitycurve",
+      "exists": false,
+      "captions_json": "182-max-drawdown-number/captions.json"
+    },
+    {
+      "order": 183,
+      "id": "183-prepare-dont-predict",
+      "title": "Prepare, don’t predict",
+      "features": [
+        "ck",
+        "risk",
+        "stats",
+        "ai"
+      ],
+      "video": "183-prepare-dont-predict/183-prepare-dont-predict.mp4",
+      "cover": "183-prepare-dont-predict/cover.jpg",
+      "caption_file": "183-prepare-dont-predict/caption.txt",
+      "caption": "Nobody knows where price goes next. You can know your own numbers though: which setup pays, which weekday costs you, how big to size. Tradeframe turns that into a pre-trade checklist. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingplan #tradingquotes #hottake #tradinghabits #daytrader #daytrading #tradingpsychology #tradingmindset #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement",
+      "exists": false,
+      "captions_json": "183-prepare-dont-predict/captions.json"
+    },
+    {
+      "order": 184,
+      "id": "184-highlight-reel",
+      "title": "Your brain keeps a highlight reel",
+      "features": [
+        "journal",
+        "cal",
+        "dash",
+        "ai"
+      ],
+      "video": "184-highlight-reel/184-highlight-reel.mp4",
+      "cover": "184-highlight-reel/cover.jpg",
+      "caption_file": "184-highlight-reel/caption.txt",
+      "caption": "Memory is a highlight reel: the big win stays, the three revenge trades after it fade. A journal keeps the full tape, so you can see what really happens after two losses. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingpsychology #revengetrading #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader",
+      "exists": false,
+      "captions_json": "184-highlight-reel/captions.json"
+    },
+    {
+      "order": 185,
+      "id": "185-nq-revenge-speed",
+      "title": "NQ punishes revenge clicks",
+      "features": [
+        "journal",
+        "ai",
+        "risk",
+        "dash"
+      ],
+      "video": "185-nq-revenge-speed/185-nq-revenge-speed.mp4",
+      "cover": "185-nq-revenge-speed/cover.jpg",
+      "caption_file": "185-nq-revenge-speed/caption.txt",
+      "caption": "NQ moves fast, and so do revenge entries. The journal shows how quickly you re-enter after a loss on Nasdaq futures, and one rule can force a pause before the next click. Free, in your browser. Link in bio.\n\n#nq #nasdaqfutures #futurestrading #nasdaq #futurestrader #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "185-nq-revenge-speed/captions.json"
+    },
+    {
+      "order": 186,
+      "id": "186-perfectionist-no-red",
+      "title": "The perfectionist who hates red",
+      "features": [
+        "dash",
+        "journal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "186-perfectionist-no-red/186-perfectionist-no-red.mp4",
+      "cover": "186-perfectionist-no-red/cover.jpg",
+      "caption_file": "186-perfectionist-no-red/caption.txt",
+      "caption": "Perfectionists don’t take small losses, they move the stop so the trade can’t be ‘wrong’ yet. The data shows those dodges are the biggest losses of the month. A clean red trade beats a hidden one. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #perfectionism #tradingpsychology #daytrading #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction #tradingmindset",
+      "exists": false,
+      "captions_json": "186-perfectionist-no-red/captions.json"
+    },
+    {
+      "order": 187,
+      "id": "187-how-many-trades-a-day",
+      "title": "How many trades a day?",
+      "features": [
+        "stats",
+        "ai",
+        "cal",
+        "ck"
+      ],
+      "video": "187-how-many-trades-a-day/187-how-many-trades-a-day.mp4",
+      "cover": "187-how-many-trades-a-day/cover.jpg",
+      "caption_file": "187-how-many-trades-a-day/caption.txt",
+      "caption": "There's no magic number of trades per day. Your own data has the answer: look at how your P&L changes after trade 2, 3, 4. Tradeframe finds where the edge fades and turns it into a daily cap. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #overtrading #tradingtips #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingeducation #riskmanagement #tradingpsychology #traderlife",
+      "exists": false,
+      "captions_json": "187-how-many-trades-a-day/captions.json"
+    },
+    {
+      "order": 188,
+      "id": "188-rule-streak",
+      "title": "Count your rule streak",
+      "features": [
+        "ck",
+        "dash",
+        "cal",
+        "ai"
+      ],
+      "video": "188-rule-streak/188-rule-streak.mp4",
+      "cover": "188-rule-streak/cover.jpg",
+      "caption_file": "188-rule-streak/caption.txt",
+      "caption": "Win streaks make you reckless. Rule streaks make you consistent. Count the days you followed every rule, and watch the one revenge day that reset it to zero. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingdiscipline #tradinghabits #traderlife #tradingchallenge #tradingmindset #tradingstrategy #daytrading #futurestrading #propfirm #stocktrading #daytrader #forextrader #riskmanagement",
+      "exists": false,
+      "captions_json": "188-rule-streak/captions.json"
+    },
+    {
+      "order": 189,
+      "id": "189-opening-gap",
+      "title": "Gap up open: go or fade?",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "189-opening-gap/189-opening-gap.mp4",
+      "cover": "189-opening-gap/cover.jpg",
+      "caption_file": "189-opening-gap/caption.txt",
+      "caption": "Overnight gap, bell rings, you buy the open and watch it fill. Tag your gap mornings and see which play your journal actually rewards: go, fade or wait. No predictions here, just your trades. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #gaptrading #gapandgo #stocktrading #daytrader #premarket #futurestrading #priceaction #tradingtips #momentumtrading #traderlife",
+      "exists": false,
+      "captions_json": "189-opening-gap/captions.json"
+    },
+    {
+      "order": 190,
+      "id": "190-recovery-factor",
+      "title": "How fast do you bounce back?",
+      "features": [
+        "dash",
+        "cal",
+        "ai",
+        "ck"
+      ],
+      "video": "190-recovery-factor/190-recovery-factor.mp4",
+      "cover": "190-recovery-factor/cover.jpg",
+      "caption_file": "190-recovery-factor/caption.txt",
+      "caption": "Recovery factor = net profit divided by max drawdown. Higher means you earn more for every dip you sit through. Most slow recoveries come from forcing it. See yours in Tradeframe. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #recoveryfactor #drawdown #revengetrading #forex #futures #propfirm #traderlife #mindset",
+      "exists": false,
+      "captions_json": "190-recovery-factor/captions.json"
+    },
+    {
+      "order": 191,
+      "id": "191-control-the-controllables",
+      "title": "Control what you can control",
+      "features": [
+        "risk",
+        "ck",
+        "ai",
+        "dash"
+      ],
+      "video": "191-control-the-controllables/191-control-the-controllables.mp4",
+      "cover": "191-control-the-controllables/cover.jpg",
+      "caption_file": "191-control-the-controllables/caption.txt",
+      "caption": "Stoic rule for traders: price is not yours to control, your risk is. Tradeframe handles the controllables: size from your stop, a daily loss limit, a checklist, and an AI that flags when you moved a stop. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoicism #stoictrader #daytrading #tradingpsychology #tradingmindset #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement #tradingdiscipline #traderlife #tradingtips",
+      "exists": false,
+      "captions_json": "191-control-the-controllables/captions.json"
+    },
+    {
+      "order": 192,
+      "id": "192-chat-vs-data",
+      "title": "1,000 opinions vs your own data",
+      "features": [
+        "import",
+        "dash",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "192-chat-vs-data/192-chat-vs-data.mp4",
+      "cover": "192-chat-vs-data/cover.jpg",
+      "caption_file": "192-chat-vs-data/caption.txt",
+      "caption": "Trading chats are full of calls, hot takes and screenshots. None of them are about how you trade. Import your history and get stats and an AI read on your own patterns. Learn from groups, decide from your data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingcommunity #tradingmindset #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading",
+      "exists": false,
+      "captions_json": "192-chat-vs-data/captions.json"
+    },
+    {
+      "order": 193,
+      "id": "193-btc-weekend-trades",
+      "title": "BTC on weekends: worth it?",
+      "features": [
+        "import",
+        "cal",
+        "stats",
+        "ai",
+        "dash"
+      ],
+      "video": "193-btc-weekend-trades/193-btc-weekend-trades.mp4",
+      "cover": "193-btc-weekend-trades/cover.jpg",
+      "caption_file": "193-btc-weekend-trades/caption.txt",
+      "caption": "Bitcoin never closes, but that doesn't mean your edge works on Saturday. Split your BTC trades by weekday and let the calendar show whether weekends add or subtract. Free, in your browser. Link in bio.\n\n#bitcoin #btc #crypto #cryptotrading #cryptotrader #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "193-btc-weekend-trades/captions.json"
+    },
+    {
+      "order": 194,
+      "id": "194-essay-journaler",
+      "title": "The trader who writes essays",
+      "features": [
+        "add",
+        "journal",
+        "ai"
+      ],
+      "video": "194-essay-journaler/194-essay-journaler.mp4",
+      "cover": "194-essay-journaler/cover.jpg",
+      "caption_file": "194-essay-journaler/caption.txt",
+      "caption": "Three paragraphs per trade, 19 trades a day, zero conclusions. Over-analyzing a journal is still not reviewing it. Log the facts in 20 seconds and let the AI tell you the one thing that matters. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #overthinking #tradingtips #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #futurestrading #cryptotrading #propfirm #priceaction #tradingmindset",
+      "exists": false,
+      "captions_json": "194-essay-journaler/captions.json"
+    },
+    {
+      "order": 195,
+      "id": "195-read-your-equity-curve",
+      "title": "Read your equity curve",
+      "features": [
+        "dash",
+        "cal",
+        "journal",
+        "ai"
+      ],
+      "video": "195-read-your-equity-curve/195-read-your-equity-curve.mp4",
+      "cover": "195-read-your-equity-curve/cover.jpg",
+      "caption_file": "195-read-your-equity-curve/caption.txt",
+      "caption": "An equity curve is your account balance trade after trade. Steady slope means a real edge. Cliffs mean one bad habit. Flat means no edge yet. Tradeframe draws it for you and links every dip to the day it happened. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #equitycurve #tradingstats #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "195-read-your-equity-curve/captions.json"
+    },
+    {
+      "order": 196,
+      "id": "196-fix-one-thing",
+      "title": "If you fix only one thing",
+      "features": [
+        "journal",
+        "ai",
+        "risk"
+      ],
+      "video": "196-fix-one-thing/196-fix-one-thing.mp4",
+      "cover": "196-fix-one-thing/cover.jpg",
+      "caption_file": "196-fix-one-thing/caption.txt",
+      "caption": "You can't fix ten habits at once. Fix one. For most traders the data points to the same thing: the stop that keeps getting wider. Find your number one leak and fix only that. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #riskmanagement #propfirm #tradinghabits #stocktrading #daytrader #forextrader #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingpsychology",
+      "exists": false,
+      "captions_json": "196-fix-one-thing/captions.json"
+    },
+    {
+      "order": 197,
+      "id": "197-last-hour",
+      "title": "The last hour: power or trap?",
+      "features": [
+        "cal",
+        "journal",
+        "ai",
+        "risk",
+        "ck"
+      ],
+      "video": "197-last-hour/197-last-hour.mp4",
+      "cover": "197-last-hour/cover.jpg",
+      "caption_file": "197-last-hour/caption.txt",
+      "caption": "The last hour of the session: real power hour, or your daily attempt to win back the morning? Your journal can show whether late trades follow a plan or follow two losses. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #powerhour #marketclose #stocktrading #futurestrading #revengetrading #daytrader #riskmanagement #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "197-last-hour/captions.json"
+    },
+    {
+      "order": 198,
+      "id": "198-weekday-ranking",
+      "title": "Rank your weekdays",
+      "features": [
+        "stats",
+        "cal",
+        "ai",
+        "ck"
+      ],
+      "video": "198-weekday-ranking/198-weekday-ranking.mp4",
+      "cover": "198-weekday-ranking/cover.jpg",
+      "caption_file": "198-weekday-ranking/caption.txt",
+      "caption": "Rank your five trading days by win rate and P&L. Most traders have one day that pays and one that quietly drains. Tradeframe ranks them for you and suggests a rule. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #weekday #forex #futures #stocks #tradingrules #traderlife #fridayfeeling #propfirm",
+      "exists": false,
+      "captions_json": "198-weekday-ranking/captions.json"
+    },
+    {
+      "order": 199,
+      "id": "199-accept-the-loss-first",
+      "title": "Accept the loss before you enter",
+      "features": [
+        "risk",
+        "add",
+        "journal",
+        "stats"
+      ],
+      "video": "199-accept-the-loss-first/199-accept-the-loss-first.mp4",
+      "cover": "199-accept-the-loss-first/cover.jpg",
+      "caption_file": "199-accept-the-loss-first/caption.txt",
+      "caption": "If you can’t accept the loss before you enter, you’ll fight it after. Decide where you’re wrong, size so that loss is calm, then log it. Tradeframe computes R and keeps losers at -1R. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #marcusaurelius #stoicism #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement #tradingdiscipline #traderlife #tradingtips #stocktrader #priceaction #fundedtrader",
+      "exists": false,
+      "captions_json": "199-accept-the-loss-first/captions.json"
+    },
+    {
+      "order": 200,
+      "id": "200-rules-to-score",
+      "title": "Rules → checklist → score",
+      "features": [
+        "ai",
+        "ck",
+        "dash",
+        "stats"
+      ],
+      "video": "200-rules-to-score/200-rules-to-score.mp4",
+      "cover": "200-rules-to-score/cover.jpg",
+      "caption_file": "200-rules-to-score/caption.txt",
+      "caption": "A rule you only remember is a wish. Tradeframe turns it into a pipeline: AI spots the leak, it becomes a rule, the rule becomes a checklist box, every box feeds your discipline score. Process you can measure. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingrules #tradingdiscipline #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading #tradingmindset #daytrading #forextrader",
+      "exists": false,
+      "captions_json": "200-rules-to-score/captions.json"
+    },
+    {
+      "order": 201,
+      "id": "201-altcoins-vs-btc",
+      "title": "Your altcoins vs your BTC",
+      "features": [
+        "import",
+        "journal",
+        "stats",
+        "ai"
+      ],
+      "video": "201-altcoins-vs-btc/201-altcoins-vs-btc.mp4",
+      "cover": "201-altcoins-vs-btc/cover.jpg",
+      "caption_file": "201-altcoins-vs-btc/caption.txt",
+      "caption": "Trading ten coins at once makes it hard to tell where the edge lives. Import your exchange history, split by asset, and see if your alt trades are helping or just adding noise. Free, in your browser. Link in bio.\n\n#altcoins #crypto #bitcoin #cryptotrading #altcoin #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "201-altcoins-vs-btc/captions.json"
+    },
+    {
+      "order": 202,
+      "id": "202-night-owl-crypto",
+      "title": "POV: 2:47am, BTC just dumped",
+      "features": [
+        "cal",
+        "journal",
+        "ai",
+        "risk"
+      ],
+      "video": "202-night-owl-crypto/202-night-owl-crypto.mp4",
+      "cover": "202-night-owl-crypto/cover.jpg",
+      "caption_file": "202-night-owl-crypto/caption.txt",
+      "caption": "Crypto runs 24/7, your judgment doesn’t. The 9pm session is calm and planned, the 2am one is always a re-entry after two losses. The journal draws the line, you just log off at it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #cryptotrader #bitcoin #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "202-night-owl-crypto/captions.json"
+    },
+    {
+      "order": 203,
+      "id": "203-your-first-10-trades",
+      "title": "Your first 10 trades",
+      "features": [
+        "add",
+        "journal",
+        "dash",
+        "ck"
+      ],
+      "video": "203-your-first-10-trades/203-your-first-10-trades.mp4",
+      "cover": "203-your-first-10-trades/cover.jpg",
+      "caption_file": "203-your-first-10-trades/caption.txt",
+      "caption": "Your first 10 trades aren't about money. They're about learning to follow a plan and log every single one. Trade tiny, write down what you felt, then look back. Tradeframe makes the first ten easy to review. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #newtrader #beginnertrader #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "203-your-first-10-trades/captions.json"
+    },
+    {
+      "order": 204,
+      "id": "204-three-sunday-numbers",
+      "title": "3 numbers to check Sunday",
+      "features": [
+        "dash",
+        "stats",
+        "cal"
+      ],
+      "video": "204-three-sunday-numbers/204-three-sunday-numbers.mp4",
+      "cover": "204-three-sunday-numbers/cover.jpg",
+      "caption_file": "204-three-sunday-numbers/caption.txt",
+      "caption": "Countdown: the three numbers to check every Sunday. 3, win rate. 2, discipline score. 1, your worst weekday. Five minutes, coffee in hand, then plan the week. Demo data shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #weeklyreview #tradingtips #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingpsychology #traderlife #tradingchallenge #tradingmindset #tradingstrategy #daytrading #futurestrading",
+      "exists": false,
+      "captions_json": "204-three-sunday-numbers/captions.json"
+    },
+    {
+      "order": 205,
+      "id": "205-lunch-chop",
+      "title": "Lunch hour chop",
+      "features": [
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "205-lunch-chop/205-lunch-chop.mp4",
+      "cover": "205-lunch-chop/cover.jpg",
+      "caption_file": "205-lunch-chop/caption.txt",
+      "caption": "Midday volume dies, ranges shrink, and the itch to click grows. Your hour-by-hour stats show if lunch trades add anything or just add commissions. If the data says sit, go eat. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #lunchtime #stocktrading #futurestrading #overtrading #daytrader #scalping #priceaction #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "205-lunch-chop/captions.json"
+    },
+    {
+      "order": 206,
+      "id": "206-setup-expectancy",
+      "title": "Expectancy per setup",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "206-setup-expectancy/206-setup-expectancy.mp4",
+      "cover": "206-setup-expectancy/cover.jpg",
+      "caption_file": "206-setup-expectancy/caption.txt",
+      "caption": "Expectancy isn’t one number. Every setup has its own. Tag your trades and Tradeframe shows the P&L and average R per setup, so you know what to keep and what to drop. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #expectancy #setups #forex #futures #stocks #priceaction #traderlife #tradingedge",
+      "exists": false,
+      "captions_json": "206-setup-expectancy/captions.json"
+    },
+    {
+      "order": 207,
+      "id": "207-good-trade-still-lost",
+      "title": "A good trade can still lose",
+      "features": [
+        "ck",
+        "journal",
+        "dash",
+        "ai"
+      ],
+      "video": "207-good-trade-still-lost/207-good-trade-still-lost.mp4",
+      "cover": "207-good-trade-still-lost/cover.jpg",
+      "caption_file": "207-good-trade-still-lost/caption.txt",
+      "caption": "You followed every rule and it still hit your stop. That’s a good trade. The bad ones are the revenge trades that come after. Tradeframe scores the process so a clean loss doesn’t drag you off plan. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #processoveroutcome #tradingpsychology #propfirm #riskmanagement #tradingdiscipline #traderlife #tradingtips #stocktrader #priceaction #fundedtrader #tradingquotes #mindsetmatters #stoicism",
+      "exists": false,
+      "captions_json": "207-good-trade-still-lost/captions.json"
+    },
+    {
+      "order": 208,
+      "id": "208-import-stats-ai",
+      "title": "Import → stats → AI in 60s",
+      "features": [
+        "import",
+        "dash",
+        "stats",
+        "ai"
+      ],
+      "video": "208-import-stats-ai/208-import-stats-ai.mp4",
+      "cover": "208-import-stats-ai/cover.jpg",
+      "caption_file": "208-import-stats-ai/caption.txt",
+      "caption": "From a dusty CSV to a real insight in about a minute: import your broker export, get the dashboard and stats instantly, then let the AI find the one leak worth fixing. Demo data and timings for illustration. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #csvimport #tradinganalytics #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement",
+      "exists": false,
+      "captions_json": "208-import-stats-ai/captions.json"
+    },
+    {
+      "order": 209,
+      "id": "209-liquidation-not-a-stop",
+      "title": "Liquidation isn’t a stop loss",
+      "features": [
+        "add",
+        "risk",
+        "journal",
+        "ai"
+      ],
+      "video": "209-liquidation-not-a-stop/209-liquidation-not-a-stop.mp4",
+      "cover": "209-liquidation-not-a-stop/cover.jpg",
+      "caption_file": "209-liquidation-not-a-stop/caption.txt",
+      "caption": "On crypto perps, the liquidation price isn't a stop, it's the worst case. Log every leveraged trade with a real stop and your journal shows how much the no-stop trades really cost. Free, in your browser. Link in bio.\n\n#cryptofutures #leverage #crypto #bitcoin #cryptotrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "209-liquidation-not-a-stop/captions.json"
+    },
+    {
+      "order": 210,
+      "id": "210-blamed-mondays",
+      "title": "He blamed Mondays. It was Friday.",
+      "features": [
+        "cal",
+        "stats",
+        "ai"
+      ],
+      "video": "210-blamed-mondays/210-blamed-mondays.mp4",
+      "cover": "210-blamed-mondays/cover.jpg",
+      "caption_file": "210-blamed-mondays/caption.txt",
+      "caption": "Everyone ‘knows’ Mondays are their bad day. Until they look. In this demo month Monday breakouts are the best setup and Friday is the darkest square on the calendar. Your gut picked the wrong day. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #mondaymotivation #tradingstats #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "210-blamed-mondays/captions.json"
+    },
+    {
+      "order": 211,
+      "id": "211-what-a-good-month-looks-like",
+      "title": "What a good month looks like",
+      "features": [
+        "cal",
+        "dash",
+        "stats",
+        "ck"
+      ],
+      "video": "211-what-a-good-month-looks-like/211-what-a-good-month-looks-like.mp4",
+      "cover": "211-what-a-good-month-looks-like/cover.jpg",
+      "caption_file": "211-what-a-good-month-looks-like/caption.txt",
+      "caption": "A good month isn't one giant day. It's many small greens, losses capped at 1R, rules followed and an equity curve that climbs without cliffs. Here's what that looks like in Tradeframe (demo data). Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingmonth #consistency #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "211-what-a-good-month-looks-like/captions.json"
+    },
+    {
+      "order": 212,
+      "id": "212-no-friday-month",
+      "title": "No Fridays for a month",
+      "features": [
+        "stats",
+        "ai",
+        "cal",
+        "dash"
+      ],
+      "video": "212-no-friday-month/212-no-friday-month.mp4",
+      "cover": "212-no-friday-month/cover.jpg",
+      "caption_file": "212-no-friday-month/caption.txt",
+      "caption": "Challenge: if your stats say Friday is your worst day, don't trade it for a month. Leave every Friday blank on the calendar and compare. Your data, your rule. Demo data shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #fridaytrading #tradingchallenge #tradingmindset #tradingstrategy #daytrading #futurestrading #tradingdiscipline #propfirm #tradinghabits #stocktrading #daytrader #forextrader #riskmanagement",
+      "exists": false,
+      "captions_json": "212-no-friday-month/captions.json"
+    },
+    {
+      "order": 213,
+      "id": "213-asian-range-fakeout",
+      "title": "The Asian range fakeout",
+      "features": [
+        "add",
+        "journal",
+        "stats",
+        "ai"
+      ],
+      "video": "213-asian-range-fakeout/213-asian-range-fakeout.mp4",
+      "cover": "213-asian-range-fakeout/cover.jpg",
+      "caption_file": "213-asian-range-fakeout/caption.txt",
+      "caption": "The Asian range gets drawn every night and broken every morning. How many of your breakouts held, and how many faded while you widened the stop? Tag them and count. Not a signal, just your record. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #asiansession #forextrader #forex #usdjpy #breakouttrading #rangetrading #priceaction #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "213-asian-range-fakeout/captions.json"
+    },
+    {
+      "order": 214,
+      "id": "214-emotion-price-list",
+      "title": "What each emotion costs you",
+      "features": [
+        "add",
+        "journal",
+        "stats",
+        "ai"
+      ],
+      "video": "214-emotion-price-list/214-emotion-price-list.mp4",
+      "cover": "214-emotion-price-list/cover.jpg",
+      "caption_file": "214-emotion-price-list/caption.txt",
+      "caption": "Tag one emotion per trade and after a month you get a price list: calm trades pay, angry and FOMO trades cost. Tradeframe totals P&L by emotion so you see the bill. Demo data shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #tradingemotions #revengetrading #fomo #forex #futures #mindset #traderlife #cryptotrading",
+      "exists": false,
+      "captions_json": "214-emotion-price-list/captions.json"
+    },
+    {
+      "order": 215,
+      "id": "215-bad-trade-still-won",
+      "title": "A winning trade can be a bad trade",
+      "features": [
+        "journal",
+        "ai",
+        "ck",
+        "dash"
+      ],
+      "video": "215-bad-trade-still-won/215-bad-trade-still-won.mp4",
+      "cover": "215-bad-trade-still-won/cover.jpg",
+      "caption_file": "215-bad-trade-still-won/caption.txt",
+      "caption": "Moving your stop and getting paid feels great and trains the worst habit. Tradeframe’s AI looks at how you won, not just if, flags moved stops and turns it into a checklist rule. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #tradinghabits #traderlife #tradingtips #stocktrader #priceaction #fundedtrader #tradingquotes #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy",
+      "exists": false,
+      "captions_json": "215-bad-trade-still-won/captions.json"
+    },
+    {
+      "order": 216,
+      "id": "216-calendar-drilldown",
+      "title": "Red square? Click it.",
+      "features": [
+        "cal",
+        "journal",
+        "ai",
+        "ck"
+      ],
+      "video": "216-calendar-drilldown/216-calendar-drilldown.mp4",
+      "cover": "216-calendar-drilldown/cover.jpg",
+      "caption_file": "216-calendar-drilldown/caption.txt",
+      "caption": "A red square on the calendar is a question. Click it and the journal shows every trade from that day. Usually it is the same story: two losses, then revenge. The AI confirms it across all your red days. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingcalendar #revengetrading #traderroutine #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction",
+      "exists": false,
+      "captions_json": "216-calendar-drilldown/captions.json"
+    },
+    {
+      "order": 217,
+      "id": "217-crypto-never-closes",
+      "title": "Crypto never closes. You should.",
+      "features": [
+        "dash",
+        "cal",
+        "ai",
+        "risk"
+      ],
+      "video": "217-crypto-never-closes/217-crypto-never-closes.mp4",
+      "cover": "217-crypto-never-closes/cover.jpg",
+      "caption_file": "217-crypto-never-closes/caption.txt",
+      "caption": "Stocks have a closing bell. Crypto doesn't, so you need your own. A daily loss limit and a quick look at late-night trades can show when your session should end. Free, in your browser. Link in bio.\n\n#crypto #bitcoin #cryptotrading #ethereum #cryptotrader #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "217-crypto-never-closes/captions.json"
+    },
+    {
+      "order": 218,
+      "id": "218-friend-asks-win-rate",
+      "title": "POV: your friend asks your win rate",
+      "features": [
+        "dash",
+        "stats",
+        "ai"
+      ],
+      "video": "218-friend-asks-win-rate/218-friend-asks-win-rate.mp4",
+      "cover": "218-friend-asks-win-rate/cover.jpg",
+      "caption_file": "218-friend-asks-win-rate/caption.txt",
+      "caption": "‘What’s your win rate?’ Most traders answer with a feeling. The dashboard answers with a number, and the AI explains why it’s lower than you thought: too many trades a day. Know it before someone asks. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #winrate #tradingtips #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #futurestrading #cryptotrading #propfirm #priceaction #tradingmindset",
+      "exists": false,
+      "captions_json": "218-friend-asks-win-rate/captions.json"
+    },
+    {
+      "order": 219,
+      "id": "219-why-most-beginners-fail",
+      "title": "Why most beginners fail",
+      "features": [
+        "import",
+        "journal",
+        "ai",
+        "ck",
+        "dash"
+      ],
+      "video": "219-why-most-beginners-fail/219-why-most-beginners-fail.mp4",
+      "cover": "219-why-most-beginners-fail/cover.jpg",
+      "caption_file": "219-why-most-beginners-fail/caption.txt",
+      "caption": "Most beginners don't fail because of a bad strategy. They fail because they never close the loop: no data, no feedback, no fix. Same mistake for months. Tradeframe turns your trades into feedback you can act on. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #beginnertrader #tradingmistakes #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "219-why-most-beginners-fail/captions.json"
+    },
+    {
+      "order": 220,
+      "id": "220-stop-lock-14",
+      "title": "14 days, stop locked",
+      "features": [
+        "risk",
+        "add",
+        "journal",
+        "ai"
+      ],
+      "video": "220-stop-lock-14/220-stop-lock-14.mp4",
+      "cover": "220-stop-lock-14/cover.jpg",
+      "caption_file": "220-stop-lock-14/caption.txt",
+      "caption": "The 14-day stop lock: size from your stop, set it before entry, never touch it. On day 14, search your journal for widened stops and see an empty list. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #tradingchallenge #tradinghabits #stocktrading #daytrader #forextrader #riskmanagement #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingpsychology",
+      "exists": false,
+      "captions_json": "220-stop-lock-14/captions.json"
+    },
+    {
+      "order": 221,
+      "id": "221-london-close",
+      "title": "London close reversals",
+      "features": [
+        "stats",
+        "journal",
+        "cal"
+      ],
+      "video": "221-london-close/221-london-close.mp4",
+      "cover": "221-london-close/cover.jpg",
+      "caption_file": "221-london-close/caption.txt",
+      "caption": "Around 11am New York, London desks close and the morning trend can flip. Do your trades survive it? Your session stats show whether holding past the London close pays you or hands back the morning. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #londonclose #londonsession #forextrader #forex #gbpusd #eurusd #priceaction #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "221-london-close/captions.json"
+    },
+    {
+      "order": 222,
+      "id": "222-consistency-score-number",
+      "title": "Your consistency, scored",
+      "features": [
+        "dash",
+        "cal",
+        "ck"
+      ],
+      "video": "222-consistency-score-number/222-consistency-score-number.mp4",
+      "cover": "222-consistency-score-number/cover.jpg",
+      "caption_file": "222-consistency-score-number/caption.txt",
+      "caption": "Consistency means similar size days, similar risk, same routine. When the calendar looks like a slot machine, the score drops. Watch it climb as your days get boring. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #consistency #propfirm #forex #futures #stocks #tradingdiscipline #traderlife #routine",
+      "exists": false,
+      "captions_json": "222-consistency-score-number/captions.json"
+    },
+    {
+      "order": 223,
+      "id": "223-discipline-is-freedom",
+      "title": "Discipline is freedom",
+      "features": [
+        "ck",
+        "risk",
+        "cal",
+        "dash"
+      ],
+      "video": "223-discipline-is-freedom/223-discipline-is-freedom.mp4",
+      "cover": "223-discipline-is-freedom/cover.jpg",
+      "caption_file": "223-discipline-is-freedom/caption.txt",
+      "caption": "Rules don’t trap you, they free you from deciding everything in the heat of the moment. Tradeframe gives you a checklist, a trade cap and a discipline score so you can log off early. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #discipline #tradingquotes #priceaction #fundedtrader #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy #unpopularopinion #hottake #tradinghabits #daytrader",
+      "exists": false,
+      "captions_json": "223-discipline-is-freedom/captions.json"
+    },
+    {
+      "order": 224,
+      "id": "224-risk-checklist-gate",
+      "title": "No size, no checklist, no trade",
+      "features": [
+        "risk",
+        "ck",
+        "add"
+      ],
+      "video": "224-risk-checklist-gate/224-risk-checklist-gate.mp4",
+      "cover": "224-risk-checklist-gate/cover.jpg",
+      "caption_file": "224-risk-checklist-gate/caption.txt",
+      "caption": "Two gates before any trade: size it with the risk calculator and pass the checklist. Only then does the order happen, and the stop stays where the math put it. Simple friction that saves accounts. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #riskmanagement #positionsizing #daytrading #forextrader #tradingpsychology #futurestrading #tradingtips #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy",
+      "exists": false,
+      "captions_json": "224-risk-checklist-gate/captions.json"
+    },
+    {
+      "order": 225,
+      "id": "225-small-cap-halts",
+      "title": "Small-cap halts and you",
+      "features": [
+        "journal",
+        "ai",
+        "ck"
+      ],
+      "video": "225-small-cap-halts/225-small-cap-halts.mp4",
+      "cover": "225-small-cap-halts/cover.jpg",
+      "caption_file": "225-small-cap-halts/caption.txt",
+      "caption": "Low-float runners halt, reopen and move fast, and chasing the re-open after a loss is an easy habit to fall into. Search your journal for halt trades and see what pattern shows up. Free, in your browser. Link in bio.\n\n#smallcaps #stocks #stockmarket #pennystocks #momentumtrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "225-small-cap-halts/captions.json"
+    },
+    {
+      "order": 226,
+      "id": "226-friday-reward-trade",
+      "title": "The Friday-afternoon reward trade",
+      "features": [
+        "ck",
+        "cal",
+        "ai",
+        "journal"
+      ],
+      "video": "226-friday-reward-trade/226-friday-reward-trade.mp4",
+      "cover": "226-friday-reward-trade/cover.jpg",
+      "caption_file": "226-friday-reward-trade/caption.txt",
+      "caption": "Long week, Friday afternoon, one ‘reward’ trade with no plan. The calendar shows how often that treat turns red. Do the checklist first, or close the laptop and enjoy the weekend. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #fridayfeeling #weekendtrader #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "226-friday-reward-trade/captions.json"
+    },
+    {
+      "order": 227,
+      "id": "227-profit-factor-explained",
+      "title": "Profit factor, explained",
+      "features": [
+        "stats",
+        "dash",
+        "journal"
+      ],
+      "video": "227-profit-factor-explained/227-profit-factor-explained.mp4",
+      "cover": "227-profit-factor-explained/cover.jpg",
+      "caption_file": "227-profit-factor-explained/caption.txt",
+      "caption": "Profit factor = total money won divided by total money lost. Above 1 you're making more than you lose, below 1 you're leaking. It's a quick health check for any setup. Tradeframe breaks it down per setup and weekday. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #profitfactor #tradingstats #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "227-profit-factor-explained/captions.json"
+    },
+    {
+      "order": 228,
+      "id": "228-one-and-done",
+      "title": "One trade a day, 5 days",
+      "features": [
+        "ck",
+        "add",
+        "cal",
+        "stats"
+      ],
+      "video": "228-one-and-done/228-one-and-done.mp4",
+      "cover": "228-one-and-done/cover.jpg",
+      "caption_file": "228-one-and-done/caption.txt",
+      "caption": "One trade a day, five days. You only get one, so you wait for your A+ setup and tick every box. The worst day is just -1R. Try it, log it, compare. Demo data shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #overtrading #tradingchallenge #fundedtrader #scalping #tradingcommunity #tradingpsychology #tradingtips #traderlife #tradingmindset #tradingstrategy #daytrading #futurestrading #tradingdiscipline",
+      "exists": false,
+      "captions_json": "228-one-and-done/captions.json"
+    },
+    {
+      "order": 229,
+      "id": "229-news-second-candle",
+      "title": "Wait for the second candle",
+      "features": [
+        "journal",
+        "ai",
+        "ck",
+        "stats"
+      ],
+      "video": "229-news-second-candle/229-news-second-candle.mp4",
+      "cover": "229-news-second-candle/cover.jpg",
+      "caption_file": "229-news-second-candle/caption.txt",
+      "caption": "A headline hits and the first candle is pure chaos. Split your news trades into first-candle chases and patient entries, and let your journal show which ones actually work for you. No forecasts, just your data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #newstrading #breakingnews #forextrader #futurestrading #crypto #volatility #priceaction #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "229-news-second-candle/captions.json"
+    },
+    {
+      "order": 230,
+      "id": "230-rules-kept-vs-pnl",
+      "title": "Rules kept vs P&L",
+      "features": [
+        "ck",
+        "dash",
+        "journal",
+        "ai"
+      ],
+      "video": "230-rules-kept-vs-pnl/230-rules-kept-vs-pnl.mp4",
+      "cover": "230-rules-kept-vs-pnl/cover.jpg",
+      "caption_file": "230-rules-kept-vs-pnl/caption.txt",
+      "caption": "Put your discipline score next to your P&L and the link is hard to ignore. Rule-kept days skew green, rule-broken days skew red. Track both in one place. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #disciplinescore #tradingdiscipline #tradingrules #forex #futures #propfirm #traderlife #checklist",
+      "exists": false,
+      "captions_json": "230-rules-kept-vs-pnl/captions.json"
+    },
+    {
+      "order": 231,
+      "id": "231-systems-not-goals",
+      "title": "Goals don’t trade. Systems do.",
+      "features": [
+        "stats",
+        "ai",
+        "ck",
+        "dash"
+      ],
+      "video": "231-systems-not-goals/231-systems-not-goals.mp4",
+      "cover": "231-systems-not-goals/cover.jpg",
+      "caption_file": "231-systems-not-goals/caption.txt",
+      "caption": "You don’t rise to your goals, you fall to your system. Tradeframe audits yours: which setup works, which weekday breaks it, then patches the bug as a checklist rule you run daily. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #atomichabits #tradingsystem #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy #unpopularopinion #hottake #tradinghabits #daytrader #daytrading #tradingpsychology",
+      "exists": false,
+      "captions_json": "231-systems-not-goals/captions.json"
+    },
+    {
+      "order": 232,
+      "id": "232-gut-vs-journal",
+      "title": "Gut feeling vs the numbers",
+      "features": [
+        "dash",
+        "cal",
+        "stats",
+        "ai"
+      ],
+      "video": "232-gut-vs-journal/232-gut-vs-journal.mp4",
+      "cover": "232-gut-vs-journal/cover.jpg",
+      "caption_file": "232-gut-vs-journal/caption.txt",
+      "caption": "Some months feel amazing and the numbers disagree. Others feel awful and were fine. The dashboard, stats and AI don’t have moods, so you get the version of the month that actually happened. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingpsychology #datadriven #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader",
+      "exists": false,
+      "captions_json": "232-gut-vs-journal/captions.json"
+    },
+    {
+      "order": 233,
+      "id": "233-pdt-three-trades",
+      "title": "Three day trades. Choose well.",
+      "features": [
+        "ck",
+        "stats",
+        "dash",
+        "journal",
+        "ai"
+      ],
+      "video": "233-pdt-three-trades/233-pdt-three-trades.mp4",
+      "cover": "233-pdt-three-trades/cover.jpg",
+      "caption_file": "233-pdt-three-trades/caption.txt",
+      "caption": "Under the pattern day trader rule, a few day trades a week is all you get, so each one has to be your best. A pre-trade checklist and setup stats help you spend them on A+ only. Free, in your browser. Link in bio.\n\n#stocks #stockmarket #daytrader #pdtrule #stocktrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "233-pdt-three-trades/captions.json"
+    },
+    {
+      "order": 234,
+      "id": "234-zoom-call-trader",
+      "title": "Trading during Zoom calls",
+      "features": [
+        "add",
+        "dash",
+        "journal",
+        "ai",
+        "ck",
+        "cal"
+      ],
+      "video": "234-zoom-call-trader/234-zoom-call-trader.mp4",
+      "cover": "234-zoom-call-trader/cover.jpg",
+      "caption_file": "234-zoom-call-trader/caption.txt",
+      "caption": "Camera off, mic muted, six trades during the standup. Remote work makes it easy to trade in half-focus. The journal times every trade and the calendar shows meeting days bleed. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #remotework #workfromhome #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "234-zoom-call-trader/captions.json"
+    },
+    {
+      "order": 235,
+      "id": "235-long-vs-short-basics",
+      "title": "Long vs short for beginners",
+      "features": [
+        "add",
+        "stats",
+        "cal"
+      ],
+      "video": "235-long-vs-short-basics/235-long-vs-short-basics.mp4",
+      "cover": "235-long-vs-short-basics/cover.jpg",
+      "caption_file": "235-long-vs-short-basics/caption.txt",
+      "caption": "Long = you profit if price goes up. Short = you profit if price goes down. Same risk rules, same R, just flipped. Tradeframe handles both with one toggle and shows which side actually pays you. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #longandshort #tradingterms #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "235-long-vs-short-basics/captions.json"
+    },
+    {
+      "order": 236,
+      "id": "236-two-losses-done",
+      "title": "Two losses, then done",
+      "features": [
+        "journal",
+        "ai",
+        "risk",
+        "cal"
+      ],
+      "video": "236-two-losses-done/236-two-losses-done.mp4",
+      "cover": "236-two-losses-done/cover.jpg",
+      "caption_file": "236-two-losses-done/caption.txt",
+      "caption": "10-day challenge: two losses in a row and you're done for the day. No third trade to 'win it back'. The calendar shows how small the red days get when trade three never happens. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #revengetrading #tradingchallenge #tradingmindset #tradingstrategy #daytrading #futurestrading #tradingdiscipline #propfirm #tradinghabits #stocktrading #daytrader #forextrader #riskmanagement",
+      "exists": false,
+      "captions_json": "236-two-losses-done/captions.json"
+    },
+    {
+      "order": 237,
+      "id": "237-december-slowdown",
+      "title": "December: trade or rest?",
+      "features": [
+        "dash",
+        "cal",
+        "ai"
+      ],
+      "video": "237-december-slowdown/237-december-slowdown.mp4",
+      "cover": "237-december-slowdown/cover.jpg",
+      "caption_file": "237-december-slowdown/caption.txt",
+      "caption": "Late December: desks empty, liquidity thins, and some traders force trades to save the year. Look at your own December numbers before you decide to trade the holidays or rest. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #yearend #december #holidaytrading #forextrader #futurestrading #stocktrading #tradinggoals #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "237-december-slowdown/captions.json"
+    },
+    {
+      "order": 238,
+      "id": "238-r-distribution-shape",
+      "title": "What shape is your R?",
+      "features": [
+        "stats",
+        "journal",
+        "risk",
+        "ai"
+      ],
+      "video": "238-r-distribution-shape/238-r-distribution-shape.mp4",
+      "cover": "238-r-distribution-shape/cover.jpg",
+      "caption_file": "238-r-distribution-shape/caption.txt",
+      "caption": "Plot every trade in R. A healthy shape: losses bunched at −1R, winners spread to the right. A fat left tail means stops got moved or skipped. See your shape in Tradeframe. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #rmultiple #riskreward #stoploss #forex #futures #stocks #traderlife #tradingedge",
+      "exists": false,
+      "captions_json": "238-r-distribution-shape/captions.json"
+    },
+    {
+      "order": 239,
+      "id": "239-drop-the-daily-goal",
+      "title": "Drop the $500 a day goal",
+      "features": [
+        "cal",
+        "ai",
+        "risk"
+      ],
+      "video": "239-drop-the-daily-goal/239-drop-the-daily-goal.mp4",
+      "cover": "239-drop-the-daily-goal/cover.jpg",
+      "caption_file": "239-drop-the-daily-goal/caption.txt",
+      "caption": "The market doesn’t pay a salary, so a daily dollar target pushes you to force trades. Swap it for a risk budget. Tradeframe shows where the chase cost you and caps your trades per day. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #hottake #daytrading #swingtrading #tradingstrategy #unpopularopinion #tradinghabits #daytrader #tradingpsychology #tradingmindset #forextrader #futurestrading #cryptotrading #propfirm",
+      "exists": false,
+      "captions_json": "239-drop-the-daily-goal/captions.json"
+    },
+    {
+      "order": 240,
+      "id": "240-statement-vs-journal",
+      "title": "Broker statement vs journal",
+      "features": [
+        "import",
+        "journal",
+        "ai",
+        "ck"
+      ],
+      "video": "240-statement-vs-journal/240-statement-vs-journal.mp4",
+      "cover": "240-statement-vs-journal/cover.jpg",
+      "caption_file": "240-statement-vs-journal/caption.txt",
+      "caption": "Your broker statement tells you what happened. It never tells you why. Import it, add the context, and the journal and AI show the pattern behind the numbers, like what you do after two losses. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #brokerstatement #tradingpsychology #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading",
+      "exists": false,
+      "captions_json": "240-statement-vs-journal/captions.json"
+    },
+    {
+      "order": 241,
+      "id": "241-crude-wednesday",
+      "title": "Crude oil hates your Wednesdays",
+      "features": [
+        "import",
+        "cal",
+        "stats",
+        "ai",
+        "risk"
+      ],
+      "video": "241-crude-wednesday/241-crude-wednesday.mp4",
+      "cover": "241-crude-wednesday/cover.jpg",
+      "caption_file": "241-crude-wednesday/caption.txt",
+      "caption": "Crude oil gets its weekly inventory report midweek, and that spike can turn a plan into a coin flip. Check your CL trades by weekday and decide with data whether to sit it out. Free, in your browser. Link in bio.\n\n#crudeoil #oiltrading #wti #commodities #futurestrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "241-crude-wednesday/captions.json"
+    },
+    {
+      "order": 242,
+      "id": "242-after-the-12h-shift",
+      "title": "After a 12-hour shift",
+      "features": [
+        "ck",
+        "risk",
+        "ai",
+        "dash"
+      ],
+      "video": "242-after-the-12h-shift/242-after-the-12h-shift.mp4",
+      "cover": "242-after-the-12h-shift/cover.jpg",
+      "caption_file": "242-after-the-12h-shift/caption.txt",
+      "caption": "Nurses, warehouse crews, night-shift workers: trading after a 12-hour shift is a different game. The checklist asks if you’re rested, the risk tool caps the day, the AI flags the post-shift revenge. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #shiftworker #parttimetrader #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "242-after-the-12h-shift/captions.json"
+    },
+    {
+      "order": 243,
+      "id": "243-entry-stop-target",
+      "title": "Entry, stop, target: the basics",
+      "features": [
+        "add",
+        "risk",
+        "ck",
+        "ai"
+      ],
+      "video": "243-entry-stop-target/243-entry-stop-target.mp4",
+      "cover": "243-entry-stop-target/cover.jpg",
+      "caption_file": "243-entry-stop-target/caption.txt",
+      "caption": "Every trade needs three prices before you click: entry (where you get in), target (where you take profit), stop (where you admit you're wrong). Missing one = guessing. Tradeframe makes all three part of the log. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #takeprofit #stoploss #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "243-entry-stop-target/captions.json"
+    },
+    {
+      "order": 244,
+      "id": "244-half-risk-week",
+      "title": "The half-risk week",
+      "features": [
+        "risk",
+        "dash",
+        "ai"
+      ],
+      "video": "244-half-risk-week/244-half-risk-week.mp4",
+      "cover": "244-half-risk-week/cover.jpg",
+      "caption_file": "244-half-risk-week/caption.txt",
+      "caption": "The half-risk week: 0.5% per trade for five days. Smaller losses mean less urge to win it back, and often a cleaner discipline score. See what happens to your revenge trades. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #riskmanagement #tradingpsychology #stocktrading #daytrader #forextrader #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingtips #traderlife #tradingchallenge",
+      "exists": false,
+      "captions_json": "244-half-risk-week/captions.json"
+    },
+    {
+      "order": 245,
+      "id": "245-volatility-regime",
+      "title": "Wild days need smaller size",
+      "features": [
+        "dash",
+        "stats",
+        "journal",
+        "risk",
+        "ai"
+      ],
+      "video": "245-volatility-regime/245-volatility-regime.mp4",
+      "cover": "245-volatility-regime/cover.jpg",
+      "caption_file": "245-volatility-regime/caption.txt",
+      "caption": "When volatility doubles, the same position size is twice the risk. Split your journal into calm and wild sessions and see what happened to your stops. Then let the risk calculator resize instead of hoping. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #volatility #vix #riskmanagement #positionsizing #futurestrading #forextrader #stocktrading #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "245-volatility-regime/captions.json"
+    },
+    {
+      "order": 246,
+      "id": "246-outlier-hides-the-rest",
+      "title": "One outlier hides the rest",
+      "features": [
+        "cal",
+        "stats",
+        "journal",
+        "dash"
+      ],
+      "video": "246-outlier-hides-the-rest/246-outlier-hides-the-rest.mp4",
+      "cover": "246-outlier-hides-the-rest/cover.jpg",
+      "caption_file": "246-outlier-hides-the-rest/caption.txt",
+      "caption": "Remove your single best trade. Is the month still green? If not, you had a lucky hit, not an edge. Tradeframe shows the stats underneath the outlier. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #tradingedge #consistency #forex #futures #stocks #cryptotrading #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "246-outlier-hides-the-rest/captions.json"
+    },
+    {
+      "order": 247,
+      "id": "247-signals-dont-build-skill",
+      "title": "Signals don’t build skill",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "add"
+      ],
+      "video": "247-signals-dont-build-skill/247-signals-dont-build-skill.mp4",
+      "cover": "247-signals-dont-build-skill/cover.jpg",
+      "caption_file": "247-signals-dont-build-skill/caption.txt",
+      "caption": "Following someone else’s calls doesn’t teach you anything about how you trade. Your own logged trades do: your best setup, your weak day, your revenge habit. Tradeframe reads all of it. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingeducation #learntotrade #hottake #tradinghabits #daytrader #daytrading #tradingpsychology #tradingmindset #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement",
+      "exists": false,
+      "captions_json": "247-signals-dont-build-skill/captions.json"
+    },
+    {
+      "order": 248,
+      "id": "248-midday-reset",
+      "title": "The lunch-break reset",
+      "features": [
+        "dash",
+        "risk",
+        "ai",
+        "ck"
+      ],
+      "video": "248-midday-reset/248-midday-reset.mp4",
+      "cover": "248-midday-reset/cover.jpg",
+      "caption_file": "248-midday-reset/caption.txt",
+      "caption": "Most overtrading happens after lunch. A 60-second midday reset: check the morning on the dashboard, see how much daily risk is left, re-run the checklist. Then decide if the afternoon deserves your clicks. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #overtrading #traderroutine #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader #tradinghabits #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology",
+      "exists": false,
+      "captions_json": "248-midday-reset/captions.json"
+    },
+    {
+      "order": 249,
+      "id": "249-micros-prove-it",
+      "title": "Prove it on micros first",
+      "features": [
+        "add",
+        "dash",
+        "stats"
+      ],
+      "video": "249-micros-prove-it/249-micros-prove-it.mp4",
+      "cover": "249-micros-prove-it/cover.jpg",
+      "caption_file": "249-micros-prove-it/caption.txt",
+      "caption": "Micro futures let you trade the same NQ or ES chart with a fraction of the dollar risk. Journal 50 micro trades in R first, and let the stats decide when you're ready to size up. Free, in your browser. Link in bio.\n\n#microfutures #mnq #mes #futurestrading #futurestrader #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "249-micros-prove-it/captions.json"
+    },
+    {
+      "order": 250,
+      "id": "250-paper-notebook-trader",
+      "title": "The paper notebook trader",
+      "features": [
+        "import",
+        "journal",
+        "ai",
+        "stats"
+      ],
+      "video": "250-paper-notebook-trader/250-paper-notebook-trader.mp4",
+      "cover": "250-paper-notebook-trader/cover.jpg",
+      "caption_file": "250-paper-notebook-trader/caption.txt",
+      "caption": "Old-school paper journal, pencil, and a lot of eraser marks next to the stop column. Move it to a table and the pattern jumps out: the worst losses all had a rewritten stop. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #oldschooltrader #stoploss #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "250-paper-notebook-trader/captions.json"
+    },
+    {
+      "order": 251,
+      "id": "251-variance-10-trades-lie",
+      "title": "Variance: why 10 trades lie",
+      "features": [
+        "stats",
+        "dash",
+        "journal",
+        "ai"
+      ],
+      "video": "251-variance-10-trades-lie/251-variance-10-trades-lie.mp4",
+      "cover": "251-variance-10-trades-lie/cover.jpg",
+      "caption_file": "251-variance-10-trades-lie/caption.txt",
+      "caption": "Five losses in a row doesn't mean your strategy is broken. Even a solid edge has streaks. That's variance. Judge a setup over many trades, and only fix what the data repeats. Tradeframe shows you the difference. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #variance #losingstreak #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "251-variance-10-trades-lie/captions.json"
+    },
+    {
+      "order": 252,
+      "id": "252-hundred-trade-sample",
+      "title": "Log 100 trades, then judge",
+      "features": [
+        "import",
+        "stats",
+        "ai",
+        "dash"
+      ],
+      "video": "252-hundred-trade-sample/252-hundred-trade-sample.mp4",
+      "cover": "252-hundred-trade-sample/cover.jpg",
+      "caption_file": "252-hundred-trade-sample/caption.txt",
+      "caption": "10 trades is a mood. 100 trades is data. Log (or import) your next 100 before you judge your strategy, then let the stats and AI show what's real. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingstrategy #backtesting #scalping #tradingcommunity #tradingpsychology #tradingtips #traderlife #tradingchallenge #tradingmindset #daytrading #futurestrading #tradingdiscipline #propfirm",
+      "exists": false,
+      "captions_json": "252-hundred-trade-sample/captions.json"
+    },
+    {
+      "order": 253,
+      "id": "253-premarket-trades",
+      "title": "Pre-market trades: worth it?",
+      "features": [
+        "import",
+        "journal",
+        "stats"
+      ],
+      "video": "253-premarket-trades/253-premarket-trades.mp4",
+      "cover": "253-premarket-trades/cover.jpg",
+      "caption_file": "253-premarket-trades/caption.txt",
+      "caption": "Pre-market trading feels like a head start, until the spread eats your entry. Import your fills and compare pre-market to regular hours. Your own numbers decide if the early session is worth waking up for. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #premarket #stocktrading #daytrader #gaptrading #smallcaps #momentumtrading #liquidity #tradingtips #traderlife #stockmarket",
+      "exists": false,
+      "captions_json": "253-premarket-trades/captions.json"
+    },
+    {
+      "order": 254,
+      "id": "254-realized-vs-planned-r",
+      "title": "Planned 3R. Took 1.1R.",
+      "features": [
+        "add",
+        "journal",
+        "stats",
+        "ai"
+      ],
+      "video": "254-realized-vs-planned-r/254-realized-vs-planned-r.mp4",
+      "cover": "254-realized-vs-planned-r/cover.jpg",
+      "caption_file": "254-realized-vs-planned-r/caption.txt",
+      "caption": "You plan 3R, you close at 1.1R. Do that every trade and the math stops working. Compare planned R with realized R and see where you bail. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #riskreward #rmultiple #letwinnersrun #forex #futures #stocks #traderlife #tradingplan",
+      "exists": false,
+      "captions_json": "254-realized-vs-planned-r/captions.json"
+    },
+    {
+      "order": 255,
+      "id": "255-trade-the-chart-not-pnl",
+      "title": "Trade the chart, not your P&L",
+      "features": [
+        "risk",
+        "add",
+        "ai"
+      ],
+      "video": "255-trade-the-chart-not-pnl/255-trade-the-chart-not-pnl.mp4",
+      "cover": "255-trade-the-chart-not-pnl/cover.jpg",
+      "caption_file": "255-trade-the-chart-not-pnl/caption.txt",
+      "caption": "Watching floating P&L tick up and down is how stops get moved. Decide your levels on the chart, let Tradeframe compute the size and R, and let the AI flag moved stops. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #priceaction #tradingpsychology #daytrading #tradingmindset #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement #tradingdiscipline #traderlife #tradingtips #stocktrader",
+      "exists": false,
+      "captions_json": "255-trade-the-chart-not-pnl/captions.json"
+    },
+    {
+      "order": 256,
+      "id": "256-first-of-month",
+      "title": "1st of the month ritual",
+      "features": [
+        "stats",
+        "ai",
+        "risk",
+        "ck"
+      ],
+      "video": "256-first-of-month/256-first-of-month.mp4",
+      "cover": "256-first-of-month/cover.jpg",
+      "caption_file": "256-first-of-month/caption.txt",
+      "caption": "On the 1st of every month: one look back at last month’s stats, one leak chosen by the AI, one risk setup for the next 30 days, one checklist. Not ten goals. One fix, done properly. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradinggoals #monthlygoals #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement",
+      "exists": false,
+      "captions_json": "256-first-of-month/captions.json"
+    },
+    {
+      "order": 257,
+      "id": "257-usdjpy-fade-trend",
+      "title": "Stop fading USDJPY",
+      "features": [
+        "journal",
+        "ai",
+        "stats",
+        "dash"
+      ],
+      "video": "257-usdjpy-fade-trend/257-usdjpy-fade-trend.mp4",
+      "cover": "257-usdjpy-fade-trend/cover.jpg",
+      "caption_file": "257-usdjpy-fade-trend/caption.txt",
+      "caption": "Shorting USDJPY because it looks too high is a classic, and so is widening the stop when it keeps climbing. Your journal can show both habits, side by side. Free, in your browser. Link in bio.\n\n#usdjpy #forex #forextrader #yen #fxtrader #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "257-usdjpy-fade-trend/captions.json"
+    },
+    {
+      "order": 258,
+      "id": "258-signal-group-follower",
+      "title": "The signal-group follower",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "258-signal-group-follower/258-signal-group-follower.mp4",
+      "cover": "258-signal-group-follower/cover.jpg",
+      "caption_file": "258-signal-group-follower/caption.txt",
+      "caption": "Ping, ping, ping: another alert, another late entry. Tag which trades came from a group and which were yours. In this demo, your own setup beats the alerts and the pings drive the overtrading. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingsignals #forexsignals #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "258-signal-group-follower/captions.json"
+    },
+    {
+      "order": 259,
+      "id": "259-trading-sessions-101",
+      "title": "Trading sessions 101",
+      "features": [
+        "stats",
+        "cal",
+        "ai",
+        "ck"
+      ],
+      "video": "259-trading-sessions-101/259-trading-sessions-101.mp4",
+      "cover": "259-trading-sessions-101/cover.jpg",
+      "caption_file": "259-trading-sessions-101/caption.txt",
+      "caption": "Forex and futures trade almost 24h, split into Asia, London and New York sessions. Each has its own volume and behavior. Beginners try all three and burn out. Tag your sessions in Tradeframe and find yours. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingsessions #forex #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "259-trading-sessions-101/captions.json"
+    },
+    {
+      "order": 260,
+      "id": "260-four-gambler-stats",
+      "title": "4 stats that expose gambling",
+      "features": [
+        "dash",
+        "stats",
+        "journal",
+        "ai"
+      ],
+      "video": "260-four-gambler-stats/260-four-gambler-stats.mp4",
+      "cover": "260-four-gambler-stats/cover.jpg",
+      "caption_file": "260-four-gambler-stats/caption.txt",
+      "caption": "Countdown: 4 stats that expose a gambler. 4, win rate without context. 3, R spread. 2, a weekday that always bleeds. 1, trades per day. Check yours honestly. Demo data shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingtips #tradingpsychology #tradingstrategy #daytrading #futurestrading #tradingdiscipline #propfirm #tradinghabits #stocktrading #daytrader #forextrader #riskmanagement #priceaction",
+      "exists": false,
+      "captions_json": "260-four-gambler-stats/captions.json"
+    },
+    {
+      "order": 261,
+      "id": "261-red-folder-days",
+      "title": "Red-folder days: your record",
+      "features": [
+        "add",
+        "cal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "261-red-folder-days/261-red-folder-days.mp4",
+      "cover": "261-red-folder-days/cover.jpg",
+      "caption_file": "261-red-folder-days/caption.txt",
+      "caption": "Every week has a few red-folder events on the economic calendar. Tag those days once and your journal shows whether you trade them better, worse, or just more. Then decide to trade or sit, based on you. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #economiccalendar #forexfactory #newstrading #forextrader #forex #futurestrading #riskmanagement #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "261-red-folder-days/captions.json"
+    },
+    {
+      "order": 262,
+      "id": "262-green-day-ratio",
+      "title": "How many green days, really?",
+      "features": [
+        "cal",
+        "dash",
+        "ai"
+      ],
+      "video": "262-green-day-ratio/262-green-day-ratio.mp4",
+      "cover": "262-green-day-ratio/cover.jpg",
+      "caption_file": "262-green-day-ratio/caption.txt",
+      "caption": "Trade win rate is one thing. Green-day ratio is another: how many sessions you actually close up. The calendar makes it obvious, and shows where the red days cluster. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #greendays #calendar #forex #futures #stocks #propfirm #traderlife #consistency",
+      "exists": false,
+      "captions_json": "262-green-day-ratio/captions.json"
+    },
+    {
+      "order": 263,
+      "id": "263-one-trade-means-nothing",
+      "title": "One trade means nothing",
+      "features": [
+        "stats",
+        "journal",
+        "ai",
+        "dash"
+      ],
+      "video": "263-one-trade-means-nothing/263-one-trade-means-nothing.mp4",
+      "cover": "263-one-trade-means-nothing/cover.jpg",
+      "caption_file": "263-one-trade-means-nothing/caption.txt",
+      "caption": "Any single trade is a coin flip inside your edge. Judge the series. Tradeframe shows your results over a full sample and catches when one loss turns into a revenge streak. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #markdouglas #tradinginthezone #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement #tradingdiscipline #traderlife #tradingtips #stocktrader #priceaction #fundedtrader",
+      "exists": false,
+      "captions_json": "263-one-trade-means-nothing/captions.json"
+    },
+    {
+      "order": 264,
+      "id": "264-habit-stack",
+      "title": "Habit-stack your journal",
+      "features": [
+        "add",
+        "dash",
+        "cal",
+        "ck"
+      ],
+      "video": "264-habit-stack/264-habit-stack.mp4",
+      "cover": "264-habit-stack/cover.jpg",
+      "caption_file": "264-habit-stack/caption.txt",
+      "caption": "Habits stick when they ride on something you already do. The trigger: closing your trading platform. The habit: opening your journal and logging the session. Same order, every day, until it is automatic. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #habitstacking #tradinghabits #traderroutine #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction",
+      "exists": false,
+      "captions_json": "264-habit-stack/captions.json"
+    },
+    {
+      "order": 265,
+      "id": "265-cable-fakeouts",
+      "title": "Cable fakes your breakouts",
+      "features": [
+        "stats",
+        "journal",
+        "ai",
+        "ck"
+      ],
+      "video": "265-cable-fakeouts/265-cable-fakeouts.mp4",
+      "cover": "265-cable-fakeouts/cover.jpg",
+      "caption_file": "265-cable-fakeouts/caption.txt",
+      "caption": "GBPUSD loves a breakout that reverses straight back. Tag your cable setups and the stats show whether breakouts or retests actually pay you, demo numbers, your pattern to check. Free, in your browser. Link in bio.\n\n#gbpusd #cable #forex #forextrader #breakouttrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "265-cable-fakeouts/captions.json"
+    },
+    {
+      "order": 266,
+      "id": "266-beach-vacation-trader",
+      "title": "POV: trading from the beach",
+      "features": [
+        "cal",
+        "dash",
+        "ai"
+      ],
+      "video": "266-beach-vacation-trader/266-beach-vacation-trader.mp4",
+      "cover": "266-beach-vacation-trader/cover.jpg",
+      "caption_file": "266-beach-vacation-trader/caption.txt",
+      "caption": "Sun, sea, and nine trades on hotel wifi. The twist: the best day of the holiday week was the one with zero trades. The calendar doesn’t care about your tan, it shows what phone trading costs. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #vacationmode #traderlifestyle #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "266-beach-vacation-trader/captions.json"
+    },
+    {
+      "order": 267,
+      "id": "267-lots-contracts-shares",
+      "title": "Lots, contracts, shares",
+      "features": [
+        "risk",
+        "add",
+        "dash",
+        "ck"
+      ],
+      "video": "267-lots-contracts-shares/267-lots-contracts-shares.mp4",
+      "cover": "267-lots-contracts-shares/cover.jpg",
+      "caption_file": "267-lots-contracts-shares/caption.txt",
+      "caption": "Forex uses lots, futures use contracts, stocks use shares, crypto uses coins. Different names, same question: how big so the stop costs exactly your risk? Tradeframe converts all of it to R. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #lotsize #futurestrading #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology #traderlife",
+      "exists": false,
+      "captions_json": "267-lots-contracts-shares/captions.json"
+    },
+    {
+      "order": 268,
+      "id": "268-plan-before-click",
+      "title": "Write it before you click",
+      "features": [
+        "add",
+        "ck",
+        "journal"
+      ],
+      "video": "268-plan-before-click/268-plan-before-click.mp4",
+      "cover": "268-plan-before-click/cover.jpg",
+      "caption_file": "268-plan-before-click/caption.txt",
+      "caption": "7-day challenge: write the trade, entry, stop and target, before you click buy. A written stop is much harder to drag. At the end, search your journal for moved stops. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingplan #tradingchallenge #daytrader #forextrader #riskmanagement #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingpsychology #tradingtips #traderlife",
+      "exists": false,
+      "captions_json": "268-plan-before-click/captions.json"
+    },
+    {
+      "order": 269,
+      "id": "269-crypto-weekend",
+      "title": "Crypto weekends: thin books",
+      "features": [
+        "cal",
+        "journal",
+        "ai",
+        "risk"
+      ],
+      "video": "269-crypto-weekend/269-crypto-weekend.mp4",
+      "cover": "269-crypto-weekend/cover.jpg",
+      "caption_file": "269-crypto-weekend/caption.txt",
+      "caption": "Crypto trades 24/7, but weekend books are thin and wicks are long. Your journal can show if Saturday losses turn into Sunday revenge. Let the data decide if weekends are for trading or for living. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #crypto #bitcoin #cryptotrading #btc #weekend #revengetrading #liquidity #tradingtips #traderlife #altcoins",
+      "exists": false,
+      "captions_json": "269-crypto-weekend/captions.json"
+    },
+    {
+      "order": 270,
+      "id": "270-average-loss-creep",
+      "title": "Your average loss is creeping",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "risk"
+      ],
+      "video": "270-average-loss-creep/270-average-loss-creep.mp4",
+      "cover": "270-average-loss-creep/cover.jpg",
+      "caption_file": "270-average-loss-creep/caption.txt",
+      "caption": "Average loss rarely jumps. It creeps: a slightly wider stop here, a bit more size there. Track it week over week and reset to fixed risk before it eats your edge. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #averageloss #stoploss #riskmanagement #forex #futures #stocks #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "270-average-loss-creep/captions.json"
+    },
+    {
+      "order": 271,
+      "id": "271-trading-is-a-business",
+      "title": "Trade it like a business",
+      "features": [
+        "import",
+        "dash",
+        "stats",
+        "ai"
+      ],
+      "video": "271-trading-is-a-business/271-trading-is-a-business.mp4",
+      "cover": "271-trading-is-a-business/cover.jpg",
+      "caption_file": "271-trading-is-a-business/caption.txt",
+      "caption": "A business without books is a hobby. Import your trade history, read the monthly statement, find the cost center (in demo data, Fridays) and cut it with a rule. Tradeframe is free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingbusiness #entrepreneur #propfirm #riskmanagement #tradingdiscipline #traderlife #tradingtips #stocktrader #priceaction #fundedtrader #tradingquotes #mindsetmatters #stoicism",
+      "exists": false,
+      "captions_json": "271-trading-is-a-business/captions.json"
+    },
+    {
+      "order": 272,
+      "id": "272-willpower-vs-checklist",
+      "title": "Willpower runs out. Checklists don’t.",
+      "features": [
+        "ck",
+        "cal",
+        "dash",
+        "ai"
+      ],
+      "video": "272-willpower-vs-checklist/272-willpower-vs-checklist.mp4",
+      "cover": "272-willpower-vs-checklist/cover.jpg",
+      "caption_file": "272-willpower-vs-checklist/caption.txt",
+      "caption": "Willpower is strongest at 9:30 and gone by 2pm, usually right after two losses. A checklist doesn’t get tired. Tick the boxes, let the score track it, let the AI add a box when you slip. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingdiscipline #tradingchecklist #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy",
+      "exists": false,
+      "captions_json": "272-willpower-vs-checklist/captions.json"
+    },
+    {
+      "order": 273,
+      "id": "273-silver-not-cheap-gold",
+      "title": "Silver isn’t cheap gold",
+      "features": [
+        "risk",
+        "add",
+        "journal",
+        "ai"
+      ],
+      "video": "273-silver-not-cheap-gold/273-silver-not-cheap-gold.mp4",
+      "cover": "273-silver-not-cheap-gold/cover.jpg",
+      "caption_file": "273-silver-not-cheap-gold/caption.txt",
+      "caption": "Silver and gold move together, but they don't move the same, and copying your gold size onto silver changes your risk. Size each metal from its own stop. Free, in your browser. Link in bio.\n\n#silver #xagusd #gold #commodities #metals #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "273-silver-not-cheap-gold/captions.json"
+    },
+    {
+      "order": 274,
+      "id": "274-they-hunt-my-stops",
+      "title": "“They hunt my stops”",
+      "features": [
+        "journal",
+        "stats",
+        "ai"
+      ],
+      "video": "274-they-hunt-my-stops/274-they-hunt-my-stops.mp4",
+      "cover": "274-they-hunt-my-stops/cover.jpg",
+      "caption_file": "274-they-hunt-my-stops/caption.txt",
+      "caption": "‘Market makers hunt my stops.’ Maybe. Or maybe the stop got nudged twice before it hit. The journal shows which stop-outs were the plan and which were edits. Spoiler for this demo: the edits. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stophunting #stoploss #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "274-they-hunt-my-stops/captions.json"
+    },
+    {
+      "order": 275,
+      "id": "275-what-is-an-edge",
+      "title": "What is an edge, really?",
+      "features": [
+        "stats",
+        "journal",
+        "ai",
+        "dash"
+      ],
+      "video": "275-what-is-an-edge/275-what-is-an-edge.mp4",
+      "cover": "275-what-is-an-edge/cover.jpg",
+      "caption_file": "275-what-is-an-edge/caption.txt",
+      "caption": "An edge is something you do repeatedly that makes money over many trades. Not a feeling, not one great day. If you can't point to it in your stats, you don't know you have one yet. Tradeframe shows where it is. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingedge #tradingstats #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "275-what-is-an-edge/captions.json"
+    },
+    {
+      "order": 276,
+      "id": "276-grade-every-trade",
+      "title": "Grade every trade A to C",
+      "features": [
+        "add",
+        "journal",
+        "stats",
+        "ai"
+      ],
+      "video": "276-grade-every-trade/276-grade-every-trade.mp4",
+      "cover": "276-grade-every-trade/cover.jpg",
+      "caption_file": "276-grade-every-trade/caption.txt",
+      "caption": "Two-week challenge: grade every trade A, B or C right after you log it. Then filter your losses. Spoiler: most of them are C trades you didn't need to take. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradinghabits #tradingchallenge #tradingcommunity #tradingpsychology #tradingtips #traderlife #tradingmindset #tradingstrategy #daytrading #futurestrading #tradingdiscipline #propfirm #stocktrading",
+      "exists": false,
+      "captions_json": "276-grade-every-trade/captions.json"
+    },
+    {
+      "order": 277,
+      "id": "277-sunday-open",
+      "title": "Sunday open gaps",
+      "features": [
+        "journal",
+        "risk",
+        "ai"
+      ],
+      "video": "277-sunday-open/277-sunday-open.mp4",
+      "cover": "277-sunday-open/cover.jpg",
+      "caption_file": "277-sunday-open/caption.txt",
+      "caption": "Forex and futures reopen Sunday evening with gaps and wide spreads. Do your Sunday-open trades keep their stops? Filter them in your journal and see. Then decide whether the first hour of the week is yours. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #sundayopen #forextrader #forex #futurestrading #gaprisk #spread #riskmanagement #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "277-sunday-open/captions.json"
+    },
+    {
+      "order": 278,
+      "id": "278-random-risk-size",
+      "title": "Your risk size is random",
+      "features": [
+        "journal",
+        "risk",
+        "dash",
+        "ck"
+      ],
+      "video": "278-random-risk-size/278-random-risk-size.mp4",
+      "cover": "278-random-risk-size/cover.jpg",
+      "caption_file": "278-random-risk-size/caption.txt",
+      "caption": "If your risk jumps from 0.5% to 3% depending on mood, your stats measure your mood, not your edge. Fix the risk per trade and the numbers start to mean something. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #positionsizing #riskmanagement #forex #futures #stocks #cryptotrading #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "278-random-risk-size/captions.json"
+    },
+    {
+      "order": 279,
+      "id": "279-your-gut-has-a-record",
+      "title": "Your gut has a track record",
+      "features": [
+        "add",
+        "journal",
+        "ai",
+        "stats"
+      ],
+      "video": "279-your-gut-has-a-record/279-your-gut-has-a-record.mp4",
+      "cover": "279-your-gut-has-a-record/cover.jpg",
+      "caption_file": "279-your-gut-has-a-record/caption.txt",
+      "caption": "Your gut makes calls all day. Has anyone checked its record? Tag each trade with how you felt, then filter and search the journal. Tradeframe’s AI shows where the hunches cluster, often right after two losses. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #intuition #tradingpsychology #traderlife #tradingtips #stocktrader #priceaction #fundedtrader #tradingquotes #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy",
+      "exists": false,
+      "captions_json": "279-your-gut-has-a-record/captions.json"
+    },
+    {
+      "order": 280,
+      "id": "280-search-find-fix",
+      "title": "Search. Find. Fix.",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "280-search-find-fix/280-search-find-fix.mp4",
+      "cover": "280-search-find-fix/cover.jpg",
+      "caption_file": "280-search-find-fix/caption.txt",
+      "caption": "Search your journal for the mistake you suspect, let the AI confirm it across every trade, and turn it into a checklist box. Search, find, fix: the whole improvement loop in three clicks. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoploss #tradingtips #futurestrading #riskmanagement #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader #tradinghabits",
+      "exists": false,
+      "captions_json": "280-search-find-fix/captions.json"
+    },
+    {
+      "order": 281,
+      "id": "281-spx-trend-day-shorts",
+      "title": "Stop shorting S&P trend days",
+      "features": [
+        "cal",
+        "journal",
+        "ai",
+        "dash"
+      ],
+      "video": "281-spx-trend-day-shorts/281-spx-trend-day-shorts.mp4",
+      "cover": "281-spx-trend-day-shorts/cover.jpg",
+      "caption_file": "281-spx-trend-day-shorts/caption.txt",
+      "caption": "On a strong S&P trend day, one short becomes three, then five. The calendar shows your worst days and the AI page shows what you do after two losses. Free, in your browser. Link in bio.\n\n#sp500 #spx #spy #indices #indextrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "281-spx-trend-day-shorts/captions.json"
+    },
+    {
+      "order": 282,
+      "id": "282-adds-to-losers",
+      "title": "The trader who adds to losers",
+      "features": [
+        "risk",
+        "add",
+        "ai",
+        "dash"
+      ],
+      "video": "282-adds-to-losers/282-adds-to-losers.mp4",
+      "cover": "282-adds-to-losers/cover.jpg",
+      "caption_file": "282-adds-to-losers/caption.txt",
+      "caption": "‘Better price now.’ Add. ‘Even better.’ Add again, and push the stop to make room. Averaging down quietly turns a 1R loss into a 4R one. Size once, keep the stop, let the data keep you honest. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #averagingdown #cryptotrader #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "282-adds-to-losers/captions.json"
+    },
+    {
+      "order": 283,
+      "id": "283-confluence-plain-english",
+      "title": "Confluence in plain English",
+      "features": [
+        "ck",
+        "add",
+        "stats"
+      ],
+      "video": "283-confluence-plain-english/283-confluence-plain-english.mp4",
+      "cover": "283-confluence-plain-english/cover.jpg",
+      "caption_file": "283-confluence-plain-english/caption.txt",
+      "caption": "Confluence just means several independent reasons agree before you enter: trend, key level, trigger. One reason is a hunch. Three is a setup. Put them on a Tradeframe checklist and compare 3/3 trades vs the rest. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #confluence #tradingsetup #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "283-confluence-plain-english/captions.json"
+    },
+    {
+      "order": 284,
+      "id": "284-perfect-week",
+      "title": "The perfect-discipline week",
+      "features": [
+        "ck",
+        "dash",
+        "ai"
+      ],
+      "video": "284-perfect-week/284-perfect-week.mp4",
+      "cover": "284-perfect-week/cover.jpg",
+      "caption_file": "284-perfect-week/caption.txt",
+      "caption": "The perfect-discipline week: the goal isn't P&L, it's a discipline score of 100 from Monday to Friday. Most people break it on Wednesday by moving a stop. Can you hold it five days? Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingdiscipline #tradingchallenge #daytrading #futurestrading #propfirm #tradinghabits #stocktrading #daytrader #forextrader #riskmanagement #priceaction #cryptotrading #fundedtrader",
+      "exists": false,
+      "captions_json": "284-perfect-week/captions.json"
+    },
+    {
+      "order": 285,
+      "id": "285-rollover-week",
+      "title": "Futures rollover week",
+      "features": [
+        "import",
+        "stats",
+        "ck"
+      ],
+      "video": "285-rollover-week/285-rollover-week.mp4",
+      "cover": "285-rollover-week/cover.jpg",
+      "caption_file": "285-rollover-week/caption.txt",
+      "caption": "Futures roll every quarter: volume moves to the next contract and the old one gets thin. Import both contracts as one history and check how your roll weeks really perform. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #futurestrading #futures #es #nq #rollover #cl #daytrader #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "285-rollover-week/captions.json"
+    },
+    {
+      "order": 286,
+      "id": "286-first-trade-win-rate",
+      "title": "Your first trade wins most",
+      "features": [
+        "journal",
+        "dash",
+        "ai",
+        "ck"
+      ],
+      "video": "286-first-trade-win-rate/286-first-trade-win-rate.mp4",
+      "cover": "286-first-trade-win-rate/cover.jpg",
+      "caption_file": "286-first-trade-win-rate/caption.txt",
+      "caption": "Split your win rate by trade number of the day. Many traders win their first trade and give it back by the sixth. Your data shows where the edge ends. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #overtrading #daytrader #forex #futures #stocks #tradingrules #traderlife #scalping",
+      "exists": false,
+      "captions_json": "286-first-trade-win-rate/captions.json"
+    },
+    {
+      "order": 287,
+      "id": "287-fridays-are-optional",
+      "title": "Hot take: Fridays are optional",
+      "features": [
+        "stats",
+        "cal",
+        "ai",
+        "dash"
+      ],
+      "video": "287-fridays-are-optional/287-fridays-are-optional.mp4",
+      "cover": "287-fridays-are-optional/cover.jpg",
+      "caption_file": "287-fridays-are-optional/caption.txt",
+      "caption": "Nobody says you have to trade five days a week. If your own data shows one weekday is your worst, skipping it is a valid rule. Tradeframe ranks weekdays and adds the rule in one click. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #hottake #fridayfeeling #priceaction #fundedtrader #tradingquotes #mindsetmatters #stoicism #tradingrules #swingtrading #tradingstrategy #unpopularopinion #tradinghabits #daytrader",
+      "exists": false,
+      "captions_json": "287-fridays-are-optional/captions.json"
+    },
+    {
+      "order": 288,
+      "id": "288-size-by-setup",
+      "title": "Let stats set your size",
+      "features": [
+        "stats",
+        "risk",
+        "ck",
+        "add",
+        "dash"
+      ],
+      "video": "288-size-by-setup/288-size-by-setup.mp4",
+      "cover": "288-size-by-setup/cover.jpg",
+      "caption_file": "288-size-by-setup/caption.txt",
+      "caption": "Combining two features: stats show which setups actually pay you, and the risk calculator sizes each trade to your rule. A checklist box makes sure the size matches the setup. An example process, not financial advice. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #positionsizing #riskmanagement #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading",
+      "exists": false,
+      "captions_json": "288-size-by-setup/captions.json"
+    },
+    {
+      "order": 289,
+      "id": "289-natgas-widowmaker",
+      "title": "Nat gas needs a small size",
+      "features": [
+        "risk",
+        "journal",
+        "stats",
+        "ai"
+      ],
+      "video": "289-natgas-widowmaker/289-natgas-widowmaker.mp4",
+      "cover": "289-natgas-widowmaker/cover.jpg",
+      "caption_file": "289-natgas-widowmaker/caption.txt",
+      "caption": "Natural gas can swing harder in a day than many markets do in a week. Size it down with the risk calculator and let your journal show which NG days you should skip. Free, in your browser. Link in bio.\n\n#naturalgas #natgas #commodities #energytrading #futurestrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "289-natgas-widowmaker/captions.json"
+    },
+    {
+      "order": 290,
+      "id": "290-blamed-the-broker",
+      "title": "It’s the broker’s fault",
+      "features": [
+        "journal",
+        "cal",
+        "ai"
+      ],
+      "video": "290-blamed-the-broker/290-blamed-the-broker.mp4",
+      "cover": "290-blamed-the-broker/cover.jpg",
+      "caption_file": "290-blamed-the-broker/caption.txt",
+      "caption": "Slippage, spreads, a ‘scam’ broker. Some of it might be real. But filter the losses and the bigger cost shows up: five rushed trades after the first two red ones. Fix that before switching brokers. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #forexbroker #tradingpsychology #daytrading #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction #tradingmindset",
+      "exists": false,
+      "captions_json": "290-blamed-the-broker/captions.json"
+    },
+    {
+      "order": 291,
+      "id": "291-pick-one-timeframe",
+      "title": "Pick one timeframe",
+      "features": [
+        "stats",
+        "journal",
+        "ai",
+        "ck"
+      ],
+      "video": "291-pick-one-timeframe/291-pick-one-timeframe.mp4",
+      "cover": "291-pick-one-timeframe/cover.jpg",
+      "caption_file": "291-pick-one-timeframe/caption.txt",
+      "caption": "Jumping from 1-minute to 4-hour charts on every trade is how beginners confuse themselves. Pick one timeframe, learn how it moves, and tag it. After a month, Tradeframe shows you which one actually fits you. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #timeframe #chartanalysis #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "291-pick-one-timeframe/captions.json"
+    },
+    {
+      "order": 292,
+      "id": "292-three-minute-audit",
+      "title": "The 3-minute journal audit",
+      "features": [
+        "cal",
+        "journal",
+        "ai"
+      ],
+      "video": "292-three-minute-audit/292-three-minute-audit.mp4",
+      "cover": "292-three-minute-audit/cover.jpg",
+      "caption_file": "292-three-minute-audit/caption.txt",
+      "caption": "The 3-minute journal audit. Minute 1: calendar. Minute 2: filter the losses. Minute 3: let the AI confirm the leak and add a rule. Timer on. Do it every weekend. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #weeklyreview #tradingtips #forextrader #riskmanagement #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingpsychology #traderlife #tradingchallenge #tradingmindset",
+      "exists": false,
+      "captions_json": "292-three-minute-audit/captions.json"
+    },
+    {
+      "order": 293,
+      "id": "293-clock-change-week",
+      "title": "Clock change week",
+      "features": [
+        "cal",
+        "stats",
+        "ck"
+      ],
+      "video": "293-clock-change-week/293-clock-change-week.mp4",
+      "cover": "293-clock-change-week/cover.jpg",
+      "caption_file": "293-clock-change-week/caption.txt",
+      "caption": "US and Europe change clocks on different weekends, so for a week or two every session time moves. Your hourly stats show if you trade the wrong hour when the clocks shift. A small check that saves a messy week. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #daylightsaving #sessiontimes #forextrader #forex #futurestrading #londonsession #newyorksession #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "293-clock-change-week/captions.json"
+    },
+    {
+      "order": 294,
+      "id": "294-checklist-win-rate",
+      "title": "Checklist on vs checklist off",
+      "features": [
+        "ck",
+        "journal",
+        "stats",
+        "ai"
+      ],
+      "video": "294-checklist-win-rate/294-checklist-win-rate.mp4",
+      "cover": "294-checklist-win-rate/cover.jpg",
+      "caption_file": "294-checklist-win-rate/caption.txt",
+      "caption": "Split your trades into checklist done vs skipped. The gap in win rate is usually the clearest argument for a pre-trade routine. Track it in your own data. Demo numbers shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #checklist #tradingdiscipline #tradingplan #forex #futures #stocks #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "294-checklist-win-rate/captions.json"
+    },
+    {
+      "order": 295,
+      "id": "295-market-owes-you-nothing",
+      "title": "The market owes you nothing",
+      "features": [
+        "cal",
+        "ai",
+        "risk",
+        "ck"
+      ],
+      "video": "295-market-owes-you-nothing/295-market-owes-you-nothing.mp4",
+      "cover": "295-market-owes-you-nothing/cover.jpg",
+      "caption_file": "295-market-owes-you-nothing/caption.txt",
+      "caption": "After a loss it feels like the market owes you a win. It doesn’t, and that feeling drives revenge trades. Tradeframe’s AI finds your payback trades and adds a stop-after-two-losses rule. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #stoicism #revengetrading #mindsetmatters #tradingrules #swingtrading #tradingstrategy #unpopularopinion #hottake #tradinghabits #daytrader #daytrading #tradingpsychology #tradingmindset",
+      "exists": false,
+      "captions_json": "295-market-owes-you-nothing/captions.json"
+    },
+    {
+      "order": 296,
+      "id": "296-sticky-notes",
+      "title": "Sticky notes on your monitor?",
+      "features": [
+        "ai",
+        "ck",
+        "journal",
+        "dash"
+      ],
+      "video": "296-sticky-notes/296-sticky-notes.mp4",
+      "cover": "296-sticky-notes/cover.jpg",
+      "caption_file": "296-sticky-notes/caption.txt",
+      "caption": "Sticky notes on the monitor: “don’t move your stop”, “max 3 trades”. After a week you stop seeing them. Turn each one into a checklist box that feeds a discipline score and the rule stops being wallpaper. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingrules #tradingsetup #propfirm #cryptotrading #tradingstrategy #swingtrading #daytrader #tradinghabits #traderroutine #stocktrading #tradingmindset #daytrading #forextrader",
+      "exists": false,
+      "captions_json": "296-sticky-notes/captions.json"
+    },
+    {
+      "order": 297,
+      "id": "297-exotic-spread-tax",
+      "title": "Exotic pairs: the spread tax",
+      "features": [
+        "import",
+        "add",
+        "journal",
+        "stats"
+      ],
+      "video": "297-exotic-spread-tax/297-exotic-spread-tax.mp4",
+      "cover": "297-exotic-spread-tax/cover.jpg",
+      "caption_file": "297-exotic-spread-tax/caption.txt",
+      "caption": "Exotic pairs can carry spreads that eat a chunk of your R before the trade even starts. Log your real fills and the stats show whether exotics are worth it for you. Free, in your browser. Link in bio.\n\n#exoticpairs #forex #forextrader #usdzar #fxtrader #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "297-exotic-spread-tax/captions.json"
+    },
+    {
+      "order": 298,
+      "id": "298-ranked-mode-trader",
+      "title": "The gamer who trades like ranked",
+      "features": [
+        "dash",
+        "journal",
+        "ai",
+        "ck"
+      ],
+      "video": "298-ranked-mode-trader/298-ranked-mode-trader.mp4",
+      "cover": "298-ranked-mode-trader/cover.jpg",
+      "caption_file": "298-ranked-mode-trader/caption.txt",
+      "caption": "Gamers know the tilt queue: lose, re-queue instantly, lose again. Trading works the same way. Treat your stats like a replay review and set the rule every ranked player needs: two losses, log off. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #gamer #tradingmindset #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "298-ranked-mode-trader/captions.json"
+    },
+    {
+      "order": 299,
+      "id": "299-what-is-a-trading-journal",
+      "title": "What is a trading journal?",
+      "features": [
+        "add",
+        "journal",
+        "cal",
+        "ai"
+      ],
+      "video": "299-what-is-a-trading-journal/299-what-is-a-trading-journal.mp4",
+      "cover": "299-what-is-a-trading-journal/cover.jpg",
+      "caption_file": "299-what-is-a-trading-journal/caption.txt",
+      "caption": "A trading journal is just a record of every trade: what, when, how much, the result, and how you felt. Over time it shows patterns your memory hides. Tradeframe is a free one that does the math and finds the patterns. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #journaling #newtrader #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "299-what-is-a-trading-journal/captions.json"
+    },
+    {
+      "order": 300,
+      "id": "300-last-50-trades",
+      "title": "Review your last 50 tonight",
+      "features": [
+        "import",
+        "journal",
+        "stats",
+        "ai"
+      ],
+      "video": "300-last-50-trades/300-last-50-trades.mp4",
+      "cover": "300-last-50-trades/cover.jpg",
+      "caption_file": "300-last-50-trades/caption.txt",
+      "caption": "Tonight's homework: review your last 50 trades. Import them, filter the losses, look at the weekday. Most leaks repeat on the same day. One evening, one fix. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingtips #tradinghabits #tradingpsychology #traderlife #tradingchallenge #tradingmindset #tradingstrategy #daytrading #futurestrading #tradingdiscipline #propfirm #stocktrading #daytrader",
+      "exists": false,
+      "captions_json": "300-last-50-trades/captions.json"
+    },
+    {
+      "order": 301,
+      "id": "301-day-after-fed",
+      "title": "The day after the Fed",
+      "features": [
+        "cal",
+        "journal",
+        "ai"
+      ],
+      "video": "301-day-after-fed/301-day-after-fed.mp4",
+      "cover": "301-day-after-fed/cover.jpg",
+      "caption_file": "301-day-after-fed/caption.txt",
+      "caption": "Missed the big Fed move, so the next morning you chase it. Tag your day-after trades and check what your journal says about catching up late. Some days the best trade is a fresh setup, or none. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #fomc #federalreserve #fomo #futurestrading #forextrader #stocktrading #priceaction #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "301-day-after-fed/captions.json"
+    },
+    {
+      "order": 302,
+      "id": "302-green-day-vs-red-day",
+      "title": "Small green days, huge red days",
+      "features": [
+        "cal",
+        "journal",
+        "risk",
+        "ai"
+      ],
+      "video": "302-green-day-vs-red-day/302-green-day-vs-red-day.mp4",
+      "cover": "302-green-day-vs-red-day/cover.jpg",
+      "caption_file": "302-green-day-vs-red-day/caption.txt",
+      "caption": "Average green day: small. Average red day: huge. That gap is usually one spiral after two losses. A daily loss limit turns red days into small red days. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #dailylosslimit #revengetrading #forex #futures #stocks #propfirm #traderlife #riskmanagement",
+      "exists": false,
+      "captions_json": "302-green-day-vs-red-day/captions.json"
+    },
+    {
+      "order": 303,
+      "id": "303-slow-is-smooth",
+      "title": "Slow is smooth. Smooth is fast.",
+      "features": [
+        "ck",
+        "add",
+        "dash",
+        "ai"
+      ],
+      "video": "303-slow-is-smooth/303-slow-is-smooth.mp4",
+      "cover": "303-slow-is-smooth/cover.jpg",
+      "caption_file": "303-slow-is-smooth/caption.txt",
+      "caption": "Rushed entries create messy curves. A slow checklist and a deliberate log look slower but make your month smoother. Tradeframe makes both take seconds, and the AI flags rushed overtrading. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #navyseal #tradingquotes #swingtrading #tradingstrategy #unpopularopinion #hottake #tradinghabits #daytrader #daytrading #tradingpsychology #tradingmindset #forextrader #futurestrading",
+      "exists": false,
+      "captions_json": "303-slow-is-smooth/captions.json"
+    },
+    {
+      "order": 304,
+      "id": "304-monday-kickoff",
+      "title": "The Monday kickoff",
+      "features": [
+        "cal",
+        "stats",
+        "risk",
+        "ck"
+      ],
+      "video": "304-monday-kickoff/304-monday-kickoff.mp4",
+      "cover": "304-monday-kickoff/cover.jpg",
+      "caption_file": "304-monday-kickoff/caption.txt",
+      "caption": "Monday morning, before the first trade: last week’s calendar, the setup worth repeating, the day that keeps costing you (often Friday), then risk and checklist for the week. Ten minutes, whole week sorted. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #mondaymotivation #traderroutine #swingtrading #daytrader #tradinghabits #stocktrading #tradingmindset #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips",
+      "exists": false,
+      "captions_json": "304-monday-kickoff/captions.json"
+    },
+    {
+      "order": 305,
+      "id": "305-memecoin-no-stop",
+      "title": "Memecoin trades aren’t trades",
+      "features": [
+        "journal",
+        "ai",
+        "ck",
+        "dash"
+      ],
+      "video": "305-memecoin-no-stop/305-memecoin-no-stop.mp4",
+      "cover": "305-memecoin-no-stop/cover.jpg",
+      "caption_file": "305-memecoin-no-stop/caption.txt",
+      "caption": "A memecoin buy with no stop and no plan isn't a setup, it's a ticket. Log every one anyway, tag the feeling, and your journal shows what happens after the first loss. Free, in your browser. Link in bio.\n\n#memecoins #solana #crypto #altcoins #cryptotrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "305-memecoin-no-stop/captions.json"
+    },
+    {
+      "order": 306,
+      "id": "306-teacher-summer-twist",
+      "title": "The teacher’s summer twist",
+      "features": [
+        "import",
+        "cal",
+        "stats",
+        "ai"
+      ],
+      "video": "306-teacher-summer-twist/306-teacher-summer-twist.mp4",
+      "cover": "306-teacher-summer-twist/cover.jpg",
+      "caption_file": "306-teacher-summer-twist/caption.txt",
+      "caption": "All school year: 30 minutes of trading at lunch. Then summer break, all day free, and the results get worse. More screen time meant more trades, not better ones. The data shows the cap that worked. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #teacherlife #parttimetrader #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #futurestrading #cryptotrading #propfirm #priceaction",
+      "exists": false,
+      "captions_json": "306-teacher-summer-twist/captions.json"
+    },
+    {
+      "order": 307,
+      "id": "307-day-vs-swing-trading",
+      "title": "Day trading vs swing trading",
+      "features": [
+        "import",
+        "stats",
+        "cal",
+        "dash"
+      ],
+      "video": "307-day-vs-swing-trading/307-day-vs-swing-trading.mp4",
+      "cover": "307-day-vs-swing-trading/cover.jpg",
+      "caption_file": "307-day-vs-swing-trading/caption.txt",
+      "caption": "Day trading closes everything before the session ends. Swing trading holds for days. Neither is better, it depends on your schedule and nerves. Tag both in Tradeframe and let your own results pick. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #swingtrading #daytrader #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "307-day-vs-swing-trading/captions.json"
+    },
+    {
+      "order": 308,
+      "id": "308-earn-your-size",
+      "title": "Earn your size",
+      "features": [
+        "ck",
+        "cal",
+        "risk",
+        "ai"
+      ],
+      "video": "308-earn-your-size/308-earn-your-size.mp4",
+      "cover": "308-earn-your-size/cover.jpg",
+      "caption_file": "308-earn-your-size/caption.txt",
+      "caption": "Size-up ladder: you only increase risk after 10 clean days in a row. One revenge trade and you're back to level 1. It turns sizing into a reward for discipline. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #riskmanagement #fundedtrader #futurestrading #tradingdiscipline #propfirm #tradinghabits #stocktrading #daytrader #forextrader #priceaction #cryptotrading #scalping #tradingcommunity",
+      "exists": false,
+      "captions_json": "308-earn-your-size/captions.json"
+    },
+    {
+      "order": 309,
+      "id": "309-midweek-edge",
+      "title": "Is midweek your edge?",
+      "features": [
+        "dash",
+        "cal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "309-midweek-edge/309-midweek-edge.mp4",
+      "cover": "309-midweek-edge/cover.jpg",
+      "caption_file": "309-midweek-edge/caption.txt",
+      "caption": "Most weeks have a rhythm: Mondays warm up, midweek moves, Fridays fade. Does your P&amp;L follow it? Rank every weekday in your stats and you might find you only need three days. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #weekdays #tradingweek #forextrader #futurestrading #stocktrading #tradingstats #priceaction #tradingtips #traderlife #propfirm",
+      "exists": false,
+      "captions_json": "309-midweek-edge/captions.json"
+    },
+    {
+      "order": 310,
+      "id": "310-win-rate-after-loss",
+      "title": "Win rate after a loss",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "310-win-rate-after-loss/310-win-rate-after-loss.mp4",
+      "cover": "310-win-rate-after-loss/cover.jpg",
+      "caption_file": "310-win-rate-after-loss/caption.txt",
+      "caption": "Check your win rate on the trade right after a loss. For many traders it drops hard: faster entries, bigger size, no setup. One rule fixes most of it. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #revengetrading #mindset #forex #futures #stocks #traderlife #tilt #propfirm",
+      "exists": false,
+      "captions_json": "310-win-rate-after-loss/captions.json"
+    },
+    {
+      "order": 311,
+      "id": "311-confidence-from-data",
+      "title": "Confidence comes from data",
+      "features": [
+        "import",
+        "stats",
+        "dash"
+      ],
+      "video": "311-confidence-from-data/311-confidence-from-data.mp4",
+      "cover": "311-confidence-from-data/cover.jpg",
+      "caption_file": "311-confidence-from-data/caption.txt",
+      "caption": "Real confidence isn’t a mantra, it’s knowing your numbers. Import your history and Tradeframe shows your proven setup, your weak weekday and your R spread, so you trade from evidence. Demo data. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #confidence #tradingmindset #hottake #tradinghabits #daytrader #daytrading #tradingpsychology #forextrader #futurestrading #cryptotrading #propfirm #riskmanagement #tradingdiscipline",
+      "exists": false,
+      "captions_json": "311-confidence-from-data/captions.json"
+    },
+    {
+      "order": 312,
+      "id": "312-same-setup-two-traders",
+      "title": "Same setup. Two traders.",
+      "features": [
+        "add",
+        "journal",
+        "ai",
+        "dash"
+      ],
+      "video": "312-same-setup-two-traders/312-same-setup-two-traders.mp4",
+      "cover": "312-same-setup-two-traders/cover.jpg",
+      "caption_file": "312-same-setup-two-traders/caption.txt",
+      "caption": "Two traders, same setup, same losing trade. Trader A clicks into the next one. Trader B logs it, spots the frustration tag, and lets the AI turn the pattern into a rule. A fictional example of why the habit matters. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingpsychology #traderlife #traderroutine #stocktrading #tradingmindset #daytrading #forextrader #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction #propfirm",
+      "exists": false,
+      "captions_json": "312-same-setup-two-traders/captions.json"
+    },
+    {
+      "order": 313,
+      "id": "313-earnings-hold-gamble",
+      "title": "Holding through earnings?",
+      "features": [
+        "journal",
+        "stats",
+        "risk",
+        "ck",
+        "ai"
+      ],
+      "video": "313-earnings-hold-gamble/313-earnings-hold-gamble.mp4",
+      "cover": "313-earnings-hold-gamble/cover.jpg",
+      "caption_file": "313-earnings-hold-gamble/caption.txt",
+      "caption": "A stop loss can't protect you from an earnings gap. Search your journal for trades held through reports, see where price really filled, and size for the gap or close before it. Free, in your browser. Link in bio.\n\n#stocks #earnings #stockmarket #tesla #stocktrading #tradeframe #tradingjournal #daytrading #tradingpsychology #riskmanagement #traderlife #tradingdiscipline #tradingtips #priceaction #tradingstrategy",
+      "exists": false,
+      "captions_json": "313-earnings-hold-gamble/captions.json"
+    },
+    {
+      "order": 314,
+      "id": "314-early-bird-overtime",
+      "title": "Up at 5. Still trading at noon.",
+      "features": [
+        "ck",
+        "risk",
+        "stats",
+        "ai",
+        "dash"
+      ],
+      "video": "314-early-bird-overtime/314-early-bird-overtime.mp4",
+      "cover": "314-early-bird-overtime/cover.jpg",
+      "caption_file": "314-early-bird-overtime/caption.txt",
+      "caption": "Up at 5, checklist done, sharp pre-open trades. Then you stay. By noon you’ve given half of it back. The stats show the morning carries the day and trade six onward is just overtime. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #earlybird #futurestrading #daytrading #tradingpsychology #tradingdiscipline #traderlife #riskmanagement #forextrader #tradingtips #cryptotrading #propfirm #priceaction #tradingmindset",
+      "exists": false,
+      "captions_json": "314-early-bird-overtime/captions.json"
+    },
+    {
+      "order": 315,
+      "id": "315-market-vs-limit-order",
+      "title": "Market vs limit order",
+      "features": [
+        "add",
+        "journal",
+        "ai"
+      ],
+      "video": "315-market-vs-limit-order/315-market-vs-limit-order.mp4",
+      "cover": "315-market-vs-limit-order/cover.jpg",
+      "caption_file": "315-market-vs-limit-order/caption.txt",
+      "caption": "Market order = fill now at whatever price is there. Limit order = fill only at your price or better. Beginners slam market orders into fast candles and pay for it. Tag your order type in Tradeframe and compare. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #ordertypes #limitorder #daytrading #tradingbasics #tradingforbeginners #learntotrade #forextrader #futurestrading #cryptotrading #tradingtips #tradingeducation #riskmanagement #tradingpsychology",
+      "exists": false,
+      "captions_json": "315-market-vs-limit-order/captions.json"
+    },
+    {
+      "order": 316,
+      "id": "316-no-early-exit-week",
+      "title": "No early exits for a week",
+      "features": [
+        "add",
+        "stats",
+        "ai",
+        "journal"
+      ],
+      "video": "316-no-early-exit-week/316-no-early-exit-week.mp4",
+      "cover": "316-no-early-exit-week/cover.jpg",
+      "caption_file": "316-no-early-exit-week/caption.txt",
+      "caption": "Challenge: for one week, no touching trades after entry. No early exits, no stop edits. Target and stop are final. Compare your R distribution to last week. Demo data shown. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradingdiscipline #tradingchallenge #riskmanagement #priceaction #cryptotrading #fundedtrader #scalping #tradingcommunity #tradingpsychology #tradingtips #traderlife #tradingmindset #tradingstrategy",
+      "exists": false,
+      "captions_json": "316-no-early-exit-week/captions.json"
+    },
+    {
+      "order": 317,
+      "id": "317-oil-inventory-day",
+      "title": "Oil inventory Wednesday",
+      "features": [
+        "journal",
+        "stats",
+        "ai",
+        "risk",
+        "ck"
+      ],
+      "video": "317-oil-inventory-day/317-oil-inventory-day.mp4",
+      "cover": "317-oil-inventory-day/cover.jpg",
+      "caption_file": "317-oil-inventory-day/caption.txt",
+      "caption": "Every Wednesday at 10:30 ET the oil inventory report hits and crude can jump in seconds. Do you hold, widen your stop, or stand aside? Filter your crude trades and see. Not advice, just your journal. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #tradingdiscipline #crudeoil #oiltrading #cl #futurestrading #futures #commodities #newstrading #riskmanagement #tradingtips #traderlife",
+      "exists": false,
+      "captions_json": "317-oil-inventory-day/captions.json"
+    },
+    {
+      "order": 318,
+      "id": "318-stop-hit-rate",
+      "title": "How often your stop gets hit",
+      "features": [
+        "journal",
+        "stats",
+        "risk",
+        "ai"
+      ],
+      "video": "318-stop-hit-rate/318-stop-hit-rate.mp4",
+      "cover": "318-stop-hit-rate/cover.jpg",
+      "caption_file": "318-stop-hit-rate/caption.txt",
+      "caption": "What percent of your trades end at the stop versus the target? A lopsided split points to stops that are too tight, entries too early, or stops that keep getting moved. Your log shows which. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #daytrading #tradingpsychology #forextrader #futurestrading #tradingstats #stoploss #stopplacement #forex #futures #stocks #priceaction #traderlife #riskmanagement",
+      "exists": false,
+      "captions_json": "318-stop-hit-rate/captions.json"
+    },
+    {
+      "order": 319,
+      "id": "319-small-size-is-a-flex",
+      "title": "Small size is a flex",
+      "features": [
+        "risk",
+        "dash",
+        "ai"
+      ],
+      "video": "319-small-size-is-a-flex/319-small-size-is-a-flex.mp4",
+      "cover": "319-small-size-is-a-flex/cover.jpg",
+      "caption_file": "319-small-size-is-a-flex/caption.txt",
+      "caption": "Big size looks good in a screenshot. Small size keeps you trading next month. Tradeframe computes an exact small position from your stop, tracks today’s budget and flags when you size up after losses. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #positionsizing #riskmanagement #daytrading #tradingpsychology #tradingmindset #forextrader #futurestrading #cryptotrading #propfirm #tradingdiscipline #traderlife #tradingtips #stocktrader",
+      "exists": false,
+      "captions_json": "319-small-size-is-a-flex/captions.json"
+    },
+    {
+      "order": 320,
+      "id": "320-log-once-everywhere",
+      "title": "Log once. See it everywhere.",
+      "features": [
+        "add",
+        "dash",
+        "cal",
+        "stats",
+        "ai",
+        "ck"
+      ],
+      "video": "320-log-once-everywhere/320-log-once-everywhere.mp4",
+      "cover": "320-log-once-everywhere/cover.jpg",
+      "caption_file": "320-log-once-everywhere/caption.txt",
+      "caption": "You type one trade. Tradeframe updates the dashboard, colors the calendar, refreshes your stats and feeds the AI analysis. No copy-pasting between tabs, no formulas to drag down. One log, every view. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradinganalytics #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy",
+      "exists": false,
+      "captions_json": "320-log-once-everywhere/captions.json"
     }
   ]
 }
