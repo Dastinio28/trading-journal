@@ -5365,7 +5365,7 @@
       "cover": "319-small-size-is-a-flex/cover.jpg",
       "caption_file": "319-small-size-is-a-flex/caption.txt",
       "caption": "Big size looks good in a screenshot. Small size keeps you trading next month. Tradeframe computes an exact small position from your stop, tracks today’s budget and flags when you size up after losses. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #positionsizing #riskmanagement #daytrading #tradingpsychology #tradingmindset #forextrader #futurestrading #cryptotrading #propfirm #tradingdiscipline #traderlife #tradingtips #stocktrader",
-      "exists": false,
+      "exists": true,
       "captions_json": "319-small-size-is-a-flex/captions.json"
     },
     {
@@ -5384,7 +5384,7 @@
       "cover": "320-log-once-everywhere/cover.jpg",
       "caption_file": "320-log-once-everywhere/caption.txt",
       "caption": "You type one trade. Tradeframe updates the dashboard, colors the calendar, refreshes your stats and feeds the AI analysis. No copy-pasting between tabs, no formulas to drag down. One log, every view. Free, in your browser. Link in bio.\n\n#tradeframe #tradingjournal #tradinganalytics #daytrading #forextrader #tradingpsychology #futurestrading #riskmanagement #tradingtips #tradingdiscipline #priceaction #traderlife #propfirm #cryptotrading #tradingstrategy",
-      "exists": false,
+      "exists": true,
       "captions_json": "320-log-once-everywhere/captions.json"
     }
   ]
