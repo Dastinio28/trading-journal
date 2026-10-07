@@ -60,6 +60,14 @@ Durations: overhead (hook + drop + outro) ≈ 9.5 s, each scene adds ≈ 4-5 s. 
 
 To add a video: append an entry with a new seed, a new hook, a new riff/key/lead combination (never reuse the same music+seed pair), then `node scripts/render.js <id> <out>` and `node scripts/manifest.js <out>`.
 
+## Big production run (N new videos)
+
+1. Concepts: spawn parallel agents (25 concepts each), one theme family per agent, each following `references/concept-brief.md` and writing a JSON array file. Families used so far: features/workflows, psychology, risk/prop firms, myths/data/edge. For new runs, pick fresh angles (e.g. asset-specific, trader personas, POV/storytelling, challenge series, seasonal/market events, beginner series, comparisons, quotes/rules, data stories).
+2. Merge: `node scripts/merge-concepts.js <nextNumber> A.json B.json ... --write` (drops duplicate titles, unique slug/seed/music, durations 21-44 s). Dry-run without `--write` first.
+3. Spot check one long video: `node scripts/build.js <tmp> <id> && node scripts/check.js <tmp>/<id>/index.html <tmp>/sheet 16`.
+4. Render detached so it survives tool timeouts: `setsid nohup bash scripts/render-queue.sh <repo>/marketing/videos 3 --push > queue.out 2>&1 < /dev/null &` (≈ 16 min per 9 videos of 25 s on 4 cores; rerun the same command to resume).
+5. `node scripts/covers.js <outDir> <ids...>` only if covers need re-framing (render.js already uses the good frame), then `node scripts/manifest.js <outDir>`.
+
 ## Style rules (validated by Dastan, keep them)
 
 - English only, Tradeframe brand: bg `#0d0f15`, teal `#5eead4` → violet `#a78bfa` gradient, Sora 800 display, Manrope UI, Roboto Mono data, Caveat for hand callouts only. LONG = sky blue with arrow, no red on non-negative data.

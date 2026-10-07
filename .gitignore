@@ -3,3 +3,4 @@ marketing/videos/render.log
 marketing/videos/[0-9][0-9][0-9]-*/index.html
 marketing/videos/[0-9][0-9][0-9]-*/track.mp3
 marketing/videos/*/*.part
+marketing/videos/render.prev.log
