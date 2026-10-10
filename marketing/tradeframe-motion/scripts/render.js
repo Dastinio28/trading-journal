@@ -5,7 +5,7 @@ const ROOT = path.resolve(__dirname, '..');
 const { build } = require('./build.js');
 const [id, outArg, fpsArg] = process.argv.slice(2);
 const OUT = path.resolve(outArg || ROOT + '/../videos'), FPS = +(fpsArg || 60);
-const V = JSON.parse(fs.readFileSync(ROOT + '/videos.json', 'utf8')).find(v => v.id === id);
+const V = JSON.parse(fs.readFileSync(process.env.VIDEOS_FILE || ROOT + '/videos.json', 'utf8')).find(v => v.id === id);
 if (!V) { console.error('unknown id', id); process.exit(1); }
 const dir = path.join(OUT, id), ff = (...a) => execFileSync('ffmpeg', ['-v', 'error', '-y', ...a], { stdio: 'inherit' });
 build(V, OUT);

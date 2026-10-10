@@ -2,7 +2,8 @@
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const { SCENES } = require(ROOT + '/engine/scenes.js');
-const VIDEOS = JSON.parse(fs.readFileSync(ROOT + '/videos.json', 'utf8'));
+const STY = require('./style.js');
+const VIDEOS = JSON.parse(fs.readFileSync(process.env.VIDEOS_FILE || ROOT + '/videos.json', 'utf8'));
 
 function timeline(V) {
   const BEAT = 60 / V.bpm, slams = [], scenes = [], music = { hook: [], countdown: [], sceneSlams: [], grooves: [], fx: [] };
@@ -45,8 +46,10 @@ function build(V, outDir) {
   const b64 = f => fs.readFileSync(f).toString('base64');
   let html = fs.readFileSync(ROOT + '/engine/page.html', 'utf8')
     .replace('%%SORA700%%', b64(ROOT + '/assets/fonts/sora-700.woff2')).replace('%%SORA800%%', b64(ROOT + '/assets/fonts/sora-800.woff2'));
-  const cfg = { id: V.id, bpm: V.bpm, seed: V.seed, insight: V.insight, tagline: V.tagline, outro: V.outro || ['Your journal.', 'Your edge.'], tl };
+  const style = STY.resolve(V);
+  const cfg = { id: V.id, bpm: V.bpm, seed: V.seed, insight: V.insight, tagline: V.tagline, outro: V.outro || ['Your journal.', 'Your edge.'], tl, style };
   const js = fs.readFileSync(ROOT + '/engine/engine.js', 'utf8');
+  html = html.replace(/(<link rel="stylesheet" href="https:\/\/fonts\.googleapis\.com[^>]*>)/, m => m + STY.css(style).link).replace('<div class="flash" id="flash"></div>', m => m + STY.html(style));
   html = html.replace('%%SCRIPT%%', () => `window.__CFG = ${JSON.stringify(cfg)};\n${js}`).replace('%%TITLE%%', V.title || 'Tradeframe Motion');
   const dir = path.join(outDir, V.id); fs.mkdirSync(dir, { recursive: true });
   const audio = path.join(dir, 'track.mp3');
