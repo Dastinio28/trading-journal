@@ -8,14 +8,15 @@ const FONTS = {
   serif: { fam: 'Instrument+Serif:ital@1', css: 'italic 400 330px/.9 "Instrument Serif",serif', ls: '-.03em' },
 };
 const CAPF = { sora: '800 92px/1.04 var(--display)', anton: '400 104px/1.02 "Anton",sans-serif', bebas: '400 118px/.98 "Bebas Neue",sans-serif', archivo: '400 84px/1.06 "Archivo Black",sans-serif', serif: 'italic 400 110px/1 "Instrument Serif",serif' };
-const ACC = { brand: ['#5eead4', '#a78bfa'], gold: ['#fde68a', '#f59e0b'], ice: ['#7dd3fc', '#818cf8'], lime: ['#bef264', '#2dd4bf'], ember: ['#fdba74', '#f43f5e'] };
+// Text colours stay in the Tradeframe cyan/violet family (Dastan, 10/10/2026: no gold or other hues on text).
+const ACC = { brand: ['#5eead4', '#a78bfa'], electric: ['#22d3ee', '#8b5cf6'], soft: ['#99f6e4', '#c4b5fd'] };
 const PACKS = { // curated combinations so every pack reads as its own "look"
   legacy: {},
-  terminal: { font: 'archivo', caps: 'karaoke', bg: 'grid', grain: .05, hud: 1, cards: 'dark', flash: 'accent', acc: 'lime' },
-  luxe: { font: 'serif', caps: 'top', bg: 'none', grain: .07, hud: 0, cards: 'accent', flash: 'black', acc: 'gold' },
-  street: { font: 'anton', caps: 'karaoke', bg: 'lines', grain: .09, hud: 1, cards: 'accent', flash: 'white', acc: 'ember' },
-  clean: { font: 'bebas', caps: 'karaoke', bg: 'dots', grain: .03, hud: 0, cards: 'mono', flash: 'accent', acc: 'ice' },
-  night: { font: 'anton', caps: 'top', bg: 'grid', grain: .06, hud: 1, cards: 'dark', flash: 'accent', acc: 'brand' },
+  terminal: { font: 'archivo', caps: 'karaoke', bg: 'grid', grain: .05, hud: 1, cards: 'dark', flash: 'accent', acc: 'electric', hl: 'grad', drop: 'glass' },
+  luxe: { font: 'serif', caps: 'top', bg: 'none', grain: .07, hud: 0, cards: 'accent', flash: 'black', acc: 'soft', hl: 'glass', drop: 'glass' },
+  street: { font: 'anton', caps: 'karaoke', bg: 'lines', grain: .09, hud: 1, cards: 'accent', flash: 'white', acc: 'brand', hl: 'glass', drop: 'glass' },
+  clean: { font: 'bebas', caps: 'karaoke', bg: 'dots', grain: .03, hud: 0, cards: 'mono', flash: 'accent', acc: 'electric', hl: 'glass', drop: 'glass' },
+  night: { font: 'anton', caps: 'top', bg: 'grid', grain: .06, hud: 1, cards: 'dark', flash: 'accent', acc: 'brand', hl: 'grad', drop: 'glass' },
 };
 function resolve(V) { const p = V.style && V.style.pack ? PACKS[V.style.pack] || {} : {}; return { ...p, ...(V.style || {}) }; }
 function css(S) {
@@ -30,8 +31,12 @@ function css(S) {
   if (S.bg === 'none') out.push(`.dots{display:none}`);
   if (S.flash === 'accent') out.push(`.flash{background:${a1}}`); if (S.flash === 'black') out.push(`.flash{background:#000}`);
   if (S.caps === 'karaoke') out.push(`.subs{top:auto;bottom:300px;left:70px;right:70px;text-align:center}`, `.sub2{top:auto;bottom:0;font:${CAPF[S.font] || CAPF.sora};text-transform:uppercase;color:#fff;text-shadow:0 6px 30px rgba(0,0,0,.65)}`,
-    `.sub2 .wi.g{background:none;-webkit-background-clip:initial;background-clip:initial;color:${a1}}`, `.sub2 .wi{padding:0 .08em;border-radius:.12em}`, `.sub2 .wi.kon{background:${a1};color:#0b0d12!important;-webkit-text-fill-color:#0b0d12}`);
+    `.sub2 .wi.g{background:none;-webkit-background-clip:initial;background-clip:initial;color:${a1}}`, `.sub2 .wi{padding:0 .08em;border-radius:.12em}`, (S.hl === 'glass'
+      ? `.sub2 .wi.kon{background:linear-gradient(180deg,rgba(255,255,255,.26),rgba(255,255,255,.08));backdrop-filter:blur(16px) saturate(170%);-webkit-backdrop-filter:blur(16px) saturate(170%);border:2px solid rgba(255,255,255,.38);box-shadow:inset 0 2px 0 rgba(255,255,255,.55),inset 0 -10px 22px ${a1}33,inset 0 0 0 1px ${a2}22,0 10px 30px rgba(0,0,0,.45);color:#fff!important;-webkit-text-fill-color:#fff;padding:0 .14em;border-radius:.22em}`
+      : `.sub2 .wi.kon{background:linear-gradient(90deg,${a1},${a2});color:#0b0d12!important;-webkit-text-fill-color:#0b0d12}`));
   else out.push(`.sub2{font:${CAPF[S.font] || CAPF.sora}}`, `.sub2 .wi.g{background:linear-gradient(90deg,${a1},${a2});-webkit-background-clip:text;background-clip:text;color:transparent}`);
+  if (S.drop === 'glass') out.push(`.ringx{border:2px solid rgba(255,255,255,.42);background:radial-gradient(circle,rgba(255,255,255,.07),rgba(255,255,255,.015) 62%,transparent 71%);backdrop-filter:blur(10px) saturate(170%);-webkit-backdrop-filter:blur(10px) saturate(170%);box-shadow:inset 0 0 50px ${a1}40,inset 0 3px 0 rgba(255,255,255,.45),inset 0 -6px 30px ${a2}33}`,
+    `.mark{overflow:hidden;box-shadow:0 30px 120px ${a1}44,inset 0 3px 0 rgba(255,255,255,.55),inset 0 -14px 40px rgba(0,0,0,.18)}`, `.msw{position:absolute;top:-40px;bottom:-40px;left:0;width:90px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.75),transparent);opacity:0;pointer-events:none}`);
   if (S.grain) out.push(`#grain{position:absolute;inset:0;width:1080px;height:1920px;opacity:${S.grain};mix-blend-mode:overlay;pointer-events:none;image-rendering:pixelated}`);
   out.push(`#vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(120% 90% at 50% 45%,transparent 55%,rgba(0,0,0,.55))}`);
   if (S.hud) out.push(`.hud{position:absolute;font:700 30px/1 var(--mono);letter-spacing:.14em;color:rgba(255,255,255,.82);text-shadow:0 2px 10px rgba(0,0,0,.6);pointer-events:none}`,

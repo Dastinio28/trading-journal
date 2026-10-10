@@ -1,18 +1,146 @@
-[{
- "id": "v2-demo-street",
- "title": "POV: you finally checked your stats",
- "seed": 401, "bpm": 140, "insight": "count",
- "style": { "pack": "street", "acc": "gold" },
- "hook": [["POV:", "snap", "", ""], ["YOU", "stretch", "", ""], ["FINALLY", "shake", "", ""], ["CHECKED", "echo", "", ""], ["YOUR", "stretch", "", ""], ["<span class=\"g\">STATS.</span>", "glitch", "", ""]],
- "scenes": ["import", "stats", "ai", "ck"],
- "over": {
-  "import": { "slam": [{ "small": "step 1", "big": "DROP IT.", "fx": "snap", "d": 1 }], "subs": ["6 months of trades.", "One <g>CSV.</g>", "Mapped <g>instantly.</g>", "<g>{n} trades.</g> Loaded."] },
-  "stats": { "slam": [{ "small": "step 2", "big": "<span class=\"g\">THE TRUTH</span>", "fx": "echo", "d": 1.5 }], "subs": ["Here we go.", "This setup <g>pays.</g>", "This day <g>bleeds.</g>", "Winners <g>run.</g>"], "ann": ["keep this", "stop here", "let them run"] },
-  "ai": { "slam": [{ "small": "step 3", "big": "THE LEAK.", "fx": "glitch", "d": 1.5 }], "subs": ["AI goes <g>deeper.</g>", "Too many <g>trades.</g>", "One rule. <g>Fixed.</g>"] },
-  "ck": { "subs": ["Tick before <g>every trade.</g>", "Discipline: <g>up.</g>"] }
- },
- "outro": ["Check your stats.", "Before it's late."],
- "music": { "key": -3, "riff": 5, "lead": "bell", "drums": "half", "dark": 0.9 },
- "caption": "POV: you finally look at your real numbers. One CSV, and Tradeframe shows the setup that pays, the day that bleeds and the habit to fix. Free, in your browser. Link in bio.",
- "hashtags": ["tradingjournal","tradeframe","daytrading","forex","futures","tradingpsychology","tradingstats","tradingdiscipline","traderlife","propfirm","tradingtips","riskmanagement","pov","tradingmindset","aitrading"]
-}]
+[
+ {
+  "id": "v2-demo-street",
+  "title": "POV: you finally checked your stats",
+  "seed": 401,
+  "bpm": 124,
+  "insight": "count",
+  "style": {
+   "pack": "street"
+  },
+  "hook": [
+   [
+    "POV:",
+    "snap",
+    "",
+    ""
+   ],
+   [
+    "YOU",
+    "stretch",
+    "",
+    ""
+   ],
+   [
+    "FINALLY",
+    "shake",
+    "",
+    ""
+   ],
+   [
+    "CHECKED",
+    "echo",
+    "",
+    ""
+   ],
+   [
+    "YOUR",
+    "stretch",
+    "",
+    ""
+   ],
+   [
+    "<span class=\"g\">STATS.</span>",
+    "glitch",
+    "",
+    ""
+   ]
+  ],
+  "scenes": [
+   "import",
+   "stats",
+   "ai",
+   "ck"
+  ],
+  "over": {
+   "import": {
+    "slam": [
+     {
+      "small": "step 1",
+      "big": "DROP IT.",
+      "fx": "snap",
+      "d": 1
+     }
+    ],
+    "subs": [
+     "6 months of trades.",
+     "One <g>CSV.</g>",
+     "Mapped <g>instantly.</g>",
+     "<g>{n} trades.</g> Loaded."
+    ]
+   },
+   "stats": {
+    "slam": [
+     {
+      "small": "step 2",
+      "big": "<span class=\"g\">THE TRUTH</span>",
+      "fx": "echo",
+      "d": 1.5
+     }
+    ],
+    "subs": [
+     "Here we go.",
+     "This setup <g>pays.</g>",
+     "This day <g>bleeds.</g>",
+     "Winners <g>run.</g>"
+    ],
+    "ann": [
+     "keep this",
+     "stop here",
+     "let them run"
+    ]
+   },
+   "ai": {
+    "slam": [
+     {
+      "small": "step 3",
+      "big": "THE LEAK.",
+      "fx": "glitch",
+      "d": 1.5
+     }
+    ],
+    "subs": [
+     "AI goes <g>deeper.</g>",
+     "Too many <g>trades.</g>",
+     "One rule. <g>Fixed.</g>"
+    ]
+   },
+   "ck": {
+    "subs": [
+     "Tick before <g>every trade.</g>",
+     "Discipline: <g>up.</g>"
+    ]
+   }
+  },
+  "outro": [
+   "Check your stats.",
+   "Before it's late."
+  ],
+  "music": {
+   "key": -3,
+   "riff": 5,
+   "lead": "bell",
+   "drums": "half",
+   "dark": 0.9
+  },
+  "caption": "POV: you finally look at your real numbers. One CSV, and Tradeframe shows the setup that pays, the day that bleeds and the habit to fix. Free, in your browser. Link in bio.",
+  "hashtags": [
+   "tradingjournal",
+   "tradeframe",
+   "daytrading",
+   "forex",
+   "futures",
+   "tradingpsychology",
+   "tradingstats",
+   "tradingdiscipline",
+   "traderlife",
+   "propfirm",
+   "tradingtips",
+   "riskmanagement",
+   "pov",
+   "tradingmindset",
+   "aitrading"
+  ],
+  "stretch": 1.1
+ }
+]

@@ -47,6 +47,7 @@ function build(V, outDir) {
   let html = fs.readFileSync(ROOT + '/engine/page.html', 'utf8')
     .replace('%%SORA700%%', b64(ROOT + '/assets/fonts/sora-700.woff2')).replace('%%SORA800%%', b64(ROOT + '/assets/fonts/sora-800.woff2'));
   const style = STY.resolve(V);
+  if (style.drop === 'glass') tl.bursts = []; // no particle 'fireworks' in the v2 look
   const cfg = { id: V.id, bpm: V.bpm, seed: V.seed, insight: V.insight, tagline: V.tagline, outro: V.outro || ['Your journal.', 'Your edge.'], tl, style };
   const js = fs.readFileSync(ROOT + '/engine/engine.js', 'utf8');
   html = html.replace(/(<link rel="stylesheet" href="https:\/\/fonts\.googleapis\.com[^>]*>)/, m => m + STY.css(style).link).replace('<div class="flash" id="flash"></div>', m => m + STY.html(style));
