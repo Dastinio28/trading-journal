@@ -199,7 +199,7 @@
       "cover": "sw19-feature-scroll-mode/cover.jpg",
       "captions_json": "sw19-feature-scroll-mode/captions.json",
       "caption_file": "sw19-feature-scroll-mode/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 19,
@@ -221,7 +221,7 @@
       "cover": "sw20-feature-why-snapweek/cover.jpg",
       "captions_json": "sw20-feature-why-snapweek/captions.json",
       "caption_file": "sw20-feature-why-snapweek/caption.txt",
-      "exists": false
+      "exists": true
     }
   ]
 }
