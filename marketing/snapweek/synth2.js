@@ -35,7 +35,7 @@ add(3.8, impact(.9), 0, .5); add(3.8, pad(CH[0].map(m => m + 12), 3.0, 1.2), 0, 
 for (let x = 4; x < 7; x += .5) add(x + .25, hat(.4), .25);
 add(6.4, whoosh(.8, .9, true), 0, .3);
 // MAIN 7-33
-for (let k = 0; k < 52; k++) { const x = 7 + k * BT;
+for (let k = 0; k < 51; k++) { const x = 7 + k * BT;
   add(x, kick(.95), 0); if (k % 2 === 1) add(x, clap(.85), 0, .25);
   add(x + BT / 2, hat(.5, k % 4 === 3), .25); add(x + BT / 4, hat(.2), -.3); add(x + BT * .75, hat(.2), -.3);
   const c = Math.floor(k / 4) % 4;
@@ -45,10 +45,10 @@ for (let k = 0; k < 52; k++) { const x = 7 + k * BT;
 [15.6, 16.9, 18.0, 21.8, 22.6].forEach((x, i) => add(x, pop(84 + i * 2, .9), i % 2 ? .3 : -.3, .3));
 [9.0, 21.0, 28.2].forEach(x => boing(x));
 // OUTRO 33-40
-add(33.0, whoosh(.9, 1, true), 0, .3); add(34.0, impact(.7), 0, .5); boing(34.2, 72);
-for (let k = 0; k < 12; k++) { const x = 34 + k * BT; add(x, kick(.8), 0); if (k % 2) add(x, clap(.7), 0, .3); add(x + BT / 2, hat(.45), .25); }
-add(34, pad(CH[0].map(m => m + 12), 2.2, 1), 0, .6); add(36.2, pad(CH[3].map(m => m + 12), 3.8, 1.1), 0, .7);
-add(35.6, pop(88, 1), 0, .4); [0, 4, 7, 12].forEach((iv, j) => add(36.4 + j * .12, pluck(72 + iv, .8, .9), 0, .5));
+add(32.4, whoosh(.9, 1, true), 0, .3); add(33.2, impact(.7), 0, .5); boing(33.4, 72);
+for (let k = 0; k < 12; k++) { const x = 33.2 + k * BT; add(x, kick(.8), 0); if (k % 2) add(x, clap(.7), 0, .3); add(x + BT / 2, hat(.45), .25); }
+add(33.2, pad(CH[0].map(m => m + 12), 2.4, 1), 0, .6); add(35.6, pad(CH[3].map(m => m + 12), 3.8, 1.1), 0, .7);
+add(34.9, pop(88, 1), 0, .4); [0, 4, 7, 12].forEach((iv, j) => add(35.7 + j * .12, pluck(72 + iv, .8, .9), 0, .5));
 // reverb (Schroeder-ish) on the send
 const combs = [1557, 1617, 1491, 1422].map(d => ({ d, buf: new Float32Array(d), i: 0 })), ap = [225, 556].map(d => ({ d, buf: new Float32Array(d), i: 0 }));
 for (let k = 0; k < N; k++) { let y = 0; combs.forEach(c => { const o = c.buf[c.i]; c.buf[c.i] = RV[k] * .5 + o * .8; c.i = (c.i + 1) % c.d; y += o; }); y *= .25;

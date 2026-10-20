@@ -131,7 +131,7 @@ CAPS.forEach(C => C.html = words(C.h)); let capI = -1, capW = [];
 
 /* ---------- mascot appearances ---------- */
 const SN = [{ k: 'hello', a: .9, z: 4.2, x: 560, y: 1330, s: .9, from: [0, 700] }, { k: 'point', a: 9.0, z: 13.2, x: -150, y: 1200, s: .8, from: [-600, 0], flip: 1 },
-  { k: 'tilt', a: 21.0, z: 25.8, x: 640, y: 1330, s: .72, from: [600, 0] }, { k: 'cheer', a: 28.2, z: 33.0, x: 600, y: 1260, s: .85, from: [0, 800] }, { k: 'sit', a: 34.2, z: 41, x: 220, y: 1040, s: 1.0, from: [0, 900] }];
+  { k: 'tilt', a: 21.0, z: 25.8, x: 640, y: 1330, s: .72, from: [600, 0] }, { k: 'cheer', a: 28.2, z: 33.0, x: 600, y: 1260, s: .85, from: [0, 800] }, { k: 'sit', a: 33.4, z: 41, x: 220, y: 1040, s: 1.0, from: [0, 900] }];
 $('#snaps').innerHTML = SN.map(m => `<div class="snap" style="background-image:url(${SNAP[m.k]})"></div>`).join(''); const snEls = $$('#snaps .snap');
 
 /* ---------- outro ---------- */
@@ -144,14 +144,14 @@ const gc = $('#grain').getContext('2d'), GT = []; for (let k = 0; k < 5; k++) { 
 /* ---------- phone camera: [t, x, y, s, rx, ry, rz] ---------- */
 const CAM = [[6.6, [0, 1500, .85, 40, 0, 6]], [7.8, [0, 230, 1, 8, -10, 0]], [11.8, [0, 200, 1.02, 4, -6, 0]], [12.8, [0, 330, 1.42, 2, -3, 0]], [13.6, [0, 230, 1.05, 4, 8, 0]],
   [19.6, [0, 220, 1.06, 3, 10, 0]], [20.4, [-40, 230, 1.04, 4, -10, 0]], [26.2, [-40, 230, 1.06, 3, -6, 0]], [27.0, [0, 230, 1.04, 6, 8, 0]], [29.4, [0, 250, 1.3, 2, 4, 0]], [32.6, [0, 250, 1.34, 2, 2, 0]],
-  [33.8, [0, -1500, .8, -30, 0, -6]]];
+  [34.0, [0, -1500, .8, -30, 0, -6]]];
 
 /* ---------- render ---------- */
 const terra = $('#terra'), phone = $('#phone'), ph3 = $('#ph3'), logoL = $('#logoL'), logo = $('#logo'), outro = $('#outro');
 function render(t) {
   $('#b1').style.transform = `translate(${-300 + Math.sin(t * .25) * 260}px,${-260 + Math.cos(t * .2) * 220}px)`;
   $('#b2').style.transform = `translate(${300 + Math.cos(t * .22) * 240}px,${1000 + Math.sin(t * .17) * 280}px)`;
-  const tp = E.io3(P(t, 33.2, 1.4)); terra.style.opacity = tp.toFixed(3); terra.style.clipPath = tp < 1 ? `circle(${(tp * 140).toFixed(2)}% at 50% 70%)` : 'none';
+  const tp = E.io3(P(t, 32.7, 1.2)); terra.style.opacity = tp.toFixed(3); terra.style.clipPath = tp < 1 ? `circle(${(tp * 140).toFixed(2)}% at 50% 70%)` : 'none';
   // opening cloud -> converges into the logo
   const cloudOn = t < 5; vis($('#fps'), cloudOn);
   if (cloudOn) { const conv = E.io5(P(t, 3.4, 1.2)); FP.forEach((F, i) => { const enter = E.o5(P(t, .1 + i * .12, 1.2)); const drift = Math.sin(t * .6 + i) * 18 * F.z;
@@ -182,8 +182,8 @@ function render(t) {
     put(el, { x: m.x + m.from[0] * (1 - pin) + m.from[0] * pout, y: m.y + m.from[1] * (1 - pin) + m.from[1] * pout + bob, s: m.s * (.85 + .15 * Math.min(1, pin)), r: wave, op: 1 });
     if (m.flip) el.style.transform += ' scaleX(-1)'; });
   // outro
-  const oOn = t >= 33.6; vis(outro, oOn);
-  if (oOn) { revealWords(ohW, t, 34.0, 0, .08); const u = E.back(P(t, 35.6, .8)); $('#url').style.transform = `translateX(-50%) scale(${(.5 + .5 * u).toFixed(4)})`; $('#url').style.opacity = clamp(u * 1.6).toFixed(3);
+  const oOn = t >= 33.0; vis(outro, oOn);
+  if (oOn) { revealWords(ohW, t, 33.2, 0, .08); const u = E.back(P(t, 34.9, .8)); $('#url').style.transform = `translateX(-50%) scale(${(.5 + .5 * u).toFixed(4)})`; $('#url').style.opacity = clamp(u * 1.6).toFixed(3);
     $('#shine').style.left = (-240 + 1200 * E.io3(P(t, 36.6, 1.4))) + 'px'; const s2 = E.o3(P(t, 36.4, .8)); put($('#osub'), { y: (1 - s2) * 40, op: s2 }); }
   $('#demo').style.opacity = (t > 7.6 && t < 33 ? .75 : 0).toString();
   gc.putImageData(GT[((Math.floor(t * 24) % 5) + 5) % 5], 0, 0);
