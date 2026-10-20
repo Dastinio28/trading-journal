@@ -1,19 +1,32 @@
 // Full pipeline for one video: build -> synth score -> HTML with audio -> 60 fps frames -> MP4 + cover.
 // node scripts/render.js <id> [outDir] [fps]
+// SONG=<file.mp3> (or V.song): use a real song instead of the synth. The video tempo is locked to the song's BPM
+// (scaled into 112-136) and the song's drop lands on the logo drop. PYTHON=<python exe> if not 'python3'.
 const { execFileSync } = require('child_process'), fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
-const { build } = require('./build.js');
+const { build, timeline } = require('./build.js');
 const [id, outArg, fpsArg] = process.argv.slice(2);
 const OUT = path.resolve(outArg || ROOT + '/../videos'), FPS = +(fpsArg || 60);
 const V = JSON.parse(fs.readFileSync(process.env.VIDEOS_FILE || ROOT + '/videos.json', 'utf8')).find(v => v.id === id);
 if (!V) { console.error('unknown id', id); process.exit(1); }
 const dir = path.join(OUT, id), ff = (...a) => execFileSync('ffmpeg', ['-v', 'error', '-y', ...a], { stdio: 'inherit' });
-build(V, OUT);
-const wav = path.join(dir, 'score.wav');
-execFileSync('node', [ROOT + '/scripts/synth.js', path.join(dir, 'timeline.json'), wav], { stdio: 'inherit' });
-const cut = Math.round(9000 - 4000 * (V.music.dark || .7));
-ff('-i', wav, '-af', `lowpass=f=${cut},vibrato=f=0.35:d=0.025,bass=g=3:f=60,loudnorm=I=-11:TP=-1:LRA=8`, '-ar', '44100', '-b:a', '192k', path.join(dir, 'track.mp3'));
-fs.unlinkSync(wav);
+const SONG = process.env.SONG || V.song;
+if (SONG) {
+  const meta = JSON.parse(execFileSync(process.env.PYTHON || 'python3', [ROOT + '/scripts/music_analyze.py', SONG]).toString());
+  let bpm = meta.bpm; while (bpm < 112) bpm *= 2; while (bpm > 136) bpm /= 2; V.bpm = +bpm.toFixed(3);
+  build(V, OUT);
+  const tl = timeline(V), d = tl.dur, start = Math.max(0, Math.min(meta.drop - tl.D * tl.BEAT, meta.duration - d - .05));
+  fs.mkdirSync(dir, { recursive: true });
+  ff('-ss', start.toFixed(3), '-t', d.toFixed(3), '-i', SONG, '-af', `afade=t=in:d=0.25,afade=t=out:st=${(d - 1.4).toFixed(2)}:d=1.4,loudnorm=I=-14:TP=-1.5:LRA=11`, '-ar', '44100', '-b:a', '192k', path.join(dir, 'track.mp3'));
+  console.log('song', JSON.stringify({ ...meta, videoBpm: V.bpm, start: +start.toFixed(2) }));
+} else {
+  build(V, OUT);
+  const wav = path.join(dir, 'score.wav');
+  execFileSync('node', [ROOT + '/scripts/synth.js', path.join(dir, 'timeline.json'), wav], { stdio: 'inherit' });
+  const cut = Math.round(9000 - 4000 * (V.music.dark || .7));
+  ff('-i', wav, '-af', `lowpass=f=${cut},vibrato=f=0.35:d=0.025,bass=g=3:f=60,loudnorm=I=-11:TP=-1:LRA=8`, '-ar', '44100', '-b:a', '192k', path.join(dir, 'track.mp3'));
+  fs.unlinkSync(wav);
+}
 const { dur } = build(V, OUT);
 (async () => {
   const { chromium } = require('playwright');
