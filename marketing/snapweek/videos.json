@@ -1,0 +1,241 @@
+[
+ {"id": "sw01-one-week-one-theme", "kind": "general", "title": "One week. One theme.", "mode": "light", "intro": "cloud", "seed": 1,
+  "hook": "One week.<br>One theme.<br><span>Your best frame.</span>",
+  "scenes": [
+   {"page": "home", "d": 6, "cap": "A new theme<br><span>every Monday.</span>", "scroll": [[0, 0], [4.6, 0]], "zoom": [2.6, 5.2, 1.36, 110], "snap": ["point", "L", 1.6, 3.4]},
+   {"page": "home", "d": 6, "cap": "Post <span>one frame</span><br>a day.", "scroll": [[0, 300], [5.6, 4200]], "hearts": [1.6, 3.0, 4.2]},
+   {"page": "discover", "d": 4, "cap": "Discover<br><span>photographers.</span>", "scroll": [[0, 0], [1, 0], [3.6, 640]], "snap": ["tilt", "R", 0.8, 2.8]},
+   {"page": "profile", "d": 3.5, "cap": "Get likes,<br><span>level up.</span>", "scroll": [[0, 0], [1, 0], [3.2, 760]]},
+   {"page": "theme", "d": 6, "cap": "Climb the<br><span>weekly ranking.</span>", "scroll": [[0, 0], [1.2, 0], [3.4, 760], [6, 820]], "zoom": [3.4, 5.6, 1.25, 70], "snap": ["cheer", "R", 2.2, 3.4]}
+  ],
+  "snapIntro": "hello", "snapOutro": "sit",
+  "caption": "One week, one theme, your best frame. SnapWeek is the free weekly photo challenge: a new theme every Monday, one photo a day, likes and comments, and a weekly ranking. Discover the app in the bio.",
+  "tags": ["photochallenge", "weeklychallenge", "photography", "photooftheday", "streetphotography", "mobilephotography", "photographycommunity", "snapweek", "photographers", "creativechallenge", "shootandshare", "photoprompt", "phonephotography", "visualart", "dailyphoto"]},
+
+ {"id": "sw02-camera-roll-needs-a-reason", "kind": "general", "title": "Your camera roll needs a reason", "mode": "dark", "intro": "stack", "seed": 2,
+  "hook": "Your camera roll<br>needs a<br><span>reason.</span>",
+  "scenes": [
+   {"page": "home", "d": 5.5, "cap": "One theme.<br><span>Every week.</span>", "scroll": [[0, 0], [5.5, 0]], "zoom": [2.2, 4.8, 1.34, 100], "snap": ["point", "R", 1.4, 3.2]},
+   {"page": "scroll", "d": 5, "cap": "Scroll through<br><span>every frame.</span>", "hearts": [1.8, 3.4]},
+   {"page": "ranking", "d": 6, "cap": "Rise to the<br><span>podium.</span>", "scroll": [[0, 0], [1.2, 0], [3.6, 1220], [6, 1280]], "snap": ["cheer", "L", 3.0, 2.8]},
+   {"page": "archive", "d": 5, "cap": "Every week,<br><span>kept forever.</span>", "scroll": [[0, 0], [1, 0], [5, 2000]]}
+  ],
+  "snapIntro": "hello", "snapOutro": "rest",
+  "caption": "Your camera roll needs a reason. Every Monday SnapWeek gives you one theme, seven days and a community that reads pictures. Free, web and Android. Discover the app in the bio.",
+  "tags": ["photochallenge", "cameraroll", "photography", "photographycommunity", "snapweek", "weeklytheme", "streetphotography", "phonephotography", "photooftheweek", "creativeprompt", "shotoniphone", "visualstorytelling", "photographers", "dailyphoto", "photoart"]},
+
+ {"id": "sw03-photography-every-monday", "kind": "general", "title": "Photography, every Monday", "mode": "light", "intro": "type", "seed": 3,
+  "hook": "Photography.<br>Every<br><span>Monday.</span>",
+  "scenes": [
+   {"page": "theme", "d": 5.5, "cap": "Read the theme.<br><span>Get the hint.</span>", "scroll": [[0, 0], [5.5, 120]], "zoom": [1.8, 4.6, 1.4, 60], "snap": ["point", "L", 1.2, 3.4]},
+   {"page": "home", "d": 6, "cap": "Shoot it.<br><span>Post it.</span>", "scroll": [[0, 900], [6, 4600]], "hearts": [1.5, 3.2, 4.6]},
+   {"page": "discover", "d": 5, "cap": "Find photographers<br><span>you love.</span>", "scroll": [[0, 0], [1, 0], [5, 1540]], "snap": ["tilt", "R", 1.6, 2.8]},
+   {"page": "ranking", "d": 5.5, "cap": "Win the<br><span>week.</span>", "scroll": [[0, 0], [1, 0], [3.4, 1220], [5.5, 1260]]}
+  ],
+  "snapIntro": "hello", "snapOutro": "cheer",
+  "caption": "Photography, every Monday. A new theme opens each week on SnapWeek: shoot it, post one photo a day, read other photographers and win the week. Free. Discover the app in the bio.",
+  "tags": ["photography", "photochallenge", "mondaymotivation", "weeklychallenge", "snapweek", "photographylovers", "photoprompt", "creativity", "mobilephotography", "streetphoto", "photocommunity", "photographers", "shootdaily", "photoideas", "artchallenge"]},
+
+ {"id": "sw04-stop-scrolling-start-shooting", "kind": "general", "title": "Stop scrolling. Start shooting.", "mode": "dark", "intro": "cloud", "seed": 4,
+  "hook": "Stop scrolling.<br><span>Start shooting.</span>",
+  "scenes": [
+   {"page": "scroll", "d": 5, "cap": "Scroll photos,<br><span>not noise.</span>", "hearts": [2.0]},
+   {"page": "home", "d": 6, "cap": "One theme.<br><span>One frame a day.</span>", "scroll": [[0, 0], [2.4, 0], [6, 3400]], "snap": ["point", "L", 0.8, 2.6], "hearts": [4.4]},
+   {"page": "profile", "d": 5, "cap": "Build your<br><span>photo profile.</span>", "scroll": [[0, 0], [1.4, 0], [4.4, 900]], "snap": ["tilt", "R", 1.8, 2.6]},
+   {"page": "theme", "d": 6, "cap": "Make the<br><span>podium.</span>", "scroll": [[0, 300], [3, 760], [6, 800]], "zoom": [3, 5.4, 1.28, 80]}
+  ],
+  "snapIntro": "hello", "snapOutro": "sit",
+  "caption": "Stop scrolling, start shooting. SnapWeek turns your phone into a weekly photo challenge: one theme, one frame a day, a podium every Sunday. Discover the app in the bio.",
+  "tags": ["stopscrolling", "startshooting", "photochallenge", "photography", "snapweek", "digitaldetox", "mobilephotography", "photographycommunity", "weeklytheme", "creativehabit", "streetphotography", "photooftheday", "phonephotography", "photographers", "makeart"]},
+
+ {"id": "sw05-fifty-two-themes-a-year", "kind": "general", "title": "52 themes a year", "mode": "light", "intro": "stack", "seed": 5,
+  "hook": "52 themes.<br>52 weeks.<br><span>One habit.</span>",
+  "scenes": [
+   {"page": "archive", "d": 6, "cap": "A new chapter<br><span>every week.</span>", "scroll": [[0, 0], [1.2, 0], [6, 2600]], "snap": ["point", "R", 1.4, 3.0]},
+   {"page": "home", "d": 5.5, "cap": "This week:<br><span>Backlight.</span>", "scroll": [[0, 0], [5.5, 0]], "zoom": [1.6, 4.6, 1.36, 110]},
+   {"page": "ranking", "d": 5.5, "cap": "Top 3 make<br><span>the podium.</span>", "scroll": [[0, 0], [1, 0], [3.2, 1220], [5.5, 1260]], "snap": ["cheer", "L", 2.6, 2.6]},
+   {"page": "profile", "d": 4.5, "cap": "Collect your<br><span>podiums.</span>", "scroll": [[0, 0], [1.2, 0], [4, 900]]}
+  ],
+  "snapIntro": "tilt", "snapOutro": "sit",
+  "caption": "52 themes, 52 weeks, one habit. Every SnapWeek theme stays in the archive, every podium stays on your profile. Free weekly photo challenge. Discover the app in the bio.",
+  "tags": ["52weeks", "52weekchallenge", "photochallenge", "photography", "snapweek", "photographyhabit", "weeklytheme", "photoproject", "mobilephotography", "photographycommunity", "creativeroutine", "streetphotography", "photographers", "photooftheweek", "yearlong"]},
+
+ {"id": "sw06-shoot-post-climb", "kind": "general", "title": "Shoot. Post. Climb.", "mode": "dark", "intro": "type", "seed": 6,
+  "hook": "Shoot.<br>Post.<br><span>Climb.</span>",
+  "scenes": [
+   {"page": "home", "d": 6.5, "cap": "Shoot<br><span>the theme.</span>", "scroll": [[0, 0], [2.6, 0], [6.5, 2800]], "zoom": [0.6, 2.4, 1.3, 100], "snap": ["point", "L", 3.0, 3.0]},
+   {"page": "discover", "d": 6, "cap": "Post and<br><span>get seen.</span>", "scroll": [[0, 0], [1, 0], [6, 2180]], "hearts": [2.0, 3.6]},
+   {"page": "theme", "d": 7, "cap": "Climb to<br><span>number one.</span>", "scroll": [[0, 0], [1.2, 0], [3.6, 760], [7, 820]], "zoom": [3.8, 6.4, 1.3, 70], "snap": ["cheer", "R", 2.2, 3.4]}
+  ],
+  "snapIntro": "cheer", "snapOutro": "rest",
+  "caption": "Shoot, post, climb. That is the whole SnapWeek loop: a theme every Monday, one photo a day, a public weekly ranking. Free, web and Android. Discover the app in the bio.",
+  "tags": ["shootpostclimb", "photochallenge", "photography", "snapweek", "photocontest", "weeklyranking", "mobilephotography", "photographycommunity", "streetphotography", "photooftheday", "creativechallenge", "photographers", "phonephotography", "shootdaily", "podium"]},
+
+ {"id": "sw07-one-photo-a-day", "kind": "general", "title": "One photo a day keeps the rust away", "mode": "light", "intro": "cloud", "seed": 7,
+  "hook": "One photo<br>a day keeps<br><span>the rust away.</span>",
+  "scenes": [
+   {"page": "home", "d": 6, "cap": "One frame<br><span>a day.</span>", "scroll": [[0, 900], [6, 5200]], "hearts": [1.4, 2.8, 4.4], "snap": ["point", "R", 1.0, 2.8]},
+   {"page": "explore", "d": 5.5, "cap": "Tags, places,<br><span>themes.</span>", "scroll": [[0, 1540], [1, 1540], [5.5, 2700]]},
+   {"page": "ranking", "d": 5.5, "cap": "A ranking<br><span>every week.</span>", "scroll": [[0, 0], [1, 0], [3.4, 1220], [5.5, 1260]], "snap": ["cheer", "L", 2.4, 2.8]},
+   {"page": "why", "d": 5, "cap": "Rewards people<br><span>who react.</span>", "scroll": [[0, 2200], [1, 2200], [5, 2700]]}
+  ],
+  "snapIntro": "hello", "snapOutro": "sit",
+  "caption": "One photo a day keeps the rust away. SnapWeek gives you a theme every Monday and a reason to shoot every day. Free weekly photo challenge. Discover the app in the bio.",
+  "tags": ["onephotoaday", "photoaday", "photochallenge", "photography", "snapweek", "dailyphoto", "creativehabit", "mobilephotography", "photographycommunity", "streetphotography", "weeklytheme", "photographers", "practicemakesprogress", "photooftheday", "shootdaily"]},
+
+ {"id": "sw08-weekly-creative-ritual", "kind": "general", "title": "Your weekly creative ritual", "mode": "light", "intro": "stack", "seed": 8,
+  "hook": "Your weekly<br><span>creative ritual.</span>",
+  "scenes": [
+   {"page": "theme", "d": 6, "cap": "Monday:<br><span>the theme drops.</span>", "scroll": [[0, 0], [6, 140]], "zoom": [2.0, 5.0, 1.38, 60], "snap": ["point", "L", 1.0, 3.2]},
+   {"page": "home", "d": 6, "cap": "All week:<br><span>shoot and post.</span>", "scroll": [[0, 0], [1.4, 0], [6, 3800]], "hearts": [3.4, 4.8]},
+   {"page": "archive", "d": 5, "cap": "Sunday:<br><span>it's in the archive.</span>", "scroll": [[0, 0], [1, 0], [5, 1800]], "snap": ["rest", "R", 1.6, 2.8]},
+   {"page": "profile", "d": 5, "cap": "Your profile<br><span>grows.</span>", "scroll": [[0, 0], [1, 0], [4.4, 900]]}
+  ],
+  "snapIntro": "hello", "snapOutro": "sit",
+  "caption": "Your weekly creative ritual: Monday the theme drops, all week you shoot and post, Sunday it joins the archive. SnapWeek, the free weekly photo challenge. Discover the app in the bio.",
+  "tags": ["creativeritual", "weeklyritual", "photochallenge", "photography", "snapweek", "creativeroutine", "photographyhabit", "mobilephotography", "photographycommunity", "weeklytheme", "streetphotography", "photographers", "slowphotography", "photooftheweek", "artroutine"]},
+
+ {"id": "sw09-rewards-taste", "kind": "general", "title": "The photo app that rewards taste", "mode": "light", "intro": "type", "seed": 9,
+  "hook": "A photo app<br>that rewards<br><span>taste.</span>",
+  "scenes": [
+   {"page": "why", "d": 6, "cap": "Not followers.<br><span>Reactions.</span>", "scroll": [[0, 2400], [1.2, 2400], [6, 2800]], "snap": ["point", "R", 1.4, 3.0]},
+   {"page": "ranking", "d": 6, "cap": "A fair<br><span>weekly ranking.</span>", "scroll": [[0, 0], [1, 0], [3.6, 1220], [6, 3080]]},
+   {"page": "home", "d": 5, "cap": "One theme<br><span>for everyone.</span>", "scroll": [[0, 0], [5, 0]], "zoom": [1.4, 4.4, 1.34, 110], "snap": ["tilt", "L", 1.8, 2.6]},
+   {"page": "discover", "d": 5, "cap": "Discovery<br><span>by photograph.</span>", "scroll": [[0, 0], [1, 0], [5, 900]]}
+  ],
+  "snapIntro": "hello", "snapOutro": "cheer",
+  "caption": "A photo app that rewards taste, not follower counts. On SnapWeek the score counts the share of people who react, one theme for everyone, every week. Discover the app in the bio.",
+  "tags": ["photography", "photochallenge", "snapweek", "fairranking", "photographycommunity", "noalgorithm", "mobilephotography", "photocontest", "weeklytheme", "streetphotography", "photographers", "creativecommunity", "photooftheday", "taste", "visualart"]},
+
+ {"id": "sw10-photographers-this-is-your-week", "kind": "general", "title": "Photographers, this is your week", "mode": "dark", "intro": "cloud", "seed": 10,
+  "hook": "Photographers,<br>this is<br><span>your week.</span>",
+  "scenes": [
+   {"page": "home", "d": 6, "cap": "This week's theme:<br><span>Backlight.</span>", "scroll": [[0, 0], [6, 0]], "zoom": [1.8, 5.0, 1.36, 110], "snap": ["point", "L", 1.2, 3.2]},
+   {"page": "theme", "d": 6, "cap": "52 frames.<br><span>25 photographers.</span>", "scroll": [[0, 0], [1, 0], [6, 2900]]},
+   {"page": "discover", "d": 5, "cap": "Follow the ones<br><span>you like.</span>", "scroll": [[0, 0], [1, 0], [4.6, 640]], "snap": ["tilt", "R", 1.4, 2.8], "hearts": [3.4]},
+   {"page": "profile", "d": 5, "cap": "From Amateur<br><span>to Expert.</span>", "scroll": [[0, 0], [5, 120]], "zoom": [1.2, 4.4, 1.3, 60]}
+  ],
+  "snapIntro": "hello", "snapOutro": "sit",
+  "caption": "Photographers, this is your week. A new SnapWeek theme every Monday, a community that reads pictures, levels from Amateur to Expert. Free. Discover the app in the bio.",
+  "tags": ["photographers", "photography", "photochallenge", "snapweek", "thisisyourweek", "photographycommunity", "weeklytheme", "mobilephotography", "streetphotography", "photooftheweek", "creativechallenge", "levelup", "phonephotography", "photoart", "dailyphoto"]},
+
+ {"id": "sw11-feature-weekly-theme", "kind": "feature", "title": "How the weekly theme works", "mode": "light", "intro": "quick", "seed": 11,
+  "hook": "How the<br><span>weekly theme</span><br>works.",
+  "scenes": [
+   {"page": "home", "d": 7, "cap": "Every Monday:<br><span>a new theme.</span>", "scroll": [[0, 0], [7, 0]], "zoom": [1.6, 6.0, 1.42, 110], "snap": ["point", "L", 0.8, 3.6]},
+   {"page": "theme", "d": 7, "cap": "Read the brief<br><span>and the hint.</span>", "scroll": [[0, 0], [7, 160]], "zoom": [1.4, 6.2, 1.42, 50]},
+   {"page": "home", "d": 6, "cap": "Seven days<br><span>to nail it.</span>", "scroll": [[0, 0], [6, 0]], "zoom": [0.8, 5.4, 1.5, 300], "snap": ["tilt", "R", 2.0, 3.0]},
+   {"page": "archive", "d": 5, "cap": "Then it joins<br><span>the archive.</span>", "scroll": [[0, 0], [1, 0], [5, 1400]]}
+  ],
+  "snapIntro": "hello", "snapOutro": "sit", "outro": "This week:<br><span>Backlight.</span>",
+  "caption": "How the SnapWeek theme works: every Monday a new theme opens with a short brief and a hint. You have seven days. On Sunday it joins the archive. Discover the app in the bio.",
+  "tags": ["weeklytheme", "photochallenge", "photography", "snapweek", "photoprompt", "backlight", "mobilephotography", "photographycommunity", "creativeprompt", "streetphotography", "photographers", "photoideas", "shootthis", "weeklychallenge", "phototips"]},
+
+ {"id": "sw12-feature-one-frame-a-day", "kind": "feature", "title": "One frame a day: the rule", "mode": "dark", "intro": "quick", "seed": 12,
+  "hook": "The only rule:<br><span>one frame a day.</span>",
+  "scenes": [
+   {"page": "home", "d": 6, "cap": "Pick your<br><span>best shot.</span>", "scroll": [[0, 900], [6, 2900]], "snap": ["point", "L", 1.0, 3.0]},
+   {"page": "signup", "d": 6, "cap": "Free account.<br><span>One minute.</span>"},
+   {"page": "home", "d": 7, "cap": "Post it<br><span>to the theme.</span>", "scroll": [[0, 2900], [7, 6400]], "hearts": [2.0, 3.6, 5.0]},
+   {"page": "scroll", "d": 5, "cap": "Tomorrow:<br><span>another one.</span>", "snap": ["cheer", "R", 1.4, 3.0]}
+  ],
+  "snapIntro": "point", "snapOutro": "rest", "outro": "One frame.<br>Every day.<br><span>This week.</span>",
+  "caption": "The only SnapWeek rule: one frame a day. Pick your best shot, post it to the week's theme, come back tomorrow. Free account in one minute. Discover the app in the bio.",
+  "tags": ["oneframeaday", "photoaday", "photochallenge", "photography", "snapweek", "dailyphoto", "photorule", "mobilephotography", "photographycommunity", "streetphotography", "creativehabit", "photographers", "shootdaily", "weeklytheme", "phonephotography"]},
+
+ {"id": "sw13-feature-likes-comments", "kind": "feature", "title": "Likes and comments that mean something", "mode": "light", "intro": "quick", "seed": 13,
+  "hook": "Likes that<br><span>mean something.</span>",
+  "scenes": [
+   {"page": "home", "d": 7, "cap": "Everyone shoots<br><span>the same theme.</span>", "scroll": [[0, 1000], [7, 3600]], "hearts": [1.2, 2.6, 4.0, 5.4], "snap": ["point", "R", 1.6, 3.2]},
+   {"page": "scroll", "d": 6, "cap": "So every like<br><span>is a comparison.</span>", "hearts": [1.6, 3.0, 4.2]},
+   {"page": "home", "d": 6, "cap": "Comments<br><span>on light and framing.</span>", "scroll": [[0, 4300], [6, 6600]], "hearts": [2.4, 4.0]},
+   {"page": "why", "d": 5, "cap": "A community<br><span>that reads pictures.</span>", "scroll": [[0, 1300], [5, 1700]], "snap": ["cheer", "L", 1.4, 2.8]}
+  ],
+  "snapIntro": "hello", "snapOutro": "sit", "outro": "Get feedback<br>that makes you<br><span>better.</span>",
+  "caption": "Likes that mean something: on SnapWeek everyone shoots the same theme, so every like and comment is about light, framing and timing. Discover the app in the bio.",
+  "tags": ["photofeedback", "photocritique", "photochallenge", "photography", "snapweek", "photographycommunity", "likes", "comments", "mobilephotography", "streetphotography", "learnphotography", "photographers", "weeklytheme", "photooftheday", "getbetter"]},
+
+ {"id": "sw14-feature-weekly-ranking", "kind": "feature", "title": "The weekly ranking and podium", "mode": "dark", "intro": "quick", "seed": 14,
+  "hook": "Who wins<br><span>the week?</span>",
+  "scenes": [
+   {"page": "ranking", "d": 7, "cap": "The weekly<br><span>ranking.</span>", "scroll": [[0, 0], [1.6, 0], [4.4, 1220], [7, 1260]], "snap": ["point", "L", 0.8, 3.0]},
+   {"page": "theme", "d": 7, "cap": "Top 3 on<br><span>the podium.</span>", "scroll": [[0, 760], [7, 820]], "zoom": [1.6, 6.0, 1.36, 60], "snap": ["cheer", "R", 2.4, 3.6]},
+   {"page": "ranking", "d": 6, "cap": "Every frame<br><span>ranked.</span>", "scroll": [[0, 1260], [6, 3200]]},
+   {"page": "profile", "d": 5, "cap": "Podiums stay<br><span>on your profile.</span>", "scroll": [[0, 0], [1, 0], [4, 900]]}
+  ],
+  "snapIntro": "hello", "snapOutro": "cheer", "outro": "Your name<br>on the<br><span>podium.</span>",
+  "caption": "Who wins the week? Every SnapWeek theme ends with a public ranking and a podium of three. Podiums stay on your profile. Discover the app in the bio.",
+  "tags": ["photocontest", "weeklyranking", "podium", "photochallenge", "photography", "snapweek", "winner", "photographycommunity", "mobilephotography", "streetphotography", "photographers", "competition", "weeklytheme", "photooftheweek", "top3"]},
+
+ {"id": "sw15-feature-levels-profile", "kind": "feature", "title": "Levels: from Amateur to Expert", "mode": "light", "intro": "quick", "seed": 15,
+  "hook": "From Amateur<br><span>to Expert.</span>",
+  "scenes": [
+   {"page": "profile", "d": 7, "cap": "Your level<br><span>grows each week.</span>", "scroll": [[0, 0], [7, 60]], "zoom": [1.2, 6.0, 1.45, 40], "snap": ["point", "R", 1.0, 3.4]},
+   {"page": "discover", "d": 6, "cap": "Amateur, Advanced,<br><span>Expert.</span>", "scroll": [[0, 600], [6, 700]], "zoom": [1.4, 5.2, 1.4, 160]},
+   {"page": "profile", "d": 6, "cap": "Podium finishes,<br><span>badges, weeks.</span>", "scroll": [[0, 300], [1.4, 300], [6, 1100]], "snap": ["cheer", "L", 2.0, 3.0]},
+   {"page": "theme", "d": 5, "cap": "Earned<br><span>theme by theme.</span>", "scroll": [[0, 760], [5, 800]]}
+  ],
+  "snapIntro": "tilt", "snapOutro": "cheer", "outro": "Level up<br><span>every week.</span>",
+  "caption": "From Amateur to Advanced to Expert: on SnapWeek your level grows with every theme you shoot, and your profile keeps your podium finishes and badges. Discover the app in the bio.",
+  "tags": ["levelup", "photographylevels", "photochallenge", "photography", "snapweek", "badges", "progress", "photographycommunity", "mobilephotography", "streetphotography", "photographers", "weeklytheme", "skillbuilding", "photooftheday", "amateurphotographer"]},
+
+ {"id": "sw16-feature-discover-photographers", "kind": "feature", "title": "Discover photographers", "mode": "dark", "intro": "quick", "seed": 16,
+  "hook": "Find photographers<br><span>worth following.</span>",
+  "scenes": [
+   {"page": "discover", "d": 7, "cap": "Active, not yet<br><span>widely followed.</span>", "scroll": [[0, 0], [1.6, 0], [4, 640], [7, 640]], "zoom": [4.0, 6.6, 1.32, 80], "snap": ["point", "L", 1.0, 3.0]},
+   {"page": "profile", "d": 6, "cap": "Open a profile.<br><span>Follow.</span>", "scroll": [[0, 0], [6, 100]], "zoom": [1.4, 5.0, 1.36, 40], "hearts": [3.2]},
+   {"page": "explore", "d": 6, "cap": "Browse by<br><span>theme and tag.</span>", "scroll": [[0, 1540], [6, 2300]], "snap": ["tilt", "R", 1.6, 3.0]},
+   {"page": "scroll", "d": 5, "cap": "Or scroll<br><span>every frame.</span>"}
+  ],
+  "snapIntro": "hello", "snapOutro": "sit", "outro": "Your next<br>favourite<br><span>photographer.</span>",
+  "caption": "Find photographers worth following: SnapWeek shows active photographers who are not yet widely followed, plus themes, tags and every frame of the week. Discover the app in the bio.",
+  "tags": ["photographerstofollow", "discover", "photochallenge", "photography", "snapweek", "photographycommunity", "follow", "mobilephotography", "streetphotography", "photographers", "emergingphotographers", "weeklytheme", "photooftheday", "creativecommunity", "explore"]},
+
+ {"id": "sw17-feature-places-tags", "kind": "feature", "title": "Places and tags", "mode": "light", "intro": "quick", "seed": 17,
+  "hook": "Photos with a<br><span>place.</span>",
+  "scenes": [
+   {"page": "explore", "d": 7, "cap": "Frames from<br><span>all over the world.</span>", "scroll": [[0, 2680], [7, 3500]], "snap": ["point", "R", 1.2, 3.2]},
+   {"page": "explore", "d": 6, "cap": "Tags of<br><span>the week.</span>", "scroll": [[0, 2180], [6, 2300]], "zoom": [1.2, 5.0, 1.4, 60]},
+   {"page": "discover", "d": 6, "cap": "Themes<br><span>to revisit.</span>", "scroll": [[0, 1540], [6, 1700]], "snap": ["tilt", "L", 1.8, 3.0]},
+   {"page": "why", "d": 5, "cap": "Places,<br><span>not just profiles.</span>", "scroll": [[0, 1900], [5, 2200]]}
+  ],
+  "snapIntro": "hello", "snapOutro": "sit", "outro": "Where was<br><span>your best frame?</span>",
+  "caption": "Photos with a place: on SnapWeek frames can carry a location, so you can browse places and the week's tags, not just profiles. Discover the app in the bio.",
+  "tags": ["travelphotography", "places", "photochallenge", "photography", "snapweek", "tags", "photographycommunity", "mobilephotography", "streetphotography", "photographers", "worldphotography", "weeklytheme", "photomap", "photooftheday", "explore"]},
+
+ {"id": "sw18-feature-archive", "kind": "feature", "title": "The archive of every theme", "mode": "dark", "intro": "quick", "seed": 18,
+  "hook": "Every theme.<br><span>Kept forever.</span>",
+  "scenes": [
+   {"page": "archive", "d": 7, "cap": "The archive:<br><span>week after week.</span>", "scroll": [[0, 0], [1.6, 0], [7, 2400]], "snap": ["point", "L", 0.8, 3.0]},
+   {"page": "archive", "d": 6, "cap": "Backlight, Reflections,<br><span>Blue hour...</span>", "scroll": [[0, 1050], [6, 3400]]},
+   {"page": "theme", "d": 6, "cap": "Open any week.<br><span>See the podium.</span>", "scroll": [[0, 0], [1.2, 0], [6, 800]], "snap": ["cheer", "R", 2.4, 3.0]},
+   {"page": "theme", "d": 5, "cap": "And every<br><span>interpretation.</span>", "scroll": [[0, 2900], [5, 4200]]}
+  ],
+  "snapIntro": "tilt", "snapOutro": "rest", "outro": "A collection<br>that grows<br><span>every Monday.</span>",
+  "caption": "Every SnapWeek theme is kept in the archive: Backlight, Reflections, Blue hour and more. Open any week to see its podium and every interpretation. Discover the app in the bio.",
+  "tags": ["photoarchive", "photochallenge", "photography", "snapweek", "weeklytheme", "collection", "photographycommunity", "mobilephotography", "streetphotography", "photographers", "bluehour", "reflections", "backlight", "photooftheweek", "inspiration"]},
+
+ {"id": "sw19-feature-scroll-mode", "kind": "feature", "title": "Scroll every frame", "mode": "dark", "intro": "quick", "seed": 19,
+  "hook": "Scroll photos.<br><span>Only photos.</span>",
+  "scenes": [
+   {"page": "scroll", "d": 7, "cap": "Full screen.<br><span>One frame at a time.</span>", "hearts": [2.4, 4.6], "snap": ["point", "R", 1.2, 3.2]},
+   {"page": "home", "d": 6, "cap": "Or the feed of<br><span>the week.</span>", "scroll": [[0, 900], [6, 4400]], "hearts": [3.0]},
+   {"page": "scroll", "d": 6, "cap": "Like, comment,<br><span>save.</span>", "hearts": [1.4, 2.6, 3.8], "snap": ["cheer", "L", 2.0, 3.0]},
+   {"page": "discover", "d": 5, "cap": "Just<br><span>photographs.</span>", "scroll": [[0, 0], [5, 600]]}
+  ],
+  "snapIntro": "hello", "snapOutro": "sit", "outro": "Scroll with<br><span>a reason.</span>",
+  "caption": "Scroll photos, only photos: SnapWeek's scroll mode shows every frame of the week full screen, one at a time. Like, comment, save. Discover the app in the bio.",
+  "tags": ["scrollmode", "photography", "photochallenge", "snapweek", "fullscreen", "photographycommunity", "mobilephotography", "streetphotography", "photographers", "weeklytheme", "photosonly", "photooftheday", "visualfeed", "photolovers", "dailyphoto"]},
+
+ {"id": "sw20-feature-why-snapweek", "kind": "feature", "title": "Why SnapWeek is different", "mode": "light", "intro": "quick", "seed": 20,
+  "hook": "Why SnapWeek<br><span>is different.</span>",
+  "scenes": [
+   {"page": "why", "d": 6.5, "cap": "One subject<br><span>for everyone.</span>", "scroll": [[0, 650], [6.5, 1100]], "snap": ["point", "L", 1.0, 3.2]},
+   {"page": "why", "d": 6, "cap": "The photograph<br><span>is the content.</span>", "scroll": [[0, 1000], [6, 1500]]},
+   {"page": "ranking", "d": 6.5, "cap": "Score = share of people<br><span>who react.</span>", "scroll": [[0, 3500], [6.5, 3800]], "zoom": [1.4, 5.6, 1.3, 80], "snap": ["tilt", "R", 2.0, 3.0]},
+   {"page": "home", "d": 5, "cap": "Free.<br><span>Web and Android.</span>", "scroll": [[0, 0], [5, 0]], "zoom": [1.0, 4.2, 1.3, 110]}
+  ],
+  "snapIntro": "hello", "snapOutro": "cheer", "outro": "Photography,<br><span>the fair way.</span>",
+  "caption": "Why SnapWeek is different: one subject for everyone, the photograph is the content, and the score counts the share of people who react, not follower counts. Free. Discover the app in the bio.",
+  "tags": ["whysnapweek", "photography", "photochallenge", "snapweek", "fairranking", "photographycommunity", "mobilephotography", "streetphotography", "photographers", "weeklytheme", "noalgorithm", "photooftheday", "creativecommunity", "photoapp", "different"]}
+]

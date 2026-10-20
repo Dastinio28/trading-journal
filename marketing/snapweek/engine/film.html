@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>%%TITLE%%</title>
+<style>
+@font-face{font-family:"Bricolage";src:url(data:font/woff2;base64,%%FONT_B%%) format("woff2");font-weight:400 800;font-stretch:75% 100%;font-display:block}
+@font-face{font-family:"ArchivoN";src:url(data:font/woff2;base64,%%FONT_A%%) format("woff2");font-weight:500 700;font-display:block}
+:root{--bg:#efefec;--fg:#17171a;--mute:#5d5d62;--brand:#d97757;--brand-ink:#ae4e2e;--hl:#d97757;--cream:#fbf6f2;--blobA:rgba(217,119,87,.38);--blobB:rgba(242,154,31,.30)}
+body.dark{--bg:#111318;--fg:#f1ede6;--mute:#9aa0ab;--hl:#eb7650;--brand-ink:#f58c66;--blobA:rgba(235,118,80,.30);--blobB:rgba(255,176,58,.16)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#0b0b0c;height:100%}
+body{display:grid;place-items:center;font-family:"Bricolage",system-ui,sans-serif;color:var(--fg)}
+#vp{width:min(100vw,56.25vh);aspect-ratio:9/16;position:relative;overflow:hidden}
+#stage{position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:0 0;overflow:hidden;background:var(--bg)}
+.L{position:absolute;inset:0}
+#bgw{position:absolute;inset:0;background:var(--bg)}
+.blob{position:absolute;border-radius:50%;filter:blur(60px)}
+#b1{width:1100px;height:1100px;background:radial-gradient(circle,var(--blobA),transparent 65%)}
+#b2{width:1200px;height:1200px;background:radial-gradient(circle,var(--blobB),transparent 62%)}
+#terra{position:absolute;inset:0;background:radial-gradient(1200px 1000px at 50% 30%,#e48a6c,#d97757 55%,#c4643f)}
+#terraI{position:absolute;inset:0;background:radial-gradient(1200px 1000px at 50% 30%,#e48a6c,#d97757 55%,#c4643f)}
+.fp{position:absolute;left:0;top:0;border-radius:34px;background-size:cover;background-position:center;box-shadow:0 40px 80px rgba(40,20,10,.3);border:10px solid #fff}
+.hl{position:absolute;left:70px;right:70px;font-weight:800;letter-spacing:-.045em;font-stretch:84%;line-height:.95}
+.hl .w{display:inline-block;overflow:hidden;vertical-align:top;padding:0 .02em .1em}
+.hl .wi{display:inline-block}
+.hl .a{color:var(--hl)}
+#h0{top:250px;font-size:166px}
+#h0.type{top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;text-align:center;font-size:200px;color:var(--cream);padding-bottom:520px}
+#h0.type .a{color:#17171a}
+#cap{top:110px;font-size:118px}
+#oh{top:150px;font-size:122px;color:var(--cream)}
+#oh .a{color:#17171a}
+#logo{position:absolute;left:340px;top:560px;width:400px;height:400px}
+#wm{position:absolute;left:0;right:0;top:1030px;text-align:center;font-weight:800;font-size:190px;letter-spacing:-.045em;font-stretch:86%}
+#wm .c{display:inline-block}#wm .k{color:var(--brand-ink)}
+#tag{position:absolute;left:0;right:0;top:1250px;text-align:center;font-size:64px;font-weight:600;color:var(--mute);letter-spacing:-.02em}
+#ph3{position:absolute;inset:0;perspective:2600px}
+#phone{position:absolute;left:250px;top:440px;width:580px;height:1220px;border-radius:84px;background:#0c0c0e;box-shadow:0 80px 160px rgba(40,20,10,.34),inset 0 0 0 4px #2b2b2f}
+#scr{position:absolute;left:20px;top:20px;width:540px;height:1180px;border-radius:66px;overflow:hidden;background:var(--bg)}
+#island{position:absolute;left:200px;top:18px;width:140px;height:40px;border-radius:22px;background:#0c0c0e;z-index:20}
+.pg{position:absolute;left:0;top:0;width:540px;height:1180px;overflow:hidden;background:var(--bg)}
+.pg .cnt{position:absolute;left:0;top:62px;width:540px}
+.pg.full .cnt{top:0;height:1180px;object-fit:cover;object-position:top}
+.pg .hdr,.pg .tab{position:absolute;left:0;width:540px;z-index:5}
+.pg .hdr{top:62px}.pg .tab{bottom:0}
+.pg .sbar{position:absolute;left:0;top:0;width:540px;height:62px;background:var(--bg);z-index:6;display:flex;justify-content:space-between;align-items:flex-end;padding:0 46px 6px;font:700 22px "ArchivoN";color:var(--fg)}
+.pg.full .sbar{background:transparent}
+.heart{position:absolute;width:120px;height:120px}
+.snap{position:absolute;width:640px;height:640px;background-size:contain;background-repeat:no-repeat;background-position:center bottom;filter:drop-shadow(0 30px 40px rgba(40,20,10,.28))}
+#url{position:absolute;left:50%;top:640px;display:flex;align-items:center;gap:22px;background:#17171a;color:var(--cream);border-radius:999px;padding:32px 56px;font-weight:800;font-size:66px;letter-spacing:-.02em;white-space:nowrap;overflow:hidden}
+#url img{width:70px;height:70px}
+#shine{position:absolute;top:0;bottom:0;width:160px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent)}
+#bio{position:absolute;left:0;right:0;top:800px;text-align:center;color:var(--cream);font-weight:800;font-size:76px;letter-spacing:-.035em;font-stretch:86%}
+#bio span{color:#17171a}
+#osub{position:absolute;left:0;right:0;top:930px;text-align:center;color:var(--cream);font-size:44px}
+#osub span{display:inline-block;background:rgba(23,23,26,.18);border-radius:999px;padding:16px 32px;margin:0 8px}
+#demo{position:absolute;left:70px;right:70px;top:372px;font:600 22px "ArchivoN";letter-spacing:.14em;text-transform:uppercase;color:var(--mute);opacity:.75}
+#ctl{position:fixed;left:12px;bottom:12px;display:flex;gap:8px;z-index:99;font:600 13px system-ui}
+#ctl button{background:#222;color:#eee;border:1px solid #444;border-radius:8px;padding:6px 12px;cursor:pointer}
+body.export #ctl{display:none}
+</style></head><body>
+<div id="vp"><div id="stage" role="img" aria-label="%%ARIA%%">
+  <div class="L" id="bgw"><div class="blob" id="b1"></div><div class="blob" id="b2"></div></div>
+  <div class="L" id="terraI"></div>
+  <div class="L" id="terra"></div>
+  <div class="L" id="fps"></div>
+  <div class="hl" id="h0"></div>
+  <div class="L" id="logoL"><div id="logo"><img id="logoImg" style="width:100%;height:100%;filter:drop-shadow(0 40px 60px rgba(174,78,46,.35))" alt=""></div><div id="wm"></div><div id="tag">The weekly photo challenge.</div></div>
+  <div class="L" id="ph3"><div id="phone"><div id="scr"><div id="island"></div><div id="pages"></div></div></div></div>
+  <div class="L" id="hearts"></div>
+  <div class="hl" id="cap"></div>
+  <div id="demo">Real app · demo profiles, illustrative photos</div>
+  <div class="L" id="snaps"></div>
+  <div class="L" id="outro"><div class="hl" id="oh"></div>
+    <div id="url"><img id="urlImg" alt="">snapweek.web.app<i id="shine"></i></div>
+    <div id="bio">Discover the app <span>in the bio</span></div><div id="osub"><span>Free</span><span>Web &amp; Android</span></div></div>
+</div></div>
+<div id="ctl"><button id="play">Play</button><button id="snd">Sound off</button><span id="tm" style="color:#aaa;padding:6px"></span></div>
+<audio id="aud" src="data:audio/mpeg;base64,%%AUDIO%%" preload="auto"></audio>
+<script>%%TIMELINE%%</script>
+<script>
+(() => {
+const CFG = %%CFG%%, V = CFG.V, A = CFG.assets, TL = SWTL.build(V), SPEED = TL.SPEED, DUR = TL.CLOCK;
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const clamp = (x, a = 0, z = 1) => Math.min(z, Math.max(a, x)), lerp = (a, z, p) => a + (z - a) * p, P = (t, a, d) => clamp((t - a) / d);
+const E = { o3: p => 1 - (1 - p) ** 3, o5: p => 1 - (1 - p) ** 5, i3: p => p ** 3, io3: p => p < .5 ? 4 * p ** 3 : 1 - (-2 * p + 2) ** 3 / 2,
+  io5: p => p < .5 ? 16 * p ** 5 : 1 - (-2 * p + 2) ** 5 / 2, back: p => 1 + 2.2 * (p - 1) ** 3 + 1.2 * (p - 1) ** 2, spring: p => 1 - Math.exp(-5 * p) * Math.cos(8 * p) };
+const vis = (el, on) => el.style.visibility = on ? 'inherit' : 'hidden';
+const put = (el, o) => { el.style.transform = `translate3d(${(o.x || 0).toFixed(2)}px,${(o.y || 0).toFixed(2)}px,0) rotate(${(o.r || 0).toFixed(3)}deg) scale(${(o.s ?? 1).toFixed(4)})`;
+  if (o.op !== undefined) el.style.opacity = clamp(o.op).toFixed(3); el.style.filter = o.blur > .2 ? `blur(${o.blur.toFixed(2)}px)` : ''; };
+const track = (K, t, ease = E.io3) => { if (t <= K[0][0]) return K[0][1]; for (let i = 0; i < K.length - 1; i++) if (t < K[i + 1][0]) { const p = ease(clamp((t - K[i][0]) / Math.max(1e-6, K[i + 1][0] - K[i][0]))); const a = K[i][1], z = K[i + 1][1]; return Array.isArray(a) ? a.map((v, j) => lerp(v, z[j], p)) : lerp(a, z, p); } return K[K.length - 1][1]; };
+if (CFG.mode === 'dark') document.body.classList.add('dark');
+$('#logoImg').src = $('#urlImg').src = A.icon;
+const words = h => { const d = document.createElement('div'); d.innerHTML = h; const out = []; [...d.childNodes].forEach(n => { if (n.nodeName === 'BR') { out.push('<br>'); return; }
+  n.textContent.split(/\s+/).filter(Boolean).forEach(w => out.push(`<span class="w"><span class="wi${n.nodeType === 1 ? ' a' : ''}">${w}</span></span>`)); }); return out.join(' ').replace(/ <br> /g, '<br>'); };
+const reveal = (els, t, at, out, step = .07) => els.forEach((w, j) => { const p = E.o5(P(t, at + j * step, .7)), q = out ? E.i3(P(t, out + j * .03, .45)) : 0; put(w, { y: (1 - p) * 150 - q * 140, blur: (1 - p) * 8 + q * 10 }); w.style.opacity = (Math.min(p * 1.6, 1) * (1 - q)).toFixed(3); });
+
+/* ---------- intro ---------- */
+const INTRO = V.intro, QUICK = TL.quick, PHOTOS = A.photos;
+$('#h0').innerHTML = words(V.hook); const h0W = $$('#h0 .wi'); if (INTRO === 'type') $('#h0').classList.add('type');
+const lineOf = []; { let ln = 0; $('#h0').innerHTML.split('<br>').forEach((seg, i) => { const n = (seg.match(/class="wi/g) || []).length; for (let k = 0; k < n; k++) lineOf.push(i); }); }
+const FP = []; { const box = $('#fps');
+  const spots = INTRO === 'stack' ? Array.from({ length: 7 }, (_, i) => [240 + ((i * 37) % 60) - 30, 900 + ((i * 53) % 80) - 40, [-10, 7, -4, 12, -8, 3, -2][i], 600])
+    : [[-60, 980, -12, 380], [700, 900, 10, 360], [80, 1460, 6, 320], [660, 1450, -8, 360], [380, 1150, -3, 300], [-120, 1880, 14, 340], [760, 1880, -14, 320]];
+  spots.forEach(([x, y, r, w], i) => { const d = document.createElement('div'); d.className = 'fp'; d.style.width = w + 'px'; d.style.height = Math.round(w * 1.25) + 'px'; d.style.backgroundImage = `url(${PHOTOS[(i + V.seed) % PHOTOS.length]})`; box.appendChild(d); FP.push({ el: d, x, y, r, w, z: .7 + (i % 3) * .2 }); }); }
+$('#wm').innerHTML = 'SnapWeek'.split('').map((c, i) => `<span class="c${i >= 4 ? ' k' : ''}">${c}</span>`).join(''); const wmC = $$('#wm .c');
+
+/* ---------- phone pages ---------- */
+const S = 540 / 780, PG = [];
+TL.scenes.forEach(sc => { const a = A.pages[sc.page], d = document.createElement('div'); d.className = 'pg' + (sc.fullscreen ? ' full' : '');
+  d.innerHTML = `<div class="sbar"><span>9:41</span><span>5G ▮▮▮</span></div><img class="cnt" src="${a.cnt}">` + (sc.fullscreen ? '' : `<img class="hdr" src="${a.hdr}"><img class="tab" src="${a.tab}">`);
+  $('#pages').appendChild(d); PG.push({ el: d, cnt: d.querySelector('.cnt'), sc }); });
+const HEARTS = TL.scenes.flatMap(sc => sc.hearts.map((h, i) => [h, i % 2 ? 230 : 760, 950 + (i * 170) % 380]));
+$('#hearts').innerHTML = HEARTS.map(() => `<svg class="heart" viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.6 4.5c2.2 0 3.6 1.2 4.4 2.5.8-1.3 2.2-2.5 4.4-2.5 3.6 0 5.7 3.9 4.2 7.3C19.5 16.4 12 21 12 21z" fill="#d97757" stroke="#fff" stroke-width="1.6"/></svg>`).join('');
+const heartEls = $$('#hearts .heart');
+const CAPS = TL.scenes.map(sc => ({ a: sc.a + .5, z: sc.z - .2, html: words(sc.cap) })); let capI = -1, capW = [];
+
+/* ---------- mascot ---------- */
+const SN = [{ k: V.snapIntro || 'hello', a: .9, z: QUICK ? TL.T0 + .6 : 4.2, x: 560, y: 1330, s: .9, from: [0, 760] }];
+TL.scenes.forEach(sc => { if (!sc.snap) return; const L = sc.snap.side === 'L'; SN.push({ k: sc.snap.k, a: sc.snap.a, z: sc.snap.z, x: L ? -150 : 600, y: sc.snap.k === 'point' ? 1200 : 1290, s: .78, from: [L ? -620 : 620, 0], flip: L && sc.snap.k === 'point' }); });
+SN.push({ k: V.snapOutro || 'sit', a: TL.OUTRO + .4, z: 41, x: 220, y: 1040, s: 1, from: [0, 900] });
+if (INTRO === 'type') { SN[0].x = 220; SN[0].y = 1240; SN[0].s = 1; }
+$('#snaps').innerHTML = SN.map(m => `<div class="snap" style="background-image:url(${A.snappy[m.k]})"></div>`).join(''); const snEls = $$('#snaps .snap');
+$('#oh').innerHTML = words(V.outro || 'Your next<br>best frame<br>starts on <span>Monday.</span>'); const ohW = $$('#oh .wi');
+
+/* ---------- render ---------- */
+function render(t) {
+  $('#b1').style.transform = `translate(${-300 + Math.sin(t * .25) * 260}px,${-260 + Math.cos(t * .2) * 220}px)`;
+  $('#b2').style.transform = `translate(${300 + Math.cos(t * .22) * 240}px,${1000 + Math.sin(t * .17) * 280}px)`;
+  const tp = E.io3(P(t, TL.OUTRO - .3, 1.2)); $('#terra').style.opacity = tp.toFixed(3); $('#terra').style.clipPath = tp < 1 ? `circle(${(tp * 140).toFixed(2)}% at 50% 70%)` : 'none';
+  // intro backdrop for the "type" opening
+  const ti = INTRO === 'type' ? 1 - E.io3(P(t, 3.3, 1.0)) : 0; vis($('#terraI'), ti > 0); $('#terraI').style.clipPath = `circle(${(ti * 150).toFixed(2)}% at 50% 50%)`;
+  // photos
+  const cloudOn = (INTRO === 'cloud' || INTRO === 'stack') && t < 5; vis($('#fps'), cloudOn);
+  if (cloudOn) { const conv = E.io5(P(t, 3.3, 1.2));
+    FP.forEach((F, i) => { if (INTRO === 'stack') { const land = E.o5(P(t, .15 + i * .38, .6));
+        put(F.el, { x: lerp(F.x, 540 - F.w / 2, conv), y: lerp(F.y - 1400 * (1 - land), 760 - F.w * .62, conv), r: F.r * (1 - conv) + (1 - land) * 25, s: lerp(1, .12, conv) * (1.15 - .15 * land), op: Math.min(1, land * 3) * (1 - E.i3(P(t, 4.1, .4))) }); return; }
+      const enter = E.o5(P(t, .1 + i * .12, 1.2)), drift = Math.sin(t * .6 + i) * 18 * F.z;
+      put(F.el, { x: lerp(F.x, 540 - F.w / 2, conv) + drift, y: lerp(F.y + (1 - enter) * 500, 760 - F.w * .62, conv) - t * 30 * F.z * (1 - conv), r: F.r * (1 - conv), s: lerp(1, .15, conv) * (.8 + .2 * enter), op: enter * (1 - E.i3(P(t, 4.1, .4))) }); }); }
+  // hook
+  const hEnd = QUICK ? TL.T0 - .4 : 3.5, h0On = t < hEnd + .6; vis($('#h0'), h0On);
+  if (h0On) { if (INTRO === 'type') h0W.forEach((w, j) => { const at = .2 + lineOf[j] * .85 + j * .05, p = E.back(P(t, at, .6)), q = E.i3(P(t, hEnd, .45)); put(w, { y: (1 - Math.min(p, 1)) * 220 - q * 160, s: .7 + .3 * Math.min(p, 1.05), blur: q * 10 }); w.style.opacity = (clamp(p * 2) * (1 - q)).toFixed(3); });
+    else reveal(h0W, t, .25, hEnd, QUICK ? .16 : .3); }
+  // logo
+  const lgOn = !QUICK && t >= 3.7 && t < 7.4; vis($('#logoL'), lgOn);
+  if (lgOn) { const a = E.spring(P(t, 3.8, 1.4)), up = E.io5(P(t, 5.9, 1.1)); put($('#logo'), { s: (.2 + .8 * a) * (1 - .55 * up), y: -420 * up, r: (1 - E.o3(P(t, 3.8, 1.2))) * -90, op: P(t, 3.8, .2) * (1 - E.i3(P(t, 6.5, .5))) });
+    wmC.forEach((el, i) => { const p = E.o5(P(t, 4.3 + i * .045, .8)); put(el, { y: (1 - p) * 170 - 480 * up, op: Math.min(1, p * 1.4) * (1 - up), blur: (1 - p) * 10 + up * 8 }); });
+    const g = E.o3(P(t, 5.1, .8)); put($('#tag'), { y: (1 - g) * 50 - 480 * up, op: g * (1 - up), blur: (1 - g) * 10 }); }
+  // phone
+  const phOn = t >= TL.T0 - .3 && t < TL.OUTRO + 1; vis($('#ph3'), phOn);
+  if (phOn) { const [x, y, s, rx, ry, rz] = track(TL.cam, t), fl = Math.sin(t * 1.1) * 8;
+    $('#phone').style.transform = `translate3d(${x.toFixed(2)}px,${(y + fl).toFixed(2)}px,0) rotateX(${rx.toFixed(3)}deg) rotateY(${ry.toFixed(3)}deg) rotateZ(${rz.toFixed(3)}deg) scale(${(s * 1.1).toFixed(4)})`;
+    PG.forEach((G, i) => { const sc = G.sc, a = i ? sc.a - .3 : -1, z = i < PG.length - 1 ? sc.z + .3 : 99, on = t >= a && t < z; vis(G.el, on); if (!on) return;
+      const pin = i ? E.io5(P(t, a, .6)) : 1, pout = i < PG.length - 1 ? E.io5(P(t, z - .6, .6)) : 0;
+      G.el.style.transform = `translateX(${((1 - pin) * 540 - pout * 540).toFixed(2)}px)`;
+      if (!sc.fullscreen) G.cnt.style.transform = `translateY(${(-track(sc.scroll, t) * S).toFixed(2)}px)`; else G.cnt.style.transform = `scale(${(1 + .05 * P(t, sc.a, sc.z - sc.a)).toFixed(4)})`; }); }
+  HEARTS.forEach(([at, x, y], i) => { const p = P(t, at, 1.3), el = heartEls[i]; vis(el, p > 0 && p < 1); if (p <= 0 || p >= 1) return;
+    put(el, { x, y: y - 220 * E.o3(p), s: .3 + .9 * E.back(clamp(p * 2.5)), op: 1 - E.i3(clamp((p - .55) / .45)), r: Math.sin(p * 6) * 10 }); });
+  const ci = CAPS.findIndex(C => t >= C.a - .05 && t < C.z + .5); vis($('#cap'), ci >= 0);
+  if (ci >= 0) { const C = CAPS[ci]; if (ci !== capI) { capI = ci; $('#cap').innerHTML = C.html; capW = $$('#cap .wi'); } reveal(capW, t, C.a, C.z - .1); }
+  SN.forEach((m, i) => { const el = snEls[i], on = t >= m.a - .1 && t < m.z + .1; vis(el, on); if (!on) return;
+    const pin = E.back(P(t, m.a, .9)), pout = E.io3(P(t, m.z - .7, .7)), bob = Math.sin((t - m.a) * 3.2) * 10, wave = m.k === 'hello' || m.k === 'cheer' ? Math.sin((t - m.a) * 5) * 4 : Math.sin((t - m.a) * 2) * 2;
+    put(el, { x: m.x + m.from[0] * (1 - pin) + m.from[0] * pout, y: m.y + m.from[1] * (1 - pin) + m.from[1] * pout + bob, s: m.s * (.85 + .15 * Math.min(1, pin)), r: wave, op: 1 }); if (m.flip) el.style.transform += ' scaleX(-1)'; });
+  const oOn = t >= TL.OUTRO; vis($('#outro'), oOn);
+  if (oOn) { reveal(ohW, t, TL.OUTRO + .2, 0, .08); const u = E.back(P(t, TL.OUTRO + 1.9, .8)); $('#url').style.transform = `translateX(-50%) scale(${(.5 + .5 * u).toFixed(4)})`; $('#url').style.opacity = clamp(u * 1.6).toFixed(3);
+    $('#shine').style.left = (-240 + 1200 * E.io3(P(t, TL.OUTRO + 3.6, 1.4))) + 'px'; const bi = E.back(P(t, TL.OUTRO + 2.8, .8)); put($('#bio'), { y: (1 - bi) * 80, s: .9 + .1 * Math.min(1, bi), op: clamp(bi * 1.5) });
+    const s2 = E.o3(P(t, TL.OUTRO + 3.6, .8)); put($('#osub'), { y: (1 - s2) * 40, op: s2 }); }
+  $('#demo').style.opacity = (t > TL.T0 + .6 && t < TL.OUTRO ? .75 : 0).toString();
+}
+
+/* ---------- clock ---------- */
+const stage = $('#stage'), vp = $('#vp'), aud = $('#aud');
+const fit = () => stage.style.transform = `scale(${vp.clientWidth / 1080})`; new ResizeObserver(fit).observe(vp); fit();
+let t = 0, playing = !document.body.classList.contains('export'), last = performance.now(), snd = false;
+function tick(now) { const dt = clamp((now - last) / 1000, 0, .05); last = now; if (playing) { t = snd && !aud.paused ? aud.currentTime * SPEED : (t + dt * SPEED) % DUR; render(t); $('#tm').textContent = (t / SPEED).toFixed(1) + ' s'; } requestAnimationFrame(tick); }
+$('#play').onclick = () => { playing = !playing; $('#play').textContent = playing ? 'Pause' : 'Play'; if (!playing) aud.pause(); else if (snd) { aud.currentTime = t / SPEED; aud.play(); } };
+$('#snd').onclick = () => { snd = !snd; $('#snd').textContent = snd ? 'Sound on' : 'Sound off'; if (snd) { aud.currentTime = t / SPEED; aud.play(); } else aud.pause(); };
+window.renderAt = x => { playing = false; t = x * SPEED; render(t); }; window.__DUR = DUR / SPEED;
+Promise.all([document.fonts.ready, ...[...document.images].map(i => i.decode().catch(() => {})), ...[...Object.values(A.snappy), ...PHOTOS].map(u => { const i = new Image(); i.src = u; return i.decode().catch(() => {}); })]).then(() => { render(0); window.__ready = true; });
+render(0); requestAnimationFrame(tick);
+})();
+</script></body></html>

@@ -8,3 +8,8 @@ __pycache__/
 marketing/snapweek/out/_frames/
 marketing/snapweek/out/score.wav
 marketing/snapweek/out/_frames2/
+marketing/snapweek/videos/*/_frames/
+marketing/snapweek/videos/*/*.part
+marketing/snapweek/videos/*/index.html
+marketing/snapweek/videos/*/score.mp3
+marketing/snapweek/videos/render*.log
