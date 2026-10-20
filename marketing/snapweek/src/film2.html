@@ -194,7 +194,7 @@ let t = 0, playing = !document.body.classList.contains('export'), last = perform
 function tick(now) { const dt = clamp((now - last) / 1000, 0, .05); last = now; if (playing) { t = snd && !aud.paused ? aud.currentTime * SPEED : (t + dt * SPEED) % DUR; render(t); $('#tm').textContent = t.toFixed(1) + ' / ' + DUR + ' s'; } requestAnimationFrame(tick); }
 $('#play').onclick = () => { playing = !playing; $('#play').textContent = playing ? 'Pause' : 'Play'; if (!playing) aud.pause(); else if (snd) { aud.currentTime = t / SPEED; aud.play(); } };
 $('#snd').onclick = () => { snd = !snd; $('#snd').textContent = snd ? 'Sound on' : 'Sound off'; if (snd) { aud.currentTime = t / SPEED; aud.play(); } else aud.pause(); };
-window.renderAt = x => { t = x * SPEED; render(t); }; window.__DUR = DUR / SPEED;
+window.renderAt = x => { playing = false; t = x * SPEED; render(t); }; window.__DUR = DUR / SPEED;
 Promise.all([document.fonts.ready, ...[...document.images].map(i => i.decode().catch(() => {})), ...[...Object.values(SNAP), ...PHOTOS].map(u => { const i = new Image(); i.src = u; return i.decode().catch(() => {}); })]).then(() => { render(0); window.__ready = true; });
 if (matchMedia('(prefers-reduced-motion: reduce)').matches) playing = false;
 render(0); requestAnimationFrame(tick);
