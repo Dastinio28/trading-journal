@@ -1,10 +1,11 @@
 // SnapWeek score v2: warm house at 120 BPM, 40 s, smooth intro, events locked to film2.html.  node synth.js out.wav
 const fs = require('fs');
-const SR = 44100, BPM = 120, BT = 60 / BPM, DUR = 40.5, N = Math.ceil(SR * DUR);
+const SP = 0.9; // 10 % faster: every event time is scaled
+const SR = 44100, BPM = 120, BT = 60 / BPM, DUR = 40.5 * SP, N = Math.ceil(SR * DUR);
 const L = new Float32Array(N), R = new Float32Array(N), RV = new Float32Array(N);
 let s0 = 12345; const rnd = () => ((s0 = (s0 * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff) * 2 - 1;
 const b = n => n * BT, mtof = m => 440 * Math.pow(2, (m - 69) / 12);
-function add(t, buf, pan = 0, send = 0) { const i0 = Math.round(t * SR); const gl = Math.cos((pan + 1) * Math.PI / 4), gr = Math.sin((pan + 1) * Math.PI / 4);
+function add(t, buf, pan = 0, send = 0) { const i0 = Math.round(t * SP * SR); const gl = Math.cos((pan + 1) * Math.PI / 4), gr = Math.sin((pan + 1) * Math.PI / 4);
   for (let i = 0; i < buf.length; i++) { const k = i0 + i; if (k < 0 || k >= N) continue; L[k] += buf[i] * gl; R[k] += buf[i] * gr; RV[k] += buf[i] * send; } }
 const env = (n, a, d) => i => { const t = i / SR; return t < a ? t / a : Math.exp(-(t - a) / d); };
 function kick(g = 1) { const n = SR * .45, o = new Float32Array(n); let ph = 0; for (let i = 0; i < n; i++) { const t = i / SR, f = 48 + 110 * Math.exp(-t * 32); ph += 2 * Math.PI * f / SR; o[i] = Math.tanh(1.6 * Math.sin(ph) * Math.exp(-t * 6.5)) * g; } return o; }

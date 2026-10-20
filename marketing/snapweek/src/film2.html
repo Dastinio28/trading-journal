@@ -52,7 +52,9 @@ body{display:grid;place-items:center;font-family:"Bricolage",system-ui,sans-seri
 #url{position:absolute;left:50%;top:640px;display:flex;align-items:center;gap:22px;background:var(--fg);color:var(--cream);border-radius:999px;padding:32px 56px;font-weight:800;font-size:66px;letter-spacing:-.02em;white-space:nowrap;overflow:hidden}
 #url img{width:70px;height:70px}
 #shine{position:absolute;top:0;bottom:0;width:160px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent)}
-#osub{position:absolute;left:0;right:0;top:820px;text-align:center;color:var(--cream);font-size:44px}
+#bio{position:absolute;left:0;right:0;top:800px;text-align:center;color:var(--cream);font-weight:800;font-size:76px;letter-spacing:-.035em;font-stretch:86%}
+#bio span{color:var(--fg)}
+#osub{position:absolute;left:0;right:0;top:930px;text-align:center;color:var(--cream);font-size:44px}
 #osub span{display:inline-block;background:rgba(23,23,26,.18);border-radius:999px;padding:16px 32px;margin:0 8px}
 #demo{position:absolute;left:70px;right:70px;top:372px;text-align:left;font:600 22px "ArchivoN";letter-spacing:.14em;text-transform:uppercase;color:var(--mute);opacity:.75}
 #grain{position:absolute;inset:0;width:1080px;height:1920px;mix-blend-mode:multiply;opacity:.05}
@@ -72,15 +74,15 @@ body.export #ctl{display:none}
   <div class="L" id="snaps"></div>
   <div class="L" id="outro"><div class="hl" id="oh"></div>
     <div id="url"><img src="%%IMG:icon.svg%%" alt="">snapweek.web.app<i id="shine"></i></div>
-    <div id="osub"><span>Free</span><span>Web &amp; Android</span></div></div>
+    <div id="bio">Discover the app <span>in the bio</span></div><div id="osub"><span>Free</span><span>Web &amp; Android</span></div></div>
   <div id="demo">Real app · demo profiles, illustrative photos</div>
-  <canvas id="grain" width="540" height="960"></canvas>
+  
 </div></div>
 <div id="ctl"><button id="play">Play</button><button id="snd">Sound off</button><span id="tm" style="color:#aaa;padding:6px"></span></div>
 <audio id="aud" src="data:audio/mpeg;base64,%%AUDIO%%" preload="auto"></audio>
 <script>
 (() => {
-const DUR = 40;
+const SPEED = 1 / 0.9, DUR = 40; // film authored on a 40 s clock, played 10 % faster (36 s)
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const clamp = (x, a = 0, z = 1) => Math.min(z, Math.max(a, x)), lerp = (a, z, p) => a + (z - a) * p;
 const P = (t, a, d) => clamp((t - a) / d);
@@ -137,9 +139,6 @@ $('#snaps').innerHTML = SN.map(m => `<div class="snap" style="background-image:u
 /* ---------- outro ---------- */
 $('#oh').innerHTML = words('Your next<br>best frame<br>starts on <span>Monday.</span>'); const ohW = $$('#oh .wi');
 
-/* ---------- grain ---------- */
-let sd = 3; const rnd = () => (sd = (sd * 16807) % 2147483647) / 2147483647;
-const gc = $('#grain').getContext('2d'), GT = []; for (let k = 0; k < 5; k++) { const im = gc.createImageData(540, 960); for (let i = 0; i < im.data.length; i += 4) { const v = 128 + (rnd() - .5) * 255; im.data[i] = im.data[i + 1] = im.data[i + 2] = v; im.data[i + 3] = 255; } GT.push(im); }
 
 /* ---------- phone camera: [t, x, y, s, rx, ry, rz] ---------- */
 const CAM = [[6.6, [0, 1500, .85, 40, 0, 6]], [7.8, [0, 230, 1, 8, -10, 0]], [11.8, [0, 200, 1.02, 4, -6, 0]], [12.8, [0, 330, 1.42, 2, -3, 0]], [13.6, [0, 230, 1.05, 4, 8, 0]],
@@ -184,19 +183,18 @@ function render(t) {
   // outro
   const oOn = t >= 33.0; vis(outro, oOn);
   if (oOn) { revealWords(ohW, t, 33.2, 0, .08); const u = E.back(P(t, 34.9, .8)); $('#url').style.transform = `translateX(-50%) scale(${(.5 + .5 * u).toFixed(4)})`; $('#url').style.opacity = clamp(u * 1.6).toFixed(3);
-    $('#shine').style.left = (-240 + 1200 * E.io3(P(t, 36.6, 1.4))) + 'px'; const s2 = E.o3(P(t, 36.4, .8)); put($('#osub'), { y: (1 - s2) * 40, op: s2 }); }
+    $('#shine').style.left = (-240 + 1200 * E.io3(P(t, 36.6, 1.4))) + 'px'; const bi = E.back(P(t, 35.8, .8)); put($('#bio'), { y: (1 - bi) * 80, s: .9 + .1 * Math.min(1, bi), op: clamp(bi * 1.5) }); const s2 = E.o3(P(t, 36.6, .8)); put($('#osub'), { y: (1 - s2) * 40, op: s2 }); }
   $('#demo').style.opacity = (t > 7.6 && t < 33 ? .75 : 0).toString();
-  gc.putImageData(GT[((Math.floor(t * 24) % 5) + 5) % 5], 0, 0);
 }
 
 /* ---------- clock & controls ---------- */
 const stage = $('#stage'), vp = $('#vp'), aud = $('#aud');
 const fit = () => stage.style.transform = `scale(${vp.clientWidth / 1080})`; new ResizeObserver(fit).observe(vp); fit();
 let t = 0, playing = !document.body.classList.contains('export'), last = performance.now(), snd = false;
-function tick(now) { const dt = clamp((now - last) / 1000, 0, .05); last = now; if (playing) { t = snd && !aud.paused ? aud.currentTime : (t + dt) % DUR; render(t); $('#tm').textContent = t.toFixed(1) + ' / ' + DUR + ' s'; } requestAnimationFrame(tick); }
-$('#play').onclick = () => { playing = !playing; $('#play').textContent = playing ? 'Pause' : 'Play'; if (!playing) aud.pause(); else if (snd) { aud.currentTime = t; aud.play(); } };
-$('#snd').onclick = () => { snd = !snd; $('#snd').textContent = snd ? 'Sound on' : 'Sound off'; if (snd) { aud.currentTime = t; aud.play(); } else aud.pause(); };
-window.renderAt = x => { t = x; render(x); }; window.__DUR = DUR;
+function tick(now) { const dt = clamp((now - last) / 1000, 0, .05); last = now; if (playing) { t = snd && !aud.paused ? aud.currentTime * SPEED : (t + dt * SPEED) % DUR; render(t); $('#tm').textContent = t.toFixed(1) + ' / ' + DUR + ' s'; } requestAnimationFrame(tick); }
+$('#play').onclick = () => { playing = !playing; $('#play').textContent = playing ? 'Pause' : 'Play'; if (!playing) aud.pause(); else if (snd) { aud.currentTime = t / SPEED; aud.play(); } };
+$('#snd').onclick = () => { snd = !snd; $('#snd').textContent = snd ? 'Sound on' : 'Sound off'; if (snd) { aud.currentTime = t / SPEED; aud.play(); } else aud.pause(); };
+window.renderAt = x => { t = x * SPEED; render(t); }; window.__DUR = DUR / SPEED;
 Promise.all([document.fonts.ready, ...[...document.images].map(i => i.decode().catch(() => {})), ...[...Object.values(SNAP), ...PHOTOS].map(u => { const i = new Image(); i.src = u; return i.decode().catch(() => {}); })]).then(() => { render(0); window.__ready = true; });
 if (matchMedia('(prefers-reduced-motion: reduce)').matches) playing = false;
 render(0); requestAnimationFrame(tick);
