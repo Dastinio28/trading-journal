@@ -67,7 +67,7 @@
       "cover": "sw13-feature-likes-comments/cover.jpg",
       "captions_json": "sw13-feature-likes-comments/captions.json",
       "caption_file": "sw13-feature-likes-comments/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 7,
@@ -89,7 +89,7 @@
       "cover": "sw14-feature-weekly-ranking/cover.jpg",
       "captions_json": "sw14-feature-weekly-ranking/captions.json",
       "caption_file": "sw14-feature-weekly-ranking/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 9,
@@ -111,7 +111,7 @@
       "cover": "sw15-feature-levels-profile/cover.jpg",
       "captions_json": "sw15-feature-levels-profile/captions.json",
       "caption_file": "sw15-feature-levels-profile/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 11,
@@ -133,7 +133,7 @@
       "cover": "sw16-feature-discover-photographers/cover.jpg",
       "captions_json": "sw16-feature-discover-photographers/captions.json",
       "caption_file": "sw16-feature-discover-photographers/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 13,
@@ -155,7 +155,7 @@
       "cover": "sw17-feature-places-tags/cover.jpg",
       "captions_json": "sw17-feature-places-tags/captions.json",
       "caption_file": "sw17-feature-places-tags/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 15,
@@ -177,7 +177,7 @@
       "cover": "sw18-feature-archive/cover.jpg",
       "captions_json": "sw18-feature-archive/captions.json",
       "caption_file": "sw18-feature-archive/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 17,
