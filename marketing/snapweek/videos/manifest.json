@@ -1,0 +1,227 @@
+{
+  "account": "SnapWeek Instagram account",
+  "format": "Instagram Reel 1080x1920 60fps, 36 s, music inside",
+  "cadence": "one per day, in order",
+  "items": [
+    {
+      "order": 1,
+      "id": "sw01-one-week-one-theme",
+      "kind": "general",
+      "title": "One week. One theme.",
+      "video": "sw01-one-week-one-theme/sw01-one-week-one-theme.mp4",
+      "cover": "sw01-one-week-one-theme/cover.jpg",
+      "captions_json": "sw01-one-week-one-theme/captions.json",
+      "caption_file": "sw01-one-week-one-theme/caption.txt",
+      "exists": true
+    },
+    {
+      "order": 2,
+      "id": "sw11-feature-weekly-theme",
+      "kind": "feature",
+      "title": "How the weekly theme works",
+      "video": "sw11-feature-weekly-theme/sw11-feature-weekly-theme.mp4",
+      "cover": "sw11-feature-weekly-theme/cover.jpg",
+      "captions_json": "sw11-feature-weekly-theme/captions.json",
+      "caption_file": "sw11-feature-weekly-theme/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 3,
+      "id": "sw02-camera-roll-needs-a-reason",
+      "kind": "general",
+      "title": "Your camera roll needs a reason",
+      "video": "sw02-camera-roll-needs-a-reason/sw02-camera-roll-needs-a-reason.mp4",
+      "cover": "sw02-camera-roll-needs-a-reason/cover.jpg",
+      "captions_json": "sw02-camera-roll-needs-a-reason/captions.json",
+      "caption_file": "sw02-camera-roll-needs-a-reason/caption.txt",
+      "exists": true
+    },
+    {
+      "order": 4,
+      "id": "sw12-feature-one-frame-a-day",
+      "kind": "feature",
+      "title": "One frame a day: the rule",
+      "video": "sw12-feature-one-frame-a-day/sw12-feature-one-frame-a-day.mp4",
+      "cover": "sw12-feature-one-frame-a-day/cover.jpg",
+      "captions_json": "sw12-feature-one-frame-a-day/captions.json",
+      "caption_file": "sw12-feature-one-frame-a-day/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 5,
+      "id": "sw03-photography-every-monday",
+      "kind": "general",
+      "title": "Photography, every Monday",
+      "video": "sw03-photography-every-monday/sw03-photography-every-monday.mp4",
+      "cover": "sw03-photography-every-monday/cover.jpg",
+      "captions_json": "sw03-photography-every-monday/captions.json",
+      "caption_file": "sw03-photography-every-monday/caption.txt",
+      "exists": true
+    },
+    {
+      "order": 6,
+      "id": "sw13-feature-likes-comments",
+      "kind": "feature",
+      "title": "Likes and comments that mean something",
+      "video": "sw13-feature-likes-comments/sw13-feature-likes-comments.mp4",
+      "cover": "sw13-feature-likes-comments/cover.jpg",
+      "captions_json": "sw13-feature-likes-comments/captions.json",
+      "caption_file": "sw13-feature-likes-comments/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 7,
+      "id": "sw04-stop-scrolling-start-shooting",
+      "kind": "general",
+      "title": "Stop scrolling. Start shooting.",
+      "video": "sw04-stop-scrolling-start-shooting/sw04-stop-scrolling-start-shooting.mp4",
+      "cover": "sw04-stop-scrolling-start-shooting/cover.jpg",
+      "captions_json": "sw04-stop-scrolling-start-shooting/captions.json",
+      "caption_file": "sw04-stop-scrolling-start-shooting/caption.txt",
+      "exists": true
+    },
+    {
+      "order": 8,
+      "id": "sw14-feature-weekly-ranking",
+      "kind": "feature",
+      "title": "The weekly ranking and podium",
+      "video": "sw14-feature-weekly-ranking/sw14-feature-weekly-ranking.mp4",
+      "cover": "sw14-feature-weekly-ranking/cover.jpg",
+      "captions_json": "sw14-feature-weekly-ranking/captions.json",
+      "caption_file": "sw14-feature-weekly-ranking/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 9,
+      "id": "sw05-fifty-two-themes-a-year",
+      "kind": "general",
+      "title": "52 themes a year",
+      "video": "sw05-fifty-two-themes-a-year/sw05-fifty-two-themes-a-year.mp4",
+      "cover": "sw05-fifty-two-themes-a-year/cover.jpg",
+      "captions_json": "sw05-fifty-two-themes-a-year/captions.json",
+      "caption_file": "sw05-fifty-two-themes-a-year/caption.txt",
+      "exists": true
+    },
+    {
+      "order": 10,
+      "id": "sw15-feature-levels-profile",
+      "kind": "feature",
+      "title": "Levels: from Amateur to Expert",
+      "video": "sw15-feature-levels-profile/sw15-feature-levels-profile.mp4",
+      "cover": "sw15-feature-levels-profile/cover.jpg",
+      "captions_json": "sw15-feature-levels-profile/captions.json",
+      "caption_file": "sw15-feature-levels-profile/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 11,
+      "id": "sw06-shoot-post-climb",
+      "kind": "general",
+      "title": "Shoot. Post. Climb.",
+      "video": "sw06-shoot-post-climb/sw06-shoot-post-climb.mp4",
+      "cover": "sw06-shoot-post-climb/cover.jpg",
+      "captions_json": "sw06-shoot-post-climb/captions.json",
+      "caption_file": "sw06-shoot-post-climb/caption.txt",
+      "exists": true
+    },
+    {
+      "order": 12,
+      "id": "sw16-feature-discover-photographers",
+      "kind": "feature",
+      "title": "Discover photographers",
+      "video": "sw16-feature-discover-photographers/sw16-feature-discover-photographers.mp4",
+      "cover": "sw16-feature-discover-photographers/cover.jpg",
+      "captions_json": "sw16-feature-discover-photographers/captions.json",
+      "caption_file": "sw16-feature-discover-photographers/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 13,
+      "id": "sw07-one-photo-a-day",
+      "kind": "general",
+      "title": "One photo a day keeps the rust away",
+      "video": "sw07-one-photo-a-day/sw07-one-photo-a-day.mp4",
+      "cover": "sw07-one-photo-a-day/cover.jpg",
+      "captions_json": "sw07-one-photo-a-day/captions.json",
+      "caption_file": "sw07-one-photo-a-day/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 14,
+      "id": "sw17-feature-places-tags",
+      "kind": "feature",
+      "title": "Places and tags",
+      "video": "sw17-feature-places-tags/sw17-feature-places-tags.mp4",
+      "cover": "sw17-feature-places-tags/cover.jpg",
+      "captions_json": "sw17-feature-places-tags/captions.json",
+      "caption_file": "sw17-feature-places-tags/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 15,
+      "id": "sw08-weekly-creative-ritual",
+      "kind": "general",
+      "title": "Your weekly creative ritual",
+      "video": "sw08-weekly-creative-ritual/sw08-weekly-creative-ritual.mp4",
+      "cover": "sw08-weekly-creative-ritual/cover.jpg",
+      "captions_json": "sw08-weekly-creative-ritual/captions.json",
+      "caption_file": "sw08-weekly-creative-ritual/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 16,
+      "id": "sw18-feature-archive",
+      "kind": "feature",
+      "title": "The archive of every theme",
+      "video": "sw18-feature-archive/sw18-feature-archive.mp4",
+      "cover": "sw18-feature-archive/cover.jpg",
+      "captions_json": "sw18-feature-archive/captions.json",
+      "caption_file": "sw18-feature-archive/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 17,
+      "id": "sw09-rewards-taste",
+      "kind": "general",
+      "title": "The photo app that rewards taste",
+      "video": "sw09-rewards-taste/sw09-rewards-taste.mp4",
+      "cover": "sw09-rewards-taste/cover.jpg",
+      "captions_json": "sw09-rewards-taste/captions.json",
+      "caption_file": "sw09-rewards-taste/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 18,
+      "id": "sw19-feature-scroll-mode",
+      "kind": "feature",
+      "title": "Scroll every frame",
+      "video": "sw19-feature-scroll-mode/sw19-feature-scroll-mode.mp4",
+      "cover": "sw19-feature-scroll-mode/cover.jpg",
+      "captions_json": "sw19-feature-scroll-mode/captions.json",
+      "caption_file": "sw19-feature-scroll-mode/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 19,
+      "id": "sw10-photographers-this-is-your-week",
+      "kind": "general",
+      "title": "Photographers, this is your week",
+      "video": "sw10-photographers-this-is-your-week/sw10-photographers-this-is-your-week.mp4",
+      "cover": "sw10-photographers-this-is-your-week/cover.jpg",
+      "captions_json": "sw10-photographers-this-is-your-week/captions.json",
+      "caption_file": "sw10-photographers-this-is-your-week/caption.txt",
+      "exists": false
+    },
+    {
+      "order": 20,
+      "id": "sw20-feature-why-snapweek",
+      "kind": "feature",
+      "title": "Why SnapWeek is different",
+      "video": "sw20-feature-why-snapweek/sw20-feature-why-snapweek.mp4",
+      "cover": "sw20-feature-why-snapweek/cover.jpg",
+      "captions_json": "sw20-feature-why-snapweek/captions.json",
+      "caption_file": "sw20-feature-why-snapweek/caption.txt",
+      "exists": false
+    }
+  ]
+}
