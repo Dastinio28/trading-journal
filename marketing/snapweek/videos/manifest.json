@@ -23,7 +23,7 @@
       "cover": "sw11-feature-weekly-theme/cover.jpg",
       "captions_json": "sw11-feature-weekly-theme/captions.json",
       "caption_file": "sw11-feature-weekly-theme/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 3,
@@ -45,7 +45,7 @@
       "cover": "sw12-feature-one-frame-a-day/cover.jpg",
       "captions_json": "sw12-feature-one-frame-a-day/captions.json",
       "caption_file": "sw12-feature-one-frame-a-day/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 5,
@@ -144,7 +144,7 @@
       "cover": "sw07-one-photo-a-day/cover.jpg",
       "captions_json": "sw07-one-photo-a-day/captions.json",
       "caption_file": "sw07-one-photo-a-day/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 14,
@@ -166,7 +166,7 @@
       "cover": "sw08-weekly-creative-ritual/cover.jpg",
       "captions_json": "sw08-weekly-creative-ritual/captions.json",
       "caption_file": "sw08-weekly-creative-ritual/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 16,
@@ -188,7 +188,7 @@
       "cover": "sw09-rewards-taste/cover.jpg",
       "captions_json": "sw09-rewards-taste/captions.json",
       "caption_file": "sw09-rewards-taste/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 18,
@@ -210,7 +210,7 @@
       "cover": "sw10-photographers-this-is-your-week/cover.jpg",
       "captions_json": "sw10-photographers-this-is-your-week/captions.json",
       "caption_file": "sw10-photographers-this-is-your-week/caption.txt",
-      "exists": false
+      "exists": true
     },
     {
       "order": 20,
